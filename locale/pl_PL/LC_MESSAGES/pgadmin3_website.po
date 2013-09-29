@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Begina Felicysym <begina.felicysym@wp.eu>, 2011, 2012.
+# Begina Felicysym <begina.felicysym@wp.eu>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-29 16:35+0200\n"
-"PO-Revision-Date: 2012-09-12 00:47+0200\n"
+"PO-Revision-Date: 2013-09-29 22:09+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
 "Language: pl\n"
@@ -44,7 +44,7 @@ msgstr "1.16"
 
 #: ../include/doc.php:57
 msgid "1.18"
-msgstr ""
+msgstr "1.18"
 
 #: ../download/adminpacks.php:13
 #, php-format
@@ -1543,7 +1543,6 @@ msgid "Mac OSX"
 msgstr "Mac OSX"
 
 #: ../download/macosx.php:12
-#, fuzzy
 msgid ""
 "Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later "
 "versions up to 1.16.x are being built on Tiger as Universal binaries for "
@@ -1551,8 +1550,9 @@ msgid ""
 "on Intel only,"
 msgstr ""
 "Pakiety Mac OSX zbudowane w Panther są dostępne do pgAdmin 1.4.1. Nowsze "
-"wersje są budowane w Tiger. v1.6 i wyżej jako uniwersalne binaria Mac dla "
-"architektury Intel i PPC."
+"wersje, do 1.16.x są budowane w Tiger jako uniwersalne binaria Mac dla "
+"architektury Intel i PPC. 1.18.x i późniejsze obsługują OSX Snow Leopard "
+"(10.6) i powyżej, tylko na Intelu,"
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -4295,7 +4295,7 @@ msgid "for the external type"
 msgstr "dla typu zewnętrznego"
 
 #: ../index.php:12
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
 "months of development work. A complete list of changes can be seen in the <a "
@@ -4304,14 +4304,13 @@ msgid ""
 "<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
 "9.3 Installer</a> which includes pgAdmin."
 msgstr ""
-"pgAdmin %s został opublikowany. Wydanie to jest zwieńczeniem ponad 14 "
-"miesięcy prac rozwojowych. Wizualny przewodnik dla nowej wersji jest "
-"dostępny <a href=\"/visualtour16.php\">tutaj</a>, zaś pełną listę zmian "
-"można zobaczyć na <a href=\"/development/changelog.php\">CHANGELOG</a>. "
-"Odwiedź <a href=\"download\">obszar pobierania</a>, aby uzyskać własną "
-"kopię, lub ewentualnie pobierz <a href=\"http://www.enterprisedb.com/"
-"products/pgdownload.do\">Instalator PostgreSQL 9.2</a>, który zawiera "
-"pgAdmin."
+"pgAdmin %s został opublikowany. Wydanie to jest zwieńczeniem ponad 16 "
+"miesięcy prac rozwojowych. Pełną listę zmian można zobaczyć na <a "
+"href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
+"href=\"download\">obszar pobierania</a>, aby uzyskać własną kopię, możesz "
+"również pobrać <a "
+"href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+"PostgreSQL 9.3</a>, który zawiera pgAdmin."
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
@@ -4662,11 +4661,12 @@ msgstr ""
 "angażować."
 
 #: ../download/windows.php:12
-#, fuzzy
 msgid ""
 "pgAdmin is available for Windows &trade; 2000 and above, up to version "
 "1.14.3. From v1.16.0, Windows XP/2003 or later is required."
-msgstr "pgAdmin jest dostępny na Windows &trade; 2000 i powyżej."
+msgstr ""
+"pgAdmin jest dostępny na Windows &trade; 2000 i powyżej do werski 1.14.3. Od "
+"w1.16.0 wymagany jest Windows XP/2003."
 
 #: ../development/git.php:10
 #, php-format
