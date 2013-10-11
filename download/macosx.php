@@ -11,7 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later versions up to 1.16.x are being built on Tiger as Universal binaries for Intel and PPC. 1.18.x and later support OSX Snow Leopard (10.6) and above, on Intel only,") . '</p>
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.18.0/osx/", "1.18.0") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/", "1.18.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.16.1/osx/", "1.16.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.14.3/osx/", "1.14.3") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.12.3/osx/", "1.12.3") . '<br />&nbsp;</li>
