@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-29 16:35+0200\n"
+"POT-Creation-Date: 2013-10-13 17:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,12 @@ msgid ""
 "to a previous savepoint)."
 msgstr ""
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr ""
 
-#: ../index.php:10
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr ""
@@ -905,7 +905,7 @@ msgstr ""
 msgid "GIT browser"
 msgstr ""
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1096,7 +1096,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2343,7 +2343,7 @@ msgid ""
 "connections."
 msgstr ""
 
-#: ../index.php:27
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr ""
@@ -3336,7 +3336,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -3470,6 +3470,16 @@ msgid ""
 "pgAdmin 1.16 refreshes the node when the user clicks on it. This means it "
 "will try to find new objects if the user clicks on a parent node, and new "
 "properties if the user clicks on an object node."
+msgstr ""
+
+#: ../index.php:12
+msgid ""
+"pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
+"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
 msgstr ""
 
 #: ../translation/index.php:10
@@ -3611,7 +3621,7 @@ msgid ""
 "recommend using <a href=\"%s\">TortoiseGIT</a>, which is free software."
 msgstr ""
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -3625,7 +3635,7 @@ msgid ""
 "communicate with the database server."
 msgstr ""
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -3633,7 +3643,7 @@ msgid ""
 "released under the <a href=\"%s\">PostgreSQL License</a>."
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
