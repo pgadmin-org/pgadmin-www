@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-29 16:35+0200\n"
+"POT-Creation-Date: 2013-10-13 17:40+0200\n"
 "PO-Revision-Date: 2010-10-09 05:30+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -29,12 +29,12 @@ msgstr ""
 "transakcí (auto-rollback), obvykle když se chcete vrátit k předchozímu "
 "uloženému bodu."
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - ukázkové video pgAdmin"
 
-#: ../index.php:10
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - vydán pgAdmin v%s"
@@ -1053,7 +1053,7 @@ msgstr "Přístup přes GIT"
 msgid "GIT browser"
 msgstr "Procházení přes GIT"
 
-#: ../index.php:16
+#: ../index.php:20
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1283,7 +1283,7 @@ msgid ""
 "1.14."
 msgstr ""
 
-#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2790,7 +2790,7 @@ msgstr ""
 "nevyhovovaly pro IPv6. Tato část kódu byla aktualizována tak, aby umožnila "
 "připojení pomocí IPv6."
 
-#: ../index.php:27
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Aktuální verze pgAdmin je <a href=\"/download/\">%s</a>."
@@ -4058,7 +4058,7 @@ msgstr ""
 msgid "for the external type"
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:16
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4225,6 +4225,21 @@ msgid ""
 "will try to find new objects if the user clicks on a parent node, and new "
 "properties if the user clicks on an object node."
 msgstr ""
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
+"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
+"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
+"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
+"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4418,7 +4433,7 @@ msgstr ""
 "svobodný software <a href=\"%s\">TortoiseGIT</a>. Pod Linuxem je dostupných "
 "několik svobodných klientů jak pro příkazovou řádku, tak grafické prostředí."
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4441,7 +4456,7 @@ msgstr ""
 "šifrované SSL. Pro komunikaci s databázovým serverem nejsou potřeba žádné "
 "přídavné ovladače."
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4452,7 +4467,7 @@ msgstr ""
 "dostupný ve více jak tuctu jazyků. Jedná se o svobodný software vydaný pod "
 "licencí <a href=\"%s\">PostgreSQL License</a>."
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4732,20 +4747,6 @@ msgstr ""
 #~ "Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně "
 #~ "si můžete stáhnou <a href=\"http://www.enterprisedb.com/products/"
 #~ "pgdownload.do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
-#~ "version. The list of bug fixes is available in the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-#~ "\">download area</a> to get your copy, or alternatively download a <a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
-#~ "9.1.2 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
 
 #, fuzzy
 #~ msgid ""

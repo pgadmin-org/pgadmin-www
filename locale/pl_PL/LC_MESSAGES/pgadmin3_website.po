@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-29 16:35+0200\n"
+"POT-Creation-Date: 2013-10-13 17:40+0200\n"
 "PO-Revision-Date: 2013-09-29 22:09+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
@@ -28,12 +28,12 @@ msgstr ""
 "(Shift-F7). Możesz zablokować zachowanie auto-rollback (zwykle jeśli chcesz "
 "wycofać do poprzedniego punktu zapisu)"
 
-#: ../index.php:14
+#: ../index.php:18
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - wideo demonstracyjne pgAdmin"
 
-#: ../index.php:10
+#: ../index.php:10 ../index.php:14
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - wydany pgAdmin v%s"
@@ -1100,7 +1100,7 @@ msgstr "Dostęp GIT"
 msgid "GIT browser"
 msgstr "Przeglądarka GIT"
 
-#: ../index.php:16
+#: ../index.php:20
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1342,7 +1342,7 @@ msgstr ""
 "zrobienia w tym wydaniu i mamy nadzieję, że będziemy utrzymamy przynajmniej "
 "taką samą liczbę języków dla 1.14."
 
-#: ../index.php:18 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -2954,7 +2954,7 @@ msgstr ""
 "niezgodnych z IPv6. Ta część kodu została zaktualizowana w celu umożliwienia "
 "połączeń IPv6."
 
-#: ../index.php:27
+#: ../index.php:31
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Obecna wersja pgAdmin to <a href=\"/download/\">%s</a>."
@@ -4294,7 +4294,7 @@ msgstr "dla typu wyliczeniowego"
 msgid "for the external type"
 msgstr "dla typu zewnętrznego"
 
-#: ../index.php:12
+#: ../index.php:16
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4305,10 +4305,9 @@ msgid ""
 "9.3 Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin %s został opublikowany. Wydanie to jest zwieńczeniem ponad 16 "
-"miesięcy prac rozwojowych. Pełną listę zmian można zobaczyć na <a "
-"href=\"/development/changelog.php\">CHANGELOG</a>. Odwiedź <a "
-"href=\"download\">obszar pobierania</a>, aby uzyskać własną kopię, możesz "
-"również pobrać <a "
+"miesięcy prac rozwojowych. Pełną listę zmian można zobaczyć na <a href=\"/"
+"development/changelog.php\">CHANGELOG</a>. Odwiedź <a href=\"download"
+"\">obszar pobierania</a>, aby uzyskać własną kopię, możesz również pobrać <a "
 "href=\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
 "PostgreSQL 9.3</a>, który zawiera pgAdmin."
 
@@ -4480,6 +4479,23 @@ msgstr ""
 "pgAdmin 1.16 odświeża węzeł gdy użytkownik na niegokliknie. Oznacza to że "
 "próbuje odnaleźć nowe obiekty gdy użytkownik kliknie na węzeł nadrzędny, "
 "oraz nowe właściwości jeśli użytkownik kliknie na węzeł obiektu."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
+"version. The list of bug fixes is available in the <a href=\"/development/"
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+"\">download area</a> to get your copy, or alternatively download a <a href="
+"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
+"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"Został wydany pgAdmin 1.14.1, oferując 8 poprawek błędów z poprzednich "
+"wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
+"\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
+"uzyskać własną kopię, lub ewentualnie pobierz <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.2</a>, "
+"który zawiera pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4684,7 +4700,7 @@ msgstr ""
 "systemie Windows, zalecamy użycie <a href=\"%s\">TortoiseGIT</a>, będącego "
 "wolnym oprogramowaniem."
 
-#: ../index.php:22
+#: ../index.php:26
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4708,7 +4724,7 @@ msgstr ""
 "szyfrowane SSL dla bezpieczeństwa. Nie wymaga również dodatkowych "
 "sterowników do komunikacji z serwerem bazy danych."
 
-#: ../index.php:24
+#: ../index.php:28
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4719,7 +4735,7 @@ msgstr ""
 "świecie i jest dostępny w kilkunastu językach. To jest Wolnym "
 "Oprogramowaniem wydanym na <a href=\"%s\">licencji PostgreSQL</a>."
 
-#: ../index.php:20
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5005,21 +5021,6 @@ msgstr "znacznik czasu ostatniego resetu statystyk;"
 #~ "kopię, lub ewentualnie pobierz <a href=\"http://www.enterprisedb.com/"
 #~ "products/pgdownload.do\">Instalator PostgreSQL 9.1</a>, który zawiera "
 #~ "pgAdmin."
-
-#~ msgid ""
-#~ "pgAdmin 1.14.1 has been released, offering 8 bug fixes over the previous "
-#~ "version. The list of bug fixes is available in the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-#~ "\">download area</a> to get your copy, or alternatively download a <a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
-#~ "9.1.2 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "Został wydany pgAdmin 1.14.1, oferując 8 poprawek błędów z poprzednich "
-#~ "wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog."
-#~ "php\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, "
-#~ "aby uzyskać własną kopię, lub ewentualnie pobierz <a href=\"http://www."
-#~ "enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.2</"
-#~ "a>, który zawiera pgAdmin."
 
 #~ msgid ""
 #~ "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
