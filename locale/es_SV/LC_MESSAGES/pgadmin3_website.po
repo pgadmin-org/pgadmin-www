@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 17:40+0200\n"
+"POT-Creation-Date: 2014-07-25 09:06+0200\n"
 "PO-Revision-Date: 2010-10-22 19:38+0700\n"
 "Last-Translator: Dadan Setia <dadan.setia@gmail.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -29,12 +29,17 @@ msgstr ""
 "F7). Anda dapat menonaktifkan perilaku auto-rollback (biasanya jika Anda "
 "ingin kembalikan ke savepoint sebelumnya)."
 
-#: ../index.php:18
+#: ../index.php:26
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin demo video"
 
-#: ../index.php:10 ../index.php:14
+#: ../index.php:10
+#, fuzzy, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - pgAdmin v%s telah dirilis"
+
+#: ../index.php:18 ../index.php:22
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s telah dirilis"
@@ -71,19 +76,21 @@ msgstr "<a href=\"%s\">Download pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/source.php:24 ../download/source.php:25
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:30 ../download/source.php:31
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36 ../download/source.php:37
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35 ../download/source.php:36
+#: ../download/source.php:37 ../download/source.php:38
+#: ../download/source.php:39
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">v%s intruksi</a>"
@@ -568,6 +575,12 @@ msgstr ""
 msgid "Backup/Restore tools"
 msgstr "Dump/Restore"
 
+#: ../index.php:16
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -598,7 +611,7 @@ msgstr ""
 "signifikan untuk menyelesaikan, seringkali usaha yang lebih daripada waran "
 "masalah."
 
-#: ../download/source.php:27
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "Membangun instruksi disertakan dalam tarball, tersedia online:"
@@ -1207,7 +1220,7 @@ msgstr "GIT akses"
 msgid "GIT browser"
 msgstr "Browser GIT"
 
-#: ../index.php:20
+#: ../index.php:28
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1476,7 +1489,7 @@ msgstr ""
 # standard input:274
 # standard input:9
 # standard
-#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -3242,7 +3255,7 @@ msgstr ""
 "tidak kompatibel dengan IPv6. Ini bagian dari kode telah diperbarui untuk "
 "memungkinkan koneksi IPv6."
 
-#: ../index.php:31
+#: ../index.php:39
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Versi pgAdmin saat ini adalah <a href=\"/download/\">%s</a>."
@@ -3867,6 +3880,12 @@ msgstr ""
 "hanya akan memiliki satu kelompok: Server. Jadi, akan terlihat seperti rilis "
 "sebelumnya pgAdmin. Nama folder yang berisi server dapat diubah pada dialog "
 "Properties untuk server."
+
+#: ../index.php:14
+msgid ""
+"There is no binary release yet for Windows and Mac OS X, but that should "
+"come in the next few days."
+msgstr ""
 
 #: ../visualtour14.php:311
 msgid ""
@@ -4646,7 +4665,7 @@ msgstr ""
 msgid "for the external type"
 msgstr "Refresh"
 
-#: ../index.php:16
+#: ../index.php:24
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4814,7 +4833,7 @@ msgid ""
 "properties if the user clicks on an object node."
 msgstr ""
 
-#: ../index.php:12
+#: ../index.php:20
 #, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
@@ -4823,6 +4842,23 @@ msgid ""
 "\">download area</a> to get your copy, or alternatively download a <a href="
 "\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
 "\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+msgstr ""
+"pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
+"sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
+"mendapatkan salinan Anda, atau download <a href=\"http://www.enterprisedb."
+"com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> yang mencakup "
+"pgAdmin."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
+"a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
 "sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
@@ -5025,7 +5061,7 @@ msgstr ""
 "sarankan untuk menggunakan <a href=\"%s\"> TortoiseGIT </ a>, yang merupakan "
 "perangkat lunak bebas."
 
-#: ../index.php:26
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -5048,7 +5084,7 @@ msgstr ""
 "nix), dan dapat SSL dienkripsi untuk keamanan. Tidak ada driver tambahan "
 "yang diperlukan untuk berkomunikasi dengan server database."
 
-#: ../index.php:28
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -5059,7 +5095,7 @@ msgstr ""
 "tersedia di lebih dari selusin bahasa. Ini adalah perangkat lunak gratis "
 "yang dirilis dibawah Lisensi <a href=\"%s\"> PostgreSQL </ a>."
 
-#: ../index.php:24
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5323,10 +5359,6 @@ msgid "timestamp of the last reset on the statistics;"
 msgstr ""
 
 #, fuzzy
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - pgAdmin v%s telah dirilis"
-
-#, fuzzy
 #~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
 #~ "14 months of development work. A visual tour of the new release is "
@@ -5368,23 +5400,6 @@ msgstr ""
 #~ "\">download area</a> to get your copy, or alternatively download a <a "
 #~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
 #~ "9.1.4 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari "
-#~ "versi sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ "
-#~ "a> untuk mendapatkan salinan Anda, atau download <a href=\"http://www."
-#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> "
-#~ "yang mencakup pgAdmin."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
-#~ "features. We're still working on a visual tour. We also don't have yet "
-#~ "Windows and Mac OS X packages, but they may come up later. In the mean "
-#~ "time, the list of new features fixes is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.2 beta 1 Installer</a> which includes pgAdmin."
 #~ msgstr ""
 #~ "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari "
 #~ "versi sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ "

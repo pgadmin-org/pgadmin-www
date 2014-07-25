@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-13 17:40+0200\n"
+"POT-Creation-Date: 2014-07-25 09:06+0200\n"
 "PO-Revision-Date: 2013-10-13 17:41+0100\n"
 "Last-Translator: Guillaume Lelarge <guillaume@lelarge.info>\n"
 "Language-Team:  <pgsql-fr-general@postgresql.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,12 +28,17 @@ msgstr ""
 "F7). Vous pouvez désactiver le comportement d'auto-rollback (généralement "
 "pour annuler manuellement jusqu'à un certain point de sauvegarde)."
 
-#: ../index.php:18
+#: ../index.php:26
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - vidéo de démo pour pgAdmin"
 
-#: ../index.php:10 ../index.php:14
+#: ../index.php:10
+#, php-format
+msgid "%s - pgAdmin v%s available"
+msgstr "%s - pgAdmin v%s disponible"
+
+#: ../index.php:18 ../index.php:22
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s disponible"
@@ -69,19 +75,21 @@ msgstr "<a href=\"%s\">Télécharger pgAgent</a>"
 #: ../download/source.php:18 ../download/source.php:19
 #: ../download/source.php:20 ../download/source.php:21
 #: ../download/source.php:22 ../download/source.php:23
-#: ../download/source.php:24 ../download/windows.php:17
-#: ../download/windows.php:18 ../download/windows.php:19
-#: ../download/windows.php:20 ../download/windows.php:21
-#: ../download/windows.php:22 ../download/windows.php:23
-#: ../download/windows.php:24 ../download/windows.php:25
+#: ../download/source.php:24 ../download/source.php:25
+#: ../download/windows.php:17 ../download/windows.php:18
+#: ../download/windows.php:19 ../download/windows.php:20
+#: ../download/windows.php:21 ../download/windows.php:22
+#: ../download/windows.php:23 ../download/windows.php:24
+#: ../download/windows.php:25
 #, php-format
 msgid "<a href=\"%s\">pgAdmin v%s</a>"
 msgstr "<a href=\"%s\">pgAdmin v%s</a>"
 
-#: ../download/source.php:30 ../download/source.php:31
-#: ../download/source.php:32 ../download/source.php:33
-#: ../download/source.php:34 ../download/source.php:35
-#: ../download/source.php:36 ../download/source.php:37
+#: ../download/source.php:31 ../download/source.php:32
+#: ../download/source.php:33 ../download/source.php:34
+#: ../download/source.php:35 ../download/source.php:36
+#: ../download/source.php:37 ../download/source.php:38
+#: ../download/source.php:39
 #, php-format
 msgid "<a href=\"%s\">v%s instructions</a>"
 msgstr "<a href=\"%s\">instructions v%s</a>"
@@ -591,6 +599,14 @@ msgstr "Outils de sauvegarde et de restauration"
 msgid "Backup/Restore tools"
 msgstr "Outils de sauvegarde et de restauration"
 
+#: ../index.php:16
+msgid ""
+"Be careful that this is a BETA release. It's not production ready. It's "
+"available for testing purpose only."
+msgstr ""
+"Attention, il s'agit d'une version BETA. Elle n'est pas destinée à être "
+"utilisée en production. Elle est disponible uniquement pour des tests."
+
 #: ../advocacy/strategy.php:13
 #, php-format
 msgid ""
@@ -620,7 +636,7 @@ msgstr ""
 "prendre un effort significatif à résoudre, souvent plus d'effort que le "
 "problème en vaut."
 
-#: ../download/source.php:27
+#: ../download/source.php:28
 msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr ""
@@ -1135,7 +1151,7 @@ msgstr "Accès GIT"
 msgid "GIT browser"
 msgstr "Navigateur GIT"
 
-#: ../index.php:20
+#: ../index.php:28
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1383,7 +1399,7 @@ msgstr ""
 "travail à faire sur cette version, et nous espérons conserver le même nombre "
 "de langages pour la 1.14."
 
-#: ../index.php:22 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -3031,7 +3047,7 @@ msgstr ""
 "fonctions incompatibles avec IPv6. Cette partie du code a été modifié pour "
 "autoriser les connexions IPv6."
 
-#: ../index.php:31
+#: ../index.php:39
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "La version actuelle de pgAdmin est <a href=\"/download/\">%s</a>."
@@ -3681,6 +3697,12 @@ msgstr ""
 "Donc cela ressemblera beaucoup aux anciennes versions de pgAdmin. Le nom du "
 "dossier contenant un serveur peut se changer. Vous devez passer par le "
 "dialogue des propriétés du serveur pour cela."
+
+#: ../index.php:14
+msgid ""
+"There is no binary release yet for Windows and Mac OS X, but that should "
+"come in the next few days."
+msgstr ""
 
 #: ../visualtour14.php:311
 msgid ""
@@ -4405,7 +4427,7 @@ msgstr "pour le type énumération"
 msgid "for the external type"
 msgstr "pour le type externe"
 
-#: ../index.php:16
+#: ../index.php:24
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4591,7 +4613,7 @@ msgstr ""
 "clique sur un nœud parent, et les nouvelles propriétés si l'utilisateur "
 "clique sur un nœud objet."
 
-#: ../index.php:12
+#: ../index.php:20
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4606,6 +4628,27 @@ msgstr ""
 "\"download\">section de téléchargement</a> pour obtenir votre copie ou pour "
 "télécharger l'<a href=\"http://www.enterprisedb.com/products/pgdownload.do"
 "\">installeur de PostgreSQL 9.3.1</a> qui inclut pgAdmin."
+
+#: ../index.php:12
+#, fuzzy
+msgid ""
+"pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
+"features. We're still working on a visual tour. In the mean time, the list "
+"of new features fixes is available in the <a href=\"/development/changelog."
+"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
+"to get your copy, or alternatively download a <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
+"a> which includes pgAdmin."
+msgstr ""
+"pgAdmin 1.16 beta 1 est enfin sortie, offrant de nombreuses nouvelles "
+"fonctionnalités. Nous travaillons toujours à un guide visuel. Nous n'avons "
+"pas encore d'installeurs pour Windows et Mac OS X, mais ils devraient "
+"arriver plus tard. En attendant, la liste des nouvelles fonctionnalités est "
+"disponible dans le <a href=\"/development/changelog.php\">CHANGELOG</a>. "
+"Merci d'aller dans la <a href=\"download\">section de téléchargement</a> "
+"pour obtenir votre copie ou pour télécharger l'<a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">installeur de PostgreSQL 9.2 beta "
+"1</a> qui inclut pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4818,7 +4861,7 @@ msgstr ""
 "\">interface web</a> ou en utilisant votre client GIT favori. Sous Windows, "
 "nous recommandons <a href=\"%s\">TortoiseGIT</a>, qui est un logiciel libre."
 
-#: ../index.php:26
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4843,7 +4886,7 @@ msgstr ""
 "sécurité. Aucun pilote supplémentaire n'est requis pour communiquer avec le "
 "serveur de bases de données."
 
-#: ../index.php:28
+#: ../index.php:36
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4855,7 +4898,7 @@ msgstr ""
 "C'est un logiciel libre proposé sous la <a href=\"%s\">license PostgreSQL</"
 "a>."
 
-#: ../index.php:24
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5116,16 +5159,6 @@ msgstr "la fenêtre de sauvegarde :"
 msgid "timestamp of the last reset on the statistics;"
 msgstr "horodatage de la dernière réinitialisation des statistiques ;"
 
-#~ msgid "%s - pgAdmin v%s available"
-#~ msgstr "%s - pgAdmin v%s disponible"
-
-#~ msgid ""
-#~ "Be careful that this is a BETA release. It's not production ready. It's "
-#~ "available for testing purpose only."
-#~ msgstr ""
-#~ "Attention, il s'agit d'une version BETA. Elle n'est pas destinée à être "
-#~ "utilisée en production. Elle est disponible uniquement pour des tests."
-
 #~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
 #~ "14 months of development work. A visual tour of the new release is "
@@ -5176,26 +5209,6 @@ msgstr "horodatage de la dernière réinitialisation des statistiques ;"
 #~ "copie ou pour télécharger l'<a href=\"http://www.enterprisedb.com/"
 #~ "products/pgdownload.do\">installeur de PostgreSQL 9.1.4</a> qui inclut "
 #~ "pgAdmin."
-
-#~ msgid ""
-#~ "pgAdmin 1.16 beta 1 has been released, offering lots of new interesting "
-#~ "features. We're still working on a visual tour. We also don't have yet "
-#~ "Windows and Mac OS X packages, but they may come up later. In the mean "
-#~ "time, the list of new features fixes is available in the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
-#~ "\"download\">download area</a> to get your copy, or alternatively "
-#~ "download a <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-#~ "\">PostgreSQL 9.2 beta 1 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "pgAdmin 1.16 beta 1 est enfin sortie, offrant de nombreuses nouvelles "
-#~ "fonctionnalités. Nous travaillons toujours à un guide visuel. Nous "
-#~ "n'avons pas encore d'installeurs pour Windows et Mac OS X, mais ils "
-#~ "devraient arriver plus tard. En attendant, la liste des nouvelles "
-#~ "fonctionnalités est disponible dans le <a href=\"/development/changelog."
-#~ "php\">CHANGELOG</a>. Merci d'aller dans la <a href=\"download\">section "
-#~ "de téléchargement</a> pour obtenir votre copie ou pour télécharger l'<a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">installeur de "
-#~ "PostgreSQL 9.2 beta 1</a> qui inclut pgAdmin."
 
 #~ msgid "Complete redesign of the documentation [GL]"
 #~ msgstr "Refonte complète de la documentation [GL]"
