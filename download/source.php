@@ -12,6 +12,7 @@ $PAGE_CONTENT = '
 <p>' . _("Source tarballs are available for users wishing to compile their own copy of pgAdmin, or those using platforms for which we do not supply prebuilt packages.") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.20.0-beta1/src/", "1.20.0-beta1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/src/", "1.18.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.16.1/src/", "1.16.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.14.3/src/", "1.14.3") . '<br />&nbsp;</li>
@@ -27,6 +28,7 @@ $PAGE_CONTENT = '
 <p>' . _("Build instructions are included in the tarballs, and are available online:") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob_plain;f=INSTALL", "1.20.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=4a96ce64ff695a3942d41b5982540ce61fcb996d;hb=REL-1_18_0_PATCHES", "1.18.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=b8ec1a51fd877efc1be701f4ed938b92daf219fc;hb=REL-1_16_0_PATCHES", "1.16.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=e81290ef436d3d39b9aaade4df48d98435a755af;hb=REL-1_14_0_PATCHES", "1.14.x") . '<br />&nbsp;</li>
