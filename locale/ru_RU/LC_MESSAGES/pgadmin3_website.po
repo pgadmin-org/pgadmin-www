@@ -1,13 +1,13 @@
-# Alexander Lakhin <exclusion@gmail.com>, 2012.
+# Alexander Lakhin <exclusion@gmail.com>, 2012, 2014.
 # Timon <timosha@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin-www\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-25 09:06+0200\n"
-"PO-Revision-Date: 2012-11-23 17:53+0300\n"
-"Last-Translator: Alexander LAW <exclusion@gmail.com>\n"
-"Language-Team: Russian\n"
+"PO-Revision-Date: 2014-09-07 08:19+0400\n"
+"Last-Translator: Alexander Lakhin <exclusion@gmail.com>\n"
+"Language-Team: Russian <pgtranslation-translators@pgfoundry.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,7 +50,7 @@ msgstr "1.16"
 
 #: ../include/doc.php:57
 msgid "1.18"
-msgstr ""
+msgstr "1.18"
 
 #: ../download/adminpacks.php:13
 #, php-format
@@ -432,7 +432,7 @@ msgid ""
 "and run by the Development Team. The document below (available only in "
 "English) outlines the structure of the team and how it operates."
 msgstr ""
-"Хотя мы рады участию каждого в развитие pgAdmin, руководство и основные "
+"Хотя мы рады участию каждого в развитии pgAdmin, руководство и основные "
 "работы по проекту осуществляет Команда разработчиков. В следующем вложенном "
 "документе (только на английском) описана структура команды и как она "
 "работает."
@@ -467,8 +467,8 @@ msgid ""
 "And last, you can open the query tool with the query currently executed by a "
 "process by selecting this process in the activity report."
 msgstr ""
-"И наконец, вы можете открыть запрос выполняющийся в данный момент в одном из "
-"процессов в редакторе просто выбрав этот процесс в отчёте по активности."
+"И наконец, вы можете открыть запрос, выполняющийся в данный момент в одном из "
+"процессов в редакторе, просто выбрав этот процесс в отчёте по активности."
 
 #: ../visualtour16.php:301
 msgid "And note that the timestamp columns skip the microsecond part."
@@ -988,7 +988,7 @@ msgid ""
 msgstr ""
 "Наконец, pgAdmin по умолчанию включён в большинство дистрибутивов Linux, в "
 "частности, RedHat, Fedora, Debian и Ubuntu. Если вы хотите использовать "
-"версию, отличную от предлагаемой в дистрибутиве, вы можно использовать "
+"версию, отличную от предлагаемой в дистрибутиве, можно использовать "
 "другие каналы, например <a href=\"%s\">yum-репозиторий</a> PostgreSQL, <a "
 "href=\"%s\">репозиторий backports</a> Debian или <a href=\"%s\">PPA</a> для "
 "Ubuntu."
@@ -1344,7 +1344,7 @@ msgid ""
 "release, and we hope we'll keep at least the same number of languages for "
 "1.14."
 msgstr ""
-"Для улучшения локализации были проведена дополнительная работа, в частности, "
+"Для улучшения локализации была проведена дополнительная работа, в частности, "
 "со склонениями во множественном числе. В результате переводчикам нужно "
 "приложить больше усилий для подготовки этого выпуска, однако мы надеемся, "
 "что число поддерживаемых языков от этого не уменьшится."
@@ -1540,16 +1540,16 @@ msgid "Mac OSX"
 msgstr "Mac OSX"
 
 #: ../download/macosx.php:12
-#, fuzzy
 msgid ""
 "Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later "
 "versions up to 1.16.x are being built on Tiger as Universal binaries for "
 "Intel and PPC. 1.18.x and later support OSX Snow Leopard (10.6) and above, "
 "on Intel only,"
 msgstr ""
-"До версии 1.4.1 пакеты pgAdmin для Mac OSX собирались в Panther, все "
-"последующие версии собираются в Tiger. Начиная с 1.6, пакеты собираются как "
-"универсальные бинарники Mac для архитектур Intel и PPC."
+"До версии 1.4.1 пакеты pgAdmin для Mac OSX собирались в Panther. Все "
+"последующие версии до 1.16.x собирались в Tiger как универсальные бинарники "
+"Mac для архитектур Intel и PPC. С версии 1.18.x мы поддерживаем OSX Snow "
+"Leopard (10.6) и новее и только архитектуру Intel."
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -2278,7 +2278,7 @@ msgstr ""
 "разработчики, помогающие реализовать новые функции или исправлять ошибки, и "
 "таким образом улучшать pgAdmin на благо пользователей. Популярность проекта "
 "растёт и он привлекает не только новых пользователей, но и компании, "
-"специализирующиеся в PostgreSQL. А некоторые из этих компании инвестируют "
+"специализирующиеся в PostgreSQL. А некоторые из этих компаний инвестируют "
 "свои средства в развитие pgAdmin, например японская компания <a href="
 "\"http://www.skcapi.co.jp/\">SKC</a> спонсировала разработку функций "
 "управления Slony-I, а <a href=\"http://www.enterprisedb.com\">EnterpriseDB</"
@@ -2528,7 +2528,7 @@ msgid ""
 msgstr ""
 "Некоторые сообщения включают заполнители %s или %d. Во время выполнения "
 "вместо %s подставляется строка, а вместо %d &mdash; десятичное число. "
-"Пожалуйста, уделите особое вниманию сохранению всех заполнителей %s и %d, "
+"Пожалуйста, уделите особое внимание сохранению всех заполнителей %s и %d, "
 "иначе это может привести к сбою pgAdmin. В некоторых случаях может "
 "потребоваться поменять эти заполнители местами. Это можно сделать следующим "
 "образом: <i>Server %s user %s is logged in</i> можно перевести как "
@@ -3578,6 +3578,8 @@ msgid ""
 "There is no binary release yet for Windows and Mac OS X, but that should "
 "come in the next few days."
 msgstr ""
+"Для Windows и Mac OS X пока нет двоичных пакетов, но они должны появиться в "
+"ближайшие дни."
 
 #: ../visualtour14.php:311
 msgid ""
@@ -3700,7 +3702,6 @@ msgid "This should resolve this long-lasting issue."
 msgstr "Это должно исправить этот врождённый недостаток."
 
 #: ../privacypolicy.php:24
-#, fuzzy
 msgid ""
 "This website uses Google Analytics, a web analytics service provided by "
 "Google, Inc. (\"Google\"). Google Analytics uses \"cookies\", which are text "
@@ -3733,7 +3734,8 @@ msgstr ""
 "органы. Вы можете запретить доступ к cookie, установив соответствующие "
 "параметры в браузере, но пожалуйста учтите, что возможно это помешает вам "
 "пользоваться всеми функциями сайта. Используя этот сайт, вы соглашаетесь с "
-"этой процедурой обработки ваших данных компанией Google для вышеозначенны"
+"этой процедурой обработки ваших данных компанией Google для вышеозначенных "
+"целей."
 
 #: ../visualtour14.php:97
 msgid ""
@@ -4290,7 +4292,7 @@ msgid "for the external type"
 msgstr "для внешнего типа"
 
 #: ../index.php:24
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
 "months of development work. A complete list of changes can be seen in the <a "
@@ -4300,11 +4302,10 @@ msgid ""
 "9.3 Installer</a> which includes pgAdmin."
 msgstr ""
 "Вышел pgAdmin %s. Этот выпуск стал кульминацией более чем 16 месяцев "
-"разработки. Вы можете посмотреть обзор новой версии <a href=\"/visualtour16."
-"php\">здесь</a>, или увидеть полный перечень изменений <a href=\"/"
+"разработки. Вы можете просмотреть полный список изменений <a href=\"/"
 "development/changelog.php\">здесь</a>. Перейдите в раздел <a href=\"download"
-"\">Загрузки</a>, чтобы получить эту версию или скачайте <a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">инсталлятор PostgreSQL 9.2</a>, "
+"\">Загрузки</a>, чтобы получить эту версию, или скачайте <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">инсталлятор PostgreSQL 9.3</a>, "
 "включающий в себя pgAdmin."
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
@@ -4477,7 +4478,6 @@ msgstr ""
 "ветви или новые свойства для выбранного объекта."
 
 #: ../index.php:20
-#, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4486,15 +4486,14 @@ msgid ""
 "\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
 "\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
 msgstr ""
-"Выпущен pgAdmin 1.14.1, включающий исправления 26 ошибок, найденных в "
+"Выпущен pgAdmin 1.18.1, включающий исправления 10 ошибок, найденных в "
 "предыдущих версиях. Перечень исправлений вы можете просмотреть в <a href=\"/"
 "development/changelog.php\">Списке изменений</a>. Перейдите в раздел <a href="
-"\"download\">Загрузки</a>, чтобы загрузить эту версию или скачайте <a href="
-"\"http://www.enterprisedb.com/products/pgdownload.do\">инсталлятор "
-"PostgreSQL 9.1.2</a>, включающий pgAdmin."
+"\"download\">Загрузки</a>, чтобы загрузить эту версию, или скачайте <a href="
+"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
+"\">инсталлятор PostgreSQL 9.3.1</a>, включающий pgAdmin."
 
 #: ../index.php:12
-#, fuzzy
 msgid ""
 "pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
 "features. We're still working on a visual tour. In the mean time, the list "
@@ -4504,14 +4503,13 @@ msgid ""
 "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
 "a> which includes pgAdmin."
 msgstr ""
-"Выпущен pgAdmin 1.16 beta 1, включающий множество новых интересных функций. "
-"Сейчас мы работаем над обзором новшеством. Пока ещё не готовы пакеты для "
-"Windows и Mac OS X, но они обязательно будут позже. Тем временем вы можете "
+"Выпущен pgAdmin 1.20 beta 1, включающий множество новых интересных функций. "
+"Сейчас мы работаем над обзором новшеств. Тем временем вы можете "
 "вы можете просмотреть перечень новых возможностей и исправлений в <a href=\"/"
 "development/changelog.php\">Списке изменений</a>. Перейдите в раздел <a href="
-"\"download\">Загрузки</a>, чтобы загрузить эту версию или скачайте <a href="
+"\"download\">Загрузки</a>, чтобы загрузить эту версию, или скачайте <a href="
 "\"http://www.enterprisedb.com/products/pgdownload.do\">инсталлятор "
-"PostgreSQL 9.2 beta 1</a>, включающий pgAdmin."
+"PostgreSQL 9.4 beta 2</a>, включающий pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4695,11 +4693,12 @@ msgstr ""
 "принять в этом участие!"
 
 #: ../download/windows.php:12
-#, fuzzy
 msgid ""
 "pgAdmin is available for Windows &trade; 2000 and above, up to version "
 "1.14.3. From v1.16.0, Windows XP/2003 or later is required."
-msgstr "Программа pgAdmin может работать в Windows &trade; 2000 и новее."
+msgstr ""
+"Программа pgAdmin может работать в Windows &trade; 2000 до версии 1.14.3. С "
+"версии 1.16.0 она требует Windows XP/2003."
 
 #: ../development/git.php:10
 #, php-format
