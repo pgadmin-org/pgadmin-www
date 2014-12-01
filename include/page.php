@@ -75,7 +75,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <td nowrap="nowrap">
 <input type="hidden" name="domains" value="pgadmin.org"></input>
 <input type="text" name="q" size="12" maxlength="255" value=""></input>
-<input type="submit" name="sa" value="Google Search"></input>
+<input type="submit" name="sa" value="' . _("Google Search") . '"></input>
 </td></tr>
 <tr>
 <td>&nbsp;</td>
@@ -117,7 +117,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <option value="ru_RU">' . _("Russian") . '</option>
 <option value="zh_CN">' . _("Simplified Chinese") . '</option>
 </select>
-<input type="submit" value="Go">
+<input type="submit" value="' . _("Go") . '">
 </form>
 
 </td>

@@ -277,7 +277,7 @@ class po_status {
       $_po_status     = $this->_content['po_status'][$_count]."%";
 
       $_locale           = $this->_content['locale'][$_count];
-      $_language         = $this->_content['language'][$_count];
+      $_language         = gettext($this->_content['language'][$_count]);
       $_translator_email = $this->_content['translator_email'][$_count];
       $_translator_name  = $this->_content['translator_name'][$_count];
 
