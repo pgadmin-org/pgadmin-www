@@ -1,12 +1,12 @@
 #
-# Marek Černocký <marek@manet.cz>, 2010.
+# Marek Černocký <marek@manet.cz>, 2010, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-01 12:11+0100\n"
-"PO-Revision-Date: 2010-10-09 05:30+0200\n"
+"POT-Creation-Date: 2014-11-30 12:38+0100\n"
+"PO-Revision-Date: 2014-11-30 19:48+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -17,6 +17,7 @@ msgstr ""
 "X-Poedit-Language: Czech\n"
 "X-Poedit-Country: CZECH REPUBLIC\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../visualtour12.php:314
 msgid ""
@@ -32,25 +33,25 @@ msgstr ""
 #: ../index.php:24
 #, php-format
 msgid "%s - pgAdmin demo video"
-msgstr "%s - ukázkové video pgAdmin"
+msgstr "%s – ukázkové video pgAdmin"
 
 #: ../index.php:10
-#, fuzzy, php-format
+#, php-format
 msgid "%s - pgAdmin v%s available"
-msgstr "%s - vydán pgAdmin v%s"
+msgstr "%s – je k dispozici pgAdmin v%s"
 
 #: ../index.php:16 ../index.php:20
 #, php-format
 msgid "%s - pgAdmin v%s released"
-msgstr "%s - vydán pgAdmin v%s"
+msgstr "%s – vydán pgAdmin v%s"
 
 #: ../include/doc.php:51
 msgid "1.16"
-msgstr ""
+msgstr "1.16"
 
 #: ../include/doc.php:57
 msgid "1.18"
-msgstr ""
+msgstr "1.18"
 
 #: ../download/adminpacks.php:13
 #, php-format
@@ -204,9 +205,9 @@ msgid ""
 "create the object."
 msgstr ""
 "Dvojitým kliknutím v navigačním stromu se vybraný objekt otevře v "
-"samostatném dialogu, případně uživatel může vytvořit nový objekt. Všimněte "
-"si karet, které zpřístupňují vlastnosti, parametry, zabezpečení a SQL "
-"použité při vytváření objektu."
+"samostatném dialogovém okně, případně uživatel může vytvořit nový objekt. "
+"Všimněte si karet, které zpřístupňují vlastnosti, parametry, zabezpečení a "
+"SQL použité při vytváření objektu."
 
 #: ../visualtour12.php:300
 msgid ""
@@ -250,10 +251,12 @@ msgid ""
 "A new import tool has been added to the browser. A right-click on a table "
 "shows a new menu item, named \"Import...\"."
 msgstr ""
+"Do stromu objektů byl přidán nový nástroj sloužící k importu. Kliknutím "
+"pravým tlačíkem na tabulku se zobrazí nabídka s novou položou „Importovat…“."
 
 #: ../visualtour16.php:144
 msgid "A new tab is available to copy the structure of another table:"
-msgstr ""
+msgstr "K dispozici je nová karta pro zkopírování struktury jiné tabulky:"
 
 #: ../screenshots/data.php:14
 msgid ""
@@ -276,6 +279,7 @@ msgstr ""
 #: ../visualtour16.php:158
 msgid "A truncate menu item has been added to the table contextual menu:"
 msgstr ""
+"Do kontextové nabídky tabulek byla přidána položka pro vyprázdnění tabulky:"
 
 #: ../features.php:109
 msgid "ALT"
@@ -290,12 +294,12 @@ msgid ""
 "Add a dialog to allow the user to set a global breakpoint in a specific "
 "backend process [DP]"
 msgstr ""
-"Přidat dialog, pomocí kterého mohou uživatelé nastavit globální body "
+"Přidat dialogové okno, pomocí kterého mohou uživatelé nastavit globální body "
 "přerušení ve zvoleném procesu serveru. [DP]"
 
 #: ../visualtour16.php:316
 msgid "Add compatibility with wxWidgets 2.9,"
-msgstr ""
+msgstr "Přidána kompatibilita s wxWidgets 2.9"
 
 #: ../visualtour.php:337
 msgid "Add more index stats"
@@ -332,8 +336,7 @@ msgid ""
 "  list control and the two buttons have moved to their own tab:"
 msgstr ""
 "Bylo doplněno přidávání/odebírání <b>zděděných tabulek</b> se servery 8.2+. "
-"Jejich\n"
-" seznam a dvě tlačítka byly přesunuty na oddělenou kartu:"
+"Jejich seznam a dvě tlačítka byly přesunuty na oddělenou kartu:"
 
 #: ../download/adminpacks.php:8 ../download/menu.php:11
 msgid "Admin packs"
@@ -343,17 +346,13 @@ msgstr "Admin packs"
 msgid "Advocacy"
 msgstr "Propagace"
 
-#: ../translation/config.php:16
-msgid "Afrikaans"
-msgstr ""
-
 #: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "Agregační funkce"
 
 #: ../visualtour16.php:250
 msgid "Aggregates finally have privilege support."
-msgstr ""
+msgstr "Agregační funkce mají konečně podporu oprávnění."
 
 #: ../visualtour14.php:16
 msgid ""
@@ -366,6 +365,14 @@ msgid ""
 "objects for which you can set such information. And there's still the SQL "
 "tab."
 msgstr ""
+"U všech dialogových oken byla změněna velikost tak, aby byla použitelná na "
+"obrazovkách s rozlišením 800×600. Dialogová okna obsahují tři nebo více "
+"karet, aby se do nich vměstnaly všechny informace potřebné pro ten daný "
+"objekt. První karta vždy obsahuje stejné informace: název, OID, vlastník, "
+"komentář a nastavení replikace. Na dalších kartách jsou věci specifické pro "
+"objekt, který máte právě zobrazen. Dále následuje karta s oprávněními a "
+"výchozími oprávněními, která můžete nastavit. A na konci je karta s kódem "
+"SQL."
 
 #: ../visualtour16.php:74
 msgid ""
@@ -373,6 +380,9 @@ msgid ""
 "will select the object in the browser, so that the user can continue his "
 "work on this object."
 msgstr ""
+"Všechny výsledky se objeví v tabulce pod. Dvojitým kliknutím na objekt se "
+"tento vybere ve stromu objektů, takže uživatel může pokračovat v práci s "
+"tímto objektem."
 
 #: ../visualtour.php:350
 msgid ""
@@ -381,17 +391,16 @@ msgid ""
 "required\n"
 "    "
 msgstr ""
-"Umožňuje nastavit výchozí nastavení přes soubor s globálním nastavením.\n"
-" Díky tomu si mohou distributoři a administrátoři přednastavit instalaci "
-"podle potřeby."
+"Umožňuje nastavit výchozí nastavení přes soubor s globálním nastavením. Díky "
+"tomu si mohou distributoři a administrátoři přednastavit instalaci podle "
+"potřeby."
 
 #: ../visualtour.php:348
 msgid ""
 "Allow external utilities such as pg_dump &amp; pg_restore to work with\n"
 "    SSL connections"
 msgstr ""
-"Externí pomůcky jako pg_dump a pg_restore můžou pracovat \n"
-"s připojením SSL"
+"Externí pomůcky jako pg_dump a pg_restore můžou pracovat s připojením SSL"
 
 #: ../visualtour.php:372
 msgid ""
@@ -406,8 +415,8 @@ msgid ""
 "Allow the user a chance to abort if there is an error when deleting rows\n"
 "    in the edit grid"
 msgstr ""
-"Dává uživateli šanci zrušit v editační mřížce mazání řádků, když se během\n"
-" něj vyskytne chyba"
+"Dává uživateli šanci zrušit v editační mřížce mazání řádků, když se během "
+"něj vyskytne chyba"
 
 #: ../translation/howto.php:41
 msgid "Alternatively, you can run the following command manually:"
@@ -431,6 +440,11 @@ msgid ""
 "grid with the first 100 rows. The new action allows you to view the last 100 "
 "rows. Here is the menu:"
 msgstr ""
+"Nakonec zde jsou dvě nové činnosti v kontextové nabídce tabulky. První z "
+"nich nuluje statistiky vybrané tabulky. Druhá z nich je součástí podnabídky "
+"„Prohlížet data“. pgAdmin již dříve uměl zobrazit editační mřížku s prvními "
+"100 řádky. Nově nabízí zobrazení posledních 100 řádků. Zde je zmíněná "
+"nabídka:"
 
 #: ../visualtour12.php:336
 msgid "And last, the query tool can now display line numbers."
@@ -441,8 +455,8 @@ msgid ""
 "And last, the role contextual menu has one more item to add\n"
 "  <b>Drop/Reassign Owned</b> support:"
 msgstr ""
-"A nakonec, kontextové menu role má navíc přidanou položku\n"
-" <b>Předat/odstranit vlastněné objekty...</b>:"
+"A nakonec, kontextová nabídka role má navíc přidanou položku <b>Předat/"
+"odstranit vlastněné objekty…</b>:"
 
 #: ../visualtour12.php:352
 msgid ""
@@ -455,16 +469,20 @@ msgstr ""
 #: ../visualtour16.php:301
 msgid "And note that the timestamp columns skip the microsecond part."
 msgstr ""
+"Ještě upozorňujeme, že sloupce s časovými razítky vynechávají zobrazení "
+"mikrosekund."
 
 #: ../visualtour16.php:56
 msgid ""
 "And once the import is done, the \"Import\" button is changed in a \"Done\" "
 "button. A click on it will dismiss the window."
 msgstr ""
+"Jakmile je import dokončen, změní se tlačítko „Import“ na tlačítko "
+"„Dokončit“. Po jeho odkliknutí okno zmizí."
 
 #: ../visualtour16.php:236
 msgid "And then set its properties in the \"Definition\" tab:"
-msgstr ""
+msgstr "A po té nastavit jeho vlastnosti na kartě „Definice“:"
 
 #: ../visualtour12.php:71
 msgid ""
@@ -481,14 +499,10 @@ msgid ""
 "translated, even into non-European and non-Asian languages. The required "
 "steps for translation are as follows:"
 msgstr ""
-"Kdokoliv může přeložit pgAdmin do svého rodného jazyka - na to nemusíte být "
+"Kdokoliv může přeložit pgAdmin do svého rodného jazyka – na to nemusíte být "
 "programátor. My se pokusíme zajistit, aby bylo možné přeložit všechny "
 "řetězce a to i do neevropských a neasijských jazyků. Kroky potřebné k "
 "překladu jsou následující:"
-
-#: ../translation/config.php:17
-msgid "Arabic"
-msgstr ""
 
 #: ../translation/howto.php:29
 msgid ""
@@ -504,7 +518,7 @@ msgstr ""
 
 #: ../visualtour14.php:20
 msgid "As an example, here is the sequence dialog:"
-msgstr ""
+msgstr "Jako příklad je zde dialogové okno sekvence:"
 
 #: ../screenshots/ui.php:18
 msgid ""
@@ -527,6 +541,10 @@ msgid ""
 "supports all PostgreSQL 9.2 new features, while remaining compatible with "
 "all PostgreSQL releases starting from 8.2."
 msgstr ""
+"Jako obvyke se nové vydání pgAdmin zaměřuje na plnou kompatibilitu s novým "
+"vydáním PostgreSQL. Ani toto vydání v tom není výjimkou: pgAdmin 1.16 "
+"podporuje všechny nové funkce PostgreSQL 9.2, ale zůstává při tom "
+"kompatibilní se všemi verzemi PostgreSQL počínaje verzí 8.2."
 
 #: ../visualtour.php:355
 msgid "Auto-discover Postgres Plus servers on Mac and Unix"
@@ -547,18 +565,19 @@ msgstr ""
 
 #: ../visualtour14.php:344
 msgid "Backup and restore tools"
-msgstr ""
+msgstr "Nástroje pro zálohování a obnovu"
 
 #: ../visualtour16.php:275
-#, fuzzy
 msgid "Backup/Restore tools"
-msgstr "Zálohování/obnova"
+msgstr "Nástroje pro zálohování/obnovu"
 
 #: ../index.php:14
 msgid ""
 "Be careful that this is a Release Candidate build. It's not considered "
 "production ready. It's available for testing purpose only."
 msgstr ""
+"Uvědomte si, že se jedná o sestavení určené jako kandidáta na vydání a to "
+"není zamýšleno k produkčnímu používání. Je určeno pouze pro testovací účely."
 
 #: ../advocacy/strategy.php:13
 #, php-format
@@ -572,9 +591,8 @@ msgstr ""
 "stránce <a href=\"%s\">překlad</a>."
 
 #: ../visualtour14.php:29
-#, fuzzy
 msgid "Better i18n"
-msgstr "Lepší podpora i18n [GL]"
+msgstr "Lepší i18n"
 
 #: ../support/issues.php:10
 msgid ""
@@ -594,17 +612,9 @@ msgid ""
 msgstr ""
 "Instrukce na sestavení jsou součástí archivu a jsou dostupné i on-line:"
 
-#: ../translation/config.php:18
-msgid "Bulgarian"
-msgstr ""
-
 #: ../features.php:62
 msgid "Casts"
 msgstr "Přetypování"
-
-#: ../translation/config.php:19
-msgid "Catalan"
-msgstr ""
 
 #: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
@@ -626,16 +636,8 @@ msgstr "Zkontrolovat kvůli přechodu na wxWidgets 2.9/3.0"
 msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr ""
-"V dialogu nastavení zvolte <i>Automaticky zkompilovat .mo soubor při "
+"V dialogovém okně nastavení zvolte <i>Automaticky zkompilovat .mo soubor při "
 "uložení</i>."
-
-#: ../translation/config.php:58
-msgid "Chinese simplified"
-msgstr ""
-
-#: ../translation/config.php:59
-msgid "Chinese traditional"
-msgstr ""
 
 #: ../visualtour12.php:66
 msgid ""
@@ -650,22 +652,22 @@ msgid "Code housekeeping"
 msgstr "Optimalizace kódu"
 
 #: ../visualtour14.php:270
-#, fuzzy
 msgid "Collation"
-msgstr "Instalace"
+msgstr "Porovnávání"
 
 #: ../visualtour14.php:273
 msgid ""
 "Collation is a new schema object available in PostgreSQL 9.1. You can create "
 "and change collation with its properties dialog:"
 msgstr ""
+"Porovnávání je nový objekt schématu dostupný v PostgreSQL 9.1. Můžete "
+"vytvářet a měnit porovnávání v dialogovém okně s jeho vlastnostmi:"
 
 #: ../visualtour14.php:203
-#, fuzzy
 msgid "Column"
-msgstr "Sloupce"
+msgstr "Sloupec"
 
-#: ../visualtour12.php:193 ../visualtour.php:181
+#: ../visualtour.php:181 ../visualtour12.php:193
 msgid "Column properties"
 msgstr "Vlastnosti sloupce"
 
@@ -678,9 +680,8 @@ msgid "Compile pgadmin3.po into a pgadmin3.mo binary file."
 msgstr "Přeložte pgadmin3.po do binární podoby pgadmin3.mo."
 
 #: ../development/roadmap.php:15
-#, fuzzy
 msgid "Complete 9.3 support"
-msgstr "Dodělat podporu pro 9.1"
+msgstr "Dodělat podporu pro 9.3"
 
 #: ../visualtour12.php:355
 msgid "Configuration"
@@ -695,7 +696,6 @@ msgid "Connection handling"
 msgstr "Ovládání připojení"
 
 #: ../visualtour14.php:211
-#, fuzzy
 msgid "Constraint"
 msgstr "Omezení"
 
@@ -709,6 +709,9 @@ msgid ""
 "in pgAdmin 1.14. Fortunately, INSTEAD OF triggers are supported right now, "
 "but they are only available on views."
 msgstr ""
+"Omezení trigerů existovalo již dlouho, ale jsou podporována jen v pgAdmin "
+"1.14. Naštěstí jsou trigery s „INSTEAD OF“ nyní podporovány správně, ale "
+"dostupné jsou jen u pohledů."
 
 #: ../features.php:64 ../visualtour16.php:169
 msgid "Constraints"
@@ -730,10 +733,6 @@ msgstr "Konverze"
 msgid "Couldn't find the document content!"
 msgstr "Nelze nalézt obsah dokumentu!"
 
-#: ../translation/config.php:31
-msgid "Croatian"
-msgstr ""
-
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -745,13 +744,9 @@ msgstr ""
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Vlastní výstupní sestavy ve frmStatus [GL]"
 
-#: ../include/page.php:112 ../translation/config.php:20
+#: ../include/page.php:112
 msgid "Czech"
 msgstr "Čeština"
-
-#: ../translation/config.php:21
-msgid "Danish"
-msgstr ""
 
 #: ../screenshots/data.php:8
 msgid "Data"
@@ -768,7 +763,6 @@ msgstr ""
 "Volby vyladění dat pro pomalé dotazy (vyžaduje XML EXPLAIN v PG 8.4). [DP]"
 
 #: ../visualtour14.php:155
-#, fuzzy
 msgid "Database"
 msgstr "Databáze"
 
@@ -776,7 +770,7 @@ msgstr "Databáze"
 msgid "Database encoding selection"
 msgstr "Volba kódování databáze"
 
-#: ../visualtour12.php:105 ../visualtour.php:153
+#: ../visualtour.php:153 ../visualtour12.php:105
 msgid "Database properties"
 msgstr "Vlastnosti databáze"
 
@@ -785,9 +779,8 @@ msgid "Databases"
 msgstr "Databáze"
 
 #: ../visualtour14.php:388
-#, fuzzy
 msgid "Debugger tool"
-msgstr "Dotazovací nástroj"
+msgstr "Ladicí nástroj"
 
 #: ../visualtour12.php:212
 msgid ""
@@ -810,7 +803,6 @@ msgid "Designed for multiple PostgreSQL versions and derivatives"
 msgstr "Navržený pro práci s více verzemi PostgreSQL a jeho odvozenin"
 
 #: ../docs/menu.php:7
-#, fuzzy
 msgid "Dev"
 msgstr "Ve vývoji"
 
@@ -824,11 +816,11 @@ msgstr "Vývojářský tým"
 
 #: ../visualtour14.php:13
 msgid "Dialogs for netbooks"
-msgstr ""
+msgstr "Dialogová okna pro notebooky"
 
 #: ../visualtour14.php:45
 msgid "Different icons to highlight different states"
-msgstr ""
+msgstr "Různé ikony pro zvýraznění různých stavů"
 
 #: ../include/doc.php:91
 msgid "Document cannot be read"
@@ -844,9 +836,8 @@ msgid "Documentation"
 msgstr "Dokumentace"
 
 #: ../visualtour14.php:262
-#, fuzzy
 msgid "Domain"
-msgstr "Domény"
+msgstr "Doména"
 
 #: ../features.php:67 ../visualtour16.php:241
 msgid "Domains"
@@ -855,7 +846,7 @@ msgstr "Domény"
 #: ../visualtour14.php:265
 msgid ""
 "Domains are also subject to change because of the new collation feature:"
-msgstr ""
+msgstr "Také domény byly předmětem změn kvůli nové funkci porovnávání:"
 
 #: ../include/page.php:130 ../include/po_status.php:256
 msgid "Download"
@@ -876,11 +867,7 @@ msgstr "Zálohování/obnova"
 
 #: ../visualtour.php:239
 msgid "Dump/restore dialog"
-msgstr "Dialog pro zálohování/obnovu"
-
-#: ../translation/config.php:42
-msgid "Dutch"
-msgstr ""
+msgstr "Dialogové okno pro zálohování/obnovu"
 
 #: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -898,7 +885,7 @@ msgstr ""
 
 #: ../visualtour.php:71
 msgid "Each FTS object is handled by its own properties dialog."
-msgstr "Každý typ objektu FTS má svůj vlastní dialog vlastností."
+msgstr "Každý typ objektu FTS má svoje vlastní dialogové okno s vlastnostmi."
 
 #: ../visualtour.php:108
 msgid "Each objects' list now show the <b>owner of the object</b>:"
@@ -942,16 +929,19 @@ msgstr "Proveďte vaše překlady řetězců."
 #: ../visualtour14.php:214
 msgid "Exclusion Constraints are finally supported in pgAdmin:"
 msgstr ""
+"Omezení vyloučením (exclusion) je konečně podporováno i v aplikaci pgAdmin:"
 
 #: ../visualtour14.php:293
 msgid "Extension"
-msgstr ""
+msgstr "Rozšíření"
 
 #: ../visualtour14.php:296
 msgid ""
 "Extension is a new database object available in PostgreSQL 9.1. You can add "
 "an extension with the properties dialog:"
 msgstr ""
+"Rozšíření je nový databázový objekt dostupný v PostgreSQL 9.1. Rozšíření "
+"můžete přidat v dialogovém okně vlastností:"
 
 #: ../features.php:28
 msgid "Extensive documentation"
@@ -977,17 +967,9 @@ msgstr "Analyzátory FTS"
 msgid "FTS templates"
 msgstr "Šablony FTS"
 
-#: ../translation/config.php:25
-msgid "Farsi"
-msgstr ""
-
 #: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "Vlastnosti"
-
-#: ../translation/config.php:53
-msgid "Filipino/Tagalog"
-msgstr ""
 
 #: ../download/index.php:14
 #, php-format
@@ -998,6 +980,11 @@ msgid ""
 "PostgreSQL <a href=\"%s\">yum repository</a>, Debian <a href=\"%s"
 "\">backports</a> or the Ubuntu <a href=\"%s\">PPA</a>."
 msgstr ""
+"A konečně, co se týká linuxových distribucí, je v nich pgAdmin standardně "
+"obsažen. Například jej najdete v distribucích RedHatu, ve Fedoře, Debianu a "
+"Ubuntu. Pokud potřebujete jinou verzi, než je ta v distribuci, zkuste použít "
+"repozitáře jako je <a href=\"%s\">yum repository</a> v PostgreSQL, <a href="
+"\"%s\">backports</a> v Debianu nebo <a href=\"%s\">PPA</a> v Ubuntu."
 
 #: ../visualtour12.php:244
 msgid ""
@@ -1016,20 +1003,21 @@ msgid ""
 "you want to create. pgAdmin then adds this restore point, but keep in mind "
 "this action is not available on a streaming replication slave."
 msgstr ""
+"Nakonec jsou zde dvě nové činnosti přístupné v kontextové nabídce serveru. "
+"„Pozastavit přehrávání WAL“ je dostupné jen při vysílání replikací serveru "
+"typu „slave“. Můžete s ním pozastavit přehrávání replikace a její opětovné "
+"spuštění. „Přidat pojmenovaný typ obnovy“ se vás dotáže na název bodu "
+"obnovy, který se má vytvořit. pgAdmin pak tento bod obnovy přidá, ale mějte "
+"na paměti, že tato činnosti není dostupná při vysílání replikací serveru "
+"typu „slave“."
 
 #: ../development/roadmap.php:17
-#, fuzzy
 msgid "Finish 7.4 (?) support with operator class objects' creation [GL]"
-msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
+msgstr "Dokončit podporu 7.4 (?) s vytvářením objektů třít operátorů [GL]"
 
 #: ../development/roadmap.php:16
-#, fuzzy
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
-msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
-
-#: ../translation/config.php:26
-msgid "Finnish"
-msgstr ""
+msgstr "Dokončit podporu 8.3 s vytvářením objektů rodin operátorů [GL]"
 
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
@@ -1040,8 +1028,8 @@ msgid ""
 "Fix handling of aggregate initial conditions to allow NULL or empty\n"
 "    strings to be specified"
 msgstr ""
-"Opravuje práci s inicializačními podmínkami agregačních funkcí tak,\n"
-" aby bylo možné zadat NULL nebo prázdný řetězec."
+"Opravuje práci s inicializačními podmínkami agregačních funkcí tak, aby bylo "
+"možné zadat NULL nebo prázdný řetězec."
 
 #: ../visualtour.php:346
 msgid "Fix listing of group roles in the combo box on privilege panels"
@@ -1063,7 +1051,7 @@ msgstr ""
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../include/page.php:114 ../translation/config.php:27
+#: ../include/page.php:114
 msgid "French"
 msgstr "Francouzština"
 
@@ -1082,15 +1070,14 @@ msgid ""
 msgstr ""
 "Čas od času přibudou v aplikaci nové řetězce. Stáhněte si nový <a href=\"%s"
 "\">pgadmin3.pot</a> a spojte nový soubor s vaším jazykovým souborem pomocí "
-"funkce <i>Katalog / Aktualizovat z POT souboru...</i> v poEdit. Alternativně "
+"funkce <i>Katalog / Aktualizovat z POT souboru…</i> v poEdit. Alternativně "
 "můžete ručně spustit příkaz:"
 
 #: ../visualtour14.php:233
-#, fuzzy
 msgid "Function"
 msgstr "Funkce"
 
-#: ../visualtour12.php:185 ../visualtour.php:198
+#: ../visualtour.php:198 ../visualtour12.php:185
 msgid "Function properties"
 msgstr "Vlastnosti funkce"
 
@@ -1114,12 +1101,7 @@ msgstr "Přístup přes GIT"
 msgid "GIT browser"
 msgstr "Procházení přes GIT"
 
-#: ../translation/config.php:28
-msgid "Galician"
-msgstr ""
-
 #: ../index.php:26
-#, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1127,27 +1109,13 @@ msgid ""
 "\">video walkthrough</a> showing off some of the features in pgAdmin."
 msgstr ""
 "Gary ze společnosti <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</"
-"a> vytvořil <a href=\"http://www.enterprisedb.com/learning/videos/"
-"Create_Postgres_Database_pgAdmin.do\">průvodní video</a>, které ukazuje "
-"některé z funkcí aplikace pgAdmin."
-
-#: ../translation/config.php:22
-msgid "German"
-msgstr ""
+"a> vytvořil <a href=\"http://www.enterprisedb.com/resources-community/"
+"webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin"
+"\">průvodní video</a>, které ukazuje některé z funkcí aplikace pgAdmin."
 
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr "Začínáme"
-
-#: ../include/page.php:120
-#, fuzzy
-msgid "Go"
-msgstr "Google Summer of Code"
-
-#: ../include/page.php:78
-#, fuzzy
-msgid "Google Search"
-msgstr "Google analytics"
 
 #: ../privacypolicy.php:22
 msgid "Google analytics"
@@ -1156,10 +1124,6 @@ msgstr "Google analytics"
 #: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafy ve frmStatus [GL]"
-
-#: ../translation/config.php:23
-msgid "Greek"
-msgstr ""
 
 #: ../features.php:25
 msgid "Greenplum Database"
@@ -1177,17 +1141,9 @@ msgstr "Skupiny"
 msgid "Guidelines"
 msgstr "Pokyny"
 
-#: ../translation/config.php:29
-msgid "Gujarati"
-msgstr ""
-
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "Rady odborníka na pomoc méně zkušeným uživatelům"
-
-#: ../translation/config.php:30
-msgid "Hindi"
-msgstr ""
 
 #: ../include/page.php:126
 msgid "Home"
@@ -1201,17 +1157,9 @@ msgstr "Jak přispět"
 msgid "Howto"
 msgstr "Jak na to"
 
-#: ../translation/config.php:32
-msgid "Hungarian"
-msgstr ""
-
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
-
-#: ../translation/config.php:34
-msgid "Icelandic"
-msgstr ""
 
 #: ../visualtour16.php:68
 msgid ""
@@ -1219,6 +1167,9 @@ msgid ""
 "can type a pattern, and select the type of the object he's looking for. Then "
 "a simple click on the \"Find\" button will start the search."
 msgstr ""
+"Když uživatel vybere tuto položku, otevře pgAdmin nové okno, ve kterém může "
+"napsat vzor po vyhledání a vybrat typ objektu, který hledáte. Kliknutím na "
+"tlačítko „Najít“ se hledání spustí."
 
 #: ../development/index.php:14
 #, php-format
@@ -1228,7 +1179,7 @@ msgid ""
 "a> pgAdmin."
 msgstr ""
 "Pokud byste si přáli se zapojit do projektu a nejste programátor, i tak máte "
-"šanci - jako <a href=\"%s\">překladatel</a> nebo <a href=\"%s\">propagátor</"
+"šanci – jako <a href=\"%s\">překladatel</a> nebo <a href=\"%s\">propagátor</"
 "a> pgAdmin."
 
 #: ../translation/status.php:29
@@ -1256,7 +1207,7 @@ msgid ""
 msgstr ""
 "Pokud jste správce překladu a chcete svoji práci aktualizovat, tak si "
 "stáhněte soubor s šablonou (přípona .pot), spusťte poEdit a použijte příkaz "
-"„Aktualizovat z POT souboru...“. Přeložte text a pošlete nám *.po soubor."
+"„Aktualizovat z POT souboru…“. Přeložte text a pošlete nám *.po soubor."
 
 #: ../support/index.php:12
 #, php-format
@@ -1306,13 +1257,15 @@ msgstr ""
 
 #: ../visualtour14.php:100
 msgid "Improved configuration for plugins"
-msgstr ""
+msgstr "Vylepšené nastavení pro zásuvné moduly"
 
 #: ../visualtour14.php:317
 msgid ""
 "In PostgreSQL 9.1, there is a new role attribute. You can set it with the "
 "role properties dialog:"
 msgstr ""
+"V PostgreSQL 9.1 je nová vlastnost role. Můžete ji nastavit v dialogovém "
+"okně s vlastnostmi role:"
 
 #: ../visualtour16.php:82
 msgid ""
@@ -1320,6 +1273,9 @@ msgid ""
 "properties dialog. pgAdmin 1.16 allows that. All objects belonging to a "
 "schema have a new widget allowing the user to modify the schema :"
 msgstr ""
+"Ve starších verzích nemohl uživatel měnit schéma objektu v dialogovém okně s "
+"vlastnostmi onoho objektu. pgAdmin 1.16 to umožňuje. Všechny objekty "
+"náležející do schématu mají nové pole, které umožňuje změnit schéma:"
 
 #: ../translation/howto.php:40
 msgid ""
@@ -1343,26 +1299,21 @@ msgid ""
 "  execute this script, you need to click on the PGS button. The complete\n"
 "  reference to pgscript is available <a href=\"%s\">here</a>."
 msgstr ""
-"V tomto příkladu uživatel vkládá do tabulky náhodné hodnoty. Skritpt\n"
-" spustíte tlačítkem PGS na panelu nástrojů. Kompletní návod k pgscriptu\n"
-" je k dispozici <a href=\"%s\">tady</a>."
+"V tomto příkladu uživatel vkládá do tabulky náhodné hodnoty. Skritpt "
+"spustíte tlačítkem PGS na panelu nástrojů. Kompletní návod k pgscriptu je k "
+"dispozici <a href=\"%s\">tady</a>."
 
 #: ../visualtour14.php:195
-#, fuzzy
 msgid "Index"
-msgstr "Indexy"
+msgstr "Index"
 
-#: ../visualtour12.php:153 ../visualtour.php:189
+#: ../visualtour.php:189 ../visualtour12.php:153
 msgid "Index properties"
 msgstr "Vlastnosti indexů"
 
 #: ../features.php:75 ../visualtour16.php:163
 msgid "Indexes"
 msgstr "Indexy"
-
-#: ../translation/config.php:33
-msgid "Indonesian"
-msgstr ""
 
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
 msgid "Information"
@@ -1385,6 +1336,10 @@ msgid ""
 "release, and we hope we'll keep at least the same number of languages for "
 "1.14."
 msgstr ""
+"Internacionalizace si vyžádala trochu práce na vylepšení takových věcí, jako "
+"jsou tvary množných čísel. Kvůli tomu měli překladatelé více práce, než je u "
+"vydání obvyklé. Doufáme, že i přesto udržíme nejméně stejný počet jazyků "
+"jako dříve, kdo kterých je 1.14 přeloženo."
 
 #: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
@@ -1405,12 +1360,11 @@ msgid ""
 "toolbar\n"
 "  to launch each action."
 msgstr ""
-"Díky tomu můžete sledovat všechny výpisy naráz, nepotřebné zavřít, měnit\n"
-" jejich velikost atd. A váš způsob rozvržení se zapamatuje do dalšího "
-"spuštění.\n"
-" Obsah jednotlivých seznamů můžete také <b>kopírovat</b>. Přepracovaný byl i "
-"panel\n"
-" nástrojů, ze kterého můžete spouštět odpovídající akce."
+"Díky tomu můžete sledovat všechny výpisy naráz, nepotřebné zavřít, měnit "
+"jejich velikost atd. A váš způsob rozvržení se zapamatuje do dalšího "
+"spuštění. Obsah jednotlivých seznamů můžete také <b>kopírovat</b>. "
+"Přepracovaný byl i panel nástrojů, ze kterého můžete spouštět odpovídající "
+"činnosti."
 
 #: ../visualtour16.php:62
 msgid ""
@@ -1418,6 +1372,9 @@ msgid ""
 "now a way to search for objects by name within pgAdmin. The database context "
 "menu has a new item: \"Search objects...\"."
 msgstr ""
+"Občas se může hodit, najít objekt podle jeho názvu. Proto je nyní v aplikaci "
+"pgAdmin k dispozici způsob, jak objekty vyhledávat podle názvu. Kontextová "
+"nabídka databáze má novou položku „Hledat objekty…“."
 
 #: ../visualtour.php:294
 msgid ""
@@ -1429,23 +1386,23 @@ msgid ""
 "column\n"
 "  to sort by this column."
 msgstr ""
-"Již dříve bylo možné v mřížce řadit a filtrovat, ale teď vám přináší jiný "
-"dialog,\n"
-" volbu sloupců, které se mají řadit a zápis filtru ve stylu klauzule WHERE.\n"
-" Uživatel může kliknutím pravým tlačítkem zvolit hodnotu, kterou chce "
-"filtrovat\n"
-" (v kladném i záporném smyslu). Stejně tak kliknutím pravým tlačítkem může\n"
-" zvolit sloupec k řazení."
+"Již dříve bylo možné v mřížce řadit a filtrovat, ale teď vám přináší jiné "
+"dialogové okno a volbu sloupců, které se mají řadit a zápis filtru ve stylu "
+"klauzule WHERE. Uživatel může kliknutím pravým tlačítkem zvolit hodnotu, "
+"kterou chce filtrovat (v kladném i záporném smyslu). Stejně tak kliknutím "
+"pravým tlačítkem může zvolit sloupec k řazení."
 
 #: ../visualtour16.php:118
 msgid ""
 "It works also on shared objects, such as databases and roles since "
 "PostgreSQL 9.2:"
 msgstr ""
+"Od PostgreSQL 9.2 to funguje i u sdílených objektů, jako jsou databáze nebo "
+"role."
 
 #: ../visualtour16.php:182
 msgid "It's also possible to add invalid check constraints to a domain."
-msgstr ""
+msgstr "Neplatnou kontrolu je možné přidat i k doméně."
 
 #: ../advocacy/index.php:13
 #, php-format
@@ -1461,19 +1418,11 @@ msgstr ""
 #: ../visualtour16.php:150
 msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
-msgstr ""
-
-#: ../translation/config.php:35
-msgid "Italian"
-msgstr ""
+msgstr "Jedná se o zpřístupnění výrazu „CREATE TABLE … LIKE …“."
 
 #: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
-
-#: ../translation/config.php:36
-msgid "Japanese"
-msgstr ""
 
 #: ../features.php:107
 msgid "KOI8"
@@ -1492,7 +1441,7 @@ msgstr ""
 "Klávesové zkratky jsou označené uvozujícím znakem „&amp;“. Např. „&amp;New "
 "window“, což je do češtiny přeložené jako „&amp;Nové okno“, lze vyvolat "
 "pomocí Alt + N. Pokud znak měníte při překladu za jiný, dávejte pozor, aby "
-"nekolidoval s dalšími položkami v menu. Pokud se odkloníte od původních "
+"nekolidoval s dalšími položkami v nabídce. Pokud se odkloníte od původních "
 "klávesových zkratek, mohou mít uživatelé pgAdmin problém pamatovat si "
 "klávesové zkratky pro anglickou i přeloženou verzi. Buďte proto opravdu "
 "pečliví, když vytváříte nové zkratky, protože původní znak nelze použít."
@@ -1500,10 +1449,6 @@ msgstr ""
 #: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "Známé problémy"
-
-#: ../translation/config.php:37
-msgid "Korean"
-msgstr ""
 
 #: ../features.php:103
 msgid ""
@@ -1551,10 +1496,6 @@ msgstr "Poslední aktualizace: %s"
 msgid "Latest news"
 msgstr "Poslední novinky"
 
-#: ../translation/config.php:39
-msgid "Latvian"
-msgstr ""
-
 #: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "Licence"
@@ -1566,10 +1507,6 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "Archívy konferencí"
-
-#: ../translation/config.php:38
-msgid "Lithuanian"
-msgstr ""
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -1593,20 +1530,16 @@ msgid "Mac OSX"
 msgstr "Mac OSX"
 
 #: ../download/macosx.php:12
-#, fuzzy
 msgid ""
 "Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later "
 "versions up to 1.16.x are being built on Tiger as Universal binaries for "
 "Intel and PPC. 1.18.x and later support OSX Snow Leopard (10.6) and above, "
 "on Intel only,"
 msgstr ""
-"Balíčky Mac OSX sestavené v Pantheru jsou dostupné do pgAdmin v1.4.1. "
-"Novější verze jsou sestavované v Tigeru. v1.6 a novější jsou sestavované "
-"jako Mac Universal binary pro architektury Intel i PPC."
-
-#: ../translation/config.php:40
-msgid "Macedonian"
-msgstr ""
+"Balíčky Mac OSX sestavené pro verzi Panther jsou dostupné do pgAdmin v1.4.1. "
+"Novější verze do 1.16.x jsou sestavované pro verzi Tiger jako Universal "
+"binary pro architektury Intel a PPC. Verze 1.18.x a vyšší podporují OSX Snow "
+"Leopard (10.6) a novější a to pouze na architektuře Intel."
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -1632,11 +1565,10 @@ msgid "Maintenance dialogs"
 msgstr "Dialogové okno správy"
 
 #: ../visualtour16.php:304
-#, fuzzy
 msgid "Maintenance tool"
-msgstr "Údržba"
+msgstr "Nástroj pro údržbu"
 
-#: ../visualtour16.php:13 ../visualtour.php:16
+#: ../visualtour.php:16 ../visualtour16.php:13
 msgid "Major new features"
 msgstr "Hlavní nové vlastnosti"
 
@@ -1659,7 +1591,7 @@ msgid ""
 "remain the same in all cases because the behaviour is hardcoded in the "
 "pgAdmin source."
 msgstr ""
-"Řetězce z menu také obsahují napevno klávesové zkratky (Ctrl-X) a funkční "
+"Řetězce z nabídky také obsahují napevno klávesové zkratky (Ctrl-X) a funkční "
 "klávesy (F5). Poznáte je podle předcházejícího znaku \\t (tab). Pokud je to "
 "vhodné, můžete přeložit označení modifikátoru (Ctrl-), ale klávesa musí "
 "zůstat stejná, protože je napevno zakódovaná ve zdrojovém kódu pgAdmin."
@@ -1677,13 +1609,13 @@ msgstr ""
 msgid "Microsoft Windows &trade; 2000 and above"
 msgstr "Microsoft Windows &trade; 2000 a novější"
 
-#: ../visualtour16.php:312 ../visualtour.php:327
+#: ../visualtour.php:327 ../visualtour16.php:312
 msgid "Miscellanous"
 msgstr "Různé"
 
 #: ../visualtour16.php:79
 msgid "Modifying the schema of an object"
-msgstr ""
+msgstr "Změna schématu některého objektu"
 
 #: ../visualtour12.php:168
 msgid ""
@@ -1706,11 +1638,11 @@ msgid ""
 msgstr ""
 "Mnoho formulářů není navržených tak, aby mohli měnit velikost. Nejen proto, "
 "že je to pracné, ale hlavně proto že nemá žádný smysl měnit velikost jejich "
-"obsahu. U dialogů podporují změnu velikosti hlavně dialogy vlastností "
-"objektů. Proto je dobré udržovat délku přeloženého textu zhruba stejnou jako "
-"v angličtině. Všeobecně se snažíme ponechávat na přeložené texty dostatek "
-"místa, ale pokud někde na nedostatek místa přece jen narazíte, tak nám dejte "
-"prosím vědět."
+"obsahu. Z dialogových oken podporují změnu velikosti hlavně dialogová okna s "
+"vlastnostmi objektů. Proto je dobré udržovat délku přeloženého textu zhruba "
+"stejnou jako v angličtině. Všeobecně se snažíme ponechávat na přeložené "
+"texty dostatek místa, ale pokud někde na nedostatek místa přece jen "
+"narazíte, tak nám dejte prosím vědět."
 
 #: ../screenshots/menu.php:10
 msgid "Multibyte &amp; i18n"
@@ -1737,9 +1669,8 @@ msgid "Native PostgreSQL acccess (no ODBC layer needed)"
 msgstr "Přímý přístup k PostgreSQL (není zapotřebí vrstva ODBC)"
 
 #: ../visualtour16.php:317
-#, fuzzy
 msgid "New documentation system."
-msgstr "Dokumentace"
+msgstr "Nový systém dokumentace."
 
 #: ../visualtour.php:156
 msgid ""
@@ -1750,14 +1681,14 @@ msgid ""
 "connection\n"
 "  limits."
 msgstr ""
-"Do dialogu pro verzi 8.4 byly přidané nové vlastnosti: podpora pro změnu\n"
-" prostoru tabulek existující databáze, podpora pro přejmenování otevřené\n"
-" tabulky, podpora pro porovnávání, znakové sady a omezení připojení u každé\n"
-" databáze zvlášť."
+"Do dialogového okna pro verzi 8.4 byly přidané nové vlastnosti: podpora pro "
+"změnu prostoru tabulek existující databáze, podpora pro přejmenování "
+"otevřené tabulky, podpora pro porovnávání, znakové sady a omezení připojení "
+"u každé databáze zvlášť."
 
 #: ../visualtour16.php:21
 msgid "New import tool"
-msgstr ""
+msgstr "Nový nástroj pro import"
 
 #: ../visualtour14.php:114
 msgid ""
@@ -1766,6 +1697,11 @@ msgid ""
 "in your pg_service.conf file (see http://www.postgresql.org/docs/9.0/"
 "interactive/libpq-pgservice.html for details):"
 msgstr ""
+"K dispozici jsou nové vlastnosti, všechny se týkají parametrů připojení. "
+"První karta zobrazuje textové pole se službou. Zde můžete určit název služby "
+"nastavené v souboru pg_service.conf (podrobnosti viz http://www.postgresql."
+"org/docs/9.0/interactive/libpq-pgservice.html (odkazovaný text je v "
+"angličtině))."
 
 #: ../visualtour12.php:60
 msgid ""
@@ -1785,18 +1721,14 @@ msgstr ""
 "informaci neobsahovalo. S verzí 1.12 se to změnilo. Nový vyskakovací seznam "
 "je součástí dialogového okna vlastností."
 
-#: ../translation/config.php:41
-msgid "Norwegian Bokm&aring;l"
-msgstr ""
-
 #: ../download/windows.php:14
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Note that the <a href=\"%s\">EnterpriseDB</a> distribution of PostgreSQL for "
 "Windows includes a bundled copy of pgAdmin."
 msgstr ""
-"Upozorňujeme, že <a href=\"%s\">pgInstaller</a> distribuce PostgreSQL pro "
-"Windows již v sobě obsahuje kopii pgAdmin."
+"Upozorňujeme, že distribuce <a href=\"%s\">EnterpriseDB</a> jako varianty "
+"PostgreSQL pro Windows již v sobě obsahuje kopii pgAdmin."
 
 #: ../download/adminpacks.php:18
 msgid ""
@@ -1805,12 +1737,12 @@ msgstr ""
 "Poznámka: PostgreSQL 8.2 a novější obsahují admin pack přímo jako doplňující "
 "modul."
 
-#: ../visualtour12.php:29 ../visualtour14.php:35 ../visualtour.php:61
+#: ../visualtour.php:61 ../visualtour12.php:29 ../visualtour14.php:35
 msgid "Object browser"
 msgstr "Strom objektů"
 
-#: ../visualtour12.php:77 ../visualtour14.php:105 ../visualtour16.php:123
-#: ../visualtour.php:99
+#: ../visualtour.php:99 ../visualtour12.php:77 ../visualtour14.php:105
+#: ../visualtour16.php:123
 msgid "Object properties"
 msgstr "Vlastnosti objektů"
 
@@ -1829,7 +1761,7 @@ msgid ""
 "On Greenplum database, the table's properties dialog also shows the "
 "partition name."
 msgstr ""
-"V databázi Greenplum zobrazuje dialogové okno vlastností tabulky rovněž "
+"V databázi Greenplum zobrazuje dialogové okno s vlastnostmi tabulky rovněž "
 "název oddílu."
 
 #: ../visualtour12.php:26
@@ -1851,18 +1783,24 @@ msgid ""
 "On the foreign key properties dialog, the \"References\" table textbox has "
 "been moved to the third tab:"
 msgstr ""
+"U dialogového okna s vlastnostmi cizího klíče bylo textové pole „Odkazy na“ "
+"přesunuto na třetí kartu:"
 
 #: ../visualtour16.php:30
 msgid ""
 "Once clicked, it opens a new dialog. This dialog allows the user to select a "
 "file, specify its format (text, csv, or binary), and its encoding."
 msgstr ""
+"Po kliknutí na ni se otevře nové dialogové okno. V něm může uživatel vybrat "
+"soubor, určit jeho formát (text, csv nebo binární) a kódování."
 
 #: ../visualtour16.php:50
 msgid ""
 "Once the user clicks the \"Import\" button, the import process will take "
 "place. A widget will show the progress of the import:"
 msgstr ""
+"Po té, co uživatel klikne na tlačítko „Import“, import započne, přičemž se "
+"zobrazuje jeho průběh:"
 
 #: ../visualtour12.php:268
 msgid ""
@@ -1883,6 +1821,10 @@ msgid ""
 "there might have been some schema updates on the database - and some changes "
 "may get lost because of this."
 msgstr ""
+"Jedním z velkých neduhů aplikace pgAdmin bylo, že nevěděl o tom, že se "
+"objekt změnil na pozadí. Uživatel musel nechat aktualizovat strom objektů "
+"pokaždé, když si myslel, že došlo k nějaké změně schématu v databázi. Kvůli "
+"tomu mohlo docházet i ke ztrátě některých těchto změn."
 
 #: ../visualtour.php:225
 msgid "One can now change a <b>language's owner</b>."
@@ -1893,6 +1835,9 @@ msgid ""
 "One of the main feature of PostgreSQL 9.2, the range type, is also supported "
 "by pgAdmin 1.16. To add a new range type, select it on the \"Type\" tab:"
 msgstr ""
+"Jednou z hlavních vlastností PostgreSQL 9.2 je typ „rozsah“, který je v "
+"pgAdmin 1.16 rovněž podporován. Když jej chcete přidat, stačí jej vybrat na "
+"kartě „Typ“:"
 
 #: ../visualtour14.php:379
 msgid ""
@@ -1905,12 +1850,22 @@ msgid ""
 "displayed, you now get a new \"Fix it\" button, which, once clicked, asks "
 "pgAdmin to automatically install the extension:"
 msgstr ""
+"Jednou z elegantních věcí na rozšířeních je, že je opravdu snadné získat "
+"seznam dostupných rozšíření a nainstalovat je. To nám pomohlo zbavit se "
+"nepříjemné potřeby získávat plnou moc nad vašimi servery PostgreSQL. Pro "
+"práci s pgAdmin budete muset nainstalovat modul adminpack (nyní je to "
+"vlastně rozšíření). pgAdmin 1.14 si zjistí, že rozšíření není nainstalováno, "
+"ale je dostupné. Při zobrazení rady tak získáte i tlačítko „Opravit“, pomocí "
+"kterého jediným kliknutím (po dotázání) pgAdmin rozšíření automaticky "
+"nainstaluje:"
 
 #: ../visualtour14.php:335
 msgid ""
 "One often requested feature is the ability to disable the Unicode BOM when "
 "writing SQL files. It's now available in the options window:"
 msgstr ""
+"Jednou z často požadovaných funkcí byla možnost zakázat hlavičku Unicode BOM "
+"při zápisu souborů SQL. Nyní ji naleznete v okně s volbami:"
 
 #: ../visualtour.php:114
 msgid ""
@@ -1918,8 +1873,8 @@ msgid ""
 "is\n"
 "  resizable</b>:"
 msgstr ""
-"Dříve šla měnit velikost pouze u dialogu funkce. Od verze 1.10 <b>lze měnit\n"
-" velikost všech dialogů vlastností</b>:"
+"Dříve šla měnit velikost pouze u dialogového okna funkce. Od verze 1.10 "
+"<b>lze měnit velikost všech dialogových oken s vlastnostmi</b>:"
 
 #: ../advocacy/information.php:32
 msgid ""
@@ -2019,11 +1974,9 @@ msgid ""
 "  options."
 msgstr ""
 "Byly provedené ještě některé další úpravy. Pokud je transakce blokovaná "
-"jiným\n"
-" procesem, objeví se sloupec s údajem, kdo ji blokuje. Aplikaci pgAdmin lze\n"
-" volbou příkazového řádku -S a -Sc spustit v režimu, kdy bude zobrazovat "
-"pouze\n"
-" okno se stavem serveru."
+"jiným procesem, objeví se sloupec s údajem, kdo ji blokuje. Aplikaci pgAdmin "
+"lze volbou příkazového řádku -S a -Sc spustit v režimu, kdy bude zobrazovat "
+"pouze okno se stavem serveru."
 
 #: ../translation/status.php:43
 #, php-format
@@ -2108,20 +2061,11 @@ msgstr ""
 
 #: ../visualtour.php:254
 msgid "Plugins menu"
-msgstr "Menu zásuvných modulů"
+msgstr "Nabídka zásuvných modulů"
 
-#: ../include/page.php:115 ../translation/config.php:43
-#, fuzzy
+#: ../include/page.php:115
 msgid "Polish"
-msgstr "Angličtina"
-
-#: ../translation/config.php:45
-msgid "Portuguese"
-msgstr ""
-
-#: ../translation/config.php:44
-msgid "Portuguese-Brazilian"
-msgstr ""
+msgstr "Polština"
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
@@ -2150,8 +2094,8 @@ msgid ""
 "settings via a new \"Variables\" tab."
 msgstr ""
 "PostgreSQL 9.0 umožňuje uživateli určovat nastavení u prostoru tabulek. "
-"Dialogové okno vlastností prostoru tabulek bylo přepracováno, takže teď "
-"můžete tato nastavení přidávat přes novou kartu „Proměnné“."
+"Dialogové okno s vlastnostmi tabulkového prostoru bylo přepracováno, takže "
+"teď můžete tato nastavení přidávat přes novou kartu „Proměnné“."
 
 #: ../visualtour12.php:124
 msgid ""
@@ -2161,7 +2105,7 @@ msgid ""
 "tables, sequences, and functions."
 msgstr ""
 "PostgreSQL 9.0 také přidává výchozí oprávnění. Jsou dostupné v úrovni "
-"databáze a schématu. Dialogové okno vlastností databáze zobrazuje novou "
+"databáze a schématu. Dialogové okno s vlastnostmi databáze zobrazuje novou "
 "kartu „Výchozí oprávnění“, která umožňuje definovat tato nová oprávnění pro "
 "tabulky, sekvence a funkce."
 
@@ -2180,12 +2124,16 @@ msgid ""
 "PostgreSQL 9.2 adds privileges to types objects, and pgAdmin 1.16 allows to "
 "set these privileges."
 msgstr ""
+"PostgreSQL 9.2 přidává oprávnění pro objekty typů a pgAdmin 1.16 umožňuje "
+"tato oprávnění nastavovat."
 
 #: ../visualtour16.php:172
 msgid ""
 "PostgreSQL 9.2 allows the creation of \"non valid\" check constraints. "
 "pgAdmin offers that option in the \"Definition\" tab:"
 msgstr ""
+"PostgreSQL 9.2 umožňuje vytvořit „neplatnou“ kontrolu. pgAdmin nabízí tuto "
+"volbu na kartě „Definice“:"
 
 #: ../visualtour16.php:128
 msgid ""
@@ -2193,12 +2141,17 @@ msgid ""
 "called the \"sslcompression\" option. It's enabled by default, but users can "
 "disable it if they want. This option is available in the \"SSL\" tab:"
 msgstr ""
+"PostgreSQL 9.2 nabízí novou volbu připojení u připojení SSL. Nazývá se "
+"„sslcompression“. Standardně je zapnutá, ale uživatel ji může vypnout, pokud "
+"chce. Nachází se na kartě „SSL“:"
 
 #: ../visualtour16.php:278
 msgid ""
 "PostgreSQL 9.2 offers a new option for its pg_dump/pg_restore tools, called "
 "section. pgAdmin allows its use through:"
 msgstr ""
+"PostgreSQL 9.2 nabízí nové volby pro nástroje pg_dump/pg_restore, nazývané "
+"„Části“. Najdete je v:"
 
 #: ../visualtour16.php:136
 msgid ""
@@ -2206,11 +2159,13 @@ msgid ""
 "the catalog \"pg_stat_database\", and so does pgAdmin 1.16 on its "
 "\"Statistics\" tab for databases:"
 msgstr ""
+"PostgreSQL 9.2 poskytuje dva nové statistické údaje (čas čtení a zápisu "
+"bloku) v katalogu „pg_stat_database“ a tak je uvádí i pgAdmin 1.16 na kartě "
+"„Statistika“ pro databáze:"
 
 #: ../visualtour16.php:15
-#, fuzzy
 msgid "PostgreSQL 9.2 support"
-msgstr "Podpora PostgreSQL 8.2:"
+msgstr "Podpora PostgreSQL 9.2"
 
 #: ../development/roadmap.php:13
 msgid "PostgreSQL compatibility"
@@ -2244,12 +2199,16 @@ msgid ""
 "Prevent dropping connection, dropping and refreshing object when a "
 "properties dialog is open,"
 msgstr ""
+"Opatření na zamezení odstranění připojení a odstranění a aktualizaci "
+"objektu, když je otevřeno dialogové okno s vlastnostmi"
 
 #: ../visualtour14.php:48
 msgid ""
 "Previous releases already displayed servers and databases in two different "
 "ways, connected and disconnected."
 msgstr ""
+"Již dřívější vydání zobrazovala servery a databáze dvěma různými způsoby – "
+"připojeno a odpojeno."
 
 #: ../visualtour16.php:244
 msgid ""
@@ -2258,12 +2217,18 @@ msgid ""
 "renaming through the \"ALTER DOMAIN\" statement in PostgreSQL 9.2, and "
 "through the \"ALTER TYPE\" statement in previous releases of PostgreSQL."
 msgstr ""
+"Předchozí vydání aplikace pgAdmin neumožňovaly uživateli přejmenovat doménu, "
+"přestože to je možné příkazem „ALTER TYPE“. pgAdmin 1.16 to konečně nabízí "
+"přes příkaz „ALTER DOMAIN“ v PostgreSQL 9.2 a přes „ALTER TYPE“ ve starších "
+"vydáních PostgreSQL."
 
 #: ../visualtour14.php:220
 msgid ""
 "Primary keys and unique constraints can be added by selecting an existing "
 "unique index:"
 msgstr ""
+"Omezení primárním klíčem a jedinečností mohou být přidána pomocí výběru "
+"stávajícího jedinečného indexu:"
 
 #: ../visualtour12.php:148
 msgid ""
@@ -2297,7 +2262,7 @@ msgstr ""
 "přispívají novými vlastnostmi a opravami chyb a pomáhají zdokonalovat "
 "pgAdmin tak, aby přinášel užitek všem jeho uživatelům. Tím, že se projekt "
 "stával populárnějším, přitahoval mimo uživatelů i pozornost společností "
-"PostgreSQL. Některé z těchto společností do rozvoje pgAdmin investovaly - "
+"PostgreSQL. Některé z těchto společností do rozvoje pgAdmin investovaly – "
 "např. japonská společnost <a href=\"http://www.skcapi.co.jp/\">SKC</a> "
 "sponzorovala vývoj správy Slony-I, mezitím co <a href=\"http://www."
 "enterprisedb.com\">EnterpriseDB</a> poskytla Apple Powerbook, aby se mohl "
@@ -2317,21 +2282,21 @@ msgid "Query tool"
 msgstr "Dotazovací nástroj"
 
 #: ../development/roadmap.php:32
-#, fuzzy
 msgid ""
 "Redesign Table dialogue to remove sub-dialogues where possible and replace "
 "with grid style UI [GL]"
 msgstr ""
-"Předělat dialog tabulek tak, aby se odstranily subdialogy, kde je to možné, "
-"a nahradily rozhraním ve stylu mřížek. [DP]"
+"Předělat dialogové okno tabulek tak, aby se odstranila podřízená dialogová "
+"okna všude, kde je to možné, a nahradila se uživatelským rozhraním ve stylu "
+"mřížek. [GL]"
 
 #: ../visualtour16.php:101
 msgid "Redesigned Options window"
-msgstr ""
+msgstr "Předělané okno s volbami"
 
 #: ../visualtour16.php:87
 msgid "Refresh objects automatically when clicked"
-msgstr ""
+msgstr "Objekty se aktualizují automaticky, když se na ně klikne"
 
 #: ../docs/menu.php:8 ../docs/menu.php:9 ../docs/menu.php:10
 #: ../docs/menu.php:11 ../docs/menu.php:12 ../docs/menu.php:13
@@ -2342,7 +2307,7 @@ msgstr "Vydání %s"
 
 #: ../visualtour.php:334
 msgid "Remove an obsolete FORCE option on the Maintenance dialogue"
-msgstr "Odstraněná zastaralá volba FORCE v dialogu údržby"
+msgstr "Odstraněna zastaralá volba FORCE v dialogovém okně údržby"
 
 #: ../visualtour.php:361
 msgid "Remove the un-maintained Tip of the Day feature"
@@ -2374,7 +2339,6 @@ msgid "Roadmap"
 msgstr "Plán"
 
 #: ../visualtour14.php:314
-#, fuzzy
 msgid "Role"
 msgstr "Role"
 
@@ -2386,10 +2350,6 @@ msgstr "Vlastnosti role"
 msgid "Roles"
 msgstr "Role"
 
-#: ../translation/config.php:46
-msgid "Romanian"
-msgstr ""
-
 #: ../features.php:48
 msgid "Routine maintenance"
 msgstr "Běžná údržba"
@@ -2398,17 +2358,17 @@ msgstr "Běžná údržba"
 msgid "Rules"
 msgstr "Pravidla"
 
-#: ../include/page.php:117 ../translation/config.php:47
+#: ../include/page.php:117
 msgid "Russian"
-msgstr ""
+msgstr "Ruština"
 
 #: ../visualtour16.php:253
 msgid "SQL/MED objects"
-msgstr ""
+msgstr "Objekty SQL/MED"
 
 #: ../visualtour14.php:287
 msgid "SQL/Med objects"
-msgstr ""
+msgstr "Objekty SQL/Med"
 
 #: ../features.php:55
 msgid "SQL/shell/batch job scheduling agent"
@@ -2420,7 +2380,7 @@ msgstr "SQL_ASCII"
 
 #: ../include/page.php:116
 msgid "Salvatorian"
-msgstr ""
+msgstr "Španělština (El Salvador)"
 
 #: ../visualtour.php:339
 msgid ""
@@ -2444,7 +2404,7 @@ msgstr "Ukázky"
 
 #: ../visualtour16.php:59
 msgid "Search Objects"
-msgstr ""
+msgstr "Vyhledávání objektů"
 
 #: ../visualtour16.php:112
 msgid ""
@@ -2452,11 +2412,13 @@ msgid ""
 "didn't support them, but the 1.16 release will fix that. Security labels are "
 "handled via a new tab in each local object:"
 msgstr ""
+"Bezpečnostní štítky jsou v PostgreSQL k dispozici od verze 9.1. Bohužel je "
+"pgAdmin nepodporoval, ale verze 1.16 to napravila. S bezpečnostními štítky "
+"se pracuje na nové kartě u každého místního objektu:"
 
 #: ../visualtour16.php:109
-#, fuzzy
 msgid "Security labels support"
-msgstr "Podpora odvozených databází"
+msgstr "Podpora bezpečnostních štítků"
 
 #: ../translation/howto.php:23
 #, php-format
@@ -2484,26 +2446,19 @@ msgstr ""
 msgid "Sequences"
 msgstr "Sekvence"
 
-#: ../translation/config.php:50
-#, fuzzy
-msgid "Serbian"
-msgstr "Debian"
-
 #: ../visualtour14.php:111
-#, fuzzy
 msgid "Server"
-msgstr "Stav serveru"
+msgstr "Server"
 
 #: ../visualtour.php:303
 msgid "Server Status"
 msgstr "Stav serveru"
 
 #: ../visualtour14.php:366
-#, fuzzy
 msgid "Server Status tool"
-msgstr "Stav serveru"
+msgstr "Nástroj se stavem serveru"
 
-#: ../visualtour12.php:83 ../visualtour.php:137
+#: ../visualtour.php:137 ../visualtour12.php:83
 msgid "Server properties"
 msgstr "Vlastnosti serveru"
 
@@ -2513,9 +2468,8 @@ msgid "Server status"
 msgstr "Stav serveru"
 
 #: ../visualtour16.php:292
-#, fuzzy
 msgid "Server status tool"
-msgstr "Stav serveru"
+msgstr "Nástroj se stavem serveru"
 
 #: ../features.php:54
 msgid "Server status/process viewer"
@@ -2526,9 +2480,8 @@ msgid "Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)"
 msgstr "Serverové jazyky (jako pl/pgsql, pl/perl, pl/python apod.)"
 
 #: ../visualtour16.php:125
-#, fuzzy
 msgid "Servers"
-msgstr "Stav serveru"
+msgstr "Servery"
 
 #: ../include/page.php:118
 msgid "Simplified Chinese"
@@ -2541,14 +2494,6 @@ msgstr "Dokumentace Slony-I"
 #: ../features.php:88
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
-
-#: ../translation/config.php:48
-msgid "Slovak"
-msgstr ""
-
-#: ../translation/config.php:49
-msgid "Slovenian"
-msgstr ""
 
 #: ../features.php:18 ../screenshots/index.php:32
 msgid "Solaris"
@@ -2585,10 +2530,6 @@ msgstr ""
 "Archívy tar se zdrojovým kódem jsou k dispozici pro uživatele, kteří si "
 "chtějí přeložit vlastní kopii pgAdmin nebo používají platformu, pro kterou "
 "nenabízíme sestavené balíčky."
-
-#: ../translation/config.php:24
-msgid "Spanish"
-msgstr ""
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -2654,16 +2595,12 @@ msgid ""
 "Support for <b>typmod in/out functions</b> on custom types is finally\n"
 "  available."
 msgstr ""
-"Konečně je dostupná podpora pro <b>funkce typmod in/out</b> u\n"
-" uživatelsky definovaných typů."
+"Konečně je dostupná podpora pro <b>funkce typmod in/out</b> u uživatelsky "
+"definovaných typů."
 
 #: ../screenshots/menu.php:12 ../screenshots/xgl.php:8
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
-
-#: ../translation/config.php:51
-msgid "Swedish"
-msgstr ""
 
 #: ../features.php:111
 msgid "TCVN"
@@ -2674,11 +2611,10 @@ msgid "TODO list"
 msgstr "Úkoly"
 
 #: ../visualtour14.php:171
-#, fuzzy
 msgid "Table"
-msgstr "Tabulky"
+msgstr "Tabulka"
 
-#: ../visualtour12.php:129 ../visualtour.php:164
+#: ../visualtour.php:164 ../visualtour12.php:129
 msgid "Table properties"
 msgstr "Vlastnosti tabulky"
 
@@ -2700,6 +2636,9 @@ msgid ""
 "have the statistics tab first, and then the other ones. But you can also see "
 "two tabs at the same time:"
 msgstr ""
+"Trochu jinak se pracuje s kartami. Můžete si je přesunout, kam potřebujete. "
+"Nyní můžete mít kartu se statistikami jako první a další karty následují za "
+"ní. A nebo můžete mít zobrazené dvě karty naráz:"
 
 #: ../development/menu.php:11
 msgid "Team"
@@ -2707,11 +2646,7 @@ msgstr "Tým"
 
 #: ../visualtour14.php:37
 msgid "Tearable tabsets"
-msgstr ""
-
-#: ../translation/config.php:52
-msgid "Telugu"
-msgstr ""
+msgstr "Odpojitelné karty"
 
 #: ../visualtour16.php:214
 msgid ""
@@ -2719,22 +2654,25 @@ msgid ""
 "another set of tabs so that it allows to add three previously missing "
 "functions comboboxes (ANALYZE, CATEGORY, and PREFERED functions):"
 msgstr ""
+"Karta „Definice“ byla změněna pro externí typy. Nyní obsahuje jinou sadu "
+"karet, takže bylo možno přidat rozbalovací seznam se třemi dříve chybějícími "
+"funkcemi (ANALYZE, CATEGORY a PREFERED):"
 
 #: ../visualtour16.php:307
 msgid "The \"Maintenance\"  tool has a new action: cluster."
-msgstr ""
+msgstr "Nástroj „Údržba“ má novou činnost: CLUSTER."
 
 #: ../visualtour16.php:219
 msgid "The \"Optional 1\" tab:"
-msgstr ""
+msgstr "Karta „Volitelné 1“:"
 
 #: ../visualtour16.php:220
 msgid "The \"Optional 2\" tab:"
-msgstr ""
+msgstr "Karta „Volitelné 2“:"
 
 #: ../visualtour16.php:218
 msgid "The \"Required\" tab:"
-msgstr ""
+msgstr "Karta „Vyžadováno“:"
 
 #: ../visualtour16.php:295
 msgid ""
@@ -2742,6 +2680,9 @@ msgid ""
 "columns. pgAdmin 1.16 displays them in the Activity report of the server "
 "status tool if the user is connected on a PostgreSQL 9.2 server:"
 msgstr ""
+"Zobrazení údajů „pg_stat_activity“ má dva nové sloupce: state a "
+"state_change. V případě, že je uživatel připojen k serveru PostgreSQL 9.2, "
+"pgAdmin 1.16 je zobrazuje ve výpise Činnosti v nástroji Stav serveru."
 
 #: ../visualtour12.php:368
 msgid ""
@@ -2776,9 +2717,9 @@ msgstr ""
 "překládat. Mnozí překladatelé na to poukazují jako na problém, který ale "
 "nelze jednoduše vyřešit. Důvod je následující: Soubor se šablonou pgadmin3."
 "pot se generuje pomocí <a href=\"%s\">skriptu stringextract</a>, který "
-"extrahuje texty z dialogů XRC použitím pomůcky „wxrc“ z wxWidgets. A wxrc "
-"extrahuje z dialogu všechny textové položky, i ty s SQL, které by neměly být "
-"překládány."
+"extrahuje texty z definic dialogových oken XRC s použitím pomůcky „wxrc“ z "
+"wxWidgets. A wxrc extrahuje z dialogového okna všechny textové položky, i ty "
+"s SQL, které by neměly být překládány."
 
 #: ../visualtour.php:30
 msgid ""
@@ -2788,17 +2729,18 @@ msgid ""
 "  graphical pane, adding links between them, clicking on checkboxes to add\n"
 "  columns, adding criteria and setting the order of the results."
 msgstr ""
-"<b>Grafický tvůrce dotazů</b> (GQB - Graphical Query Builder) vám umožní\n"
-" sestavit dotaz hlavně pomocí myši: přesouváním tabulek a pohledů z "
-"navigátoru\n"
-" na grafický panel, přidáváním vazeb mezi nimi, přidáváním sloupců pouhým\n"
-" kliknutím, přidáváním kritérií a nastavením řazení výsledků."
+"<b>Grafický tvůrce dotazů</b> (GQB – Graphical Query Builder) vám umožní "
+"sestavit dotaz hlavně pomocí myši: přesouváním tabulek a pohledů z "
+"navigátoru na grafický panel, přidáváním vazeb mezi nimi, přidáváním sloupců "
+"pouhým kliknutím, přidáváním kritérií a nastavením řazení výsledků."
 
 #: ../visualtour14.php:347
 msgid ""
 "The Backup tool supports the new directory format. We also changed the OK "
 "button with a Backup one:"
 msgstr ""
+"Nástroj pro zálohování podporuje nový formát „složka“. Také jsme změnili "
+"tlačítko OK/Budiž za „Zálohovat“:"
 
 #: ../visualtour12.php:272
 msgid "The Backup window and the Restore window are now resizable."
@@ -2833,6 +2775,8 @@ msgid ""
 "The OK button of the restore tool has also been changed with a Restore "
 "button."
 msgstr ""
+"Tlačítko OK/Budiž nástroje pro obnovu bylo také změněna na tlačítko "
+"„Obnovit“."
 
 #: ../visualtour16.php:104
 msgid ""
@@ -2841,6 +2785,9 @@ msgid ""
 "window. This treeview lets the user choose what kind of options he wants to "
 "set:"
 msgstr ""
+"Okno s volbami bylo kompletně přepracováno, aby se do něj vlezlo více voleb. "
+"V levé části se nyní nachází stromové zobrazení. V něm si uživatel může "
+"vybrat, který druh voleb hodlá nastavovat:"
 
 #: ../support/list.php:18
 msgid ""
@@ -2887,6 +2834,11 @@ msgid ""
 "are disabled in the server properties' dialog, so you won't be able to "
 "change a property."
 msgstr ""
+"Bylo také změněno chování tohoto dialogového okna. Změny se teď ukládají "
+"ihned, namísto ukládání při ukončení programu. To pomůže uživatelům předejít "
+"ztrátě jejich změn v nastavení při připadném zhroucení aplikace. Pokud jste "
+"již připojeni k serveru a díváte se na jeho vlastnosti, všechny ovládací "
+"prvky jsou v dialogovém okně zakázané, abyste vlastnosti nemohli měnit."
 
 #: ../visualtour12.php:54
 msgid ""
@@ -2906,6 +2858,9 @@ msgid ""
 "pg_stat_activity view. If you're connected to a PostgreSQL 9.1 server, it "
 "also displays the new pg_stat_replication view:"
 msgstr ""
+"Karta „Statistiky“ již zobrazuje část s obsahem pohledu pg_stat_activity. "
+"Když jste připojeni k serveru PostgreSQL 9.1, můžete navíc vidět nový pohled "
+"pg_stat_replication:"
 
 #: ../development/changelog.php:10
 #, php-format
@@ -2927,18 +2882,26 @@ msgid ""
 "its hexadecimal code. It should help people to really see how they "
 "configured the server's color."
 msgstr ""
+"Pole pro výběr barvy zobrazuje přímo vybranou barvu a ne její šestnáctkový "
+"kód. Díky tomu uživatel uvidí ve skutečné podobě, jakou má u serveru "
+"nastavenou barvu."
 
 #: ../visualtour14.php:206
 msgid ""
 "The column properties dialog also shows all available collations and allows "
 "you to set a collation for char, varchar and text columns:"
 msgstr ""
+"Také dialogové okno s vlastnostmi sloupce zobrazuje všechna dostupná "
+"porovnávání a umožňuje nastavit porovnávání pro sloupce typu char, varchar a "
+"text:"
 
 #: ../visualtour14.php:375
 msgid ""
 "The configuration is retained when you launch pgAdmin next time. This is "
 "also true for the column width."
 msgstr ""
+"Nastavení je ponecháno do příštího spuštění aplikace pgAdmin. To stejné "
+"platí pro šířku sloupce."
 
 #: ../support/list.php:15
 msgid "The configure options used (if compiled from source)"
@@ -2969,7 +2932,7 @@ msgstr "Datová mřížka"
 
 #: ../screenshots/ui.php:14
 msgid "The database connection dialogue"
-msgstr "Dialog databázového připojení"
+msgstr "Dialogové okno databázového připojení"
 
 #: ../visualtour14.php:391
 msgid ""
@@ -2977,6 +2940,9 @@ msgid ""
 "when you try to debug a function with default values for parameters, these "
 "defaults are displayed in the message box asking to enter them."
 msgstr ""
+"Ladicí nástroj má odpojitelné karty, takže se lépe používá. Navíc, když "
+"zkoušíte ladit funkci s výchozími hodnotami parametrů, zobrazí se tyto "
+"výchozí hodnoty v okně se zprávou, která se táže na jejic vložení."
 
 #: ../include/doc.php:91
 msgid "The document requested cannot be read!"
@@ -3017,7 +2983,7 @@ msgstr "První karta se příliš nezměnila."
 
 #: ../screenshots/ui.php:24
 msgid "The function properties dialogue"
-msgstr "Dialog vlastností funkce"
+msgstr "Dialogové okno s vlastnostmi funkce"
 
 #: ../screenshots/data.php:20
 msgid "The graphical EXPLAIN tool"
@@ -3028,6 +2994,8 @@ msgid ""
 "The index properties dialog shows all available collations and allows you to "
 "set a collation for char, varchar and text columns:"
 msgstr ""
+"Dialogové okno s vlastnostmi indexu zobrazuje všechna dostupná porovnávání a "
+"umožňuje vám nastavit porovnávání pro sloupce typu char, varchar a text:"
 
 #: ../visualtour14.php:369
 msgid ""
@@ -3036,6 +3004,10 @@ msgid ""
 "right clicking on the columns' header, and by unchecking the columns you "
 "don't want to see (or checking columns to see them)."
 msgstr ""
+"Minulé vydání přišlo se schopností řadit hodnoty ve sloupcích, toto vydání "
+"přínáší schopnost zobrazovat a skrývat sloupce. Dělá se to tak, že se klikne "
+"pravým tlačítkem na záhlaví sloupce a zruší se zaškrtnutí sloupců, které "
+"nechcete vidět (nebo se naopak zaškrtnou ty, které vidět chcete)."
 
 #: ../visualtour14.php:130
 msgid ""
@@ -3043,6 +3015,9 @@ msgid ""
 "host address, which may be useful for Kerberos users when used in "
 "conjunction with the hostname:"
 msgstr ""
+"Poslední karta má nový parametr připojení, který uživateli umožňuje nastavit "
+"adresu počítače, což se může hodit uživatelům, kteří používají Kerberos ve "
+"spojení z názvem hostitele:"
 
 #: ../visualtour12.php:180
 msgid "The latter has a complete tab to set all columns."
@@ -3089,42 +3064,39 @@ msgid ""
 "  will highlight some of the new features which have been added since\n"
 "  the last stable release on this page."
 msgstr ""
-"Dlouho očekávaná verze 1.10 pgAdmin je konečně dostupná.\n"
-" Zkusíme vám nastínit některé z nových vlastností, které byly přidány od\n"
-" posledního stabilního vydání."
+"Dlouho očekávaná verze 1.10 pgAdmin je konečně dostupná. Zkusíme vám "
+"nastínit některé z nových vlastností, které byly přidány od posledního "
+"stabilního vydání."
 
 #: ../visualtour12.php:10
-#, fuzzy
 msgid ""
 "The long awaited 1.12 version of pgAdmin III is finally available. We will "
 "try to highlight some of the new features which have been added since the "
 "last stable release."
 msgstr ""
-"Dlouho očekávaná verze 1.12 pgAdmin III je konečně dostupná v betaverzi.\n"
-" Zkusíme vám nastínit některé z nových vlastností, které byly přidány od\n"
-" posledního stabilního vydání."
+"Dlouho očekávaná verze 1.12 pgAdmin III je konečně dostupná. Zkusíme vám "
+"nastínit některé z nových vlastností, které byly přidány od posledního "
+"stabilního vydání."
 
 #: ../visualtour14.php:10
-#, fuzzy
 msgid ""
 "The long awaited 1.14 version of pgAdmin III is finally available. We will "
 "try to highlight some of the new features which have been added since the "
 "last stable release."
 msgstr ""
-"Dlouho očekávaná verze 1.12 pgAdmin III je konečně dostupná v betaverzi.\n"
-" Zkusíme vám nastínit některé z nových vlastností, které byly přidány od\n"
-" posledního stabilního vydání."
+"Dlouho očekávaná verze 1.14 pgAdmin III je konečně dostupná. Zkusíme vám "
+"nastínit některé z nových vlastností, které byly přidány od posledního "
+"stabilního vydání."
 
 #: ../visualtour16.php:10
-#, fuzzy
 msgid ""
 "The long awaited 1.16 version of pgAdmin III is finally available. We will "
 "try to highlight some of the new features which have been added since the "
 "last stable release."
 msgstr ""
-"Dlouho očekávaná verze 1.12 pgAdmin III je konečně dostupná v betaverzi.\n"
-" Zkusíme vám nastínit některé z nových vlastností, které byly přidány od\n"
-" posledního stabilního vydání."
+"Dlouho očekávaná verze 1.16 pgAdmin III je konečně dostupná. Zkusíme vám "
+"nastínit některé z nových vlastností, které byly přidány od posledního "
+"stabilního vydání."
 
 #: ../visualtour12.php:220
 msgid ""
@@ -3138,18 +3110,22 @@ msgstr ""
 msgid ""
 "The new \"TIMING\" option of \"EXPLAIN\" is available in the query tool."
 msgstr ""
+"V dotazovacím nástroji je nově k dispozici volba „TIMING“ u příkazu "
+"„EXPLAIN“."
 
 #: ../visualtour16.php:206
 msgid ""
 "The new \"leakproof\" option on functions is available in the \"Options\" "
 "tab:"
-msgstr ""
+msgstr "Nová volba „Bez úniků“ u funkcí je k dispozici na kartě „Volby“:"
 
 #: ../visualtour16.php:198
 msgid ""
 "The new \"security_barrier\" option on views is available in the \"Definition"
 "\" tab:"
 msgstr ""
+"Nová volba „Bezpečnostní bariéra“ u pohledů je k dispozici na kartě "
+"„Definice“:"
 
 #: ../visualtour12.php:320
 msgid ""
@@ -3157,7 +3133,7 @@ msgid ""
 "connected to PostgreSQL 9.0."
 msgstr ""
 "Když jste připojení k PostgreSQL 9.0, jsou pro výklad (EXPLAIN) dostupné dvě "
-"nové volby - ceny (COSTS) a vyrovnávací paměti (BUFFERS)."
+"nové volby – ceny (COSTS) a vyrovnávací paměti (BUFFERS)."
 
 #: ../visualtour.php:175
 msgid ""
@@ -3166,8 +3142,7 @@ msgid ""
 "  tables are handled too."
 msgstr ""
 "Ve verzi 8.4 je také podporovaný nový způsob, jak řídit <b>nastavení "
-"automatického\n"
-" úklidu</b>. Můžete to řídit i u tabulek TOAST."
+"automatického úklidu</b>. Můžete to řídit i u tabulek TOAST."
 
 #: ../visualtour12.php:310
 msgid "The number of saved queries is customizable in the options dialog."
@@ -3180,15 +3155,14 @@ msgid ""
 "  could conceivably be added by the user:"
 msgstr ""
 "Jediný zásuvný modul, který je dostupný po instalaci je konzola psql, ale "
-"uživatel\n"
-" si může přidat libovolnou myslitelnou aplikaci:"
+"uživatel si může přidat libovolnou myslitelnou aplikaci:"
 
 #: ../support/list.php:16
 msgid ""
 "The operating system and version details - e.g. Windows XP Pro, SP2, or "
 "Slackware Linux 10, kernel 2.4.21"
 msgstr ""
-"Operační systém a detaily o verzi - např. Windows XP Pro, SP2 nebo Slackware "
+"Operační systém a detaily o verzi – např. Windows XP Pro, SP2 nebo Slackware "
 "Linux 10, kernel 2.4.21"
 
 #: ../visualtour12.php:358
@@ -3206,8 +3180,8 @@ msgid ""
 "The other new feature is the <b>pgScript scripting framework</b>. This\n"
 "  allows one to write scripts to execute queries. Here is an example:"
 msgstr ""
-"Další novinkou je <b>skriptovací systém pgScript</b>. To vám\n"
-" umožňuje psát skripty, které spouštějí dotazy. Zde je příklad:"
+"Další novinkou je <b>skriptovací systém pgScript</b>. To vám umožňuje psát "
+"skripty, které spouštějí dotazy. Zde je příklad:"
 
 #: ../download/index.php:12
 msgid ""
@@ -3243,8 +3217,8 @@ msgid ""
 "the documentation version you would like to view from the section menu."
 msgstr ""
 "Dokumentace pgAdmin pro aktuálně vyvíjený kód a několik posledních hlavních "
-"vydání aplikace je dostupná pro on-line procházení. Zvolte si prosím v menu "
-"verzi dokumentace, kterou si chcete prohlížet."
+"vydání aplikace je dostupná pro on-line procházení. Zvolte si prosím v "
+"nabídce verzi dokumentace, kterou si chcete prohlížet."
 
 #: ../screenshots/documentation.php:12
 msgid "The pgAdmin help system"
@@ -3316,6 +3290,9 @@ msgid ""
 "name, and select \"Properties\" menu item). There is a new shortcut to get "
 "the same result: Ctrl-Alt-Enter."
 msgstr ""
+"Dialogové okno s vlastnostmi je dostupné jako obvykle (kliknout pravým "
+"tlačítkem na název objektu a vybrat položku nabídky „Vlastnosti“), navíc je "
+"zde ale nová klávesová zkratka vedoucí ke stejnému cíli: Ctrl+Alt+Enter."
 
 #: ../screenshots/ui.php:20
 msgid "The properties of the selected object."
@@ -3331,7 +3308,7 @@ msgstr "Dotazovací nástroj"
 
 #: ../visualtour16.php:42
 msgid "The remaining tabs allow a deeper customization of the import."
-msgstr ""
+msgstr "Zbývající karta nabízí detailnější přizpůsobení importu."
 
 #: ../visualtour12.php:250
 msgid "The restore dialog has been completely redesigned."
@@ -3348,12 +3325,16 @@ msgid ""
 "The second tab contains the list of the columns for this table. The user can "
 "choose the columns available in the file."
 msgstr ""
+"Druhá karta obsahuje seznam sloupců tabulky. Uživatel může vybrat, které "
+"sloupce jsou v souboru k dispozici."
 
 #: ../visualtour14.php:124
 msgid ""
 "The second tab is a new one. It's dedicated to the SSL connection "
 "parameters. New to the family are the certificate file parameters:"
 msgstr ""
+"Druhá karta je zcela nová. Je věnována parametrům připojení SSL. Nově k SSL "
+"přibyly parametry uvádějící soubory s s certifikáty:"
 
 #: ../visualtour12.php:294
 msgid ""
@@ -3363,13 +3344,15 @@ msgstr ""
 
 #: ../screenshots/serverstatus.php:12
 msgid "The server status dialogue"
-msgstr "Dialog stavu serveru"
+msgstr "Dialogové okno se stavem serveru"
 
 #: ../visualtour14.php:184
 msgid ""
 "The statistics tab of the browser shows new information for tables, vacuum "
 "and analyze counters:"
 msgstr ""
+"Na kartě se statistikami jsou pro tabulky zobrazeny nové údaje, počitadla "
+"úklidů a analýz:"
 
 #: ../screenshots/serverstatus.php:10
 msgid ""
@@ -3385,13 +3368,13 @@ msgid ""
 "disable\n"
 "  rules</b> on the selected table or to <b>truncate</b> (cascade if needed)."
 msgstr ""
-"Kontextové menu tabulky má navíc několik položek, pomocí kterých můžete\n"
-" <b>povolit/zakázat pravidla</b> pro vybranou tabulku nebo tabulku\n"
-" <b>vyprázdnit</b> (pokud je potřeba, tak kaskádovitě)."
+"Kontextové nabídce tabulky má navíc několik položek, pomocí kterých můžete "
+"<b>povolit/zakázat pravidla</b> pro vybranou tabulku nebo tabulku "
+"<b>vyprázdnit</b> (pokud je potřeba, tak kaskádovitě)."
 
 #: ../screenshots/ui.php:28
 msgid "The table properties dialogue"
-msgstr "Dialog vlastností tabulky"
+msgstr "Dialogové okno vlastnostmi tabulky"
 
 #: ../translation/status.php:45
 msgid ""
@@ -3408,9 +3391,10 @@ msgstr ""
 "zahrnout do vydání. Okolo 750 řetězců představuje podporu pro v1.0, 1000 "
 "řetězců pro v1.2, 1500 řetězců pro v1.4 a 1850 pro v1.6. Pokud použijete "
 "nekompletní překlad v novější verzi pgAdmin, tak dostanete směs přeložených "
-"a nepřeložených dialogů (obvykle u méně používaných), ale všeobecně bude "
-"program použitelný. Pokud chcete v započaté práci pokračovat, tak neváhejte "
-"kontaktovat stávajícího správce (a v kopii pgsql-hackers@postgresql.org)!"
+"a nepřeložených dialogových oken (obvykle u méně používaných), ale všeobecně "
+"bude program použitelný. Pokud chcete v započaté práci pokračovat, tak "
+"neváhejte kontaktovat stávajícího správce (a v kopii pgsql-"
+"hackers@postgresql.org)!"
 
 #: ../visualtour12.php:260
 msgid "The two next tabs offer all pg_restore options in a GUI way."
@@ -3423,12 +3407,18 @@ msgid ""
 "composite type and an existing enumeration type. It also supports the new "
 "collation feature. See the screenshots to find the new information:"
 msgstr ""
+"Dialogové okno s vlastnostmi typu podporuje novou syntax ohledně změny "
+"stavajícího složeného typu a stávajícího výčtového typu. Rovněž podporuje "
+"novou funkci porovnávání. Nové informace najdete na následujících snímcích "
+"obrazovky:"
 
 #: ../visualtour16.php:178
 msgid ""
 "The user can validate the constraint, either with the properties dialog, or "
 "with a contextual menu item called \"Validate check constraint\"."
 msgstr ""
+"Uživatel může ověřit platnost omezení buď pomocí dialogového okna s "
+"vlastnostmi nebo pomocí položky kontextové nabídky „Ověřit omezení kontrolou“"
 
 #: ../support/list.php:14
 msgid ""
@@ -3445,6 +3435,8 @@ msgid ""
 "The work done on this tool was mostly to make it more usable. We added a new "
 "panel for selection information:"
 msgstr ""
+"Práce odvedené na tomto nástroji se týkaly hlavně jeho použitelnosti. "
+"Přidali jsme nový panel s informacemi o výběru:"
 
 #: ../support/list.php:17
 msgid ""
@@ -3458,8 +3450,7 @@ msgid ""
 "Then, click on the \"Read-only\" checkbox to allow editing\n"
 "  mode and update the query to execute."
 msgstr ""
-"Potom vypněte „Pouze ke čtení“ a můžete dotaz, který se\n"
-" má provést, upravit."
+"Potom vypněte „Pouze ke čtení“ a můžete dotaz, který se má provést, upravit."
 
 #: ../advocacy/strategy.php:15
 #, php-format
@@ -3506,8 +3497,8 @@ msgid ""
 "There are two major new features in the <b>Query Tool</b>. They both\n"
 "  came out of GSoC projects."
 msgstr ""
-"Jsou zde dvě nové hlavní vlastnosti v <b>dotazovacím nástroji</b>. Obě\n"
-" dvě pochází z projektů GSoC."
+"Jsou zde dvě nové hlavní vlastnosti v <b>dotazovacím nástroji</b>. Obě dvě "
+"pochází z projektů GSoC."
 
 #: ../visualtour.php:53
 msgid ""
@@ -3518,16 +3509,14 @@ msgid ""
 "links to \n"
 "  Greenplum help and Greenplum utility support."
 msgstr ""
-"Je tu <b>rozšířená podpora pro Greenplum databázi</b>: jsou podporované\n"
-" fronty zdrojů, externí tabulky a tabulky v oddílech a nástroje pro grafický "
-"výklad\n"
-" toho znají víc o typech uzlů dotazů Greenplum. Navíc tu je odkaz na "
-"nápovědu\n"
-" ke Greenplum a podpora pomůcek Greenplum."
+"Je tu <b>rozšířená podpora pro Greenplum databázi</b>: jsou podporované "
+"fronty zdrojů, externí tabulky a tabulky v oddílech a nástroje pro grafický "
+"výklad toho znají víc o typech uzlů dotazů Greenplum. Navíc tu je odkaz na "
+"nápovědu ke Greenplum a podpora pomůcek Greenplum."
 
 #: ../visualtour14.php:236
 msgid "There is a new action to reset the statistics of the selected function:"
-msgstr ""
+msgstr "Je zde nová činnost pro vynulování statistik vybrané funkce:"
 
 #: ../visualtour12.php:32
 msgid ""
@@ -3547,6 +3536,8 @@ msgid ""
 "There is one unique aspect to these objects. You don't type their names, you "
 "select them from a list of preinstalled extensions."
 msgstr ""
+"U těchto objektů je jedna neobvyklá věc. Jejich název nepíšete, ale vybíráte "
+"si jej ze seznamu předinstalovaných rozšíření."
 
 #: ../visualtour.php:306
 msgid "There was a <b>complete UI rework</b> of the \"Server Status\" window."
@@ -3562,7 +3553,7 @@ msgid ""
 msgstr ""
 "V předchozích vydání pgAdmin nebyla žádná možnost změnit informace o "
 "uchování sloupce. Od verze 1.12 můžete měnit tyto informace v dialogovém "
-"okně vlastností."
+"okně s vlastnostmi."
 
 #: ../visualtour12.php:140
 msgid ""
@@ -3581,8 +3572,8 @@ msgid ""
 "There's now an option to <b>ignore server version mismatches</b> with\n"
 "  pg_dump/pg_dumpall/pg_restore."
 msgstr ""
-"Nyní je tu volba <b>Ignorovat rozdíl ve verzích serveru a pomůcek</b>\n"
-" pg_dump/pg_dumpall/pg_restore."
+"Nyní je tu volba <b>Ignorovat rozdíl ve verzích serveru a pomůcek</b> "
+"pg_dump/pg_dumpall/pg_restore."
 
 #: ../translation/howto.php:72
 msgid ""
@@ -3618,10 +3609,13 @@ msgid ""
 "\"Of type\", allows you to specify a user composite type, instead of the "
 "columns. The last one, \"Unlogged\", allows you to create an unlogged table."
 msgstr ""
+"Obě jsou dostupné jen při vytváření tabulky. První z nich „Typu“ umožňuje "
+"určit uživatelský složený typ namísto sloupce. Druhá „Nejištěná“ umožňuje "
+"vytvořit nejištěnou tabulku (UNLOGGED)."
 
 #: ../visualtour14.php:166
 msgid "They both are 9.1 only:"
-msgstr ""
+msgstr "Obojí je jen pro verzi 9.1:"
 
 #: ../visualtour.php:148
 msgid "This color is the <b>background color for each server</b>:"
@@ -3654,7 +3648,7 @@ msgstr ""
 
 #: ../visualtour16.php:98
 msgid "This should resolve this long-lasting issue."
-msgstr ""
+msgstr "Tím se tento dlouhodobý probém vyřešil."
 
 #: ../privacypolicy.php:24
 msgid ""
@@ -3697,6 +3691,8 @@ msgid ""
 "This will help the user to quickly understand which objects are valid or "
 "enabled and which aren't."
 msgstr ""
+"Uživateli to pomůže rychle rozlišit, který objekt je platný a povolený a "
+"který ne."
 
 #: ../download/languages.php:14
 #, php-format
@@ -3759,7 +3755,7 @@ msgstr ""
 "zaktualizujete svoji lokální kopii. Normálně bývá uložená ve složce <i>/usr/"
 "share/pgadmin3/i18n/lc_CC</i> pod Linuxem a dalšími Unixy nebo v <i>C:"
 "\\Program Files\\pgAdmin III\\X.Y\\i18n\\lc_CC</i> pod Windows, kde "
-"<i>lc_CC</i> je kód vašeho jazyka a země - např. <i>cs_CZ</i> pro češtinu v "
+"<i>lc_CC</i> je kód vašeho jazyka a země – např. <i>cs_CZ</i> pro češtinu v "
 "České republice."
 
 #: ../screenshots/index.php:12
@@ -3782,14 +3778,12 @@ msgid "Tour (1.12)"
 msgstr "Prohlídka (1.12)"
 
 #: ../menu.php:9
-#, fuzzy
 msgid "Tour (1.14)"
-msgstr "Prohlídka (1.10)"
+msgstr "Prohlídka (1.14)"
 
 #: ../menu.php:8
-#, fuzzy
 msgid "Tour (1.16)"
-msgstr "Prohlídka (1.10)"
+msgstr "Prohlídka (1.16)"
 
 #: ../include/po_status.php:257
 msgid "Translated"
@@ -3801,7 +3795,7 @@ msgstr "Překlad"
 
 #: ../visualtour14.php:225
 msgid "Trigger"
-msgstr ""
+msgstr "Trigger"
 
 #: ../features.php:91
 msgid "Trigger functions"
@@ -3822,27 +3816,26 @@ msgstr ""
 "správnost a jednotnost informací. Některé příklady jsou uvedené na stránce "
 "<a href=\"%s\">informace</a>."
 
-#: ../translation/config.php:54
-msgid "Turkish"
-msgstr ""
-
 #: ../visualtour14.php:140
 msgid ""
 "Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
 "browser's properties tab: timestamp of last xact replay, and replication "
 "status."
 msgstr ""
+"Při procházení karty „Vlastnosti“ narazíte na dva nové údaje (specifické pro "
+"PostgreSQL 9.2): časové razítko poslední odpovědi XACT a stav replikace."
 
 #: ../visualtour14.php:174
 msgid ""
 "Two new properties are available on the second tab of the table properties "
 "dialog:"
 msgstr ""
+"V dialogovém okně s vlastnostmi tabulky jsou na druhé kartě k dispozici dvě "
+"nové vlastnosti:"
 
 #: ../visualtour14.php:241
-#, fuzzy
 msgid "Type"
-msgstr "Typy"
+msgstr "Typ"
 
 #: ../visualtour.php:213
 msgid "Type properties"
@@ -3855,10 +3848,6 @@ msgstr "Typy"
 #: ../features.php:105
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
-
-#: ../translation/config.php:55
-msgid "Ukranian"
-msgstr ""
 
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
@@ -3885,13 +3874,8 @@ msgid ""
 "Unfortunately, pgAdmin 1.8 doesn't have support for FTS Objects</b>.\n"
 "  One of the things we had to do for 1.10 is to support these."
 msgstr ""
-"pgAdmin 1.8 bohužel nemá podporu pro objekty FTS (plně textové "
-"vyhledávání).\n"
-" Jedna z věcí, která byla do 1.10 přidaná je právě tato podpora."
-
-#: ../translation/config.php:56
-msgid "Urdu"
-msgstr ""
+"pgAdmin 1.8 bohužel nemá podporu pro objekty FTS (plně textové vyhledávání). "
+"Jedna z věcí, která byla do 1.10 přidaná je právě tato podpora."
 
 #: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
@@ -3906,8 +3890,8 @@ msgid ""
 "Using the table properties dialog should be quicker now because the list of "
 "types is now cached."
 msgstr ""
-"Používání dialogového okna vlastností tabulky by mělo být nyní rychlejší, "
-"protože seznam typu je ukládán do mezipaměti."
+"Používání dialogového okna s vlastnostmi tabulky by mělo být nyní rychlejší, "
+"protože seznam typů je ukládán do mezipaměti."
 
 #: ../translation/howto.php:17
 msgid ""
@@ -3921,10 +3905,6 @@ msgstr ""
 #: ../features.php:45
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Velmi rychlá datová mřížka na zobrazování/zadávání dat"
-
-#: ../translation/config.php:57
-msgid "Vietnamese"
-msgstr ""
 
 #: ../features.php:94 ../visualtour16.php:195
 msgid "Views"
@@ -3947,20 +3927,24 @@ msgid ""
 "Warn the user if connecting to a newer version of the server than is\n"
 "    supported"
 msgstr ""
-"Varuje uživatele, pokud se připojuje k novější verzi serveru, než je\n"
-" podporovaná"
+"Varuje uživatele, pokud se připojuje k novější verzi serveru, než je "
+"podporovaná"
 
 #: ../visualtour14.php:361
 msgid ""
 "We also added support for the new --quote-all-identifiers command-line "
 "option of pg_dump:"
 msgstr ""
+"Rovněž jsme přidali podporu pro nový přepínač příkazového řádku --quote-all-"
+"identifiers u programu pg_dump:"
 
 #: ../visualtour14.php:341
 msgid ""
 "We also enhanced the connect dialog so that it tries to keep the old values "
 "when connecting to another server."
 msgstr ""
+"Také jsme zdokonalili dialogové okno připojení, takže zkouší zachovat staré "
+"hodnoty při připojování k jinému serveru."
 
 #: ../visualtour.php:121
 msgid ""
@@ -3974,19 +3958,18 @@ msgid ""
 "  can use the UI to do this. You'll get this query:"
 msgstr ""
 "Máte teď možnost provádět úpravy na záložce SQL. Například když přidáváte "
-"nový\n"
-" sloupec s výchozí hodnotou a omezením NOT NULL nemusíte chtít, aby to "
-"udělal\n"
-" pgAdmin v jednom kroku, protože potřebujete nejdříve přidat sloupec, "
-"změnit\n"
-" hodnotu každého existujícího řádku a teprve potom přidat omezení NOT NULL.\n"
-" Nyní k tomu můžete použít grafické rozhraní. Dostanete tento dotaz:"
+"nový sloupec s výchozí hodnotou a omezením NOT NULL nemusíte chtít, aby to "
+"udělal pgAdmin v jednom kroku, protože potřebujete nejdříve přidat sloupec, "
+"změnit hodnotu každého existujícího řádku a teprve potom přidat omezení NOT "
+"NULL. Nyní k tomu můžete použít grafické rozhraní. Dostanete tento dotaz:"
 
 #: ../visualtour14.php:385
 msgid ""
 "We also list the log files in the reverse order, so that the last one is "
 "displayed first."
 msgstr ""
+"Navíc vypisujeme obsah evidence v opačném pořadí, takže poslední údaje jsou "
+"zobrazeny jako první."
 
 #: ../visualtour14.php:331
 msgid ""
@@ -3996,16 +3979,22 @@ msgid ""
 "tearable tabsets. We added block folding in all SQL text boxes, query tool "
 "included."
 msgstr ""
+"Opravili jsem povolování a zakazování tlačítek na nástrojových lištách s "
+"ohledem na výběr textu a panel. Zajistili jsem používání kolečka myši ke "
+"zvětšování a zmenšování textu v mřížce s výsledky. Karty jsou teď "
+"odpojitelné. Přidali jsem blokování shrnování v textových polích SQL, včentě "
+"dotazovacího nástroje."
 
 #: ../visualtour14.php:158
 msgid ""
 "We have two new pieces of information in the browser's statistics tab for a "
 "database:"
-msgstr ""
+msgstr "Na karte se statistikami pro databázi máme dva nové údaje:"
 
 #: ../visualtour14.php:26
 msgid "We hope it will allow more users to use pgAdmin on netbooks."
 msgstr ""
+"Doufáme, že díky tomu bude moci více uživatelů používat pgAdmin na notebooku."
 
 #: ../privacypolicy.php:20
 msgid ""
@@ -4059,9 +4048,9 @@ msgid ""
 "  real meaning on this dialog. But we add a few things, like the color\n"
 "  selection:"
 msgstr ""
-"Nadále se již nezobrazuje karta SQL v dialogu vlastností serveru. U tohoto\n"
-" dialogu to nemělo žádný reálný význam. Přidali jsme ale několik věcí, jako\n"
-" volbu barvy:"
+"Nadále se již nezobrazuje karta SQL v dialogovém okně s vlastnostmi serveru. "
+"U tohoto dialogu to nemělo žádný reálný význam. Přidali jsme ale několik "
+"věcí, jako volbu barvy:"
 
 #: ../screenshots/index.php:14
 msgid ""
@@ -4091,18 +4080,18 @@ msgstr ""
 
 #: ../visualtour16.php:192
 msgid "We think it's easier that way."
-msgstr ""
+msgstr "Považujeme to za snadnější způsob."
 
 #: ../visualtour.php:271
 msgid ""
 "When clicked, the psql console is launched and connects\n"
 "  to the database selected in pgAdmin."
 msgstr ""
-"Po kliknutí se spustí konzola psql a připojí se do databáze,\n"
-" která je v pgAdmin právě vybraná."
+"Po kliknutí se spustí konzola psql a připojí se do databáze, která je v "
+"pgAdmin právě vybraná."
 
 #: ../translation/howto.php:53
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "When the translation is finished and reviewed, send the pgadmin3.po and "
 "pgadmin3.mo files to <a href=\"%s\">Guillaume Lelarge</a> after zipping/"
@@ -4110,9 +4099,8 @@ msgid ""
 msgstr ""
 "Když máte překlad dokončený a zkontrolovaný, archivujte soubory pgadmin3.po "
 "a pgadmin3.mo pomocí zip/tar a výsledný soubor pošlete vývojáři <a href=\"%s"
-"\">Guillaume Lelarge</a>. Budeme se snažit vaše soubory publikovat co "
-"nejdříve. Po zahrnutí do zdrojového repozitáře bude překlad publikován v <a "
-"href=\"%s\">nejbližším sestavení</a>."
+"\">Guillaume Lelarge</a>. Budeme se snažit vaše soubory zveřejnit co "
+"nejdříve."
 
 #: ../translation/howto.php:25
 #, php-format
@@ -4156,8 +4144,8 @@ msgid ""
 "You are free to publish any technical information about pgAdmin. Here are "
 "some guidelines, primarily about links and localization."
 msgstr ""
-"Máte volnost v publikování jakýchkoliv technických informací o pgAdmin. Tady "
-"máte nějaká vodítka, především k odkazům a lokalizaci."
+"Máte volnost v publikování jakýchkoliv technických informací o projektu "
+"pgAdmin. Tady máte nějaká vodítka, především k odkazům a lokalizaci."
 
 #: ../advocacy/strategy.php:17
 msgid ""
@@ -4176,10 +4164,10 @@ msgid ""
 "this will be the case automatically."
 msgstr ""
 "Můžete také použít režim pro ladění překladů v pgAdmin (volba příkazového "
-"řádku -t), ve kterém můžete kontrolovat překlad jednotlivých dialogů. V "
-"tomto režimu nemusíte být připojení k databázi, ale ve složce <i>ui</i> musí "
-"být nakopírované všechny potřebné zdrojové soubory dialogů (*.xrc). Pokud "
-"jste program přeložili v ladicím režimu, provede se to automaticky."
+"řádku -t), ve kterém můžete kontrolovat překlad jednotlivých dialogových "
+"oken. V tomto režimu nemusíte být připojení k databázi, ale ve složce <i>ui</"
+"i> musí být nakopírované všechny potřebné zdrojové soubory dialogů (*.xrc). "
+"Pokud jste program přeložili v ladicím režimu, provede se to automaticky."
 
 #: ../visualtour12.php:290
 msgid ""
@@ -4209,7 +4197,7 @@ msgid ""
 "yourself."
 msgstr ""
 "Měli byste přidat příslušný soubor <i>i18n/jazyk_ZEMĚ/pgadmin3.mo</i> do "
-"vaší stávající instalace pgAdmin. Potom zvolte „Soubor“ -&gt; „Volby...“ a "
+"vaší stávající instalace pgAdmin. Potom zvolte „Soubor“ -&gt; „Volby…“ a "
 "vyberte příslušný jazyk. Kontrola je velmi důležitá, protože když překládáte "
 "v editoru, nevidíte řetězce v patřičném kontextu. Nesprávné překlady si "
 "opravte."
@@ -4220,30 +4208,30 @@ msgstr "Rovněž uvidíte, kdy uživatel naposledy načetl nastavení."
 
 #: ../visualtour14.php:161
 msgid "all fields of the new pg_stat_database_conflicts view."
-msgstr ""
+msgstr "všechna pole nového pohledu pg_stat_database_conflicts"
 
 #: ../visualtour16.php:283
 msgid "and the restore window:"
-msgstr ""
+msgstr "a okně obnovy:"
 
 #: ../visualtour14.php:278 ../visualtour14.php:301
 msgid "first tab"
-msgstr ""
+msgstr "první karta"
 
 #: ../visualtour14.php:249
 msgid "for the composite type"
-msgstr ""
+msgstr "pro složený typ"
 
 #: ../visualtour14.php:253
 msgid "for the enumeration type"
-msgstr ""
+msgstr "pro výčtový typ"
 
 #: ../visualtour14.php:257
 msgid "for the external type"
-msgstr ""
+msgstr "pro externí typ"
 
 #: ../index.php:22
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
 "months of development work. A complete list of changes can be seen in the <a "
@@ -4252,13 +4240,12 @@ msgid ""
 "<a href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
 "9.3 Installer</a> which includes pgAdmin."
 msgstr ""
-"Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
-"vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
-"visualtour12.php\">zde</a> a rovněž si můžete prohlédnou <a href=\"/"
-"development/changelog.php\">seznam změn CHANGELOG</a> (pouze anglicky). "
-"Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+"Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 16 měsíců práce "
+"vývojářů. Můžete si prohlédnou úplný <a href=\"/development/changelog.php"
+"\">seznam změn CHANGELOG</a> (pouze anglicky) a v oddíle <a href=\"download"
+"\">Stáhnout</a> získat kopii vydání, případně si stáhnout <a href=\"http://"
+"www.enterprisedb.com/products/pgdownload.do\">instalátor PostgreSQL 9.3</a>, "
+"který pgAdmin již obsahuje v sobě."
 
 #: ../include/doc.php:15 ../include/doc.php:21 ../include/doc.php:27
 #: ../include/doc.php:33 ../include/doc.php:39 ../include/doc.php:45
@@ -4276,8 +4263,8 @@ msgid ""
 "pgAdmin 1.10 adds <b>support for DESC and NULLs FIRST/LAST options</b>\n"
 "  for index columns."
 msgstr ""
-"pgAdmin 1.10 přidává podporu pro <b>volby DESC a NULL jako FIRST/LAST</b>\n"
-" u indexových sloupců."
+"pgAdmin 1.10 přidává podporu pro <b>volby DESC a NULL jako FIRST/LAST</b> u "
+"indexových sloupců."
 
 #: ../visualtour.php:257
 msgid ""
@@ -4287,11 +4274,10 @@ msgid ""
 "  selection and a variety of variables - including everything needed to\n"
 "  open a database connection - can be passed to the external utility."
 msgstr ""
-"pgAdmin 1.10 přidává schopnost registrovat externí aplikace v <b>menu\n"
-" zásuvných modulů</b>. Položky menu mohou být aktivované podle aktuálního\n"
-" výběru objektu a do externího nástroje lze předávat různé proměnné, včetně "
-"všeho\n"
-" potřebného pro databázové připojení, "
+"pgAdmin 1.10 přidává schopnost registrovat externí aplikace v <b>nabídce "
+"zásuvných modulů</b>. Položky nabídky mohou být aktivované podle aktuálního "
+"výběru objektu a do externího nástroje lze předávat různé proměnné, včetně "
+"všeho potřebného pro databázové připojení, "
 
 #: ../visualtour12.php:108
 msgid ""
@@ -4329,12 +4315,12 @@ msgid ""
 "  PostgreSQL 8.4+ and on EnterpriseDB, and <b>variadic functions</b>."
 msgstr ""
 "pgAdmin 1.10 podporuje <b>výchozí hodnoty pro parametry funkcí</b> v "
-"PostgreSQL 8.4+\n"
-" a EnterpriseDB a <b>funkce variadic</b> (s proměnným počtem parametrů)."
+"PostgreSQL 8.4+ a EnterpriseDB a <b>funkce variadic</b> (s proměnným počtem "
+"parametrů)."
 
 #: ../visualtour12.php:5 ../visualtour12.php:7
 msgid "pgAdmin 1.12 Visual Tour"
-msgstr "pgAdmin: Názorná prohlídka 1.12"
+msgstr "Názorná prohlídka pgAdmin 1.12"
 
 #: ../visualtour12.php:226
 msgid ""
@@ -4360,40 +4346,52 @@ msgid ""
 "applications to register themselves as plugins in pgAdmin without having to "
 "edit, and perhaps break, the old plugins.ini file."
 msgstr ""
+"pgAdmin 1.12 používal jeden společný soubor pro nastavení všech dostupných "
+"zásuvných modulů. 1.14 hledá soubory ve složce, přičemž každý soubor "
+"obsahuje informace o jednom či více zásuvných modulech. Tento nový systém "
+"dovoluje jiným aplikacím registrovat se jako zásuvný modul v aplikaci "
+"pgAdmin, aniž by musely zasahovat a případně porušit starší soubor plugins."
+"ini."
 
 #: ../visualtour14.php:5 ../visualtour14.php:7
-#, fuzzy
 msgid "pgAdmin 1.14 Visual Tour"
-msgstr "pgAdmin: Názorná prohlídka 1.10"
+msgstr "Názorná prohlídka pgAdmin 1.14"
 
 #: ../visualtour14.php:357
 msgid ""
 "pgAdmin 1.14 uses the -w switch of pg_dump/pg_restore when this switch is "
 "available."
 msgstr ""
+"pgAdmin 1.14 používá přepínač příkazového řádku -w u pg_dump/pg_restore v "
+"případě, kdy je tento přepínač k dispozici."
 
 #: ../visualtour14.php:70
 msgid ""
 "pgAdmin 1.14 uses the same idea for valid and invalid foreign keys and "
 "enabled and disabled triggers and rules."
 msgstr ""
+"pgAdmin 1.14 používá tu stejnou myšlenku pro platné a neplatné cizí klíče a "
+"pro zakázané a povolené triggery a pravidla."
 
 #: ../visualtour16.php:5 ../visualtour16.php:7
-#, fuzzy
 msgid "pgAdmin 1.16 Visual Tour"
-msgstr "pgAdmin: Názorná prohlídka 1.10"
+msgstr "Názorná prohlídka pgAdmin 1.16"
 
 #: ../visualtour16.php:166
 msgid ""
 "pgAdmin 1.16 allows the modification of the fillfactor property on an "
 "existing index."
 msgstr ""
+"pgAdmin 1.16 umožňuje měnit vlastnost fillfactor (stupeň zaplnění) u "
+"existujících indexů."
 
 #: ../visualtour16.php:256
 msgid ""
 "pgAdmin 1.16 allows the renaming of Foreign Data Wrappers and Foreign "
 "Servers if the user is connected to a 9.2 PostgreSQL server."
 msgstr ""
+"pgAdmin 1.16 také umožňuje přejmenovat zpřístupnění cizích dat a cizí "
+"servery v případě, že je uživatel připojen k serveru PostgreSQL 9.2."
 
 #: ../visualtour16.php:154
 msgid ""
@@ -4402,6 +4400,10 @@ msgid ""
 "later server. It also allows the change of the fillfactor property on an "
 "existing table."
 msgstr ""
+"pgAdmin 1.16 umožňuje uživateli přidat OID do stávajících tabulek pomocí "
+"zaškrtávacího políčka „OID u záznamů“. Funguje to jen v případě, že je "
+"uživatel připojen k PostgreSQL 8.4 nebo novějšímu. Rovněž je možné měnit u "
+"stávajících tabulek vlastnost „Stupeň zaplnění“."
 
 #: ../visualtour16.php:94
 msgid ""
@@ -4409,9 +4411,11 @@ msgid ""
 "will try to find new objects if the user clicks on a parent node, and new "
 "properties if the user clicks on an object node."
 msgstr ""
+"pgAdmin 1.16 aktualizuje uzel pokaždé, když na něj uživatel klikne. "
+"Konkrétně to znamená, že zkusí najít nové objekty, když uživatel klikne na "
+"rodičovský uzel, a nové vlastnosti, když uživatel klikne na uzel objektu."
 
 #: ../index.php:18
-#, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
@@ -4421,13 +4425,14 @@ msgid ""
 "com/products-services-training/pgdownload#windows\">PostgreSQL 9.3.1 "
 "Installer</a> which includes pgAdmin."
 msgstr ""
-"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+"Byl vydán pgAdmin 1.18.1. Toto vydání nabízí opravu 10 chyb z předchozí "
+"verze. Seznam těchto chyb najdete v <a href=\"/development/changelog.php"
+"\">seznamu změn CHANGELOG</a> (pouze anglicky). V oddíle <a href=\"download"
+"\">Stáhnout</a> můžete získat kopii vydání, případně si stáhněte <a href="
+"\"http://www.enterprisedb.com/products/pgdownload.do\">instalátor PostgreSQL "
+"9.3.1</a>, který pgAdmin již obsahuje v sobě."
 
 #: ../index.php:12
-#, fuzzy
 msgid ""
 "pgAdmin 1.20 rc 1 has been released, offering lots of new interesting "
 "features. The list of new features fixes is available in the <a href=\"/"
@@ -4436,10 +4441,13 @@ msgid ""
 "<a href=\"http://www.enterprisedb.com/products-services-training/pgdownload"
 "\">PostgreSQL 9.4 rc 1 Installer</a> which includes pgAdmin."
 msgstr ""
-"Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-"Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-"můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload.do"
-"\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
+"Byl vydán pgAdmin 1.20 rc 1. Toto vydání nabízí řadu nových zajímavých "
+"funkcí a vlastností. Seznam těchto nových věcí najdete v <a href=\"/"
+"development/changelog.php\">seznamu změn CHANGELOG</a> (pouze anglicky). V "
+"oddíle <a href=\"download\">Stáhnout</a> můžete získat kopii vydání, "
+"případně si stáhněte <a href=\"http://www.enterprisedb.com/products/"
+"pgdownload.do\">instalátor PostgreSQL 9.4 rc 1</a>, který pgAdmin již "
+"obsahuje v sobě."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4479,6 +4487,9 @@ msgid ""
 "pair in the database properties dialog. Now, it's also possible to do it in "
 "the role properties dialog:"
 msgstr ""
+"pgAdmin již dříve umožňoval uživateli nastavit parametry pro pár role/"
+"databáze v dialogovém okně s vlastnostmi databáze. Teď je to možné i v "
+"dialogovém okně s vlastnostmi role:"
 
 #: ../screenshots/ui.php:12
 msgid ""
@@ -4497,6 +4508,8 @@ msgid ""
 "pgAdmin didn't have a way to input the inline function for a language. It's "
 "now available in the \"Definition\" tab:"
 msgstr ""
+"pgAdmin zatím neměl způsob, jak u jazyka vložit funkci s anonymním kódem "
+"(inline function). Nyní to můžete provést na kartě „Definice“:"
 
 #: ../visualtour14.php:290
 msgid ""
@@ -4504,6 +4517,9 @@ msgid ""
 "1.14 adds support for Foreign Data Wrappers, Foreign Servers, User Mappings, "
 "and Foreign Tables."
 msgstr ""
+"Před tímto vydáním pgAdmin nepodporoval žádné objekty SQL/Med. pgAdmin 1.14 "
+"přidává podporu pro zpřístupnění cizích dat, cizí servery, mapování "
+"uživatele a cizí tabulky."
 
 #: ../screenshots/xgl.php:10
 msgid "pgAdmin even works in 3D!!."
@@ -4611,11 +4627,12 @@ msgstr ""
 "zúčastnit."
 
 #: ../download/windows.php:12
-#, fuzzy
 msgid ""
 "pgAdmin is available for Windows &trade; 2000 and above, up to version "
 "1.14.3. From v1.16.0, Windows XP/2003 or later is required."
-msgstr "pgAdmin je dostupný pro Windows &trade; 2000 a novější."
+msgstr ""
+"pgAdmin je do verze 1.14.3 dostupný pro Windows &trade; 2000 a novější. Od "
+"verze 1.16.0 jsou vyžadovány Windows XP/2003 a novější."
 
 #: ../development/git.php:10
 #, php-format
@@ -4724,43 +4741,43 @@ msgstr "pgAdmin podporuje většinu kódování používaných na serveru Postgr
 
 #: ../advocacy/information.php:5
 msgid "pgAdmin: Advocacy - Information"
-msgstr "pgAdmin: Propagace - Informace"
+msgstr "pgAdmin: Propagace – Informace"
 
 #: ../advocacy/index.php:5
 msgid "pgAdmin: Advocacy - Introduction"
-msgstr "pgAdmin: Propagace - Úvod"
+msgstr "pgAdmin: Propagace – Úvod"
 
 #: ../advocacy/strategy.php:5
 msgid "pgAdmin: Advocacy - Strategy"
-msgstr "pgAdmin: Propagace - Strategie"
+msgstr "pgAdmin: Propagace – Strategie"
 
 #: ../development/changelog.php:5
 msgid "pgAdmin: Development - Change log"
-msgstr "pgAdmin: Vývoj - Seznam změn"
+msgstr "pgAdmin: Vývoj – Seznam změn"
 
 #: ../development/team.php:5
 msgid "pgAdmin: Development - Development team"
-msgstr "pgAdmin: Vývoj - Vývojářský tým"
+msgstr "pgAdmin: Vývoj – Vývojářský tým"
 
 #: ../development/git.php:5
 msgid "pgAdmin: Development - GIT access"
-msgstr "pgAdmin: Vývoj - Přístup přes GIT"
+msgstr "pgAdmin: Vývoj – Přístup přes GIT"
 
 #: ../development/index.php:5
 msgid "pgAdmin: Development - Introduction"
-msgstr "pgAdmin: Vývoj - Úvod"
+msgstr "pgAdmin: Vývoj – Úvod"
 
 #: ../development/list.php:5
 msgid "pgAdmin: Development - Mailing list"
-msgstr "pgAdmin: Vývoj - Poštovní konference"
+msgstr "pgAdmin: Vývoj – Poštovní konference"
 
 #: ../development/roadmap.php:5
 msgid "pgAdmin: Development - Roadmap"
-msgstr "pgAdmin: Vývoj - Plán"
+msgstr "pgAdmin: Vývoj – Plán"
 
 #: ../development/todo.php:5
 msgid "pgAdmin: Development - TODO list"
-msgstr "pgAdmin: Vývoj - Úkoly"
+msgstr "pgAdmin: Vývoj – Úkoly"
 
 #: ../docs/index.php:5
 msgid "pgAdmin: Documentation"
@@ -4768,35 +4785,35 @@ msgstr "pgAdmin: Dokumentace"
 
 #: ../include/doc.php:105
 msgid "pgAdmin: Documentation - Couldn't find the document title!"
-msgstr "pgAdmin: Dokumentace - Nelze najít titulek dokumentu!"
+msgstr "pgAdmin: Dokumentace – Nelze najít titulek dokumentu!"
 
 #: ../download/adminpacks.php:5
 msgid "pgAdmin: Download - Admin packs"
-msgstr "pgAdmin: Ke stažení - Admin packs"
+msgstr "pgAdmin: Ke stažení – Admin packs"
 
 #: ../download/index.php:5
 msgid "pgAdmin: Download - Introduction"
-msgstr "pgAdmin: Ke stažení - Úvod"
+msgstr "pgAdmin: Ke stažení – Úvod"
 
 #: ../download/languages.php:5
 msgid "pgAdmin: Download - Languages"
-msgstr "pgAdmin: Ke stažení - Jazyky"
+msgstr "pgAdmin: Ke stažení – Jazyky"
 
 #: ../download/macosx.php:5
 msgid "pgAdmin: Download - Mac OSX"
-msgstr "pgAdmin: Ke stažení - Mac OSX"
+msgstr "pgAdmin: Ke stažení – Mac OSX"
 
 #: ../download/source.php:5
 msgid "pgAdmin: Download - Source code"
-msgstr "pgAdmin: Ke stažení - Zdrojový kód"
+msgstr "pgAdmin: Ke stažení – Zdrojový kód"
 
 #: ../download/windows.php:5
 msgid "pgAdmin: Download - Windows &trade;"
-msgstr "pgAdmin: Ke stažení - Windows &trade;"
+msgstr "pgAdmin: Ke stažení – Windows &trade;"
 
 #: ../download/pgagent.php:5
 msgid "pgAdmin: Download - pgAgent"
-msgstr "pgAdmin: Ke stažení - pgAgent"
+msgstr "pgAdmin: Ke stažení – pgAgent"
 
 #: ../features.php:5
 msgid "pgAdmin: Feature"
@@ -4820,59 +4837,59 @@ msgstr "pgAdmin: Ochrana soukromí"
 
 #: ../screenshots/data.php:5
 msgid "pgAdmin: Screenshots - Data"
-msgstr "pgAdmin: Ukázky - Data"
+msgstr "pgAdmin: Ukázky – Data"
 
 #: ../screenshots/documentation.php:5
 msgid "pgAdmin: Screenshots - Documentation"
-msgstr "pgAdmin: Ukázky - Dokumentace"
+msgstr "pgAdmin: Ukázky – Dokumentace"
 
 #: ../screenshots/index.php:5
 msgid "pgAdmin: Screenshots - Introduction"
-msgstr "pgAdmin: Ukázky - Úvod"
+msgstr "pgAdmin: Ukázky – Úvod"
 
 #: ../screenshots/mb_i18n.php:5
 msgid "pgAdmin: Screenshots - Multibyte and i18n"
-msgstr "pgAdmin: Ukázky - Vícebajtové znakové sady a internacionalizace"
+msgstr "pgAdmin: Ukázky – Vícebajtové znakové sady a internacionalizace"
 
 #: ../screenshots/serverstatus.php:5
 msgid "pgAdmin: Screenshots - Server status"
-msgstr "pgAdmin: Ukázky - Stav serveru"
+msgstr "pgAdmin: Ukázky – Stav serveru"
 
 #: ../screenshots/xgl.php:5
 msgid "pgAdmin: Screenshots - Suse 10 XGL"
-msgstr "pgAdmin: Ukázky - Suse 10 XGL"
+msgstr "pgAdmin: Ukázky – Suse 10 XGL"
 
 #: ../screenshots/ui.php:5
 msgid "pgAdmin: Screenshots - User interface"
-msgstr "pgAdmin: Ukázky - Uživatelské rozhraní"
+msgstr "pgAdmin: Ukázky – Uživatelské rozhraní"
 
 #: ../support/faq.php:5
 msgid "pgAdmin: Support - Frequently Asked Questions"
-msgstr "pgAdmin: Podpora - Časté dotazy a odpovědi"
+msgstr "pgAdmin: Podpora – Časté dotazy a odpovědi"
 
 #: ../support/index.php:5
 msgid "pgAdmin: Support - Introduction"
-msgstr "pgAdmin: Podpora - Úvod"
+msgstr "pgAdmin: Podpora – Úvod"
 
 #: ../support/issues.php:5
 msgid "pgAdmin: Support - Known issues"
-msgstr "pgAdmin: Podpora - Známé problémy"
+msgstr "pgAdmin: Podpora – Známé problémy"
 
 #: ../support/list.php:5
 msgid "pgAdmin: Support - Mailing list"
-msgstr "pgAdmin: Podpora - Poštovní konference"
+msgstr "pgAdmin: Podpora – Poštovní konference"
 
 #: ../translation/howto.php:5
 msgid "pgAdmin: Translation - Howto"
-msgstr "pgAdmin: Překlad - Jak na to"
+msgstr "pgAdmin: Překlad – Jak na to"
 
 #: ../translation/index.php:5
 msgid "pgAdmin: Translation - Introduction"
-msgstr "pgAdmin: Překlad - Úvod"
+msgstr "pgAdmin: Překlad – Úvod"
 
 #: ../translation/status.php:22
 msgid "pgAdmin: Translation - Status"
-msgstr "pgAdmin: Překlad - Stav"
+msgstr "pgAdmin: Překlad – Stav"
 
 #: ../download/menu.php:13 ../download/pgagent.php:8
 msgid "pgAgent"
@@ -4915,2270 +4932,12 @@ msgstr ""
 
 #: ../visualtour14.php:282 ../visualtour14.php:305
 msgid "second tab"
-msgstr ""
+msgstr "druhá karta"
 
 #: ../visualtour16.php:282
 msgid "the backup window:"
-msgstr ""
+msgstr "okně zálohování:"
 
 #: ../visualtour14.php:160
 msgid "timestamp of the last reset on the statistics;"
-msgstr ""
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
-#~ "features. We're still working on a visual tour. In the mean time, the "
-#~ "list of new features fixes is available in the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-#~ "\">download area</a> to get your copy, or alternatively download a <a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
-#~ "9.4 beta 2 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin %s has now been released. This release is the culmination of over "
-#~ "14 months of development work. A visual tour of the new release is "
-#~ "available <a href=\"/visualtour14.php\">here</a>, or a complete list of "
-#~ "changes can be seen in the <a href=\"/development/changelog.php"
-#~ "\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
-#~ "to get your copy, or alternatively download a <a href=\"http://www."
-#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1 Installer</a> "
-#~ "which includes pgAdmin."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin %s. Toto vydání je vyvrcholením 12 měsíců práce "
-#~ "vývojářů. Vizuální prohlídka nové verze je k dispozici <a href=\"/"
-#~ "visualtour12.php\">zde</a> a rovněž si můžete prohlédnou <a href=\"/"
-#~ "development/changelog.php\">seznam změn CHANGELOG</a> (pouze anglicky). "
-#~ "Vydání můžete najít v sekci <a href=\"download\">Stáhnout</a>, případně "
-#~ "si můžete stáhnou <a href=\"http://www.enterprisedb.com/products/"
-#~ "pgdownload.do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.14.2 has been released, offering 28 bug fixes over the previous "
-#~ "version. The list of bug fixes is available in the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-#~ "\">download area</a> to get your copy, or alternatively download a <a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
-#~ "9.1.3 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.14.3 has been released, offering 25 bug fixes over the previous "
-#~ "version. The list of bug fixes is available in the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-#~ "\">download area</a> to get your copy, or alternatively download a <a "
-#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
-#~ "9.1.4 Installer</a> which includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#~ msgid "Database designer for pgAdmin, by Luis Ochoa"
-#~ msgstr "Návrhář databází pro pgAdmin [Luis Ochoa]"
-
-#~ msgid "Database schema difference visualizer, by Adeel Khan"
-#~ msgstr "Vizualizátor rozdílů ve schématech databází [Adeel Khan]"
-
-#, fuzzy
-#~ msgid "Finish 9.1 support with security labels [GL]"
-#~ msgstr "Dokončit podporu 9.0 s omezeními exkluzí [GL]"
-
-#~ msgid "Before you try to install"
-#~ msgstr "Než začnete instalovat"
-
-#~ msgid "Check that the pgAdmin executable is in the path:"
-#~ msgstr ""
-#~ "Zkontrolujte, jestli se spustitelný program pgAdmin nachází v "
-#~ "prohledávané cestě:"
-
-#~ msgid ""
-#~ "Choose your mirror as mentioned above and edit /etc/apt/sources.list file "
-#~ "and add the following line:"
-#~ msgstr ""
-#~ "Zvolte se své zrcadlo, jak bylo vysvětleno výše a do souboru /etc/apt/"
-#~ "sources.list přidejte následující řádek:"
-
-#~ msgid "Create a symlink to the pgAdmin binary:"
-#~ msgstr "Vytvořte symbolický odkaz na binární soubor pgAdmin:"
-
-#~ msgid "Debian Etch (oldstable)"
-#~ msgstr "Debian Etch (zastaralá stabilní)"
-
-#~ msgid "Debian Lenny (stable)"
-#~ msgstr "Debian Lenny (stabilní)"
-
-#~ msgid "Debian Sid (unstable)"
-#~ msgstr "Debian Sid (nestabilní)"
-
-#~ msgid "Debian Squeeze (testing)"
-#~ msgstr "Debian Squeeze (testovací)"
-
-#~ msgid "For example, for France and Gutsy Gibbon, you can try:"
-#~ msgstr "Např. pro Francii a Gutsy Gibbon můžete zkusit:"
-
-#~ msgid "Installation"
-#~ msgstr "Instalace"
-
-#~ msgid ""
-#~ "Once the key added, you need to choose a mirror from the list of <a href="
-#~ "\"%s\">PostgreSQL mirrors</a> and configure your sources.list. Click one "
-#~ "of the flags, and copy the URL you are redirected to. On each mirror, the "
-#~ "packages are located in: <i>/pgadmin3/release/ubuntu</i>"
-#~ msgstr ""
-#~ "Jakmile máte přidaný klíč, musíte zvolit zrcadlo ze seznamu <a href=\"%s"
-#~ "\">zrcadel PostgreSQL</a> a nastavit váš sources.list. Klikněte na "
-#~ "příslušnou vlaječku a zkopírujte si URL, na které vás to přesměrovalo. Na "
-#~ "každém z těchto zrcadel se balíček nachází v: <i>/pgadmin3/release/"
-#~ "ubuntu</i>"
-
-#~ msgid "OpenSUSE"
-#~ msgstr "OpenSUSE"
-
-#~ msgid ""
-#~ "OpenSUSE packages built on a server periodically updated to -current are "
-#~ "available for download. These builds should run on most recent versions "
-#~ "of OpenSUSE."
-#~ msgstr ""
-#~ "Sestavení balíčku dostupného ke stažení pro OpenSUSE je na serveru "
-#~ "periodicky aktualizováno na -current. Tím pádem by toto sestavení mělo "
-#~ "běžet na nejnovějších verzí OpenSUSE."
-
-#~ msgid ""
-#~ "Packages built for Solaris on Sparc and Intel are available, courtesy of "
-#~ "Sun Microsystems."
-#~ msgstr ""
-#~ "Jsou dostupné balíčky sestavené pro Solaris na Sparc a Intel, se svolením "
-#~ "Sun Microsystems."
-
-#~ msgid ""
-#~ "Please, note that you additionally need to ENABLE THE UNIVERSE COMPONENT "
-#~ "as wxWidgets2.8 is available from universe only at the moment. To do so, "
-#~ "check the Ubuntu documentation or at least try to launch the update-"
-#~ "manager configuration from the System/Administration Gnome menu."
-#~ msgstr ""
-#~ "Vezměte prosím na vědomí, že navíc potřebujete POVOLIT KOMUNITNÍ "
-#~ "(UNIVERSE) KOMPONENTY, protože např. wxWidgets2.8 jsou dostupné pouze "
-#~ "jako komunitní. Jak na to najdete v dokumentaci Ubuntu nebo alespoň "
-#~ "zkuste spustit „Zdroje software“ z menu „Systém“ / „Správa“, kde najdete "
-#~ "příslušné nastavení."
-
-#~ msgid "Proceed to installation"
-#~ msgstr "Postup instalace"
-
-#~ msgid "RPM"
-#~ msgstr "RPM"
-
-#~ msgid ""
-#~ "RPMs for older versions of pgAdmin are available from the pgAdmin "
-#~ "download sites:"
-#~ msgstr ""
-#~ "Balíčky RPM pro starší verze pgAdmin jsou dostupné ze stahovacích webů "
-#~ "pgAdmin:"
-
-#~ msgid "Run the following commands as <i>root</i> to install pgAdmin III"
-#~ msgstr ""
-#~ "Pro nainstalování pgAdmin III spusťtě jako uživatel <i>root</i> "
-#~ "následující příkazy"
-
-#~ msgid ""
-#~ "Simply use Synaptic to install pgAdmin as you would do with any other "
-#~ "package or run the following command from the command prompt:"
-#~ msgstr ""
-#~ "Na instalaci pgAdmin jednoduše použijte Synaptic, stejně jako u jiných "
-#~ "balíčků nebo spusťte ručně v příkazovém řádku následující příkazy:"
-
-#~ msgid "Slackware"
-#~ msgstr "Slackware"
-
-#~ msgid ""
-#~ "Slackware packages built on a server periodically updated to -current are "
-#~ "available for download. These builds should run on most recent versions "
-#~ "of Slackware."
-#~ msgstr ""
-#~ "Sestavení balíčku dostupného ke stažení pro Slackware se na serveru "
-#~ "periodicky aktualizuje na -current. Díky tomu by toto sestavení mělo "
-#~ "běžet na nejnovějších verzích Slackware."
-
-#~ msgid "To install these packages, use a command such as:"
-#~ msgstr "Pro nainstalování balíčků použijte příkazy jako:"
-
-#~ msgid ""
-#~ "To install these packages, use the OpenSUSE <i>pkgtool</i> or "
-#~ "<i>installpkg</i> utilities."
-#~ msgstr ""
-#~ "Pro nainstalování těchto balíčků použijte pomůcky OpenSUSE <i>pkgtool</i> "
-#~ "nebo <i>installpkg</i>."
-
-#~ msgid ""
-#~ "To install these packages, use the Slackware <i>pkgtool</i> or "
-#~ "<i>installpkg</i> utilities."
-#~ msgstr ""
-#~ "Pro nainstalování těchto balíčků použijte pomůcky Slackware <i>pkgtool</"
-#~ "i> nebo <i>installpkg</i>."
-
-#~ msgid "Ubuntu"
-#~ msgstr "Ubuntu"
-
-#~ msgid "Ubuntu Dapper configuration"
-#~ msgstr "Nastavení v Ubuntu Drapper"
-
-#~ msgid "Ubuntu Feisty or Gutsy configuration"
-#~ msgstr "Nastavení v Ubuntu Feisty nebo Gutsy"
-
-#~ msgid ""
-#~ "pgAdmin %s is <a href=\"%s\">available</a> directly from Debian. You can "
-#~ "install pgAdmin just as you would do with any other Debian package (apt-"
-#~ "get install pgadmin3)."
-#~ msgstr ""
-#~ "pgAdmin %s je <a href=\"%s\">dostupný</a> přímo v Debianu. Můžete jej "
-#~ "nainstalovat stejně snadno, jako kterýkoliv jiný balíček Debianu (apt-get "
-#~ "install pgadmin3)."
-
-#~ msgid "pgAdmin Download - Solaris"
-#~ msgstr "pgAdmin: Ke stažení - Solaris"
-
-#~ msgid ""
-#~ "pgAdmin III RPM packages are available for several Linux distributions "
-#~ "from the PostgreSQL <a href=\"%s\">RPM repository</a>."
-#~ msgstr ""
-#~ "Balíčky RPM pgAdmin III jsou v <a href=\"%s\">repozitáři RPM</a> "
-#~ "PostgreSQL dostupné pro několik Linuxových distribucí."
-
-#~ msgid ""
-#~ "pgAdmin packages are available for <a href=\"%s\">Debian</a> stable, "
-#~ "testing and unstable distributions. These packages are also well-suited "
-#~ "for <a href=\"%s\">Ubuntu</a> and other Debian based distributions"
-#~ msgstr ""
-#~ "Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Debian</a> "
-#~ "stabilní, testovací a nestabilní. Tyto balíčky jsou rovněž vhodné pro <a "
-#~ "href=\"%s\">Ubuntu</a> a další distribuce založené na Debianu."
-
-#~ msgid ""
-#~ "pgAdmin packages are available for download. These packages have been "
-#~ "built on FreeBSD 6."
-#~ msgstr ""
-#~ "Balíčky pgAdmin jsou k dispozici ke stažení. Tyto balíčky byly sestavené "
-#~ "ve FreeBSD 6."
-
-#~ msgid ""
-#~ "pgAdmin packages are available for the <a href=\"%s\">Ubuntu</a> dapper "
-#~ "and feisty distributions."
-#~ msgstr ""
-#~ "Balíčky pgAdmin jsou dostupné pro distribuce <a href=\"%s\">Ubuntu</a> "
-#~ "dapper a feisty."
-
-#~ msgid "pgAdmin: Download - Debian"
-#~ msgstr "pgAdmin: Ke stažení - Debian"
-
-#~ msgid "pgAdmin: Download - FreeBSD"
-#~ msgstr "pgAdmin: Ke stažení - FreeBSD"
-
-#~ msgid "pgAdmin: Download - OpenSUSE"
-#~ msgstr "pgAdmin: Ke stažení - OpenSUSE"
-
-#~ msgid "pgAdmin: Download - RPM"
-#~ msgstr "pgAdmin: Ke stažení - RPM"
-
-#~ msgid "pgAdmin: Download - Slackware"
-#~ msgstr "pgAdmin: Ke stažení - Slackware"
-
-#~ msgid "pgAdmin: Download - Ubuntu"
-#~ msgstr "pgAdmin: Ke stažení - Ubuntu"
-
-#~ msgid ""
-#~ "<b>WARNING:</b> Development snapshots have had little or no testing, and "
-#~ "in some cases may not even run. It is only recommended that you use a "
-#~ "snapshot if you are sure you know what you are doing, or are testing a "
-#~ "specific bug fix or new feature on the direction of one of the "
-#~ "developers. Please report any bugs or issue you may have with the "
-#~ "development snapshots, but do remember that they are 'works in progress'."
-#~ msgstr ""
-#~ "<b>VAROVÁNÍ:</b> Vývojářské snímky jsou jen málo nebo vůbec testované a v "
-#~ "některých případech nemusí jít vůbec spustit. Doporučujeme vám je použít "
-#~ "pouze v případě, že víte přesně co děláte a nebo potřebujete otestovat "
-#~ "specifickou chybu nebo novou vlastnost podle instrukcí vývojáře. Chyby a "
-#~ "problémy ve vývojářských snímcích nám prosím hlaste, ale pamatujte, že "
-#~ "„se na tom pracuje“."
-
-#~ msgid "Snapshots"
-#~ msgstr "Snímky"
-
-#~ msgid ""
-#~ "Source tarballs and binary snapshots for a variety of platforms are built "
-#~ "from <a href=\"%s\">GIT trunk</a> daily. Other snapshots are built on a "
-#~ "less regular basis, following programming milestones."
-#~ msgstr ""
-#~ "Archivy se zdrojovým kódem a binární snímky pro různé platformy se "
-#~ "sestavují každý den z <a href=\"%s\">větve trunk v GIT</a>. Další snímky "
-#~ "se sestavují méně pravidelně podle milníků ve vývoji."
-
-#~ msgid ""
-#~ "The updated translations are published in daily snapshots automatically."
-#~ msgstr ""
-#~ "Aktualizované překlady se zveřejňují automaticky v každodenních snímcích."
-
-#~ msgid ""
-#~ "pgAdmin development snapshots may be downloaded <a href=\"%s\">here</a>."
-#~ msgstr "Vývojářské snímky pgAdmin lze stáhnout <a href=\"%s\">tady</a>."
-
-#~ msgid "pgAdmin: Download - Snapshots"
-#~ msgstr "pgAdmin: Ke stažení - Snímky"
-
-#~ msgid "Better i18n support [GL]"
-#~ msgstr "Lepší podpora i18n [GL]"
-
-#~ msgid "Filter rows in frmStatus's reports [GL]"
-#~ msgstr "Filtr řádků ve výstupní sestavě frmStatus [GL]"
-
-#~ msgid "Finish 8.4 support with SQL/Med objects [GL]"
-#~ msgstr "Dokončit podporu 8.4 s objekty SQL/Med [GL]"
-
-#~ msgid ""
-#~ "Logfile: columns according to log_line_prefix, filename according to "
-#~ "log_filename, etc. in frmStatus [GL]"
-#~ msgstr ""
-#~ "Evidování: podle sloupců do log_line_prefix, podle názvu souboru do "
-#~ "log_filename, atd. ve frmStatus [GL]"
-
-#~ msgid "Show/hide columns in frmStatus's reports [GL]"
-#~ msgstr "Zobrazení/skrývání sloupců v výstupní sestavě frmStatus [GL]"
-
-#~ msgid ""
-#~ "pgAdmin 1.12.1 has been released, offering a number of bug fixes over the "
-#~ "previous version. Please visit the <a href=\"download\">download area</a> "
-#~ "to get your copy, or alternatively download a <a href=\"http://www."
-#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> "
-#~ "which includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#, fuzzy
-#~ msgid ""
-#~ "pgAdmin 1.12.2 has been released, offering 12 bug fixes over the previous "
-#~ "version. Please visit the <a href=\"download\">download area</a> to get "
-#~ "your copy, or alternatively download a <a href=\"http://www.enterprisedb."
-#~ "com/products/pgdownload.do\">PostgreSQL 9.0.2 Installer</a> which "
-#~ "includes pgAdmin."
-#~ msgstr ""
-#~ "Byl vydán pgAdmin 1.12.1. Poskytuje několik oprav chyb z předchozí verze. "
-#~ "Můžete jej najít v sekci <a href=\"download\">Stáhnout</a>, případně si "
-#~ "můžete stáhnou <a href=\"http://www.enterprisedb.com/products/pgdownload."
-#~ "do\">instalátor PostgreSQL 9.0.1</a>, který jej již obsahuje."
-
-#~ msgid ""
-#~ "Add '...' to truncated column comments in table SQL, per Erwin "
-#~ "Brandstetter."
-#~ msgstr ""
-#~ "Přidává „...“ k ořezaným komentářům sloupců v tabulkách. [Erwin "
-#~ "Brandstetter]"
-
-#~ msgid ""
-#~ "Add 'scratch pads' to the Edit Grid and Query Tool windows to use when "
-#~ "copying and pasting data back and forth."
-#~ msgstr ""
-#~ "Přidává do editační mřížky a dotazovacího nástroje „poznámkový blok“, do "
-#~ "kterého si lze odkládat pomocí kopírovat/vložit data."
-
-#~ msgid ""
-#~ "Add -a and -q command line options to auto connect to a server and open a "
-#~ "query window respectively."
-#~ msgstr ""
-#~ "Přidává volby příkazového řádku -a a -q na automatické připojení "
-#~ "respektive otevření dotazovacího nástroje."
-
-#~ msgid ""
-#~ "Add -qc switch to open query tool and autoconnect using a connection "
-#~ "string."
-#~ msgstr ""
-#~ "Přidává volbu příkazového řádku -qc, která otevře dotazovací nástroj a "
-#~ "automaticky se připojí pomocí připojovacího řetězce."
-
-#~ msgid ""
-#~ "Add CREATE/INSERT/UPDATE/SELECT script menu options for various object "
-#~ "types to create script templates."
-#~ msgstr ""
-#~ "Přidává do menu pro různé typy objektu položky Skript CREATE/INSERT/"
-#~ "UPDATE/SELECT, které vytváří šablonové skripty."
-
-#~ msgid ""
-#~ "Add EnterpriseDB's default database (edb) to the Server dialog's default "
-#~ "option."
-#~ msgstr ""
-#~ "Přidává výchozí databázi pro EnterpriseDB (edb) do servisních databází v "
-#~ "dialogu serveru."
-
-#~ msgid "Add a 'Favourites' query organiser to the Query Tool."
-#~ msgstr "Přidává správce „oblíbených“ dotazů do dotazovacího nástroje"
-
-#~ msgid "Add a 'Run Now' options for pgAgent jobs."
-#~ msgstr "Přidat volbu „Spustit právě teď“ pro úkoly pgAgent"
-
-#~ msgid ""
-#~ "Add a guru hint to warn the user of the consequences of storing passwords."
-#~ msgstr ""
-#~ "Přidává radu odborníka, která varuje uživatele na potenciální nebezpečí "
-#~ "související s uloženými hesly."
-
-#~ msgid "Add a macro facility to the Query Tool."
-#~ msgstr "Přidává podporu maker do dotazovacího nástroje."
-
-#~ msgid ""
-#~ "Add a new Find & Replace dialogue to the query tool, implementing all the "
-#~ "normal Find & Replace options as well as a powerful regular expression "
-#~ "search mode."
-#~ msgstr ""
-#~ "Přidává do dotazovacího nástroje nový dialog „Hledat a nahradit“, který "
-#~ "obsahuje všechny normální možnosti pro hledání a nahrazování a navíc "
-#~ "mocný režim hledání podle regulárních výrazů."
-
-#~ msgid ""
-#~ "Add a new command line option (-f ) to open an SQL script automatically "
-#~ "when using -q or -qc."
-#~ msgstr ""
-#~ "Přidává novou volbu příkazového řádku -f, která automaticky otevře SQL "
-#~ "skript při použití voleb -q nebo -qc."
-
-#~ msgid ""
-#~ "Add a new command line options (-cp ) to allow direct editing of pgpass "
-#~ "files."
-#~ msgstr ""
-#~ "Přidává novou volbu příkazového řádku -cp, která umožňuje přímou úpravu "
-#~ "souborů pgpass."
-
-#~ msgid "Add a password file editor."
-#~ msgstr "Přidán editor souboru s hesly."
-
-#~ msgid "Add a pgAgent option to log to a file on *nix."
-#~ msgstr "Přidává do pgAgent volbu na evidování do souboru v *nixech."
-
-#~ msgid ""
-#~ "Add a set of options to allow the user to hide selected object types from "
-#~ "the treeview. Note that the new default settings will hide less commonly "
-#~ "used objects such as casts, languages, aggregates, operators etc."
-#~ msgstr ""
-#~ "Přidává sadu voleb, díky nimž může uživatel ve stromu skrýt vybrané typy "
-#~ "objektů. Upozorňujeme, že nové výchozí nastavení bude skrývat některé "
-#~ "méně používané objekty, jako jsou přetypování, jazyky, agregační funkce, "
-#~ "operátory apod."
-
-#~ msgid "Add a word wrap option to the query tool editor."
-#~ msgstr "Přidává volbu pro zalamování slov v editoru dotazovacího nástroje."
-
-#~ msgid ""
-#~ "Add an internal XML reporting API, HTML XSL stylesheet with XSLT "
-#~ "processing capabilities and selection of schema/object/data reports."
-#~ msgstr ""
-#~ "Přidává API pro reporty, které interně pracuje s XML, schopnosti "
-#~ "zpracovat HTML XSL styly pomocí XSLT a výběr, zda se má reportovat schéma/"
-#~ "objekt/data."
-
-#~ msgid "Add an option to show NULLs as  in the Query Tool."
-#~ msgstr "Přidává volbu na zobrazování hodnot NULL v dotazovacím nástroji"
-
-#~ msgid "Add an option to show indent guides in the query tool."
-#~ msgstr "Přidává volbu na zobrazení vodicích linek v dotazovacím nástroji."
-
-#~ msgid ""
-#~ "Add an option to the Report Tool to open the output file in the default "
-#~ "browser."
-#~ msgstr ""
-#~ "Přidává do reportovacího nástroje volbu na otevření výstupního souboru ve "
-#~ "výchozím prohlížeči."
-
-#~ msgid "Add auto-indent to the query tool."
-#~ msgstr "Přidáno automatické odsazování v dotazovacím nástroji."
-
-#~ msgid ""
-#~ "Add autocompletion to the Query Tool, based on the logic used by psql. "
-#~ "Triggered with Control+Space, and optionally the Tab key as well."
-#~ msgstr ""
-#~ "Přidává do dotazovacího nástroje funkci automatického dokončování "
-#~ "založenou na logice použité v psql. Spouští se pomocí Control+Mezerník a "
-#~ "volitelně klávesou Tab."
-
-#~ msgid "Add brace highlighting to the SQL Text Box control."
-#~ msgstr ""
-#~ "Přidává zvýrazňování syntaxe do ovládacího textového prvku na úpravu SQL."
-
-#~ msgid "Add fillfactor support on tables and indexes."
-#~ msgstr "Přidává podporu pro stupeň zaplnění u tabulek a indexů."
-
-#~ msgid "Add keyboard shortcuts to show and hide UI elements."
-#~ msgstr ""
-#~ "Přidává klávesové zkratky na zobrazování a skrývání prvků uživatelského "
-#~ "rozhraní."
-
-#~ msgid ""
-#~ "Add options to enable/disable triggers, both individually and per-table."
-#~ msgstr ""
-#~ "Přidává volby na povolení/zakázání triggerů, oboje individuálně pro "
-#~ "jednotlivé tabulky."
-
-#~ msgid "Add options to show line ends and whitespaces in the query tool."
-#~ msgstr ""
-#~ "Přidává volbu na zobrazování konců řádků a bílých znaků v dotazovacím "
-#~ "nástroji."
-
-#~ msgid "Add support for Sun's compiler [Dhanaraj M]"
-#~ msgstr "Přidává podporu pro kompilátor od firmy Sun [Dhanaraj M]"
-
-#~ msgid "Add support for building Mac Universal Binaries."
-#~ msgstr "Přidaná podpora pro vytváření Mac Universal Binaries."
-
-#~ msgid "Add support for enums in PostgreSQL 8.3+."
-#~ msgstr "Přidaná podpora pro výčty v PostgreSQL 8.3+"
-
-#~ msgid ""
-#~ "Add support for function cost and row estimations in PostgreSQL 8.3+."
-#~ msgstr "Přidává podporu pro cenu funkcí a odhad řádků v PostgreSQL 8.3+."
-
-#~ msgid "Add support for multi-parameter aggregates."
-#~ msgstr "Přidává podporu pro agregační funkce s více parametry."
-
-#~ msgid "Add support for packages on EnterpriseDB."
-#~ msgstr "Přidaná podpora pro balíky v EnterpriseDB."
-
-#~ msgid "Add support for public synonyms on EnterpriseDB."
-#~ msgstr "Přidaná podpora pro veřejná synonyma v EnterpriseDB."
-
-#~ msgid "Allow EnterpriseDB packages to be created without bodies."
-#~ msgstr "Lze vytvořit balík EnterpriseDB bez těla."
-
-#~ msgid "Allow GUC variables to be preset on functions in PostgreSQL 8.3."
-#~ msgstr "Umožňuje v PostgreSQL 8.3 ve funkcích přednastavit GUC proměnné."
-
-#~ msgid "Allow GUCs to be set on users, roles and databases at create time."
-#~ msgstr ""
-#~ "Umožňuje při vytváření nastavit GUC (globální uživatelské nastavení) "
-#~ "podle uživatelů, rolí a databází."
-
-#~ msgid "Allow a debugging session to be cancelled correctly on  windows."
-#~ msgstr "Lze ve Windows korektně zrušit ladící sezení."
-
-#~ msgid "Allow database and schema display to be restricted."
-#~ msgstr "Lze omezit zobrazené databáze a schémata."
-
-#~ msgid ""
-#~ "Allow detection and conversion of line ending format in the query tool."
-#~ msgstr ""
-#~ "Umožňuje detekovat a měnit formát ukončování řádků v dotazovacím nástroji."
-
-#~ msgid "Allow entire servers to be backed up."
-#~ msgstr "Lze zálohovat celé servery."
-
-#~ msgid "Allow global objects to be backed up."
-#~ msgstr "Lze zálohovat globální objekty."
-
-#~ msgid ""
-#~ "Allow install time re-branding. This allows rebranded versions of pgAdmin "
-#~ "to be distributed without code modifications, but with references to the "
-#~ "original pgAdmin being displayed instead. Also add support for shaped "
-#~ "splash screens."
-#~ msgstr ""
-#~ "Umožňuje instalovat časové přeznačení. Tímto se umožňuje přeznačit verzi "
-#~ "pgAdmin, aby šla distribuovat bez úpravy kódu, ale místo toho se "
-#~ "zobrazeným odkazem na původní pgAdmin. Také přidává podporu pro tvarované "
-#~ "úvodní obrazovky."
-
-#~ msgid "Allow non-superusers to debug their own functions."
-#~ msgstr "Uživatelé bez oprávnění superuživatele mohou ladit vlastní funkce."
-
-#~ msgid "Allow pasting of entire rows in the View Data tool."
-#~ msgstr "Při prohlížení dat lze vkládat celé řádky."
-
-#~ msgid ""
-#~ "Allow result copy quoting configuration to be set explicitly rather than "
-#~ "using the result export settings."
-#~ msgstr ""
-#~ "Umožňuje výslovně nastavit způsob použití uvozovek při kopírování "
-#~ "výsledků dotazu, místo aby se použilo nastavení určené pro exportování."
-
-#~ msgid ""
-#~ "Allow selection and copy of subsets of the columns and rows in the Edit "
-#~ "Grid."
-#~ msgstr ""
-#~ "Umožňuje vybrat a kopírovat jen podmnožinu sloupců a řádků v editační "
-#~ "mřížce."
-
-#~ msgid "Allow set returning functions to be created."
-#~ msgstr "Lze vytvářet funkce vracející sady."
-
-#~ msgid ""
-#~ "Allow spaces to be used instead of tabs in SQL editors, and ensure the "
-#~ "width can be set sensibly."
-#~ msgstr ""
-#~ "Umožňuje v editoru SQL použít mezery místo tabelátorů a zajišťuje, že lze "
-#~ "nastavit rozumnou šířku."
-
-#~ msgid "Allow the admin modules to be built with PGXS if required."
-#~ msgstr "Pokud je potřeba, lze admin moduly sestavit s PGXS."
-
-#~ msgid ""
-#~ "Allow the length of array-typed columns to be changed (eg. 'character "
-#~ "varying[](100)'), per report from Ferenc Lutischan"
-#~ msgstr ""
-#~ "Umožňuje změnit u sloupců typu pole změnit délku (např. „character "
-#~ "varying[](100)“. [nahlásil Ferenc Lutischan]"
-
-#~ msgid ""
-#~ "Allow the number of rows shown in the Edit Grid to be limited and add a "
-#~ "'View top 100 rows' option to the table/view context menus."
-#~ msgstr ""
-#~ "Umožňuje omezit množství řádků zobrazených v editační mřížce a do "
-#~ "kontextového menu tabulky/pohledu přidává položku „Zobrazit prvních 100 "
-#~ "řádků“."
-
-#~ msgid ""
-#~ "Allow the tab character to be used as the clipboard column separator to "
-#~ "allow pasting of query results straight into apps like Excel, or OOo Calc."
-#~ msgstr ""
-#~ "Připouští znak tab jako oddělovač sloupců ve schránce, což umožňuje "
-#~ "vkládat výsledky dotazů do aplikací jako je Excel nebo OOo Calc."
-
-#~ msgid ""
-#~ "Allow the user to choose whether or not to restore the environment when "
-#~ "reconnecting to a particular server."
-#~ msgstr ""
-#~ "Umožňuje uživatelům zvolit si, zda chtějí nebo ne při opětovném připojení "
-#~ "k serveru obnovit prostředí."
-
-#~ msgid ""
-#~ "Allow users with SUPERUSER but no other privilege flags to create roles "
-#~ "and databases etc. per Andy Shellam."
-#~ msgstr ""
-#~ "Umožňuje uživatelům, kteří mají pouze oprávnění SUPERUSER a žádné jiné, "
-#~ "vytvářet role, databáze atd. [Andy Shellam]"
-
-#~ msgid ""
-#~ "Always open the PostgreSQL Help when selecting that menu option, even if "
-#~ "connected to EnterpriseDB."
-#~ msgstr ""
-#~ "Po provedení příslušné volby v menu se vždy otevírá nápověda k "
-#~ "PostgreSQL, i když jste připojení k EnterpriseDB."
-
-#~ msgid ""
-#~ "Always refresh the data when the user clicks OK on the  edit grid options "
-#~ "dialogue to ensure the filter/sort is applied to current data."
-#~ msgstr ""
-#~ "Po odkliknutí OK uživatelem v dialogu voleb editační mřížky se vždy "
-#~ "občerství data, aby se zajistilo použití filtru/řazení v aktuálních "
-#~ "datech."
-
-#~ msgid ""
-#~ "As well as many other tweaks, improvements and bug fixes, details of "
-#~ "which may be found in the <a href=\"%s\">changelog</a>."
-#~ msgstr ""
-#~ "A mnoho dalších vyladění, zdokonalení a oprav chyb. Podrobnosti o nich "
-#~ "můžete najít v <a href=\"%s\">seznamu změn</a>."
-
-#~ msgid "As well as many other tweaks, improvements and bug fixes."
-#~ msgstr "A mnoho dalších vyladění, zdokonalení a oprav chyb."
-
-#~ msgid ""
-#~ "Avoid a crash if the connection is lost and the Functions node is "
-#~ "refreshed."
-#~ msgstr ""
-#~ "Vyhýbá se zhroucení v situaci, kdy je ztraceno spojení a provede se "
-#~ "občerstvení uzlu Funkce."
-
-#~ msgid "Avoid a crash when closing the query tool on Solaris [Dhanaraj M]."
-#~ msgstr ""
-#~ "Předchází zhroucení, když se zavírá dotazovací nástroj na Solarisu. "
-#~ "[Dhanaraj M]"
-
-#~ msgid ""
-#~ "Avoid crashes when working with objects with % characters in the name."
-#~ msgstr "Předchází zhroucení při práci s objekty, které mají v názvu znak %."
-
-#~ msgid ""
-#~ "Avoid creating graphical explain nodes for triggers as they aren't part "
-#~ "of the plan and mess up the layout."
-#~ msgstr ""
-#~ "Vyvarovává se v grafickém výkladu vytváření uzlů pro triggery, které "
-#~ "nejsou součástí plánu a akorát dělají nepořádek v nákresu."
-
-#~ msgid ""
-#~ "Avoid displaying multi line data in single line list controls, per "
-#~ "Clodoaldo Pinto Neto."
-#~ msgstr ""
-#~ "Zabraňuje zobrazení víceřádkových údajů v jednořádkových ovládacích "
-#~ "prvcích. [Clodoaldo Pinto Neto]"
-
-#~ msgid "Avoid quoting 'text' when used as a type name per Erwin."
-#~ msgstr ""
-#~ "Vyvarovává se uzavření slova „text“ do uvozovek, když je použité jako "
-#~ "název typu. [Erwin]"
-
-#~ msgid "Browser support for Operator Families in PostgreSQL 8.3."
-#~ msgstr "Podpora pro rodiny operátorů z PostgreSQL 8.3 ve stromu objektů"
-
-#~ msgid "Bug fixes"
-#~ msgstr "Opravy chyb"
-
-#~ msgid "Build against PostgreSQL 8.2 on Windows."
-#~ msgstr "Sestavení proti PostgreSQL 8.2 pod Windows."
-
-#~ msgid ""
-#~ "Check that functions exist before debugging or setting global breakpoints "
-#~ "on them. Remove them from the treeview if not."
-#~ msgstr ""
-#~ "Kontroluje, zda funkce, která se má ladit nebo pro kterou se nastavuje "
-#~ "bod přerušení, existuje. Pokud ne, tak ji odebere ze seznamu."
-
-#~ msgid ""
-#~ "Cleanup some other minor misbehaviours at the same time. Per report from "
-#~ "Erwin."
-#~ msgstr "Odstraňuje některé další drobné chyby v chování. [nahlásil Erwin]"
-
-#~ msgid ""
-#~ "Cleanup the covering index control logic in the Foreign Key dialogue."
-#~ msgstr "Pročištění logiky krycích indexů v dialogu cizího klíče."
-
-#~ msgid "Code cleanup/maintainability"
-#~ msgstr "Čištění a údržba kódu"
-
-#~ msgid "Concurrent index builds."
-#~ msgstr "Konkurenční budování indexů."
-
-#~ msgid "Configurable indents in the SQL editor."
-#~ msgstr "Nastavitelné odsazování v editoru SQL."
-
-#~ msgid ""
-#~ "Construct SQL used to add columns such that the entire operation happens "
-#~ "in one statement to ensure default values and NOT NULL can be set "
-#~ "together. Per report from Laurent ROCHE."
-#~ msgstr ""
-#~ "Vytváří SQL sloužící k přidávání sloupců tak, aby se jednotlivé operaci "
-#~ "provedli v jednom výrazu, což zajistí, že výchozí hodnoty a NOT NULL se "
-#~ "nastaví naráz. [nahlásil Laurent Roche]"
-
-#~ msgid ""
-#~ "Convert setting names to lower case so we don't end up with DateStyle and "
-#~ "datestyle for example."
-#~ msgstr ""
-#~ "Názvy v nastavení se převádí na malá písmena, aby jsme např. neskončili s "
-#~ "DateStyle a datestyle."
-
-#~ msgid ""
-#~ "Copy and paste data correctly when in a cell editor in the edit grid."
-#~ msgstr ""
-#~ "Korektní kopírování a vkládání dat, když se nacházíte v buňce editační "
-#~ "mřížky."
-
-#~ msgid "Correct config window help paths."
-#~ msgstr "Napravuje cesty k nápovědě v okně s nastavením."
-
-#~ msgid "Correct the SQL generation for EDB inline triggers."
-#~ msgstr "Správné generování SQL pro inline triggery EDB."
-
-#~ msgid "Correct the URL for the EDB public synonym help page"
-#~ msgstr "Oprava URL na stránku s nápovědou k veřejným synonymům EDB."
-
-#~ msgid ""
-#~ "Correctly generate table DDL when inherited columns follow the last "
-#~ "'real' column, per Peter Gagarinov."
-#~ msgstr ""
-#~ "Korektně generuje DDL tabulky, tak aby zděděné sloupce následovaly za "
-#~ "posledním „skutečným“ sloupce. [Peter Gagarinov]"
-
-#~ msgid ""
-#~ "Correctly identify the schema of trigger functions that are in system "
-#~ "catalogs as can be the case with integrated full text search."
-#~ msgstr ""
-#~ "Korektně identifikuje schéma funkcí triggerů, které jsou v systémovém "
-#~ "katalogu, jako to může být v případě s integrovaným plně textovým "
-#~ "vyhledáváním."
-
-#~ msgid "Correctly quote role names when reverse engineering ACLs."
-#~ msgstr ""
-#~ "Správně vkládá názvy rolí do uvozovek při reverzním rekonstrukci ACL."
-
-#~ msgid ""
-#~ "Create and reverse engineer edbspl procedures using Oracle compatible "
-#~ "syntax."
-#~ msgstr ""
-#~ "Vytváření a reverzní vytváření edbspl procedur za použití syntaxe "
-#~ "kompatibilní s Oracle."
-
-#~ msgid "Dave Page"
-#~ msgstr "Dave Page"
-
-#~ msgid ""
-#~ "Dave Page<br />\n"
-#~ "pgAdmin Development Team"
-#~ msgstr ""
-#~ "Dave Page<br />\n"
-#~ "vývojářský tým pgAdmin"
-
-#~ msgid ""
-#~ "Detect and warn the user of concurrent edits of functions, views and job "
-#~ "steps."
-#~ msgstr ""
-#~ "Detekuje a varuje uživatele v případě souběžné úpravy funkcí, pohledů a "
-#~ "kroků úkolů."
-
-#~ msgid ""
-#~ "Disable CREATE FUNCTION etc. under EnterpriseDB packages because they are "
-#~ "created as part of the main package body."
-#~ msgstr ""
-#~ "Zakazuje CREATE FUNCTION apod. v balících EnterpriseDB, protože jsou "
-#~ "vytvářené jako část těla hlavního balíku."
-
-#~ msgid "Disable the RULE privilege on 8.2+ for views per Erwin."
-#~ msgstr "Zakazuje oprávnění RULE v 8.2+ pro pohledy [Erwin]."
-
-#~ msgid ""
-#~ "Display catalogs separately from schemas, and don't treat them as system "
-#~ "objects any longer (they can be hidden using the display options). Show "
-#~ "only tables & views (as 'catalog objects') in pseudo-system catalogs such "
-#~ "as information_schema and EDB's sys and dbo catalogs. Lock down "
-#~ "functionality to prevent create/edit/drop options being offered."
-#~ msgstr ""
-#~ "Zobrazuje katalogy odděleně od schémat a nezachází s nimi nadále jako se "
-#~ "systémovými objekty (lze je skrýt pomocí voleb zobrazení). Zobrazuje "
-#~ "pouze tabulky a pohledy (jako „katalogové objekty“) v pseudo-systémovém "
-#~ "katalogu jako je information_schema a katalogy sys a dbo v EDB. Omezuje "
-#~ "funkcionalitu, aby se nenabízely volby vytvořit/upravit/odstranit."
-
-#~ msgid "Display column dependencies."
-#~ msgstr "Zobrazuje závislosti sloupců."
-
-#~ msgid "Display non-default op classes in index definitions."
-#~ msgstr "Zobrazuje nevýchozí třídy operátorů v definicích indexů."
-
-#~ msgid ""
-#~ "Display the client start time on the status dialogue with PostgreSQL 8.1+"
-#~ msgstr ""
-#~ "V dialogu stavu se pro PostgreSQL 8.1+ zobrazuje čas, kdy se klient "
-#~ "připojil."
-
-#~ msgid ""
-#~ "Display the constraint OID for index constraints, not the index OID. Add "
-#~ "the index OID as a new property."
-#~ msgstr ""
-#~ "Zobrazuje omezení OID pro indexová omezení, ne indexové OID. Přidává "
-#~ "indexové OID jako novou vlastnost."
-
-#~ msgid "Display the is_called sequence flag."
-#~ msgstr "Zobrazuje příznak sekvence is_called."
-
-#~ msgid ""
-#~ "Display the output pane in the query tool at query completion if it's "
-#~ "currently hidden."
-#~ msgstr ""
-#~ "Pokud je v dotazovacím nástroji skrytý výstupní panel, tak se po "
-#~ "dokončení dotazu zobrazí."
-
-#~ msgid ""
-#~ "Display, and allow null values to be set in boolean columns in the Edit "
-#~ "Grid."
-#~ msgstr ""
-#~ "Zobrazuje a povoluje zadat hodnotu NULL pro sloupce typu boolean v "
-#~ "editační mřížce."
-
-#~ msgid ""
-#~ "Don't allow the user to attempt to remove columns from an existing index "
-#~ "or index constraint."
-#~ msgstr ""
-#~ "Nedovolí uživateli pokoušet se odstranit sloupce z existujícího indexu "
-#~ "nebo omezení."
-
-#~ msgid ""
-#~ "Don't allow the user to debug an EnterpriseDB package function or "
-#~ "procedure if the body isn't defined."
-#~ msgstr ""
-#~ "Nedovoluje uživateli ladit funkce nebo procedury z balíku EnterpriseDB, "
-#~ "pokud není definované tělo."
-
-#~ msgid ""
-#~ "Don't allow the user to direct-debug trigger functions, only global "
-#~ "breakpoints should be used on them (or the trigger itself)."
-#~ msgstr ""
-#~ "Nedovoluje uživatelům přímo ladit funkce triggerů, pouze na nich mohou "
-#~ "nastavit globální body přerušení (a nebo ladit přímo trigger)."
-
-#~ msgid ""
-#~ "Don't display index constraints under the Indexes node as well as the "
-#~ "Contraints node, per Erwin."
-#~ msgstr ""
-#~ "Nezobrazuje omezení typu index pro uzlem Indexy ale uzlem Omezení. [Erwin]"
-
-#~ msgid ""
-#~ "Don't include the -h option when calling pg_dump or pg_restore if there "
-#~ "is no hostname to specify."
-#~ msgstr ""
-#~ "Vynechá se volba -h, pokud se volá pg_dump nebo pg_restore a není uvedený "
-#~ "název hostitele."
-
-#~ msgid ""
-#~ "Don't load group roles and old-style groups on the security tab on 8.1 "
-#~ "and higher."
-#~ msgstr ""
-#~ "Nenačítá skupinové role a skupiny (zastaralý způsob) na kartě zabezpečení "
-#~ "v 8.1 a vyšším."
-
-#~ msgid "Don't offer 'Drop Cascaded' unless the user can 'Drop' the object."
-#~ msgstr ""
-#~ "Nenabízí „Odstranit kaskádovitě“, pokud nemá uživatel u objektu povolenou "
-#~ "funkci „Odstranit“."
-
-#~ msgid ""
-#~ "Don't offer edbspl functions when creating triggers as they should have "
-#~ "inline bodies."
-#~ msgstr ""
-#~ "Nenabízí edbspl funkce když se vytváří triggery, protože by měly mít "
-#~ "vložená těla."
-
-#~ msgid ""
-#~ "Don't offer package names and system schemas as schemas when creating "
-#~ "public synonyms."
-#~ msgstr ""
-#~ "Při vytváření veřejných synonym se nenabízí názvy balíků a systémová "
-#~ "schémata jako schéma."
-
-#~ msgid ""
-#~ "Don't offer the user the chance to create new columns on system "
-#~ "catalogues."
-#~ msgstr "Nedává uživateli šanci vytvořit nový sloupec v systémovém katalogu."
-
-#~ msgid "Don't paste into empty edit grids, per Howard Wang"
-#~ msgstr "Nevkládá do prázdných datových mřížek. [Howard Wang]"
-
-#~ msgid ""
-#~ "Don't quote database names that happen to be keywords when starting the "
-#~ "debugger."
-#~ msgstr ""
-#~ "Neuzavírá názvy databází do uvozovek, aby se staly klíčovými slovy při "
-#~ "spuštění ladicího programu."
-
-#~ msgid "Don't try to detect if integrated autovacuum is running on &lt; 8.1."
-#~ msgstr ""
-#~ "Nezkouší detekovat jestli integrovaný automatický úklid běží na &lt; 8.1."
-
-#~ msgid ""
-#~ "Don't try to enable/disable prepared transaction related controls on "
-#~ "pre-8.1 servers, per Karl Zellnig"
-#~ msgstr ""
-#~ "Nezkouší povolit/zakázat ovládací prvky vztahující se k předpřipraveným "
-#~ "transakcím na serverech starší verze než 8.1. [Karl Zellnig]"
-
-#~ msgid ""
-#~ "Don't try to force new databases into a specific tablespace as this will "
-#~ "error as non-superusers default to pg_default."
-#~ msgstr ""
-#~ "Nezkouší vnutit novou databázi do určeného prostoru tabulek, protože to "
-#~ "způsobí chybu pokud ne-superuživatelé nepoužijí pg_default."
-
-#~ msgid ""
-#~ "EDB-SPL functions require NULL to be passed in out-params when debugging."
-#~ msgstr ""
-#~ "EDB-SPL funkce vyžadují při ladění předat NULL ve výstupních parametrech."
-
-#~ msgid ""
-#~ "Enable the OK button on the Database properties dialog when the owner is "
-#~ "changed, per Jim Cullison"
-#~ msgstr ""
-#~ "Zpřístupňuje tlačítko OK v dialogu vlastností databáze, když se změní "
-#~ "vlastník. [Jim Cullison]"
-
-#~ msgid ""
-#~ "Enable the OK button on the database properties dialog when variables are "
-#~ "changed."
-#~ msgstr ""
-#~ "Zpřístupňuje tlačítko OK v dialogu vlastností databáze, když se změní "
-#~ "proměnné."
-
-#~ msgid ""
-#~ "Enhance the query tool to allow copy/paste of arbitrary groups of "
-#~ "columns, rows or individual cells."
-#~ msgstr ""
-#~ "Zdokonaluje dotazovací nástroj tak, aby šlo kopírovat/vkládat libovolné "
-#~ "skupiny sloupců, řádků nebo individuálních buněk."
-
-#~ msgid "Enhancements"
-#~ msgstr "Vylepšení"
-
-#~ msgid ""
-#~ "Ensure backup and restore options are enabled when appropriate (this is a "
-#~ "wxWidgets bug, fixed in wxWidgets 2.8.0rc1)"
-#~ msgstr ""
-#~ "Zajišťuje, že volby pro zálohování a obnovu jsou dostupné, kdy mají být "
-#~ "(toto je chybou wxWidgets a bylo to opraveno ve wxWidgets 2.8.0rc1)"
-
-#~ msgid ""
-#~ "Ensure column headers and the insert row are shown in the edit grid when "
-#~ "no rows exist in the table being editted, per Bob Pawley."
-#~ msgstr ""
-#~ "Zajišťuje, že editační mřížka bude mít na začátku záhlaví a prázdný řádek "
-#~ "pro nový záznam, i když je upravovaná tabulka prázdná. [Bob Pawley]"
-
-#~ msgid "Ensure enums are offered as datatypes for columns."
-#~ msgstr "Zajišťuje, že se v datových typech pro sloupce nabízí výčtové typy."
-
-#~ msgid ""
-#~ "Ensure files can be converted to the required encoding before saving."
-#~ msgstr ""
-#~ "Zajišťuje, že soubory mohou být před uložením převedené do požadovaného "
-#~ "kódování."
-
-#~ msgid "Ensure info passed to Guru hints is HTML-safe."
-#~ msgstr ""
-#~ "Zajišťuje, že informace předávané do Rady odborníka jsou HTML-bezpečné."
-
-#~ msgid ""
-#~ "Ensure logfiles and pgpass files can be correctly saved on Windows when "
-#~ "the username contains non-ASCII chars."
-#~ msgstr ""
-#~ "Zajišťuje, aby šly pod Windows korektně uložit soubory s evidencí a "
-#~ "pgpass  i když jméno uživatele obsahuje ne-ASCII znaky."
-
-#~ msgid "Ensure pgAgent jobs can be managed on Greenplum database."
-#~ msgstr "Zajišťuje, že úkoly pgAgent lze spravovat na databázi Greenplum."
-
-#~ msgid ""
-#~ "Ensure that EDB-SPL trigger DDL code is appropriately formatted on newer "
-#~ "builds of EnterpriseDB."
-#~ msgstr ""
-#~ "Zajišťuje, že kód DDL pro EDB-SPL je náležitě naformátovaný na nových "
-#~ "verzích EnterpriseDB."
-
-#~ msgid ""
-#~ "Ensure the 'Create Rule' context menu option is always offered when "
-#~ "appropriate."
-#~ msgstr ""
-#~ "Zajišťuje že položka kontextového menu „Vytvořit pravidlo“ je vždy "
-#~ "nabízená, kde má."
-
-#~ msgid ""
-#~ "Ensure the password and confirmed password always match when adding or "
-#~ "editing roles or users."
-#~ msgstr ""
-#~ "Ověření, zda se heslo a kontrolní heslo shodují vždy, kdy se přidává nebo "
-#~ "upravuje role nebo uživatel."
-
-#~ msgid "Ensure the password change dialog works with stored passwords."
-#~ msgstr "Zajišťuje, aby dialog na změnu hesla pracoval s uloženými hesly."
-
-#~ msgid ""
-#~ "Ensure the properties dialogues will work sanely with objects named \" "
-#~ "\" (!)."
-#~ msgstr ""
-#~ "Zajišťuje, že dialogy vlastností budou rozumně pracovat s objekty "
-#~ "pojmenovanými „ “ (!)."
-
-#~ msgid ""
-#~ "Ensure we always allow the maximum string length possible to be entered "
-#~ "in the Edit Grid."
-#~ msgstr ""
-#~ "Zajišťuje, že vždy umožníme do editační mřížky zadat řetězec v maximální "
-#~ "možné délce."
-
-#~ msgid ""
-#~ "FOSDEM fix: Include overriding columns in reverse engineered SQL for "
-#~ "child tables, rather than commenting them out and marking as inherited."
-#~ msgstr ""
-#~ "Oprava z FOSDEM: Obsahuje předefinování sloupců v reverzně vytvořeném SQL "
-#~ "pro dceřiné tabulky, místo toho, aby se zakomentovávaly a označovaly jako "
-#~ "zděděné."
-
-#~ msgid ""
-#~ "Fix EnterpriseDB public synonym loading so that they aren't considered "
-#~ "system objects."
-#~ msgstr ""
-#~ "Opravuje načítání veřejných synonym EnterpriseDB tak, aby nebyla "
-#~ "považována za systémové objekty."
-
-#~ msgid ""
-#~ "Fix a bug preventing the 'on error' flag of a pgAgent job step being "
-#~ "edited, per Jon Roberts."
-#~ msgstr ""
-#~ "Opravuje chybu bránící úpravě příznaku „on error“ kroku úkolu pgAgent. "
-#~ "[Jon Roberts]"
-
-#~ msgid ""
-#~ "Fix a bug that could cause a crash on GTK when closing the query tool in "
-#~ "certain circumstances."
-#~ msgstr ""
-#~ "Opravuje chybu, která může způsobit za určitých okolností zhroucení v GTK "
-#~ "při zavírání dotazovacího nástroje."
-
-#~ msgid ""
-#~ "Fix a bug that prevented adding new nodes to a Slony cluster, per Duncan "
-#~ "Beeby."
-#~ msgstr ""
-#~ "Opravuje chybu, která bránila přidání nového uzlu do clusteru Slony. "
-#~ "[Ducan Beeby]"
-
-#~ msgid ""
-#~ "Fix a corner case in which closing the debugger window  following a "
-#~ "failed attempt to create a global breakpoint (for example, because of an "
-#~ "existing breakpoint) could cause a crash on Windows."
-#~ msgstr ""
-#~ "Opravuje situaci, kdy zavření ladicího okna následující selháním pokusu o "
-#~ "vytvoření globálního bodu přerušení (např. protože nějaký bod přerušení "
-#~ "existuje) může pod Windows způsobit zhroucení."
-
-#~ msgid ""
-#~ "Fix a crash in the Edit Grid which occured if Delete was pressed whilst "
-#~ "editing a boolean."
-#~ msgstr ""
-#~ "Opravu zhroucení v editační mřížce, které se objevovalo při stisku Delete "
-#~ "během úpravy údaje typu boolean."
-
-#~ msgid ""
-#~ "Fix a crash on Mac that occurred when using some combo boxes, per David "
-#~ "Lowry."
-#~ msgstr ""
-#~ "Opravuje zhroucení v systému Mac, které se vyskytovalo při použití "
-#~ "některých výběrových seznamů. [David Lowry]"
-
-#~ msgid ""
-#~ "Fix a crash that occured if an object called '%' was selected in the "
-#~ "treeview, per Alexander Steffens."
-#~ msgstr ""
-#~ "Opravuje zhroucení, které nastalo, když se ve stromu vybral objekt "
-#~ "nazvaný „%“ [Alexander Steffens]"
-
-#~ msgid ""
-#~ "Fix a line number error in the debugger seen with procedures which start "
-#~ "on the same line as the 'CREATE PROCEDURE foo IS ...' Per report from "
-#~ "Heikki Linnakangas."
-#~ msgstr ""
-#~ "Opravuje chybu s čísly řádků v ladicím programu, která se objevuje s "
-#~ "procedurami začínajícími na stejném řádku jako „CREATE PROCEDURE foo "
-#~ "IS ...“. [nahlásil Heikki Linnakangas]"
-
-#~ msgid "Fix a minor bug in app bundle creation for Mac [Florian G. Pflug]"
-#~ msgstr ""
-#~ "Opravuje drobnou chybu při vytváření aplikačního balíčku pro Mac. "
-#~ "[Florian G. Pflug]"
-
-#~ msgid ""
-#~ "Fix a minor bug in the index reverse engineering when using non-default "
-#~ "operator classes per Andrus."
-#~ msgstr ""
-#~ "Opravuje drobnou chybu v reverzním vytváření pro indexy, kdy je použitá "
-#~ "třída operátorů, která není výchozí. [Andrus]"
-
-#~ msgid ""
-#~ "Fix a rare bug in the Edit Grid which could cause a crash when editting "
-#~ "data in tables with deleted columns and a primary key that isn;t at the "
-#~ "beginning of the table. Thanks to Patrick De Visschere for the test case."
-#~ msgstr ""
-#~ "Opravuje zřídkavou chybu v editační mřížce, která může způsobit zhroucení "
-#~ "během úprav dat v tabulce se smazanými řádky a primárním indexem, který "
-#~ "není na začátku tabulky. Děkujeme Patriku De Visschereovi za testování."
-
-#~ msgid ""
-#~ "Fix an issue in the Query Tool export option that could result in blank "
-#~ "lines in the export file, per Mathias Durst and Mike."
-#~ msgstr ""
-#~ "Opravuje problém v exportu z dotazovacího nástroje, který by mohl "
-#~ "způsobit prázdné řádky v exportovaném souboru. [Mathias Durst a Mike]"
-
-#~ msgid "Fix an overflow bug in pgAgent, per report from Sabin Coanda"
-#~ msgstr "Opravuje chybu přetečení v pgAgent nahlášenou od Sabin Coanda"
-
-#~ msgid "Fix character number display in the query tool."
-#~ msgstr "Opravuje zobrazování znaků číslic v dotazovacím nástroji."
-
-#~ msgid ""
-#~ "Fix column dialogue to allow proper modification of array columns per "
-#~ "Erwin."
-#~ msgstr ""
-#~ "Opravuje dialog sloupce, aby šly správně upravovat sloupce s poli. [Erwin]"
-
-#~ msgid "Fix default perspective names, per Ezequias."
-#~ msgstr "Opravuje výchozí perspektivní názvy. [Ezequias]"
-
-#~ msgid "Fix deletion of stored procedures, Per Erwin."
-#~ msgstr "Opravuje mazání uložených procedur [Erwin]."
-
-#~ msgid "Fix localisation of 'Tab' as a copy delimiter."
-#~ msgstr "Opravuje vyhledávání znaku „Tab“ jako oddělovače při kopírování."
-
-#~ msgid "Fix menu icon for Gnome [Nathan Egge]"
-#~ msgstr "Opravuje ikony menu pro Gnome [Nathan Egge]"
-
-#~ msgid ""
-#~ "Fix path discovery on Unix so standard installs can be relocated easily."
-#~ msgstr ""
-#~ "Opravuje vyhledávání cest v Unixu tak, aby šla standardní instalace "
-#~ "snadno přesunout."
-
-#~ msgid ""
-#~ "Fix per-table autovacuum settings for PostgreSQL >= 8.2 per Devrim Gunduz."
-#~ msgstr ""
-#~ "Opravuje nastavení automatického úklidu pro jednotlivé tabulky v "
-#~ "PostgreSQL >= 8.2 [Devrim Gunduz]"
-
-#~ msgid ""
-#~ "Fix pgAgent's job query when a host agent is specified so that jobs don't "
-#~ "execute every time round the loop regardless of schedule, per Brian "
-#~ "Kalbfus."
-#~ msgstr ""
-#~ "Opravuje dotaz úkolu z pgAgent se zadaným hostitelem tak, aby se úkoly "
-#~ "nespouštěly při každém průchodu smyčky, ale jen když jsou naplánované. "
-#~ "[Brian Kalfus]"
-
-#~ msgid "Fix potential crash bug in the query tool logging code, per Erwin."
-#~ msgstr ""
-#~ "Opravuje chybu v kódu pro evidování v dotazovacím nástroji, která může "
-#~ "potenciálně způsobit zhroucení [Erwin]."
-
-#~ msgid "Fix procedure support on EnterpriseDB AS81."
-#~ msgstr "Opravuje podporu procedur v EnterpriseDB AS81."
-
-#~ msgid "Fix query that tries to apply the DB restriction."
-#~ msgstr "Opravuje dotazy, které zkouší aplikovat omezení databází."
-
-#~ msgid "Fix query that tries to apply the schema restriction."
-#~ msgstr "Opravuje dotazy, které zkouší aplikovat omezení schémat."
-
-#~ msgid ""
-#~ "Fix query tool title which was unfortunately broken by an earlier fix for "
-#~ "another bug."
-#~ msgstr ""
-#~ "Opravuje titulek dotazovacího nástroje, který se nedopatřením poškodil "
-#~ "při dřívější opravě jiné chyby."
-
-#~ msgid ""
-#~ "Fix reverse engineering of data types with a size of 0, such as "
-#~ "\"timestamp(0) without timezone\"."
-#~ msgstr ""
-#~ "Opravuje reverzní vytváření datových typů s délkou 0, jako je např. "
-#~ "„timestamp(0) without timezone“."
-
-#~ msgid "Fix some broken references to online help pages."
-#~ msgstr "Opravuje některé chybné odkazy na stránky s on-line nápovědou."
-
-#~ msgid ""
-#~ "Fix some oddities in the way current per-table vacuum settings are "
-#~ "displayed."
-#~ msgstr ""
-#~ "Opravuje některé nezvyklosti ve způsobu jakým je zobrazené nastavení "
-#~ "automatického úklidu u jednotlivých tabulek."
-
-#~ msgid "Fix some portability issues in the configure code [Max Khon]"
-#~ msgstr ""
-#~ "Opravuje některé problémy s přenositelností v kódu nastavení [Max Khon]"
-
-#~ msgid "Fix the WITH ADMIN membership option when creating roles."
-#~ msgstr ""
-#~ "Opravuje volbu členství „Může přidělovat/odebírat oprávnění“ při "
-#~ "vytváření rolí."
-
-#~ msgid ""
-#~ "Fix the debugger to send actual NULL values rather than 'NULL' through "
-#~ "the EnterpriseDB callable statement API. Allow parameter values to be "
-#~ "NULL or empty strings on both PostgreSQL and EnterpriseDB using the same "
-#~ "syntax as the Edit Grid."
-#~ msgstr ""
-#~ "Opravuje ladicí program, aby posílal hodnotu NULL místo 'NULL' přes "
-#~ "volatelný výraz API z EnterpriseDB. Díky tomu mohou být hodnoty parametrů "
-#~ "NULL nebo prázdný řetězec jak v PostgreSQL tak EnterpriseDB při použití "
-#~ "stejné syntaxe jako v editační mřížce."
-
-#~ msgid ""
-#~ "Fix the debugger's connection class to ensure database names requiring "
-#~ "quotes will work and that it can be used with SSL and Kerberos "
-#~ "connections."
-#~ msgstr ""
-#~ "Opravuje třídu připojení ladicího programu, aby zajistila, že budou "
-#~ "pracovat názvy databází vyžadující uzavření do uvozovek a že budou moci "
-#~ "být použité při spojením přes SSL a Kerberos."
-
-#~ msgid ""
-#~ "Fix the graphical explain to properly display backwards index scan nodes, "
-#~ "per Brendan O'Shea."
-#~ msgstr ""
-#~ "Opravuje grafický výklad dotazu, aby správně zobrazoval uzly procházené "
-#~ "zpětnými indexy. [Brendan O'Shea]"
-
-#~ msgid ""
-#~ "Fix the locks tab on the server status dialogue so it works correctly "
-#~ "with PostgreSQL 8.3+."
-#~ msgstr ""
-#~ "Opravuje panel zámků v dialogu se stavem serveru, aby správně pracoval s "
-#~ "PostgreSQL 8.3+."
-
-#~ msgid ""
-#~ "Fix the logging system to ensure that errors from the query tool get "
-#~ "logged, and notices are only output once."
-#~ msgstr ""
-#~ "Opravuje systém evidence tak, aby bylo zajištěné, že se zaevidují chyby z "
-#~ "dotazovacího nástroje a upozornění se objeví jen jednou."
-
-#~ msgid "Fix the privilege editor on the Language dialogue, per Bborie Park."
-#~ msgstr "Opravuje editor oprávnění v dialogu jazyku. [Bborie Park]"
-
-#~ msgid ""
-#~ "Fix the table, index and index constraint tablespace property combo boxes "
-#~ "to allow changes to tablespace."
-#~ msgstr ""
-#~ "Opravuje výběrový seznam prostorů tabulek pro tabulky, indexy a indexová "
-#~ "omezení, aby bylo možné měnit prostor tabulek."
-
-#~ msgid ""
-#~ "Fix to refresh version string and number, and last OID, per a report from "
-#~ "Alexander Kirpa."
-#~ msgstr ""
-#~ "Opravuje občerstvování řetězců a čísel s verzí a posledního OID. "
-#~ "[nahlásil Alexander Kirpa]"
-
-#~ msgid ""
-#~ "Fixed UTF8 option was not effective by file reading and writing of a "
-#~ "query and fixed crash at the time of file save."
-#~ msgstr ""
-#~ "Opravuje volbu UTF8 tak, aby nebyla neovlivňovaná čtením a zapisováním "
-#~ "souboru dotazu a opravuje zhroucení během ukládání souboru."
-
-#~ msgid ""
-#~ "Function/procedure signatures do not include OUT params. Fix this "
-#~ "oversight, and cleanup much of the related code."
-#~ msgstr ""
-#~ "Hlavičky funkcí/procedur neobsahují parametr OUT. Opravuje toto "
-#~ "přehlédnutí a pročišťuje většinu příslušného kódu."
-
-#~ msgid ""
-#~ "Generate function signatures correctly if the first parameters are OUT "
-#~ "only."
-#~ msgstr ""
-#~ "Generuje korektně hlavičku funkce, i když je první parametr pouze OUT."
-
-#~ msgid ""
-#~ "Guard against permission denied errors in the edit grid per Howard Wang"
-#~ msgstr ""
-#~ "Chrání se před chybami kvůli zamítnutí přístupu v editační mřížce [Howard "
-#~ "Wang]"
-
-#~ msgid ""
-#~ "Handle non-default schema paths properly in the Foreign Key dialogue, per "
-#~ "Philipp Specht"
-#~ msgstr ""
-#~ "Pracuje správně s nevýchozími cestami schémat v dialogu cizího klíče. "
-#~ "[Philipp Specht]"
-
-#~ msgid "Handle resetting of sequence values more consistently."
-#~ msgstr "Více konzistentně se řeší reset hodnot v sekvenci."
-
-#~ msgid ""
-#~ "Handle the corner case when a user includes quotes in an object name "
-#~ "(backport of 2007-10-26 fix applied to trunk)"
-#~ msgstr ""
-#~ "Ošetřuje zřídkavý případ, kdy uživatel vloží uvozovky do názvu objektu "
-#~ "(zpětný port opravy z 26.10.2007 aplikované do trunk)."
-
-#~ msgid ""
-#~ "Hide array variants of table-types in datatype selectors where we already "
-#~ "hide the table type itself."
-#~ msgstr ""
-#~ "Skrývá varianty „pole“ od tabulkových typů ve výběru datových typů v "
-#~ "případě, že už byly skryty tabulkové typy."
-
-#~ msgid "Hide binary data (bytea) in the edit grid."
-#~ msgstr "Skrývá binární data (bytea) v editační mřížce."
-
-#~ msgid ""
-#~ "Highlight the error word in the query tool if a syntax error is reported "
-#~ "by the database."
-#~ msgstr ""
-#~ "Při hlášení syntaktické chyby od databáze se v dotazovacím nástroji "
-#~ "zvýrazní příslušné slovo."
-
-#~ msgid ""
-#~ "I would like to take this opportunity to thank all those who gave their \n"
-#~ "time to help with the development, testing, translation and packaging of "
-#~ "this release."
-#~ msgstr ""
-#~ "Rád bych při této příležitosti poděkoval všem, kteří věnovali svůj čas "
-#~ "pomoci s\n"
-#~ " vývojem, testováním, překladem a balením tohoto vydání."
-
-#~ msgid ""
-#~ "I would like to take this opportunity to thank all those who gave their "
-#~ "time to help with the development, testing, translation and packaging of "
-#~ "this release."
-#~ msgstr ""
-#~ "Rád bych při této příležitosti poděkoval všem, kteří věnovali svůj čas "
-#~ "pomoci s vývojem, testováním, překladem a balením tohoto vydání."
-
-#~ msgid ""
-#~ "I'm pleased to announce the release of pgAdmin 1.6.0, the Open Source "
-#~ "graphical PostgreSQL administration tool for Windows, Linux, FreeBSD, Mac "
-#~ "OS X and Solaris, now available for download in source and a variety of "
-#~ "binary formats from:"
-#~ msgstr ""
-#~ "S potěšením mohu oznámit vydání pgAdmin 1.6.0, Open Source grafického "
-#~ "nástroje na administraci PostgreSQL pro Windows, Linux, FreeBSD, Mac OS X "
-#~ "a Solaris. Je dostupný ke stažení v podobě zdrojového kódu i různých "
-#~ "variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "If stopping the server service fails after stopping dependent services, "
-#~ "wait 5 seconds and try again up to 10 times to allow the dependents time "
-#~ "to shutdown fully."
-#~ msgstr ""
-#~ "Pokud selže ukončení serverové služby po zahájení ukončení závisejících "
-#~ "služeb, tak se počká 5 sekund a provede se nový pokus. Tak se to zkouší "
-#~ "desetkrát, aby se závisející služby měly čas plně ukončit."
-
-#~ msgid "Ignore the type modifier for domains in function signatures."
-#~ msgstr "Ignoruje modifikátory typů pro domény v hlavičkách funkcí."
-
-#~ msgid ""
-#~ "Include IN/OUT/INOUT keywords in procedure identifiers in the treeview."
-#~ msgstr ""
-#~ "Zahrnuje klíčová slova IN/OUT/INOUT do identifikátorů procedur ve stromu "
-#~ "objektů."
-
-#~ msgid ""
-#~ "Integrate the EnterpriseDB pl/pgsql and EDB-SPL debugger with pgAdmin."
-#~ msgstr ""
-#~ "Integruje ladicí programy pro EDB-SPL a pl/pgsql z EnterpriseDB s pgAdmin."
-
-#~ msgid ""
-#~ "Load second and subsequent postgresql.conf files into the config editor "
-#~ "correctly."
-#~ msgstr ""
-#~ "Korektní načtení druhého a dalších souborů postgresql.conf do editoru "
-#~ "nastavení."
-
-#~ msgid "Major features"
-#~ msgstr "Hlavní vlastnosti"
-
-#~ msgid ""
-#~ "Make elements of the main windows dockable for maximum configurability."
-#~ msgstr ""
-#~ "Prvky hlavního okna jsou dokovatelné, abyste si je mohli maximálně "
-#~ "přizpůsobit."
-
-#~ msgid "Minimal linking for pgAgent under *nix."
-#~ msgstr "Minimalizace vazeb pro pgAgent pod *nixy."
-
-#~ msgid "Minor fix for edb/spl functions."
-#~ msgstr "Drobné opravy pro edb/spl funkce."
-
-#~ msgid ""
-#~ "Monitor the streams again whilst backing up on Mac - this no longer "
-#~ "crashes in wx2.8. Per Dave Livesay."
-#~ msgstr ""
-#~ "Sleduje proudy během zálohování v systému Mac - nadále již nezpůsobuje "
-#~ "zhroucení in wx2.8. [Dave Livesay]"
-
-#~ msgid ""
-#~ "Newer build of EnterpriseDB consistently strip trailing semi-colons from "
-#~ "package headers and bodies. Update reverse engineering allow for this."
-#~ msgstr ""
-#~ "Novější sestavení EnterpriseDB konzistentně odřezává koncové středníky z "
-#~ "hlaviček a těl balíků. Aktualizace upravuje reverzní vytváření tak, aby "
-#~ "to podporovalo."
-
-#~ msgid "News"
-#~ msgstr "Novinky"
-
-#~ msgid ""
-#~ "Numerous changes to the database browser code to ensure changes to "
-#~ "objects are properly reflected in the main window. In addition, the "
-#~ "expanded/collapsed states of child nodes are retained wherever possible "
-#~ "during refresh operations."
-#~ msgstr ""
-#~ "Četné změny v kódu stromu objektů, aby se zajistilo, že změny v objektech "
-#~ "správně promítnou do hlavního okna. Navíc se při občerstvování, kdykoliv "
-#~ "je to možné, zachová stav rozbalení/sbalení podřízených uzlů."
-
-#~ msgid ""
-#~ "Only enable the 'Include SQL' checkbox on the report dialog if there is "
-#~ "SQL to include, Per Ezequias Rodrigues da Rocha"
-#~ msgstr ""
-#~ "Povoluje vyběrové políčko „Zahrnout SQL do reportu“ v dialogu reportu "
-#~ "pouze pokud obsahuje SQL. [Ezequias Rodrigues da Rocha]"
-
-#~ msgid "Only offer the Jobs node if the user can access the pgagent schema."
-#~ msgstr ""
-#~ "Nabízí uzel „Úkoly“ pouze pokud má uživatel přístup ke schématu pgagent."
-
-#~ msgid "Overhaul of server config settings."
-#~ msgstr "Přepracovat nastavování serveru."
-
-#~ msgid "Parse function parameter names correctly when they contain commas."
-#~ msgstr "Správně analyzuje názvy parametrů funkcí, když obsahují čárky."
-
-#~ msgid ""
-#~ "Please visit the <a href=\"download\">download area</a> to get your copy "
-#~ "now. Any questions or other support issues should be sent to <a href="
-#~ "\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</"
-#~ "a>."
-#~ msgstr ""
-#~ "Stáhnout si jej můžete <a href=\"download\">v sekci ke stahování</a>. "
-#~ "Případné dotazy a hlášení problémů zasílejte prosím na adresu <a href="
-#~ "\"mailto:pgadmin-support@postgresql.org\">pgadmin-support@postgresql.org</"
-#~ "a>."
-
-#~ msgid ""
-#~ "Position the cursor at the error position when an error occurs in the "
-#~ "Query Tool. Ensure the line is visible."
-#~ msgstr ""
-#~ "Při výskytu chyby v dotazovacím nástroji se kurzor přesune na místo "
-#~ "výskytu chyby. Je zaručeno, že řádek bude viditelný."
-
-#~ msgid ""
-#~ "Pre-encrypt passwords before sending them down the wire, or displaying "
-#~ "them in SQL statements."
-#~ msgstr ""
-#~ "Zašifruje hesla před odesláním po síti nebo zobrazením v SQL výrazu."
-
-#~ msgid "Preserve column widths between queries in the query tool."
-#~ msgstr "Zachovává šířky sloupců mezi dotazy v dotazovacím nástroji"
-
-#~ msgid "Prevent a crash from the query tool when using File -> Exit on GTK"
-#~ msgstr ""
-#~ "Zabraňuje zhroucení při zvolení Soubor -&gt; Ukončit v dotazovacím "
-#~ "nástroji na GTK."
-
-#~ msgid ""
-#~ "Prevent a crash if the 'View Filtered Data' filter dialog is cancelled. "
-#~ "Per Erwin Brandstetter."
-#~ msgstr ""
-#~ "Zabraňuje zhroucení, když zrušíte filtrovací dialog „Zobrazit filtrovaná "
-#~ "data“. [Erwin Brandstetter]"
-
-#~ msgid "Prevent a crash when viewing databases with % in the name."
-#~ msgstr ""
-#~ "Předchází zhroucení aplikace, když název prohlížené databáze obsahuje %."
-
-#~ msgid ""
-#~ "Prevent deletion of the blank item in config editors, and ensure undo "
-#~ "will only work on the appropriate line."
-#~ msgstr ""
-#~ "Zabraňuje smazání prázdných položek v editoru nastavení a zajišťuje, že "
-#~ "funkce „zpět“ bude pracovat jen na patřičných řádcích."
-
-#~ msgid ""
-#~ "Prevent non-superusers from attempting to use the debugger because the "
-#~ "plugin API won't let them anyway."
-#~ msgstr ""
-#~ "Zabraňuje ne-superuživatelům pokoušet se použít ladicí program, protože "
-#~ "API zásuvného modulu je stejně odmítne."
-
-#~ msgid ""
-#~ "Prevent the Edit Grid Filter causing a crash if an invalid filter "
-#~ "containing a % is used, per Erwin."
-#~ msgstr ""
-#~ "Zabraňuje zhroucení, které způsobuje filtr v editační mřížce, když se "
-#~ "použije neplatný filtr obsahující %. [Erwin]"
-
-#~ msgid ""
-#~ "Prevent the RULE privilege becoming re-enabled for tables on PostgreSQL "
-#~ "8.2+, per Erwin."
-#~ msgstr ""
-#~ "Zabraňuje opětovnému povolení oprávnění RULE pro tabulky na PostgreSQL "
-#~ "8.2+. [Erwin]"
-
-#~ msgid ""
-#~ "Prevent the filter/sort options dialogue being opened when data is being "
-#~ "refreshed, per Erwin Brandstetter."
-#~ msgstr ""
-#~ "Zabraňuje otevření dialogu filtrování/řazení během občerstvování dat. "
-#~ "[Erwin Brandstetter]"
-
-#~ msgid "Prevent the user from trying to debug catalog objects."
-#~ msgstr "Brání uživatelům zkoušet ladit katalogové objekty."
-
-#~ msgid ""
-#~ "Prevent unsaved changes in the edit grid being lost if the filter or "
-#~ "sorting dialogue is opened."
-#~ msgstr ""
-#~ "Předchází ztrátě neuložených dat v editační mřížce, pokud je otevřený "
-#~ "dialog filtru/řazení."
-
-#~ msgid "Privilege changes (database CONNECT, and sequence USAGE)."
-#~ msgstr "Změny oprávnění (CONNECT u databáze a USAGE u sekvence)."
-
-#~ msgid ""
-#~ "Prompt the user to save changes before opening a file from the recent "
-#~ "files menu on the Query Tool."
-#~ msgstr ""
-#~ "Dotazuje se uživatele, jestli chce uložit změny při otevírání z nabídky "
-#~ "naposledy použitých souborů v dotazovacím nástroji."
-
-#~ msgid ""
-#~ "Properly drop foreign keys in schemas whose names require quoting, per M "
-#~ "S."
-#~ msgstr ""
-#~ "Správně odstraňuje cizí klíče ve schématech jejichž názvy potřebují "
-#~ "uzavřít do uvozovek. [M S]"
-
-#~ msgid "Properly escape _'s in queries for schemas, per Derek Fonda."
-#~ msgstr ""
-#~ "Správně ošetřuje pomocí escape sekvence „_“ v dotazech na schémata. "
-#~ "[Derek Fonda]"
-
-#~ msgid ""
-#~ "Properly format the object comments shown in the properties list when a "
-#~ "collection node is selected. Per report from Mike Blackwell."
-#~ msgstr ""
-#~ "Náležitě formátuje komentáře objektů zobrazené v seznamu vlastností, když "
-#~ "je vybraný souhrnný uzel. [nahlásil Mike Blackwell]"
-
-#~ msgid "Properly quote function parameter names, per Ken Priest."
-#~ msgstr "Správně uzavírá do uvozovek názvy parametrů funkcí. [Ken Priest]"
-
-#~ msgid "Properly quote synonym names when refreshing."
-#~ msgstr "Správně uzavírá do uvozovek názvy synonym pří občerstvování."
-
-#~ msgid ""
-#~ "Properly quote the maintenance database name when creating a new "
-#~ "connection."
-#~ msgstr ""
-#~ "Správně uzavírá do uvozovek název servisní databáze při vytváření nového "
-#~ "připojení."
-
-#~ msgid ""
-#~ "Properly reverse-engineer the SQL for indexes with DESC, NULLS FIRST or "
-#~ "NULLS LAST column options."
-#~ msgstr ""
-#~ "Náležitě reverzně vytváří SQL pro indexy s volbami DESC, NULLS FIRST nebo "
-#~ "NULLS LAST u sloupců."
-
-#~ msgid "Properly size the backup dialog, per Patrick Headley."
-#~ msgstr "Správné rozměry zálohovacího dialogu. [Patrick Headley]"
-
-#~ msgid "Refactor code to remove database base classes."
-#~ msgstr "Předělání kódu na odstranění základních databázových tříd."
-
-#~ msgid ""
-#~ "Refactor code to remove support for building the Query Tool with a "
-#~ "listview rather than a grid."
-#~ msgstr ""
-#~ "Předělává kód tak, aby se odstranila podpora pro sestavení dotazovacího "
-#~ "nástroje se seznamem místo s mřížkou."
-
-#~ msgid ""
-#~ "Refactor the Query Tool's execQuery function to prevent pgAdmin freezing "
-#~ "while two long running queries are executing simultaneously."
-#~ msgstr ""
-#~ "Předělává funkci execQuery z dotazovacího nástroje tak, aby se zabránilo "
-#~ "zamrznutí pgAdmin při současném spuštění dvou dotazů, které běží dlouho."
-
-#~ msgid "Refresh Views correctly on EnterpriseDB."
-#~ msgstr "Korektní občerstvování pohledů na EnterpriseDB."
-
-#~ msgid "Refresh database objects correctly, per Guy Rouillier."
-#~ msgstr "Občerstvuje korektně databázové objekty. [Guy Rouillier]"
-
-#~ msgid ""
-#~ "Refresh the tree without erroring after creating a new package on "
-#~ "EnterpriseDB."
-#~ msgstr ""
-#~ "Strom se po vytvoření nového balíku v EnterpriseDB občerstvuje bez chyb."
-
-#~ msgid "Reject invalid command line options in pgAgent."
-#~ msgstr "Odmítá neplatné volby příkazového řádku v pgAgent."
-
-#~ msgid "Remember last used backup/restore filenames."
-#~ msgstr "Pamatuje si naposledy použitý název souboru pro zálohování/obnovu."
-
-#~ msgid "Remember last used save definition filename."
-#~ msgstr "Pamatuje si naposledy použitý název souboru pro uložení definice."
-
-#~ msgid "Remember the server's SSL mode property correctly."
-#~ msgstr "Pamatuje si správně vlastnosti režimu SSL u serveru."
-
-#~ msgid "Remove a lot debugging code of little or no use."
-#~ msgstr ""
-#~ "Odstraňuje spoustu ladicího kódu, který se téměř nebo vůbec nepoužíval."
-
-#~ msgid ""
-#~ "Remove bundled copies of PostgreSQL/Slony docs to make it easier to "
-#~ "localise the rest. Instead allow the use of local or online copies of the "
-#~ "PostgreSQL, EnterpriseDB or Slony docs, each independently of the other."
-#~ msgstr ""
-#~ "Odstraňuje přibalené kopie dokumentace PostgreSQL/Slony, aby bylo "
-#~ "jednodušší najít zbytek. Místo toho umožňuje použít lokální nebo on-line "
-#~ "kopie dokumentace PostgreSQL, EnterpriseDB nebo Slony, každé nezávisle."
-
-#~ msgid ""
-#~ "Remove code specific to versions of wxWidgets that we no longer support."
-#~ msgstr ""
-#~ "Odstraňuje kód specifický pro verze wxWidgets, které již nejsou "
-#~ "podporované."
-
-#~ msgid "Remove long-dead Explain Text option from the Query Tool."
-#~ msgstr ""
-#~ "Odebírá dlouho nepoužívanou volbu Vyložit text z dotazovacího nástroje."
-
-#~ msgid "Remove obsolete support for non-Unicode builds."
-#~ msgstr ""
-#~ "Odstraňuje zastaralou podporu pro sestavování v jiném kódování než "
-#~ "Unicode."
-
-#~ msgid ""
-#~ "Remove the confusing and near-useless sequence combo box from the column "
-#~ "dialog per discussion on support list."
-#~ msgstr ""
-#~ "Odstraňuje matoucí a výjimečně používané výběrové seznamy sekvence z "
-#~ "dialogu sloupce na základě diskuze v konferenci podpory uživatelů."
-
-#~ msgid ""
-#~ "Replace the Mac installer with code to create a distribution disk image."
-#~ msgstr ""
-#~ "Nahrazuje Mac instalátor kódem na vytvoření obrazu instalačního disku."
-
-#~ msgid "Restore dialog sizes correctly."
-#~ msgstr "Korektní obnova rozměrů dialogu."
-
-#~ msgid "Retain column widths when refreshing the edit grid."
-#~ msgstr "Zachová šířku sloupců při občerstvování editační mřížky."
-
-#~ msgid "Retain the clipboard contents on app exit."
-#~ msgstr "Uchování obsahu schránky po ukončení aplikace."
-
-#~ msgid "Retain values in the edit grid following a failed insert or update."
-#~ msgstr ""
-#~ "Udrží v editační mřížce hodnoty i po neúspěšném vložení nebo aktualizaci."
-
-#~ msgid ""
-#~ "Reverse engineer columns with multi-word names (like 'timestamp with "
-#~ "timezone') correctly so that precision and array modifiers are included "
-#~ "properly. Per Erwin Brandstetter."
-#~ msgstr ""
-#~ "Korektně reverzně vytváří sloupce s víceslovnými názvy (jako „timestamp "
-#~ "with timezone“), tak aby se správně vložily modifikátory pro přesnost a "
-#~ "pole. [Erwin Brandstetter]"
-
-#~ msgid ""
-#~ "Rework the Find/Replace code to fix a couple of minor bugs and improve "
-#~ "readability."
-#~ msgstr ""
-#~ "Byl přepracován kód hledání/nahrazování, aby se opravilo pár menších chyb "
-#~ "a zlepšila čitelnost."
-
-#~ msgid "Shared database comments."
-#~ msgstr "Sdílené databázové komentáře."
-
-#~ msgid ""
-#~ "Show the schema correctly for EDB public synonyms that point to other "
-#~ "synonyms."
-#~ msgstr ""
-#~ "Správně zobrazuje schéma pro veřejná synonyma EDB, která ukazují na další "
-#~ "synonyma."
-
-#~ msgid "Size of the column label of SQLGrid was made variable."
-#~ msgstr "Velikost záhlaví sloupce SQL mřížky je vytvářená proměnná."
-
-#~ msgid "Sort server list alphabetically."
-#~ msgstr "Řazení seznamu serverů abecedně."
-
-#~ msgid ""
-#~ "Specify the length correctly when creating columns of 'time with time "
-#~ "zone' and friends."
-#~ msgstr ""
-#~ "Určuje správně délku, když se vytváří sloupec „time with time zone“ a "
-#~ "spřátelené."
-
-#~ msgid ""
-#~ "Speed up loading of functions and procedures by rewriting some horribly "
-#~ "inefficient code."
-#~ msgstr ""
-#~ "Urychluje načítání funkcí a procedur díky přepsání děsně neefektivního "
-#~ "kódu."
-
-#~ msgid ""
-#~ "Store pgAgent job step result codes in an int4 column. int2 was proving "
-#~ "too small in some cases resulting in an error."
-#~ msgstr ""
-#~ "Ukládá výsledky kroků úkolů pgAgenta ve sloupci typu int4. int2 se ukázal "
-#~ "jako nedostačující pro některé chybové výsledky."
-
-#~ msgid "Support for language templates."
-#~ msgstr "Podpora pro jazykové šablony."
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of \n"
-#~ "pgAdmin 1.8.0, the Open Source graphical PostgreSQL administration tool "
-#~ "for \n"
-#~ "Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for download "
-#~ "in \n"
-#~ "source and a variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.8.2, \n"
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, \n"
-#~ "FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve "
-#~ "zdrojovém kódu \n"
-#~ "a variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.6.1, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
-#~ "download in source and a variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.6.1, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve "
-#~ "zdrojovém kódu a variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.6.2, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
-#~ "download in source and a variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.6.2, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve "
-#~ "zdrojovém kódu a variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.6.3, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD\n"
-#~ ", Mac OS X and Solaris, now available for download in source and a "
-#~ "variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.6.3, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X \n"
-#~ "a Solarisu, který je teď dostupný ke stažení ve zdrojovém kódu a "
-#~ "variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.8.1, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD\n"
-#~ ", Mac OS X and Solaris, now available for download in source and a "
-#~ "variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.8.1, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X \n"
-#~ "a Solarisu, který je teď dostupný ke stažení ve zdrojovém kódu a "
-#~ "variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.8.2, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
-#~ "download in source and a variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.8.2, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve "
-#~ "zdrojovém kódu a variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "The pgAdmin Development Team are pleased to announce the release of "
-#~ "pgAdmin 1.8.4, the Open Source graphical PostgreSQL administration tool "
-#~ "for Windows, Linux, FreeBSD, Mac OS X and Solaris, now available for "
-#~ "download in source and a variety of binary formats from:"
-#~ msgstr ""
-#~ "Vývojářský tým pgAdmin vám s potěšením oznamuje vydání pgAdmin 1.8.4, "
-#~ "Open Source grafického nástroje pro administraci PostgreSQL ve Windows, "
-#~ "Linuxu, FreeBSD, Mac OS X a Solarisu, který je teď dostupný ke stažení ve "
-#~ "zdrojovém kódu a variantách binárních formátů z:"
-
-#~ msgid ""
-#~ "Treat all functions & procedures as 'Functions' in PostgreSQL, and class "
-#~ "only EnterpriseDB edbspl functions returning void as 'Procedures'."
-#~ msgstr ""
-#~ "V PostgreSQL ošetřuje všechny funkce a procedury jak „funkce“ a pouze "
-#~ "třídu edbspl funkcí v EnterpriseDB, které vrací void, jako „procedury“."
-
-#~ msgid ""
-#~ "Treat view columns as first class citizens. Show them on the treeview, "
-#~ "and allow their properties page to be viewed. Allow editting of the "
-#~ "default value and comment, and reflect this in the reverse engineered SQL "
-#~ "for the view."
-#~ msgstr ""
-#~ "Ošetřuje sloupce pohledu jako příslušníky první třídy. Zobrazuje je ve "
-#~ "stromu objektů a umožňuje prohlížet jejich vlastnosti. Můžete upravovat "
-#~ "jejich výchozí hodnotu a komentář, což se i příslušně odrazí v reverzně "
-#~ "vytvořeném SQL pohledu."
-
-#~ msgid "Truncate comments containing \\r\\n correctly, per Erwin."
-#~ msgstr "Korektně ořezává komentáře, které obsahují \\r\\n. [Erwin]"
-
-#~ msgid ""
-#~ "Undecorated out-param types must be included in EDB-SPL function "
-#~ "signatures when altering comments or privileges or dropping functions or "
-#~ "procedures."
-#~ msgstr ""
-#~ "V hlavičce funkce EDB-SPL musí být obsaženy nepřikrášlené typy výstupního "
-#~ "parametru, když se mění komentáře nebo oprávnění nebo odstraňuje funkce "
-#~ "nebo procedura."
-
-#~ msgid ""
-#~ "Update node text when refreshing treeview nodes in case part of the "
-#~ "identifier has changed."
-#~ msgstr ""
-#~ "Aktualizuje text uzlu při občerstvování uzlů stromu v případě, kdy se "
-#~ "změnila část identifikátoru."
-
-#~ msgid "Update to support the changed syntax of pg_dump 8.2+."
-#~ msgstr "Aktualizace kvůli podpoře změněné syntaxe pg_dump 8.2+."
-
-#~ msgid "Use E'' style escape string syntax when required."
-#~ msgstr ""
-#~ "Pokud je požadováno, tak se použije řetězec ošetřený escape sekvencemi ve "
-#~ "stylu E\"."
-
-#~ msgid ""
-#~ "Use EnterpriseDB's utilities for dump and restore EDB databases to ensure "
-#~ "non-PG extensions can be handled."
-#~ msgstr ""
-#~ "Používá pomůcky z EnterpriseDB pro zálohování a obnovu databází "
-#~ "EnterpriseDB, aby se mohlo pracovat i s ne-PG rozšířeními."
-
-#~ msgid "Use Oracle style syntax for edbspl triggers."
-#~ msgstr "Používá syntaxi ve stylu Oracle pro edbspl triggery."
-
-#~ msgid ""
-#~ "Use SQL standard type names where appropriate. Show them as 'aliases' in "
-#~ "the browser."
-#~ msgstr ""
-#~ "Pokud je to vhodné, používají se standardní názvy typů. Ve prohlížeči se "
-#~ "zobrazují jako „přezdívky“."
-
-#~ msgid ""
-#~ "Use pg_statindex (if available) to optionally display additional index "
-#~ "statistics on a per-table basis. Also works for index-constraints."
-#~ msgstr ""
-#~ "Využívá se pg_statindex (pokud je dostupný) k zobrazení nepovinných "
-#~ "doplňkových statistik o indexu u jednotlivých tabulek. Stejně tak funguje "
-#~ "i pro omezení typu index."
-
-#~ msgid ""
-#~ "Use pg_stattuple (if available) to optionally display additional table "
-#~ "statistics on a per-table basis."
-#~ msgstr ""
-#~ "Využívá se pg_stattuple (pokud je dostupný) k zobrazení nepovinných "
-#~ "doplňkových statistik o tabulce u jednotlivých tabulek."
-
-#~ msgid ""
-#~ "Use popen() when testing the versions of helper apps on non-windows "
-#~ "platforms to avoid an obscure bug on PPC Macs that could leave wxExecute "
-#~ "hanging indefinitely whilst waiting on a zombie process."
-#~ msgstr ""
-#~ "Při testování verze pomocných aplikací na ne-Windows platformách se "
-#~ "používá popen(), aby se zabránilo obskurní chybě na PPC Mac, která "
-#~ "způsobovala nedefinovatelné zatuhnutí během čekání na proces zombie."
-
-#~ msgid ""
-#~ "Use the correct version of the Slony scripts when creating a new cluster, "
-#~ "per Duncan Beeby."
-#~ msgstr ""
-#~ "Využívá správnou verzi skriptů Slony při vytváření nového clusteru. "
-#~ "[Duncan Beeby]"
-
-#~ msgid "Use virtual data table for Query Tool, to eliminate retrieval time."
-#~ msgstr ""
-#~ "Používá virtuální datové tabulky pro dotazovací nástroj, aby se zkrátil "
-#~ "čas na získání odpovědi."
-
-#~ msgid ""
-#~ "Warn the user and allow her to abort before re-running a backup or "
-#~ "restore to or from the same file, in the same session (can occur if the "
-#~ "first attempt returns an error or warning)."
-#~ msgstr ""
-#~ "Varuje uživatele a nabízí možnost upustit od opětovného spuštění zálohy "
-#~ "nebo obnovy do nebo ze stejného souboru během jednoho sezení (může nastat "
-#~ "pokud první pokus vrátí chybu nebo varování)"
-
-#~ msgid "Warn the user if a file cannot be saved in the default encoding."
-#~ msgstr "Varování uživateli, když nelze soubor uložit ve výchozím kódování."
-
-#~ msgid ""
-#~ "When checking the position & size of windows, use the dimensions of the "
-#~ "current display, not the primary."
-#~ msgstr ""
-#~ "Při kontrole umístění a velikosti okna použije rozměry aktuálního "
-#~ "displeje a ne primárního."
-
-#~ msgid ""
-#~ "When creating a new index and specifying both tablespace and fill factor, "
-#~ "make sure the SQL is formulated correctly, per Stefan Wolf"
-#~ msgstr ""
-#~ "Zajistí, že se SQL formuluje korektně v případě, že se vytváří nový index "
-#~ "a je naráz zadaný prostor tabulek a stupeň zaplnění. [Stefan Wolf]"
-
-#~ msgid ""
-#~ "You can also find all the fixed bugs in this <a href=\"http://code."
-#~ "pgadmin.org/trac/query?status=closed&group=resolution&milestone=%s\">%s "
-#~ "bugfix list</a>."
-#~ msgstr ""
-#~ "Všechny opravené chyby můžete také najít v <a href=\"http://code.pgadmin."
-#~ "org/trac/query?status=closed&group=resolution&milestone=%s\">seznamu "
-#~ "opravených chyb pro verzi %s</a>."
-
-#~ msgid ""
-#~ "pgAdmin %s has now been released. Please see the <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a> for details of the bug fixes in this "
-#~ "release or visit the <a href=\"download\">download area</a> to get your "
-#~ "copy now."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin %s. Podívejte se prosím na <a href=\"/development/"
-#~ "changelog.php\">CHANGELOG</a> s podrobnostmi o chybách opravených v tomto "
-#~ "vydání nebo přejděte na stránku <a href=\"download\">Stáhnout</a>, kde "
-#~ "můžete nové vydání najít."
-
-#~ msgid ""
-#~ "pgAdmin %s has now been released. This release is primarily a bug fix "
-#~ "release. Please see the <a href=\"/development/changelog.php\">CHANGELOG</"
-#~ "a> for details of the bug fixes in this release or visit the <a href="
-#~ "\"download\">download area</a> to get your copy now."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin %s. Toto vydání slouží především k opravě chyb. "
-#~ "Podívejte se prosím na <a href=\"/development/changelog.php\">CHANGELOG</"
-#~ "a> s podrobnostmi o chybách opravených v tomto vydání nebo přejděte na "
-#~ "stránku <a href=\"download\">Stáhnout</a>, kde můžete nové vydání najít."
-
-#~ msgid ""
-#~ "pgAdmin 1.10.0 has now been released! Highlights of the new release "
-#~ "include a graphical query builder, a scripting engine in the query tool "
-#~ "and support for PostgreSQL 8.4 in addition to <a href=\"/development/"
-#~ "changelog.php\">numerous other changes</a>. For a rundown of the key "
-#~ "features, take a look at our <a href=\"/visualtour.php\">visual tour</a>."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin 1.10.0! Největšími novinkami vydání jsou grafický "
-#~ "tvůrce dotazů, skriptovací stroj v dotazovacím nástroji a podpora pro "
-#~ "PostgreSQL 8.4 a celé do doplňuje <a href=\"/development/changelog.php"
-#~ "\">řada dalších změn</a>. "
-
-#~ msgid ""
-#~ "pgAdmin 1.10.1 has now been released. Please see the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a> for details of the bug fixes in "
-#~ "this release or visit the <a href=\"download\">download area</a> to get "
-#~ "your copy now."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin 1.10.1. Podívejte se prosím na <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a> s podrobnostmi o chybách "
-#~ "opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
-#~ "\">Stáhnout</a>, kde můžete nové vydání najít."
-
-#~ msgid "pgAdmin Development Team"
-#~ msgstr "Vývojářský tým pgAdmin"
-
-#~ msgid "pgAdmin: Latest news"
-#~ msgstr "pgAdmin: Poslední novinky"
-
-#~ msgid ""
-#~ "v1.6.0 represents over a year of development and testing to bring you a "
-#~ "host of new features and improvements including:"
-#~ msgstr ""
-#~ "v1.6.0 představuje přes rok vývoje a testování a přináší vám spoustu "
-#~ "nových funkcí a zdokonalení včetně:"
-
-#~ msgid ""
-#~ "v1.6.1 is primarily a bug fix release, including the following changes:"
-#~ msgstr ""
-#~ "v1.6.1 je vydání zaměřené na opravu chyb, včetně následujících změn:"
-
-#~ msgid ""
-#~ "v1.6.2 is primarily a bug fix release, including the following changes:"
-#~ msgstr ""
-#~ "v1.6.2 je vydání zaměřené na opravu chyb, včetně následujících změn:"
-
-#~ msgid ""
-#~ "v1.6.3 is primarily a bug fix release, including the following changes:"
-#~ msgstr ""
-#~ "v1.6.3 je vydání zaměřené na opravu chyb, včetně následujících změn:"
-
-#~ msgid ""
-#~ "v1.8.0 represents nearly a year of development and testing to bring you \n"
-#~ "a host of new features and improvements including:"
-#~ msgstr ""
-#~ "v1.8.0 představuje téměř rok vývoje a testování a přináší vám spoustu "
-#~ "nových \n"
-#~ "funkcí a zdokonalení včetně:"
-
-#~ msgid ""
-#~ "v1.8.1 is primarily a bug fix release, including the following changes:"
-#~ msgstr ""
-#~ "v1.8.1 je vydání zaměřené na opravu chyb, včetně následujících změn:"
-
-#~ msgid ""
-#~ "v1.8.2 is primarily a bug fix release, including the following changes:"
-#~ msgstr ""
-#~ "v1.8.2 je vydání zaměřené na opravu chyb, včetně následujících změn:"
-
-#~ msgid "v1.8.3 fixes:"
-#~ msgstr "Opravy v1.8.3:"
-
-#~ msgid "v1.8.4 fixes:"
-#~ msgstr "Opravy v1.8.4:"
-
-#~ msgid ""
-#~ "v1.8.4 is primarily a bug fix release, including the following changes. "
-#~ "Note that v1.8.3 was never announced as a release due to an issue found "
-#~ "at the last minute."
-#~ msgstr ""
-#~ "v1.8.4 je vydání zaměřené na opravu chyb, včetně následujících změn. "
-#~ "Upozorňujeme, že v1.8.3 nikdy nebyla prohlášena za vydání, protože na "
-#~ "poslední chvíli byly nalezeny problémy."
-
-#~ msgid "SVN access"
-#~ msgstr "Přístup přes SVN"
-
-#~ msgid ""
-#~ "pgAdmin 1.10.2 has now been released. Please see the <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a> for details of the bug fixes in "
-#~ "this release or visit the <a href=\"download\">download area</a> to get "
-#~ "your copy now."
-#~ msgstr ""
-#~ "Právě byl vydán pgAdmin 1.10.2. Podívejte se prosím na <a href=\"/"
-#~ "development/changelog.php\">CHANGELOG</a> s podrobnostmi o chybách "
-#~ "opravených v tomto vydání nebo přejděte na stránku <a href=\"download"
-#~ "\">Stáhnout</a>, kde můžete nové vydání najít."
-
-#~ msgid "Add DROP/REASSIGN OWNED support. [GL]"
-#~ msgstr "Přidat podporu pro DROP/REASSIGN OWNED. [GL]"
-
-#~ msgid ""
-#~ "Add a hotkey to comment or un-comment the selected lines in the query "
-#~ "tool [DP]"
-#~ msgstr ""
-#~ "Přidat horkou klávesu na zakomentování a odkomentování vybraných řádků v "
-#~ "dotazovacím nástroji [DP]"
-
-#~ msgid ""
-#~ "Add a hotkey to indent or outdent the selected lines in the query tool "
-#~ "[DP]"
-#~ msgstr ""
-#~ "Přidat horké klávesy pro odsazování a přirážení vybraných řádků v "
-#~ "dotazovacím nástroji. [DP]"
-
-#~ msgid "Add support for the -c (clean) pg_restore option [DP]"
-#~ msgstr "Přidat podporu pro volbu -c (clean) u pg_restore. [DP]"
-
-#~ msgid "Add support for variadic functions"
-#~ msgstr "Přidat podporu pro funkce variadic (s proměnným počtem parametrů)"
-
-#~ msgid "Build system"
-#~ msgstr "Systém pro sestavování"
-
-#~ msgid ""
-#~ "Consider cross-platform build systems such as cmake to generate the build "
-#~ "system for all platforms"
-#~ msgstr ""
-#~ "Zvážit použití multiplatformního systému na sestavování, jako je např. "
-#~ "cmake, pro generování sestavovacích skriptů pro všechny platformy"
-
-#~ msgid ""
-#~ "Logfile tab on server status window : multiple columns and filtering. [GL]"
-#~ msgstr ""
-#~ "Karta evidence v okně se stavem serveru: více sloupců a filtrování. [GL]"
-
-#~ msgid ""
-#~ "Move pgAgent into a standalone package that can be released on it's own "
-#~ "schedule."
-#~ msgstr ""
-#~ "Oddělit pgAgent do samostatného balíku, který může být vydáván podle "
-#~ "vlastního plánu"
-
-#~ msgid ""
-#~ "Overhaul settings management. Save settings on the fly rather than at "
-#~ "exit. Take default values from an external file [DP]"
-#~ msgstr ""
-#~ "Přepracovat správu nastavení. Nastavení ukládat raději průběžně, než až "
-#~ "při ukončení. Výchozí hodnoty načítat z externího souboru. [DP]"
-
-#~ msgid "PostgreSQL 8.4 compatibility (these items are subject to change)"
-#~ msgstr "Kompatibilita s PostgreSQL 8.4 (tyto položky jsou náměty na změny)"
-
-#~ msgid "Support for integrated tsearch configuration in PG 8.3+ [GL]"
-#~ msgstr ""
-#~ "Podpora pro nastavení integrovaného textového vyhledávání v PG 8.3+. [GL]"
-
-#~ msgid "TRUNCATE trigger support"
-#~ msgstr "Podpora TRUNCATE trigger"
-
-#~ msgid "To be determined..."
-#~ msgstr "Další dle rozhodnutí..."
-
-#~ msgid ""
-#~ "An APT repository is provided to ease installation. Before you start "
-#~ "installation, please choose a mirror from the list of <a href=\"%s"
-#~ "\">PostgreSQL mirrors</a>. Click one of the\n"
-#~ "flags, and copy the URL you are redirected to. On each mirror, the "
-#~ "packages are located in: <i>[MIRROR URL]/pgadmin3/release/debian</i>"
-#~ msgstr ""
-#~ "Pro snadnou instalaci poskytujeme repozitář APT. Než začnete instalovat, "
-#~ "zvolte si prosím zrcadlo ze seznamu <a href=\"%s\">zrcadel PostgreSQL</"
-#~ "a>. Klikněte na \n"
-#~ "příslušnou vlaječku a zkopírujte si URL, na které vás to přesměruje. Na "
-#~ "každém z těchto zrcadel se balíček nachází v: <i>[MIRROR URL]/pgadmin3/"
-#~ "release/debian</i>"
-
-#~ msgid "Debian Sarge (oldstable)"
-#~ msgstr "Debian Sarge (oldstable)"
-
-#~ msgid "Debian Woody"
-#~ msgstr "Debian Woody"
-
-#~ msgid "Edit /etc/apt/sources.list file and add the following line:"
-#~ msgstr "Do souboru /etc/apt/sources.list přidejte následující řádek:"
-
-#~ msgid "For example, for France, you can try:"
-#~ msgstr "Např. pro Francii můžete zkusit:"
-
-#~ msgid ""
-#~ "If you need a more up to date version of pgAdmin, an APT repository is "
-#~ "provided to ease installation. Before you start installation, please "
-#~ "choose a mirror from the list of <a href=\"%s\">PostgreSQL mirrors</a>. "
-#~ "Click one of the flags, and copy the URL you are redirected to. On each "
-#~ "mirror, the packages are located in: <i>/pgadmin3/release/debian</i>"
-#~ msgstr ""
-#~ "Pokud potřebujete novější verzi pgAdmin, tak poskytujeme pro snadnou "
-#~ "instalaci repozitář APT. Než s instalací začnete, zvolte si prosím "
-#~ "zrcadlo ze seznamu <a href=\"%s\">zrcadel PostgreSQL</a>. Klikněte na "
-#~ "správnou vlaječku a zkopírujte si URL, na které vás to nasměruje. Na "
-#~ "všech z těchto zrcadel se balíček nachází v: <i>/pgadmin3/release/debian</"
-#~ "i>"
-
-#~ msgid "We don't support this Debian version anymore."
-#~ msgstr "Tuto verzi Debianu již nadále nepodporujeme."
-
-#~ msgid ""
-#~ "pgAdmin is published on the official Debian Unstable repository. However, "
-#~ "from time to time unstable may become broken, you can try to check for "
-#~ "packages from our mirrors as described above for Debian/testing. You only "
-#~ "need to change testing to unstable in the sources.list lines."
-#~ msgstr ""
-#~ "pgAdmin je zveřejněný v oficiálním repozitáři Debian Unstable. Protože "
-#~ "unstable bývá čas od času porušený, můžete zkusit stahovat balíčky z "
-#~ "našich zrcadel, tak jak je uvedené výše pro Debian Testing. Stačí akorát "
-#~ "v sources.list příslušné řádky změnit z „testing“ na „unstable“."
-
-#~ msgid "Beta %s"
-#~ msgstr "Betaverze %s"
-
-#~ msgid "EnterpriseDB"
-#~ msgstr "EnterpriseDB"
-
-#~ msgid "Mammoth PostgreSQL"
-#~ msgstr "Mammoth PostgreSQL"
-
-#~ msgid "OpenBSD"
-#~ msgstr "OpenBSD"
-
-#~ msgid "pgAdmin III: Documentation"
-#~ msgstr "pgAdmin III: Dokumentace"
+msgstr "časové razítko posledního vynulování statistik;"
