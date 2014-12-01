@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 09:06+0200\n"
+"POT-Creation-Date: 2014-12-01 12:11+0100\n"
 "PO-Revision-Date: 2013-09-29 22:09+0200\n"
 "Last-Translator: Begina Felicysym <begina.felicysym@wp.eu>\n"
 "Language-Team: Begina Felicysym\n"
@@ -28,7 +28,7 @@ msgstr ""
 "(Shift-F7). Możesz zablokować zachowanie auto-rollback (zwykle jeśli chcesz "
 "wycofać do poprzedniego punktu zapisu)"
 
-#: ../index.php:26
+#: ../index.php:24
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - wideo demonstracyjne pgAdmin"
@@ -38,7 +38,7 @@ msgstr "%s - wideo demonstracyjne pgAdmin"
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - dostępny pgAdmin v%s"
 
-#: ../index.php:18 ../index.php:22
+#: ../index.php:16 ../index.php:20
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - wydany pgAdmin v%s"
@@ -354,6 +354,10 @@ msgstr "Pakiety administracyjne"
 msgid "Advocacy"
 msgstr "Promocja"
 
+#: ../translation/config.php:16
+msgid "Afrikaans"
+msgstr ""
+
 #: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "Agregaty"
@@ -514,6 +518,10 @@ msgstr ""
 "przetłumaczone, nawet na języki inne niż europejskie i nieazjatyckie. "
 "Niezbędne do tłumaczenia czynności są następujące:"
 
+#: ../translation/config.php:17
+msgid "Arabic"
+msgstr ""
+
 #: ../translation/howto.php:29
 msgid ""
 "As a first step, please edit the file properties (Catalog/Settings). Select "
@@ -581,10 +589,11 @@ msgstr "Narzędzia tworzenia odtwarzania z kopii zapasowej"
 msgid "Backup/Restore tools"
 msgstr "Narzędzia tworzenia/odtwarzania z kopii zapasowej"
 
-#: ../index.php:16
+#: ../index.php:14
+#, fuzzy
 msgid ""
-"Be careful that this is a BETA release. It's not production ready. It's "
-"available for testing purpose only."
+"Be careful that this is a Release Candidate build. It's not considered "
+"production ready. It's available for testing purpose only."
 msgstr ""
 "Uważaj, to jest wersja BETA. Nie jest gotowa do wykorzystania w produkcji. "
 "Została udostępniona tylko w celu przetestowania."
@@ -623,9 +632,18 @@ msgid ""
 msgstr ""
 "Instrukcje kompilacji znajdują się w archiwach tar i są dostępne online:"
 
+#: ../translation/config.php:18
+#, fuzzy
+msgid "Bulgarian"
+msgstr "Indonezyjski"
+
 #: ../features.php:62
 msgid "Casts"
 msgstr "Rzutowania"
+
+#: ../translation/config.php:19
+msgid "Catalan"
+msgstr ""
 
 #: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
@@ -649,6 +667,14 @@ msgid ""
 msgstr ""
 "Zaznacz opcję <i>Automatycznie kompiluj plik .mo przy zapisywaniu</i> we "
 "Właściwościach."
+
+#: ../translation/config.php:58
+msgid "Chinese simplified"
+msgstr ""
+
+#: ../translation/config.php:59
+msgid "Chinese traditional"
+msgstr ""
 
 #: ../visualtour12.php:66
 msgid ""
@@ -744,6 +770,10 @@ msgstr "Konwersje"
 msgid "Couldn't find the document content!"
 msgstr "Nie udało się odnaleźć zawartości dokumentu!"
 
+#: ../translation/config.php:31
+msgid "Croatian"
+msgstr ""
+
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -756,9 +786,13 @@ msgstr ""
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Raporty niestandardowe w frmStatus [GL]"
 
-#: ../include/page.php:112
+#: ../include/page.php:112 ../translation/config.php:20
 msgid "Czech"
 msgstr "Czeski"
+
+#: ../translation/config.php:21
+msgid "Danish"
+msgstr ""
 
 #: ../screenshots/data.php:8
 msgid "Data"
@@ -882,6 +916,10 @@ msgstr "Zrzut/Odtworzenie"
 msgid "Dump/restore dialog"
 msgstr "Okno dialogowe zrzutu/odtworzenia"
 
+#: ../translation/config.php:42
+msgid "Dutch"
+msgstr ""
+
 #: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -981,9 +1019,17 @@ msgstr "Parsery FTS"
 msgid "FTS templates"
 msgstr "Szablony FTS"
 
+#: ../translation/config.php:25
+msgid "Farsi"
+msgstr ""
+
 #: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "Możliwości"
+
+#: ../translation/config.php:53
+msgid "Filipino/Tagalog"
+msgstr ""
 
 #: ../download/index.php:14
 #, php-format
@@ -1033,6 +1079,10 @@ msgstr "Zakończono wsparcie 7.4 (?) tworzenia klas operatorów obiektu [GL]"
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Zakończono wsparcie 8.3 tworzenia rodzin operatorów obiektu [GL]"
 
+#: ../translation/config.php:26
+msgid "Finnish"
+msgstr ""
+
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
 msgstr ""
@@ -1064,7 +1114,7 @@ msgstr ""
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../include/page.php:114
+#: ../include/page.php:114 ../translation/config.php:27
 msgid "French"
 msgstr "Francuski"
 
@@ -1115,7 +1165,11 @@ msgstr "Dostęp GIT"
 msgid "GIT browser"
 msgstr "Przeglądarka GIT"
 
-#: ../index.php:28
+#: ../translation/config.php:28
+msgid "Galician"
+msgstr ""
+
+#: ../index.php:26
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1127,9 +1181,23 @@ msgstr ""
 "videos/videos/how-create-postgres-database-using-pgadmin\">prezentację "
 "video</a> pokazującą niektóre funkcje w pgAdmin."
 
+#: ../translation/config.php:22
+msgid "German"
+msgstr ""
+
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr "Pierwsze kroki"
+
+#: ../include/page.php:120
+#, fuzzy
+msgid "Go"
+msgstr "GSoC"
+
+#: ../include/page.php:78
+#, fuzzy
+msgid "Google Search"
+msgstr "Google analytics"
 
 #: ../privacypolicy.php:22
 msgid "Google analytics"
@@ -1138,6 +1206,10 @@ msgstr "Google analytics"
 #: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Wykresy w frmStatus [GL]"
+
+#: ../translation/config.php:23
+msgid "Greek"
+msgstr ""
 
 #: ../features.php:25
 msgid "Greenplum Database"
@@ -1155,9 +1227,17 @@ msgstr "Grupy"
 msgid "Guidelines"
 msgstr "Wytyczne"
 
+#: ../translation/config.php:29
+msgid "Gujarati"
+msgstr ""
+
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "Podpowiedzi Guru pomagające mniej doświadczonym użytkownikom"
+
+#: ../translation/config.php:30
+msgid "Hindi"
+msgstr ""
 
 #: ../include/page.php:126
 msgid "Home"
@@ -1171,9 +1251,17 @@ msgstr "Jak wnieść swój wkład?"
 msgid "Howto"
 msgstr "Jak to zrobić"
 
+#: ../translation/config.php:32
+msgid "Hungarian"
+msgstr ""
+
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../translation/config.php:34
+msgid "Icelandic"
+msgstr ""
 
 #: ../visualtour16.php:68
 msgid ""
@@ -1331,6 +1419,10 @@ msgstr "Właściwości indeksu"
 msgid "Indexes"
 msgstr "Indeksy"
 
+#: ../translation/config.php:33
+msgid "Indonesian"
+msgstr ""
+
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
 msgid "Information"
 msgstr "Informacje"
@@ -1357,7 +1449,7 @@ msgstr ""
 "zrobienia w tym wydaniu i mamy nadzieję, że będziemy utrzymamy przynajmniej "
 "taką samą liczbę języków dla 1.14."
 
-#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1446,9 +1538,17 @@ msgstr ""
 "To po prostu interfejs do wykorzystania deklaracji \"CREATE TABLE ... "
 "LIKE ...\"."
 
+#: ../translation/config.php:35
+msgid "Italian"
+msgstr ""
+
 #: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
+
+#: ../translation/config.php:36
+msgid "Japanese"
+msgstr ""
 
 #: ../features.php:107
 msgid "KOI8"
@@ -1476,6 +1576,10 @@ msgstr ""
 #: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "Znane problemy"
+
+#: ../translation/config.php:37
+msgid "Korean"
+msgstr ""
 
 #: ../features.php:103
 msgid ""
@@ -1524,6 +1628,10 @@ msgstr "Ostatnia aktualizacja: %s"
 msgid "Latest news"
 msgstr "Najnowsze wiadomości"
 
+#: ../translation/config.php:39
+msgid "Latvian"
+msgstr ""
+
 #: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "Licencja"
@@ -1535,6 +1643,10 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "Pokaż archiwa"
+
+#: ../translation/config.php:38
+msgid "Lithuanian"
+msgstr ""
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -1568,6 +1680,10 @@ msgstr ""
 "wersje, do 1.16.x są budowane w Tiger jako uniwersalne binaria Mac dla "
 "architektury Intel i PPC. 1.18.x i późniejsze obsługują OSX Snow Leopard "
 "(10.6) i powyżej, tylko na Intelu,"
+
+#: ../translation/config.php:40
+msgid "Macedonian"
+msgstr ""
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -1749,6 +1865,10 @@ msgstr ""
 "Nikt nie mógł zmienić klasy operatora w interfejsie pgAmina ponieważ "
 "brakowało tej informacji. Zmieniono to w 1.12. Nowe pole kombo zostało "
 "dołączone do okna właściwości indeksu."
+
+#: ../translation/config.php:41
+msgid "Norwegian Bokm&aring;l"
+msgstr ""
 
 #: ../download/windows.php:14
 #, php-format
@@ -2099,9 +2219,17 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu wtyczek"
 
-#: ../include/page.php:115
+#: ../include/page.php:115 ../translation/config.php:43
 msgid "Polish"
 msgstr "Polski"
+
+#: ../translation/config.php:45
+msgid "Portuguese"
+msgstr ""
+
+#: ../translation/config.php:44
+msgid "Portuguese-Brazilian"
+msgstr ""
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
@@ -2389,6 +2517,10 @@ msgstr "Właściwości roli"
 msgid "Roles"
 msgstr "Role"
 
+#: ../translation/config.php:46
+msgid "Romanian"
+msgstr ""
+
 #: ../features.php:48
 msgid "Routine maintenance"
 msgstr "Nadzór nad podprogramami"
@@ -2397,7 +2529,7 @@ msgstr "Nadzór nad podprogramami"
 msgid "Rules"
 msgstr "Reguły"
 
-#: ../include/page.php:117
+#: ../include/page.php:117 ../translation/config.php:47
 msgid "Russian"
 msgstr "Rosyjski"
 
@@ -2486,6 +2618,11 @@ msgstr ""
 msgid "Sequences"
 msgstr "Sekwencje"
 
+#: ../translation/config.php:50
+#, fuzzy
+msgid "Serbian"
+msgstr "Debian"
+
 #: ../visualtour14.php:111
 msgid "Server"
 msgstr "Serwer"
@@ -2535,6 +2672,14 @@ msgstr "Dokumentacja Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Obiekty Slony-I (takie jak węzły, klastry itp.)"
 
+#: ../translation/config.php:48
+msgid "Slovak"
+msgstr ""
+
+#: ../translation/config.php:49
+msgid "Slovenian"
+msgstr ""
+
 #: ../features.php:18 ../screenshots/index.php:32
 msgid "Solaris"
 msgstr "Solaris"
@@ -2571,6 +2716,10 @@ msgstr ""
 "Paczki z kodem źródłowym są dostępne dla użytkowników, którzy chcą "
 "skompilować własną kopię pgAdmina lub które korzystają z platform, dla "
 "których nie dostarczamy gotowych paczek."
+
+#: ../translation/config.php:24
+msgid "Spanish"
+msgstr ""
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -2645,6 +2794,10 @@ msgstr ""
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
+#: ../translation/config.php:51
+msgid "Swedish"
+msgstr ""
+
 #: ../features.php:111
 msgid "TCVN"
 msgstr "TCVN"
@@ -2690,6 +2843,10 @@ msgstr "Zespół"
 #: ../visualtour14.php:37
 msgid "Tearable tabsets"
 msgstr "Przesuwalne grupy zakładek"
+
+#: ../translation/config.php:52
+msgid "Telugu"
+msgstr ""
 
 #: ../visualtour16.php:214
 msgid ""
@@ -2969,7 +3126,7 @@ msgstr ""
 "niezgodnych z IPv6. Ta część kodu została zaktualizowana w celu umożliwienia "
 "połączeń IPv6."
 
-#: ../index.php:39
+#: ../index.php:37
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Obecna wersja pgAdmin to <a href=\"/download/\">%s</a>."
@@ -3592,12 +3749,6 @@ msgstr ""
 "pgAdmin. Nazwa folderu zawierającego serwer może być zmieniona w dialogu "
 "Właściwości dla serwera."
 
-#: ../index.php:14
-msgid ""
-"There is no binary release yet for Windows and Mac OS X, but that should "
-"come in the next few days."
-msgstr ""
-
 #: ../visualtour14.php:311
 msgid ""
 "There is one unique aspect to these objects. You don't type their names, you "
@@ -3885,6 +4036,10 @@ msgstr ""
 "dokładność i spójność informacji. Niektóre przykłady zostały pokazane na "
 "stronie <a href=\"%s\">informacji</a>."
 
+#: ../translation/config.php:54
+msgid "Turkish"
+msgstr ""
+
 #: ../visualtour14.php:140
 msgid ""
 "Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
@@ -3919,6 +4074,10 @@ msgstr "Typy"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
+#: ../translation/config.php:55
+msgid "Ukranian"
+msgstr ""
+
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr "Około 2000 znaków"
@@ -3946,6 +4105,10 @@ msgid ""
 msgstr ""
 "Niestety, pgAdmin 1.8 nie ma <b>obsługi Obiektów FTS</b>.\n"
 "  Jedną z rzeczy, jakie trzeba było zrobić dla 1.10 była ich obsługa."
+
+#: ../translation/config.php:56
+msgid "Urdu"
+msgstr ""
 
 #: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
@@ -3976,6 +4139,10 @@ msgstr ""
 #: ../features.php:45
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Bardzo szybki siatka danych do wyświetlania/wprowadzania danych"
+
+#: ../translation/config.php:57
+msgid "Vietnamese"
+msgstr ""
 
 #: ../features.php:94 ../visualtour16.php:195
 msgid "Views"
@@ -4315,7 +4482,7 @@ msgstr "dla typu wyliczeniowego"
 msgid "for the external type"
 msgstr "dla typu zewnętrznego"
 
-#: ../index.php:24
+#: ../index.php:22
 #, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4501,15 +4668,16 @@ msgstr ""
 "próbuje odnaleźć nowe obiekty gdy użytkownik kliknie na węzeł nadrzędny, "
 "oraz nowe właściwości jeśli użytkownik kliknie na węzeł obiektu."
 
-#: ../index.php:20
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-"\">download area</a> to get your copy, or alternatively download a <a href="
-"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
-"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"http://www."
+"postgresql.org/ftp/pgadmin3/release/v1.20.0-beta1/\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products-services-training/pgdownload#windows\">PostgreSQL 9.3.1 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 "Został wydany pgAdmin 1.14.1, oferując 8 poprawek błędów z poprzednich "
 "wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
@@ -4521,22 +4689,19 @@ msgstr ""
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
-"features. We're still working on a visual tour. In the mean time, the list "
-"of new features fixes is available in the <a href=\"/development/changelog."
-"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
-"to get your copy, or alternatively download a <a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
-"a> which includes pgAdmin."
+"pgAdmin 1.20 rc 1 has been released, offering lots of new interesting "
+"features. The list of new features fixes is available in the <a href=\"/"
+"development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
+"\"download\">download area</a> to get your copy, or alternatively download a "
+"<a href=\"http://www.enterprisedb.com/products-services-training/pgdownload"
+"\">PostgreSQL 9.4 rc 1 Installer</a> which includes pgAdmin."
 msgstr ""
-"Został wydany pgAdmin 1.16 beta 1, oferując wiele nowych interesujących "
-"funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Nie ma jeszcze również "
-"pakietów Windows i Mac OS X, ale te braki powinny zostać niedługo "
-"uzupełnione. Lista poprawek jest dostępna w <a href=\"/development/changelog."
-"php\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
-"uzyskać kopię, lub ewentualnie pobrać <a href=\"http://www.enterprisedb.com/"
-"products/pgdownload.do\">Instalator PostgreSQL 9.2 beta 1</a>, który zawiera "
-"pgAdmin."
+"Został wydany pgAdmin 1.14.1, oferując 8 poprawek błędów z poprzednich "
+"wersji. Lista poprawek jest dostępna w <a href=\"/development/changelog.php"
+"\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar pobierania</a>, aby "
+"uzyskać własną kopię, lub ewentualnie pobierz <a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">Instalator PostgreSQL 9.1.2</a>, "
+"który zawiera pgAdmin."
 
 #: ../translation/index.php:10
 #, php-format
@@ -4741,7 +4906,7 @@ msgstr ""
 "systemie Windows, zalecamy użycie <a href=\"%s\">TortoiseGIT</a>, będącego "
 "wolnym oprogramowaniem."
 
-#: ../index.php:34
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4765,7 +4930,7 @@ msgstr ""
 "szyfrowane SSL dla bezpieczeństwa. Nie wymaga również dodatkowych "
 "sterowników do komunikacji z serwerem bazy danych."
 
-#: ../index.php:36
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4776,7 +4941,7 @@ msgstr ""
 "świecie i jest dostępny w kilkunastu językach. To jest Wolnym "
 "Oprogramowaniem wydanym na <a href=\"%s\">licencji PostgreSQL</a>."
 
-#: ../index.php:32
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5034,6 +5199,25 @@ msgstr "okno kopii zapasowej:"
 msgid "timestamp of the last reset on the statistics;"
 msgstr "znacznik czasu ostatniego resetu statystyk;"
 
+#, fuzzy
+#~ msgid ""
+#~ "pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
+#~ "features. We're still working on a visual tour. In the mean time, the "
+#~ "list of new features fixes is available in the <a href=\"/development/"
+#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+#~ "\">download area</a> to get your copy, or alternatively download a <a "
+#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
+#~ "9.4 beta 2 Installer</a> which includes pgAdmin."
+#~ msgstr ""
+#~ "Został wydany pgAdmin 1.16 beta 1, oferując wiele nowych interesujących "
+#~ "funkcji. Pracujemy wciąż nad wizualnym przewodnikiem. Nie ma jeszcze "
+#~ "również pakietów Windows i Mac OS X, ale te braki powinny zostać niedługo "
+#~ "uzupełnione. Lista poprawek jest dostępna w <a href=\"/development/"
+#~ "changelog.php\">CHANGELOG</a>. Odwiedź <a href=\"download\">obszar "
+#~ "pobierania</a>, aby uzyskać kopię, lub ewentualnie pobrać <a href="
+#~ "\"http://www.enterprisedb.com/products/pgdownload.do\">Instalator "
+#~ "PostgreSQL 9.2 beta 1</a>, który zawiera pgAdmin."
+
 #~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
 #~ "14 months of development work. A visual tour of the new release is "
@@ -5096,9 +5280,6 @@ msgstr "znacznik czasu ostatniego resetu statystyk;"
 #~ msgid "Finish 9.1 support with security labels [GL]"
 #~ msgstr "Zakończono wsparcie 9.1 etykiet bezpieczeństwa [GL]"
 
-#~ msgid "GSoC"
-#~ msgstr "GSoC"
-
 #~ msgid "New options dialog [GL]"
 #~ msgstr "Nowe okno dialogowe opcji [GL]"
 
@@ -5117,9 +5298,6 @@ msgstr "znacznik czasu ostatniego resetu statystyk;"
 
 #~ msgid "Create a symlink to the pgAdmin binary:"
 #~ msgstr "Utwórz link symboliczny do binariów pgAdmin:"
-
-#~ msgid "Debian"
-#~ msgstr "Debian"
 
 #~ msgid "Debian Etch (oldstable)"
 #~ msgstr "Debian Etch (stary stabilny)"

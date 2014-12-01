@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgAdmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 09:06+0200\n"
+"POT-Creation-Date: 2014-12-01 12:11+0100\n"
 "PO-Revision-Date: 2010-10-22 19:38+0700\n"
 "Last-Translator: Dadan Setia <dadan.setia@gmail.com>\n"
 "Language-Team: pgAdmin Developers <pgadmin-hackers@postgresql.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "F7). Anda dapat menonaktifkan perilaku auto-rollback (biasanya jika Anda "
 "ingin kembalikan ke savepoint sebelumnya)."
 
-#: ../index.php:26
+#: ../index.php:24
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin demo video"
@@ -39,7 +39,7 @@ msgstr "%s - pgAdmin demo video"
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - pgAdmin v%s telah dirilis"
 
-#: ../index.php:18 ../index.php:22
+#: ../index.php:16 ../index.php:20
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin v%s telah dirilis"
@@ -353,6 +353,10 @@ msgstr "Admin paket"
 msgid "Advocacy"
 msgstr "Advokasi"
 
+#: ../translation/config.php:16
+msgid "Afrikaans"
+msgstr ""
+
 #: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "Aggregate"
@@ -499,6 +503,10 @@ msgstr ""
 "string dapat diterjemahkan, bahkan ke dalam bahasa non-Eropa dan non-Asia. "
 "Langkah-langkah yang diperlukan untuk penerjemahan adalah sebagai berikut:"
 
+#: ../translation/config.php:17
+msgid "Arabic"
+msgstr ""
+
 #: ../translation/howto.php:29
 msgid ""
 "As a first step, please edit the file properties (Catalog/Settings). Select "
@@ -575,10 +583,10 @@ msgstr ""
 msgid "Backup/Restore tools"
 msgstr "Dump/Restore"
 
-#: ../index.php:16
+#: ../index.php:14
 msgid ""
-"Be careful that this is a BETA release. It's not production ready. It's "
-"available for testing purpose only."
+"Be careful that this is a Release Candidate build. It's not considered "
+"production ready. It's available for testing purpose only."
 msgstr ""
 
 #: ../advocacy/strategy.php:13
@@ -616,9 +624,22 @@ msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "Membangun instruksi disertakan dalam tarball, tersedia online:"
 
+# src/schema/pgLanguage.cpp:67 standard input:178
+# src/schema/pgLanguage.cpp:67 standard input:7
+# standard
+#: ../translation/config.php:18
+#, fuzzy
+msgid "Bulgarian"
+msgstr "Validator"
+
 #: ../features.php:62
 msgid "Casts"
 msgstr "Cast"
+
+#: ../translation/config.php:19
+#, fuzzy
+msgid "Catalan"
+msgstr "Katalog"
 
 # standard input:242
 # standard input:8
@@ -643,6 +664,15 @@ msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr ""
 "Periksa opsi <i>Automatically compile .mo file on save</i> pada properti."
+
+#: ../translation/config.php:58
+msgid "Chinese simplified"
+msgstr ""
+
+#: ../translation/config.php:59
+#, fuzzy
+msgid "Chinese traditional"
+msgstr "Ristriksi"
 
 #: ../visualtour12.php:66
 msgid ""
@@ -776,6 +806,10 @@ msgstr "Konversi"
 msgid "Couldn't find the document content!"
 msgstr "Tidak dapat mencari konten dokumen"
 
+#: ../translation/config.php:31
+msgid "Croatian"
+msgstr ""
+
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -791,9 +825,13 @@ msgstr "Kustomisasi laporan di frmStatus [GL]"
 # src/schema/pgSequence.cpp:95 standard input:230
 # src/schema/pgSequence.cpp:95 standard input:8
 # standard
-#: ../include/page.php:112
+#: ../include/page.php:112 ../translation/config.php:20
 msgid "Czech"
 msgstr "Ceko"
+
+#: ../translation/config.php:21
+msgid "Danish"
+msgstr ""
 
 #: ../screenshots/data.php:8
 msgid "Data"
@@ -961,6 +999,10 @@ msgstr "Dump/Restore"
 msgid "Dump/restore dialog"
 msgstr "Dump/restore dialog"
 
+#: ../translation/config.php:42
+msgid "Dutch"
+msgstr ""
+
 #: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -1062,9 +1104,17 @@ msgstr "Parse FTS"
 msgid "FTS templates"
 msgstr "Templat FTS"
 
+#: ../translation/config.php:25
+msgid "Farsi"
+msgstr ""
+
 #: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "Fitur"
+
+#: ../translation/config.php:53
+msgid "Filipino/Tagalog"
+msgstr ""
 
 #: ../download/index.php:14
 #, php-format
@@ -1104,6 +1154,10 @@ msgstr "Selesai 8.4 support dengan SQL / Med objek [GL]"
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Selesai 8.4 support dengan SQL / Med objek [GL]"
 
+#: ../translation/config.php:26
+msgid "Finnish"
+msgstr ""
+
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
 msgstr "Pertama, sekarang mungkin untuk membangun query grafis."
@@ -1134,7 +1188,7 @@ msgstr "Perbaiki indeks UI untuk menangani kolom dengan koma pada nama"
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../include/page.php:114
+#: ../include/page.php:114 ../translation/config.php:27
 msgid "French"
 msgstr "Prancis"
 
@@ -1220,7 +1274,11 @@ msgstr "GIT akses"
 msgid "GIT browser"
 msgstr "Browser GIT"
 
-#: ../index.php:28
+#: ../translation/config.php:28
+msgid "Galician"
+msgstr ""
+
+#: ../index.php:26
 #, fuzzy
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1233,9 +1291,23 @@ msgstr ""
 "Create_Postgres_Database_pgAdmin.do\">video walkthrough</a> memamerkan "
 "beberapa fitur di pgAdmin."
 
+#: ../translation/config.php:22
+msgid "German"
+msgstr ""
+
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr "Persiapan"
+
+#: ../include/page.php:120
+#, fuzzy
+msgid "Go"
+msgstr "GSoC"
+
+#: ../include/page.php:78
+#, fuzzy
+msgid "Google Search"
+msgstr "Google analytics"
 
 #: ../privacypolicy.php:22
 msgid "Google analytics"
@@ -1244,6 +1316,10 @@ msgstr "Google analytics"
 #: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafik dalam frmStatus [GL]"
+
+#: ../translation/config.php:23
+msgid "Greek"
+msgstr ""
 
 #: ../features.php:25
 msgid "Greenplum Database"
@@ -1264,9 +1340,17 @@ msgstr "Group"
 msgid "Guidelines"
 msgstr "Pedoman"
 
+#: ../translation/config.php:29
+msgid "Gujarati"
+msgstr ""
+
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "Petunjuk guru untuk membantu pengguna yang kurang berpengalaman"
+
+#: ../translation/config.php:30
+msgid "Hindi"
+msgstr ""
 
 #: ../include/page.php:126
 msgid "Home"
@@ -1280,9 +1364,17 @@ msgstr "Bagaimana berkontribusi"
 msgid "Howto"
 msgstr "Bagaimana"
 
+#: ../translation/config.php:32
+msgid "Hungarian"
+msgstr ""
+
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../translation/config.php:34
+msgid "Icelandic"
+msgstr ""
 
 #: ../visualtour16.php:68
 msgid ""
@@ -1462,6 +1554,10 @@ msgstr "Properti Index"
 msgid "Indexes"
 msgstr "Indexes"
 
+#: ../translation/config.php:33
+msgid "Indonesian"
+msgstr ""
+
 # src/schema/pgRule.cpp:75 src/ui/frmQueryBuilder.cpp:217 standard input:211
 # src/schema/pgRule.cpp:75 src/ui/frmQueryBuilder.cpp:217 standard input:10
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
@@ -1489,7 +1585,7 @@ msgstr ""
 # standard input:274
 # standard input:9
 # standard
-#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1568,9 +1664,17 @@ msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
 msgstr ""
 
+#: ../translation/config.php:35
+msgid "Italian"
+msgstr ""
+
 #: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
+
+#: ../translation/config.php:36
+msgid "Japanese"
+msgstr ""
 
 #: ../features.php:107
 msgid "KOI8"
@@ -1598,6 +1702,10 @@ msgstr ""
 #: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "Isu diketahui"
+
+#: ../translation/config.php:37
+msgid "Korean"
+msgstr ""
 
 #: ../features.php:103
 msgid ""
@@ -1683,6 +1791,10 @@ msgstr "update terbaru: %s"
 msgid "Latest news"
 msgstr "Berita terhangat"
 
+#: ../translation/config.php:39
+msgid "Latvian"
+msgstr ""
+
 #: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "Lisensi"
@@ -1694,6 +1806,10 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "Daftar arsip"
+
+#: ../translation/config.php:38
+msgid "Lithuanian"
+msgstr ""
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -1734,6 +1850,10 @@ msgstr ""
 "Paket Mac OSX dibangun pada Panther tersedia sampai dengan pgAdmin V1.4.1. "
 "Versi yang lebih baru sedang dibangun di Tiger. v1.6 dan di atas dibangun "
 "sebagai binari Mac Universal untuk Intel dan arsitektur PPC."
+
+#: ../translation/config.php:40
+msgid "Macedonian"
+msgstr ""
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -1921,6 +2041,10 @@ msgstr ""
 "Tidak ada yang bisa mengubah kelas operator dengan pgAmin UI karena tidak "
 "memiliki informasi ini. Ini telah berubah dengan 1.12. Sebuah kotak kombo "
 "baru disertakan dalam dialog indeks properti."
+
+#: ../translation/config.php:41
+msgid "Norwegian Bokm&aring;l"
+msgstr ""
 
 #: ../download/windows.php:14
 #, fuzzy, php-format
@@ -2277,10 +2401,18 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Menu Plugin"
 
-#: ../include/page.php:115
+#: ../include/page.php:115 ../translation/config.php:43
 #, fuzzy
 msgid "Polish"
 msgstr "Publikasi"
+
+#: ../translation/config.php:45
+msgid "Portuguese"
+msgstr ""
+
+#: ../translation/config.php:44
+msgid "Portuguese-Brazilian"
+msgstr ""
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
@@ -2584,6 +2716,10 @@ msgstr "Properti Rule"
 msgid "Roles"
 msgstr "Rule"
 
+#: ../translation/config.php:46
+msgid "Romanian"
+msgstr ""
+
 # standard
 #: ../features.php:48
 msgid "Routine maintenance"
@@ -2593,7 +2729,7 @@ msgstr "Pemeliharaan rutin"
 msgid "Rules"
 msgstr "Rules"
 
-#: ../include/page.php:117
+#: ../include/page.php:117 ../translation/config.php:47
 msgid "Russian"
 msgstr ""
 
@@ -2719,6 +2855,11 @@ msgstr ""
 msgid "Sequences"
 msgstr "Urutan "
 
+#: ../translation/config.php:50
+#, fuzzy
+msgid "Serbian"
+msgstr "Debian"
+
 # src/schema/pgObject.cpp:30 standard input:338 standard input:431
 # src/schema/pgObject.cpp:30 standard input:4
 # src/schema/pgObject.cpp:30 standard input:1
@@ -2803,6 +2944,14 @@ msgstr "Dokumentasi Slony-I"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objek Slony-I (seperti node, clusters dll.)"
 
+#: ../translation/config.php:48
+msgid "Slovak"
+msgstr ""
+
+#: ../translation/config.php:49
+msgid "Slovenian"
+msgstr ""
+
 #: ../features.php:18 ../screenshots/index.php:32
 msgid "Solaris"
 msgstr "Solaris"
@@ -2842,6 +2991,10 @@ msgstr ""
 "Source tarbal tersedia bagi pengguna yang ingin mengkompilasi salinan mereka "
 "sendiri pgAdmin, atau mereka yang menggunakan platform yang kami tidak "
 "menyediakan paket-paket prebuilt."
+
+#: ../translation/config.php:24
+msgid "Spanish"
+msgstr ""
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -2927,6 +3080,10 @@ msgstr ""
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
+#: ../translation/config.php:51
+msgid "Swedish"
+msgstr ""
+
 #: ../features.php:111
 msgid "TCVN"
 msgstr "TCVN"
@@ -3005,6 +3162,10 @@ msgstr "Team"
 #, fuzzy
 msgid "Tearable tabsets"
 msgstr "Statistik"
+
+#: ../translation/config.php:52
+msgid "Telugu"
+msgstr ""
 
 #: ../visualtour16.php:214
 msgid ""
@@ -3255,7 +3416,7 @@ msgstr ""
 "tidak kompatibel dengan IPv6. Ini bagian dari kode telah diperbarui untuk "
 "memungkinkan koneksi IPv6."
 
-#: ../index.php:39
+#: ../index.php:37
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "Versi pgAdmin saat ini adalah <a href=\"/download/\">%s</a>."
@@ -3881,12 +4042,6 @@ msgstr ""
 "sebelumnya pgAdmin. Nama folder yang berisi server dapat diubah pada dialog "
 "Properties untuk server."
 
-#: ../index.php:14
-msgid ""
-"There is no binary release yet for Windows and Mac OS X, but that should "
-"come in the next few days."
-msgstr ""
-
 #: ../visualtour14.php:311
 msgid ""
 "There is one unique aspect to these objects. You don't type their names, you "
@@ -4200,6 +4355,10 @@ msgstr ""
 "membantu memastikan akurasi dan konsistensi informasi. Beberapa contoh "
 "ditampilkan pada halaman <a href=\"%s\">informasi</a>."
 
+#: ../translation/config.php:54
+msgid "Turkish"
+msgstr ""
+
 #: ../visualtour14.php:140
 msgid ""
 "Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
@@ -4262,6 +4421,10 @@ msgstr "Tipe"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
+#: ../translation/config.php:55
+msgid "Ukranian"
+msgstr ""
+
 # standard input:816
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
@@ -4294,6 +4457,10 @@ msgid ""
 msgstr ""
 "Sayangnya, pgAdmin 1.8 tidak memiliki dukungan untuk FTS Objek</b>.\n"
 "  Salah satu hal yang kami lakukan untuk 1.10 adalah untuk mendukung ini."
+
+#: ../translation/config.php:56
+msgid "Urdu"
+msgstr ""
 
 # src/schema/pgServer.cpp:271 standard input:142 standard input:302
 # standard input:345 standard input:437
@@ -4331,6 +4498,12 @@ msgstr ""
 #: ../features.php:45
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Datagrid sangat cepat untuk menampilkan / entri data"
+
+# standard
+#: ../translation/config.php:57
+#, fuzzy
+msgid "Vietnamese"
+msgstr "Nama Berkas"
 
 # src/schema/pgObject.cpp:47 standard input:332
 # src/schema/pgObject.cpp:47 standard input:6
@@ -4665,7 +4838,7 @@ msgstr ""
 msgid "for the external type"
 msgstr "Refresh"
 
-#: ../index.php:24
+#: ../index.php:22
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -4833,15 +5006,16 @@ msgid ""
 "properties if the user clicks on an object node."
 msgstr ""
 
-#: ../index.php:20
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-"\">download area</a> to get your copy, or alternatively download a <a href="
-"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
-"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"http://www."
+"postgresql.org/ftp/pgadmin3/release/v1.20.0-beta1/\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products-services-training/pgdownload#windows\">PostgreSQL 9.3.1 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
 "sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
@@ -4852,13 +5026,12 @@ msgstr ""
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
-"features. We're still working on a visual tour. In the mean time, the list "
-"of new features fixes is available in the <a href=\"/development/changelog."
-"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
-"to get your copy, or alternatively download a <a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
-"a> which includes pgAdmin."
+"pgAdmin 1.20 rc 1 has been released, offering lots of new interesting "
+"features. The list of new features fixes is available in the <a href=\"/"
+"development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
+"\"download\">download area</a> to get your copy, or alternatively download a "
+"<a href=\"http://www.enterprisedb.com/products-services-training/pgdownload"
+"\">PostgreSQL 9.4 rc 1 Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari versi "
 "sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ a> untuk "
@@ -5061,7 +5234,7 @@ msgstr ""
 "sarankan untuk menggunakan <a href=\"%s\"> TortoiseGIT </ a>, yang merupakan "
 "perangkat lunak bebas."
 
-#: ../index.php:34
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -5084,7 +5257,7 @@ msgstr ""
 "nix), dan dapat SSL dienkripsi untuk keamanan. Tidak ada driver tambahan "
 "yang diperlukan untuk berkomunikasi dengan server database."
 
-#: ../index.php:36
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -5095,7 +5268,7 @@ msgstr ""
 "tersedia di lebih dari selusin bahasa. Ini adalah perangkat lunak gratis "
 "yang dirilis dibawah Lisensi <a href=\"%s\"> PostgreSQL </ a>."
 
-#: ../index.php:32
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -5360,6 +5533,22 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
+#~ "pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
+#~ "features. We're still working on a visual tour. In the mean time, the "
+#~ "list of new features fixes is available in the <a href=\"/development/"
+#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+#~ "\">download area</a> to get your copy, or alternatively download a <a "
+#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
+#~ "9.4 beta 2 Installer</a> which includes pgAdmin."
+#~ msgstr ""
+#~ "pgAdmin 1.12.1 telah dirilis, menawarkan sejumlah perbaikan bug dari "
+#~ "versi sebelumnya. Silakan kunjungi <a href=\"download\"> area unduhan </ "
+#~ "a> untuk mendapatkan salinan Anda, atau download <a href=\"http://www."
+#~ "enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.0.1 Installer</a> "
+#~ "yang mencakup pgAdmin."
+
+#, fuzzy
+#~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
 #~ "14 months of development work. A visual tour of the new release is "
 #~ "available <a href=\"/visualtour14.php\">here</a>, or a complete list of "
@@ -5421,9 +5610,6 @@ msgstr ""
 #~ msgid "Finish 9.1 support with security labels [GL]"
 #~ msgstr "Selesai 9.0 support dengan batasan pengecualian [GL]"
 
-#~ msgid "GSoC"
-#~ msgstr "GSoC"
-
 #, fuzzy
 #~ msgid "New options dialog [GL]"
 #~ msgstr "Tunjukan dialog opsi."
@@ -5443,9 +5629,6 @@ msgstr ""
 
 #~ msgid "Create a symlink to the pgAdmin binary:"
 #~ msgstr "Membuat symlink ke pgAdmin binary:"
-
-#~ msgid "Debian"
-#~ msgstr "Debian"
 
 #~ msgid "Debian Etch (oldstable)"
 #~ msgstr "Debian Etch (oldstable)"
@@ -8180,9 +8363,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Casts list report"
 #~ msgstr "Berkas Obyek"
-
-#~ msgid "Catalog"
-#~ msgstr "Katalog"
 
 #~ msgid "Catalog DDL"
 #~ msgstr "Katalog DDL"
@@ -11291,10 +11471,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Berkas tidak bisa dibuka dengan format ini.\n"
 #~ "Silakan pilih format yang lain."
-
-# standard
-#~ msgid "Filename"
-#~ msgstr "Nama Berkas"
 
 #, fuzzy
 #~ msgid "Fill Factor"
@@ -15724,9 +15900,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Restricted Value"
 #~ msgstr "Distinct Values"
-
-#~ msgid "Restriction"
-#~ msgstr "Ristriksi"
 
 #, fuzzy
 #~ msgid "Restriction not valid."

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-25 09:06+0200\n"
+"POT-Creation-Date: 2014-12-01 12:11+0100\n"
 "PO-Revision-Date: 2012-09-07 11:44+0800\n"
 "Last-Translator: Quan Zongliang <quanzl@highgo.com.cn>\n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql."
@@ -29,7 +29,7 @@ msgstr ""
 "“解释分析”有了自己的菜单和自己的快捷键（Shift-F7）。可以禁用自动回滚动作（通"
 "常可能期望回滚到上一个保存点）。"
 
-#: ../index.php:26
+#: ../index.php:24
 #, php-format
 msgid "%s - pgAdmin demo video"
 msgstr "%s - pgAdmin演示视频"
@@ -39,7 +39,7 @@ msgstr "%s - pgAdmin演示视频"
 msgid "%s - pgAdmin v%s available"
 msgstr "%s - pgAdmin v%s发布"
 
-#: ../index.php:18 ../index.php:22
+#: ../index.php:16 ../index.php:20
 #, php-format
 msgid "%s - pgAdmin v%s released"
 msgstr "%s - pgAdmin%s版本发布"
@@ -320,6 +320,10 @@ msgstr "管理工具包"
 msgid "Advocacy"
 msgstr "倡议"
 
+#: ../translation/config.php:16
+msgid "Afrikaans"
+msgstr ""
+
 #: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "集合函数"
@@ -454,6 +458,10 @@ msgstr ""
 "任何人都可以将pgAdmin翻译成为他或者她的母语，不需要是一个程序员。我们试图确保"
 "所有的字符串能够被翻译，甚至是非亚欧语种。翻译需要的步骤如下："
 
+#: ../translation/config.php:17
+msgid "Arabic"
+msgstr ""
+
 #: ../translation/howto.php:29
 msgid ""
 "As a first step, please edit the file properties (Catalog/Settings). Select "
@@ -517,10 +525,11 @@ msgstr "备份和恢复工具"
 msgid "Backup/Restore tools"
 msgstr "备份和恢复工具"
 
-#: ../index.php:16
+#: ../index.php:14
+#, fuzzy
 msgid ""
-"Be careful that this is a BETA release. It's not production ready. It's "
-"available for testing purpose only."
+"Be careful that this is a Release Candidate build. It's not considered "
+"production ready. It's available for testing purpose only."
 msgstr "请小心使用，因为这是BETA版，它还不是稳定的产品，应该仅仅用于测试。"
 
 #: ../advocacy/strategy.php:13
@@ -552,9 +561,17 @@ msgid ""
 "Build instructions are included in the tarballs, and are available online:"
 msgstr "tar包中包含build指导，也可以在线阅读："
 
+#: ../translation/config.php:18
+msgid "Bulgarian"
+msgstr ""
+
 #: ../features.php:62
 msgid "Casts"
 msgstr "类型转换"
+
+#: ../translation/config.php:19
+msgid "Catalan"
+msgstr ""
 
 #: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
@@ -574,6 +591,14 @@ msgstr "验证wxWidgets 2.9/3.0的使用"
 msgid ""
 "Check the <i>Automatically compile .mo file on save</i> option in Properties."
 msgstr "在（文件/首选/编辑器）选中<i>保存时自动编译.mo文件</i>选项"
+
+#: ../translation/config.php:58
+msgid "Chinese simplified"
+msgstr ""
+
+#: ../translation/config.php:59
+msgid "Chinese traditional"
+msgstr ""
 
 #: ../visualtour12.php:66
 msgid ""
@@ -667,6 +692,10 @@ msgstr "编码转换"
 msgid "Couldn't find the document content!"
 msgstr "无法找到文档内容"
 
+#: ../translation/config.php:31
+msgid "Croatian"
+msgstr ""
+
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -677,9 +706,13 @@ msgstr "合上双手祈祷直到PostgreSQL变成世界上最大的数据库 :)�
 msgid "Custom reports in frmStatus [GL]"
 msgstr "frmStatus中的自定义列表 [GL]"
 
-#: ../include/page.php:112
+#: ../include/page.php:112 ../translation/config.php:20
 msgid "Czech"
 msgstr "捷克语"
+
+#: ../translation/config.php:21
+msgid "Danish"
+msgstr ""
 
 #: ../screenshots/data.php:8
 msgid "Data"
@@ -797,6 +830,10 @@ msgstr "卸出/恢复"
 msgid "Dump/restore dialog"
 msgstr "卸出/恢复对话框"
 
+#: ../translation/config.php:42
+msgid "Dutch"
+msgstr ""
+
 #: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -888,9 +925,17 @@ msgstr "FTS分析器"
 msgid "FTS templates"
 msgstr "FTS模板"
 
+#: ../translation/config.php:25
+msgid "Farsi"
+msgstr ""
+
 #: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "特性"
+
+#: ../translation/config.php:53
+msgid "Filipino/Tagalog"
+msgstr ""
 
 #: ../download/index.php:14
 #, php-format
@@ -935,6 +980,10 @@ msgstr "完成对8.3操作符类对象的支持 [GL]"
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "完成对8.3操作符族对象的支持 [GL]"
 
+#: ../translation/config.php:26
+msgid "Finnish"
+msgstr ""
+
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
 msgstr "首先，现在可以构建图形化查询。"
@@ -961,7 +1010,7 @@ msgstr "修正索引窗口处理名字带有逗号的字段名"
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../include/page.php:114
+#: ../include/page.php:114 ../translation/config.php:27
 msgid "French"
 msgstr "法语"
 
@@ -1010,7 +1059,11 @@ msgstr "访问GIT"
 msgid "GIT browser"
 msgstr "GIT浏览器"
 
-#: ../index.php:28
+#: ../translation/config.php:28
+msgid "Galician"
+msgstr ""
+
+#: ../index.php:26
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
 "produced a <a href=\"http://www.enterprisedb.com/resources-community/"
@@ -1022,9 +1075,23 @@ msgstr ""
 "videos/videos/how-create-postgres-database-using-pgadmin\">预演视频</a>展示"
 "pgAdmin的部分特性。"
 
+#: ../translation/config.php:22
+msgid "German"
+msgstr ""
+
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr "开始工作"
+
+#: ../include/page.php:120
+#, fuzzy
+msgid "Go"
+msgstr "GSoC"
+
+#: ../include/page.php:78
+#, fuzzy
+msgid "Google Search"
+msgstr "Google Analytics（分析）"
 
 #: ../privacypolicy.php:22
 msgid "Google analytics"
@@ -1033,6 +1100,10 @@ msgstr "Google Analytics（分析）"
 #: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "frmStatus中的统计图 [GL]"
+
+#: ../translation/config.php:23
+msgid "Greek"
+msgstr ""
 
 #: ../features.php:25
 msgid "Greenplum Database"
@@ -1050,9 +1121,17 @@ msgstr "组"
 msgid "Guidelines"
 msgstr "指导方针"
 
+#: ../translation/config.php:29
+msgid "Gujarati"
+msgstr ""
+
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "指导建议能够帮助经验比较少的用户。"
+
+#: ../translation/config.php:30
+msgid "Hindi"
+msgstr ""
 
 #: ../include/page.php:126
 msgid "Home"
@@ -1066,9 +1145,17 @@ msgstr "如何捐助"
 msgid "Howto"
 msgstr "如何去做"
 
+#: ../translation/config.php:32
+msgid "Hungarian"
+msgstr ""
+
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../translation/config.php:34
+msgid "Icelandic"
+msgstr ""
 
 #: ../visualtour16.php:68
 msgid ""
@@ -1204,6 +1291,10 @@ msgstr "索引属性"
 msgid "Indexes"
 msgstr "索引"
 
+#: ../translation/config.php:33
+msgid "Indonesian"
+msgstr ""
+
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
 msgid "Information"
 msgstr "信息"
@@ -1227,7 +1318,7 @@ msgstr ""
 "国际化需要一些增强工作，比如在复数方面，因此，翻译者们在这个版本上需要完成更"
 "多的工作，我们希望在1.14能够保留同样数量的语言。"
 
-#: ../index.php:30 ../menu.php:6 ../advocacy/index.php:8
+#: ../index.php:28 ../menu.php:6 ../advocacy/index.php:8
 #: ../advocacy/menu.php:6 ../development/index.php:8 ../development/menu.php:6
 #: ../docs/index.php:8 ../docs/menu.php:6 ../download/index.php:8
 #: ../download/menu.php:6 ../screenshots/index.php:8 ../screenshots/menu.php:6
@@ -1298,9 +1389,17 @@ msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
 msgstr "它仅仅是封装“CREATE TABLE ... LIKE ...”语句的界面。"
 
+#: ../translation/config.php:35
+msgid "Italian"
+msgstr ""
+
 #: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
+
+#: ../translation/config.php:36
+msgid "Japanese"
+msgstr ""
 
 #: ../features.php:107
 msgid "KOI8"
@@ -1324,6 +1423,10 @@ msgstr ""
 #: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "已知的问题"
+
+#: ../translation/config.php:37
+msgid "Korean"
+msgstr ""
 
 #: ../features.php:103
 msgid ""
@@ -1370,6 +1473,10 @@ msgstr "最后更新：%s"
 msgid "Latest news"
 msgstr "最近的新闻"
 
+#: ../translation/config.php:39
+msgid "Latvian"
+msgstr ""
+
 #: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "协议"
@@ -1381,6 +1488,10 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "归档列表"
+
+#: ../translation/config.php:38
+msgid "Lithuanian"
+msgstr ""
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -1413,6 +1524,10 @@ msgid ""
 msgstr ""
 "基于Panther制作的Mac OSX包最高至pgAdmin 1.4.1版，更新的版本基于Tiger制作，1.6"
 "以及更高版本基于针对Intel and PPC架构的Mac Universal制作。"
+
+#: ../translation/config.php:40
+msgid "Macedonian"
+msgstr ""
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -1583,6 +1698,10 @@ msgid ""
 msgstr ""
 "没人能够通过pgAmin的界面改变操作符类，因为它缺少这方面的支持，这一状况在1.12"
 "中得到了改善，索引属性对话框增加一个新的下拉框。"
+
+#: ../translation/config.php:41
+msgid "Norwegian Bokm&aring;l"
+msgstr ""
 
 #: ../download/windows.php:14
 #, php-format
@@ -1884,9 +2003,17 @@ msgstr "准确反映变量（%s和%d）以及键盘快捷方式（&amp;）"
 msgid "Plugins menu"
 msgstr "插件菜单"
 
-#: ../include/page.php:115
+#: ../include/page.php:115 ../translation/config.php:43
 msgid "Polish"
 msgstr "波兰语"
+
+#: ../translation/config.php:45
+msgid "Portuguese"
+msgstr ""
+
+#: ../translation/config.php:44
+msgid "Portuguese-Brazilian"
+msgstr ""
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
@@ -2141,6 +2268,10 @@ msgstr "角色属性"
 msgid "Roles"
 msgstr "角色"
 
+#: ../translation/config.php:46
+msgid "Romanian"
+msgstr ""
+
 #: ../features.php:48
 msgid "Routine maintenance"
 msgstr "日常维护"
@@ -2149,7 +2280,7 @@ msgstr "日常维护"
 msgid "Rules"
 msgstr "规则"
 
-#: ../include/page.php:117
+#: ../include/page.php:117 ../translation/config.php:47
 msgid "Russian"
 msgstr "俄语"
 
@@ -2233,6 +2364,11 @@ msgstr ""
 msgid "Sequences"
 msgstr "序列号"
 
+#: ../translation/config.php:50
+#, fuzzy
+msgid "Serbian"
+msgstr "Debian"
+
 #: ../visualtour14.php:111
 msgid "Server"
 msgstr "服务器"
@@ -2282,6 +2418,14 @@ msgstr "Slony-I文档"
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Slony-I对象（例如节点、聚簇等）"
 
+#: ../translation/config.php:48
+msgid "Slovak"
+msgstr ""
+
+#: ../translation/config.php:49
+msgid "Slovenian"
+msgstr ""
+
 #: ../features.php:18 ../screenshots/index.php:32
 msgid "Solaris"
 msgstr "Solaris"
@@ -2314,6 +2458,10 @@ msgid ""
 msgstr ""
 "针对那些想自己编译pgAdmin或者我们的预编译包没有所用平台相应版本的用户，我们也"
 "提供了源程序tar包。"
+
+#: ../translation/config.php:24
+msgid "Spanish"
+msgstr ""
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -2380,6 +2528,10 @@ msgstr "自定义类型的<b>类型修饰符输入/输出函数</b>最终得到�
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
+#: ../translation/config.php:51
+msgid "Swedish"
+msgstr ""
+
 #: ../features.php:111
 msgid "TCVN"
 msgstr "TCVN"
@@ -2424,6 +2576,10 @@ msgstr "开发组"
 #: ../visualtour14.php:37
 msgid "Tearable tabsets"
 msgstr "可分离标签页"
+
+#: ../translation/config.php:52
+msgid "Telugu"
+msgstr ""
 
 #: ../visualtour16.php:214
 msgid ""
@@ -2668,7 +2824,7 @@ msgstr ""
 "改变了连接处理，以前的版本使用不兼容IPv6的函数，这部分代码已经升级为支持IPv6"
 "连接。"
 
-#: ../index.php:39
+#: ../index.php:37
 #, php-format
 msgid "The current version of pgAdmin is <a href=\"/download/\">%s</a>."
 msgstr "pgAdmin的当前版本是<a href=\"/download/\">%s</a>."
@@ -3209,12 +3365,6 @@ msgstr ""
 "候，只有一个分组存在，看起来就像以前的pgAdmin，现在包含服务器的分组可以在服务"
 "器的属性对话框进行修改。"
 
-#: ../index.php:14
-msgid ""
-"There is no binary release yet for Windows and Mac OS X, but that should "
-"come in the next few days."
-msgstr ""
-
 #: ../visualtour14.php:311
 msgid ""
 "There is one unique aspect to these objects. You don't type their names, you "
@@ -3463,6 +3613,10 @@ msgstr ""
 "发行关于pgAdmin的“标准”信息以便有助于信息的准确性和完整性，在<a href=\"%s\">"
 "信息</a>页面可以看到一些例子。"
 
+#: ../translation/config.php:54
+msgid "Turkish"
+msgstr ""
+
 #: ../visualtour14.php:140
 msgid ""
 "Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
@@ -3494,6 +3648,10 @@ msgstr "类型"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
+#: ../translation/config.php:55
+msgid "Ukranian"
+msgstr ""
+
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr "300字以内"
@@ -3520,6 +3678,10 @@ msgid ""
 "  One of the things we had to do for 1.10 is to support these."
 msgstr "不幸的是，pgAdmin 1.8不支持FTS对象，我们不得不在1.10中才开始支持他们。"
 
+#: ../translation/config.php:56
+msgid "Urdu"
+msgstr ""
+
 #: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
 msgstr "用户界面"
@@ -3545,6 +3707,10 @@ msgstr ""
 #: ../features.php:45
 msgid "Very fast datagrid for display/entry of data"
 msgstr "用来显示存取数据的快速数据表格"
+
+#: ../translation/config.php:57
+msgid "Vietnamese"
+msgstr ""
 
 #: ../features.php:94 ../visualtour16.php:195
 msgid "Views"
@@ -3832,7 +3998,7 @@ msgstr "枚举类型"
 msgid "for the external type"
 msgstr "外部类型"
 
-#: ../index.php:24
+#: ../index.php:22
 #, fuzzy, php-format
 msgid ""
 "pgAdmin %s has now been released. This release is the culmination of over 16 "
@@ -3996,15 +4162,16 @@ msgstr ""
 "pgAdmin 1.16在用户点击节点时刷新，意味着当用户点击父节点会尝试查找新对象、点"
 "击对象节点会查找新属性。"
 
-#: ../index.php:20
+#: ../index.php:18
 #, fuzzy
 msgid ""
 "pgAdmin 1.18.1 has been released, offering 10 bug fixes over the previous "
 "version. The list of bug fixes is available in the <a href=\"/development/"
-"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
-"\">download area</a> to get your copy, or alternatively download a <a href="
-"\"http://www.enterprisedb.com/products-services-training/pgdownload#windows"
-"\">PostgreSQL 9.3.1 Installer</a> which includes pgAdmin."
+"changelog.php\">CHANGELOG</a>. Please visit the <a href=\"http://www."
+"postgresql.org/ftp/pgadmin3/release/v1.20.0-beta1/\">download area</a> to "
+"get your copy, or alternatively download a <a href=\"http://www.enterprisedb."
+"com/products-services-training/pgdownload#windows\">PostgreSQL 9.3.1 "
+"Installer</a> which includes pgAdmin."
 msgstr ""
 "pgAdmin 1.14.1 已经发布，提供了基于上个版本8个bug修复，可以在<a href=\"/"
 "development/changelog.php\">CHANGELOG</a>里看到列表。请访问<a href=\"download"
@@ -4014,20 +4181,17 @@ msgstr ""
 #: ../index.php:12
 #, fuzzy
 msgid ""
-"pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
-"features. We're still working on a visual tour. In the mean time, the list "
-"of new features fixes is available in the <a href=\"/development/changelog."
-"php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> "
-"to get your copy, or alternatively download a <a href=\"http://www."
-"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.4 beta 2 Installer</"
-"a> which includes pgAdmin."
+"pgAdmin 1.20 rc 1 has been released, offering lots of new interesting "
+"features. The list of new features fixes is available in the <a href=\"/"
+"development/changelog.php\">CHANGELOG</a>. Please visit the <a href="
+"\"download\">download area</a> to get your copy, or alternatively download a "
+"<a href=\"http://www.enterprisedb.com/products-services-training/pgdownload"
+"\">PostgreSQL 9.4 rc 1 Installer</a> which includes pgAdmin."
 msgstr ""
-"pgAdmin 1.16 beta 1 已经发布，提供很多有趣的新特性，我们也仍然制作视觉教程，"
-"但我们还没有来得及制作Windows和Mac OS X包，稍后才会提供。新特性列表可以在<a "
-"href=\"/development/changelog.php\">CHANGELOG</a>里看到。请访问<a href="
-"\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://"
-"www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 beta 1安装程序</"
-"a>。"
+"pgAdmin 1.14.1 已经发布，提供了基于上个版本8个bug修复，可以在<a href=\"/"
+"development/changelog.php\">CHANGELOG</a>里看到列表。请访问<a href=\"download"
+"\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href=\"http://www."
+"enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.1.2安装程序</a>。"
 
 #: ../translation/index.php:10
 #, php-format
@@ -4206,7 +4370,7 @@ msgstr ""
 "欢的GIT客户端访问它们。Windows下，我们推荐使用<a href=\"%s\">TortoiseGIT</"
 "a>，这是一个自由软件。"
 
-#: ../index.php:34
+#: ../index.php:32
 #, php-format
 msgid ""
 "pgAdmin is designed to answer the needs of all users, from writing simple "
@@ -4226,7 +4390,7 @@ msgstr ""
 "Unix Domain Sockets（在*nix平台上）创建服务器连接，也可以使用SSL增强安全性。"
 "与数据库服务器交互不需要附加的其他驱动。"
 
-#: ../index.php:36
+#: ../index.php:34
 #, php-format
 msgid ""
 "pgAdmin is developed by a community of PostgreSQL experts around the world "
@@ -4236,7 +4400,7 @@ msgstr ""
 "pgAdmin由世界范围的PostgreSQL专家团体开发，可以支持多种语言，是一个基于<a "
 "href=\"%s\">PostgreSQL协议</a>发布的自由软件。"
 
-#: ../index.php:32
+#: ../index.php:30
 #, php-format
 msgid ""
 "pgAdmin is the most popular and feature rich Open Source administration and "
@@ -4488,6 +4652,23 @@ msgstr "备份窗口："
 msgid "timestamp of the last reset on the statistics;"
 msgstr "最近重置统计信息的时间；"
 
+#, fuzzy
+#~ msgid ""
+#~ "pgAdmin 1.20 beta 1 has been released, offering lots of new interesting "
+#~ "features. We're still working on a visual tour. In the mean time, the "
+#~ "list of new features fixes is available in the <a href=\"/development/"
+#~ "changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download"
+#~ "\">download area</a> to get your copy, or alternatively download a <a "
+#~ "href=\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL "
+#~ "9.4 beta 2 Installer</a> which includes pgAdmin."
+#~ msgstr ""
+#~ "pgAdmin 1.16 beta 1 已经发布，提供很多有趣的新特性，我们也仍然制作视觉教"
+#~ "程，但我们还没有来得及制作Windows和Mac OS X包，稍后才会提供。新特性列表可"
+#~ "以在<a href=\"/development/changelog.php\">CHANGELOG</a>里看到。请访问<a "
+#~ "href=\"download\">下载区</a>获取自己的拷贝，或者下载包含pgAdmin的<a href="
+#~ "\"http://www.enterprisedb.com/products/pgdownload.do\">PostgreSQL 9.2 "
+#~ "beta 1安装程序</a>。"
+
 #~ msgid ""
 #~ "pgAdmin %s has now been released. This release is the culmination of over "
 #~ "14 months of development work. A visual tour of the new release is "
@@ -4545,9 +4726,6 @@ msgstr "最近重置统计信息的时间；"
 #~ msgid "Finish 9.1 support with security labels [GL]"
 #~ msgstr "完成对9.1安全标签的支持 [GL]"
 
-#~ msgid "GSoC"
-#~ msgstr "GSoC"
-
 #~ msgid "New options dialog [GL]"
 #~ msgstr "全新选项对话框 [GL]"
 
@@ -4564,9 +4742,6 @@ msgstr "最近重置统计信息的时间；"
 
 #~ msgid "Create a symlink to the pgAdmin binary:"
 #~ msgstr "创建一个指向pgAdmin的符号连接："
-
-#~ msgid "Debian"
-#~ msgstr "Debian"
 
 #~ msgid "Debian Etch (oldstable)"
 #~ msgstr "Debian Etch（旧稳定版）"
