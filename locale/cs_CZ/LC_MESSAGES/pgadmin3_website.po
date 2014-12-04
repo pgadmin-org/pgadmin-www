@@ -1,14 +1,15 @@
-#
+# 
+# 
 # Marek Černocký <marek@manet.cz>, 2010, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pgadmin3_website\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-30 12:38+0100\n"
-"PO-Revision-Date: 2014-11-30 19:48+0100\n"
+"POT-Creation-Date: 2014-12-02 10:10+0100\n"
+"PO-Revision-Date: 2014-12-02 10:32+0100\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: Czech <diskuze@lists.l10n.cz>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -346,6 +347,10 @@ msgstr "Admin packs"
 msgid "Advocacy"
 msgstr "Propagace"
 
+#: ../translation/config.php:16
+msgid "Afrikaans"
+msgstr "afrikánština"
+
 #: ../features.php:61 ../visualtour16.php:247
 msgid "Aggregates"
 msgstr "Agregační funkce"
@@ -504,6 +509,10 @@ msgstr ""
 "řetězce a to i do neevropských a neasijských jazyků. Kroky potřebné k "
 "překladu jsou následující:"
 
+#: ../translation/config.php:17
+msgid "Arabic"
+msgstr "arabština"
+
 #: ../translation/howto.php:29
 msgid ""
 "As a first step, please edit the file properties (Catalog/Settings). Select "
@@ -612,9 +621,17 @@ msgid ""
 msgstr ""
 "Instrukce na sestavení jsou součástí archivu a jsou dostupné i on-line:"
 
+#: ../translation/config.php:18
+msgid "Bulgarian"
+msgstr "bulharština"
+
 #: ../features.php:62
 msgid "Casts"
 msgstr "Přetypování"
+
+#: ../translation/config.php:19
+msgid "Catalan"
+msgstr "katalánština"
 
 #: ../development/changelog.php:8 ../development/menu.php:13
 msgid "Change log"
@@ -638,6 +655,14 @@ msgid ""
 msgstr ""
 "V dialogovém okně nastavení zvolte <i>Automaticky zkompilovat .mo soubor při "
 "uložení</i>."
+
+#: ../translation/config.php:58
+msgid "Chinese simplified"
+msgstr "čínština (zjednodušená)"
+
+#: ../translation/config.php:59
+msgid "Chinese traditional"
+msgstr "čínština (tradiční)"
 
 #: ../visualtour12.php:66
 msgid ""
@@ -733,6 +758,10 @@ msgstr "Konverze"
 msgid "Couldn't find the document content!"
 msgstr "Nelze nalézt obsah dokumentu!"
 
+#: ../translation/config.php:31
+msgid "Croatian"
+msgstr "chorvatština"
+
 #: ../advocacy/strategy.php:23
 msgid ""
 "Cross your fingers and wait until PostgreSQL becomes the world's number one "
@@ -744,9 +773,13 @@ msgstr ""
 msgid "Custom reports in frmStatus [GL]"
 msgstr "Vlastní výstupní sestavy ve frmStatus [GL]"
 
-#: ../include/page.php:112
+#: ../include/page.php:112 ../translation/config.php:20
 msgid "Czech"
-msgstr "Čeština"
+msgstr "čeština"
+
+#: ../translation/config.php:21
+msgid "Danish"
+msgstr "dánština"
 
 #: ../screenshots/data.php:8
 msgid "Data"
@@ -869,6 +902,10 @@ msgstr "Zálohování/obnova"
 msgid "Dump/restore dialog"
 msgstr "Dialogové okno pro zálohování/obnovu"
 
+#: ../translation/config.php:42
+msgid "Dutch"
+msgstr "holandština"
+
 #: ../features.php:101
 msgid "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
 msgstr "EUC_JP, EUC_CN, EUC_KR, EUC_TW"
@@ -901,7 +938,7 @@ msgstr "Upravte *.po soubor. Následující kroky platí pouze pro poEdit:"
 
 #: ../include/page.php:113
 msgid "English"
-msgstr "Angličtina"
+msgstr "angličtina"
 
 #: ../visualtour.php:338
 msgid "Ensure a newline is included between notices in the query tool"
@@ -967,9 +1004,17 @@ msgstr "Analyzátory FTS"
 msgid "FTS templates"
 msgstr "Šablony FTS"
 
+#: ../translation/config.php:25
+msgid "Farsi"
+msgstr "Perština"
+
 #: ../features.php:8 ../menu.php:7
 msgid "Features"
 msgstr "Vlastnosti"
+
+#: ../translation/config.php:53
+msgid "Filipino/Tagalog"
+msgstr "tagalština"
 
 #: ../download/index.php:14
 #, php-format
@@ -1019,6 +1064,10 @@ msgstr "Dokončit podporu 7.4 (?) s vytvářením objektů třít operátorů [G
 msgid "Finish 8.3 support with operator family objets' creation [GL]"
 msgstr "Dokončit podporu 8.3 s vytvářením objektů rodin operátorů [GL]"
 
+#: ../translation/config.php:26
+msgid "Finnish"
+msgstr "finština"
+
 #: ../visualtour.php:24
 msgid "First, it is now possible to build a query graphically."
 msgstr "Zaprvé je nyní možné dotazy sestavovat graficky."
@@ -1051,9 +1100,9 @@ msgstr ""
 msgid "FreeBSD"
 msgstr "FreeBSD"
 
-#: ../include/page.php:114
+#: ../include/page.php:114 ../translation/config.php:27
 msgid "French"
-msgstr "Francouzština"
+msgstr "francouzština"
 
 #: ../support/faq.php:8
 msgid "Frequently Asked Questions"
@@ -1101,6 +1150,10 @@ msgstr "Přístup přes GIT"
 msgid "GIT browser"
 msgstr "Procházení přes GIT"
 
+#: ../translation/config.php:28
+msgid "Galician"
+msgstr "galicijština"
+
 #: ../index.php:26
 msgid ""
 "Gary at <a href=\"http://www.enterprisedb.com/\">EnterpriseDB</a> has "
@@ -1113,9 +1166,21 @@ msgstr ""
 "webcasts-podcasts-videos/videos/how-create-postgres-database-using-pgadmin"
 "\">průvodní video</a>, které ukazuje některé z funkcí aplikace pgAdmin."
 
+#: ../translation/config.php:22
+msgid "German"
+msgstr "němčina"
+
 #: ../translation/howto.php:10
 msgid "Getting started"
 msgstr "Začínáme"
+
+#: ../include/page.php:120
+msgid "Go"
+msgstr "Změnit"
+
+#: ../include/page.php:78
+msgid "Google Search"
+msgstr "Hledat Googlem"
 
 #: ../privacypolicy.php:22
 msgid "Google analytics"
@@ -1124,6 +1189,10 @@ msgstr "Google analytics"
 #: ../development/roadmap.php:31
 msgid "Graphs in frmStatus [GL]"
 msgstr "Grafy ve frmStatus [GL]"
+
+#: ../translation/config.php:23
+msgid "Greek"
+msgstr "řečtina"
 
 #: ../features.php:25
 msgid "Greenplum Database"
@@ -1141,9 +1210,17 @@ msgstr "Skupiny"
 msgid "Guidelines"
 msgstr "Pokyny"
 
+#: ../translation/config.php:29
+msgid "Gujarati"
+msgstr "gudžarátština"
+
 #: ../features.php:31
 msgid "Guru Hints to help less experienced users"
 msgstr "Rady odborníka na pomoc méně zkušeným uživatelům"
+
+#: ../translation/config.php:30
+msgid "Hindi"
+msgstr "hindština"
 
 #: ../include/page.php:126
 msgid "Home"
@@ -1157,9 +1234,17 @@ msgstr "Jak přispět"
 msgid "Howto"
 msgstr "Jak na to"
 
+#: ../translation/config.php:32
+msgid "Hungarian"
+msgstr "maďarština"
+
 #: ../features.php:104
 msgid "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
 msgstr "ISO_8859_5, ISO_8859_6, ISO_8859_7, ISO_8859_8"
+
+#: ../translation/config.php:34
+msgid "Icelandic"
+msgstr "islandština"
 
 #: ../visualtour16.php:68
 msgid ""
@@ -1315,6 +1400,10 @@ msgstr "Vlastnosti indexů"
 msgid "Indexes"
 msgstr "Indexy"
 
+#: ../translation/config.php:33
+msgid "Indonesian"
+msgstr "indonéština"
+
 #: ../advocacy/information.php:8 ../advocacy/menu.php:8
 msgid "Information"
 msgstr "Informace"
@@ -1420,9 +1509,17 @@ msgid ""
 "It's just an interface around the \"CREATE TABLE ... LIKE ...\" statement."
 msgstr "Jedná se o zpřístupnění výrazu „CREATE TABLE … LIKE …“."
 
+#: ../translation/config.php:35
+msgid "Italian"
+msgstr "italština"
+
 #: ../features.php:102
 msgid "JOHAB"
 msgstr "JOHAB"
+
+#: ../translation/config.php:36
+msgid "Japanese"
+msgstr "japonština"
 
 #: ../features.php:107
 msgid "KOI8"
@@ -1449,6 +1546,10 @@ msgstr ""
 #: ../support/issues.php:8 ../support/menu.php:12
 msgid "Known issues"
 msgstr "Známé problémy"
+
+#: ../translation/config.php:37
+msgid "Korean"
+msgstr "korejština"
 
 #: ../features.php:103
 msgid ""
@@ -1496,6 +1597,10 @@ msgstr "Poslední aktualizace: %s"
 msgid "Latest news"
 msgstr "Poslední novinky"
 
+#: ../translation/config.php:39
+msgid "Latvian"
+msgstr "lotyština"
+
 #: ../licence.php:8 ../menu.php:13
 msgid "Licence"
 msgstr "Licence"
@@ -1507,6 +1612,10 @@ msgstr "Linux"
 #: ../development/menu.php:10 ../support/menu.php:11
 msgid "List archives"
 msgstr "Archívy konferencí"
+
+#: ../translation/config.php:38
+msgid "Lithuanian"
+msgstr "litevština"
 
 #: ../include/po_status.php:253
 msgid "Locale"
@@ -1540,6 +1649,10 @@ msgstr ""
 "Novější verze do 1.16.x jsou sestavované pro verzi Tiger jako Universal "
 "binary pro architektury Intel a PPC. Verze 1.18.x a vyšší podporují OSX Snow "
 "Leopard (10.6) a novější a to pouze na architektuře Intel."
+
+#: ../translation/config.php:40
+msgid "Macedonian"
+msgstr "makedonština"
 
 #: ../development/list.php:8 ../development/menu.php:9 ../support/list.php:8
 #: ../support/menu.php:8
@@ -1720,6 +1833,10 @@ msgstr ""
 "V uživatelském rozhraní pgAdmin nešlo měnit třídu operátora, protože tuto "
 "informaci neobsahovalo. S verzí 1.12 se to změnilo. Nový vyskakovací seznam "
 "je součástí dialogového okna vlastností."
+
+#: ../translation/config.php:41
+msgid "Norwegian Bokm&aring;l"
+msgstr "bokm&aring;l"
 
 #: ../download/windows.php:14
 #, php-format
@@ -2063,9 +2180,17 @@ msgstr ""
 msgid "Plugins menu"
 msgstr "Nabídka zásuvných modulů"
 
-#: ../include/page.php:115
+#: ../include/page.php:115 ../translation/config.php:43
 msgid "Polish"
-msgstr "Polština"
+msgstr "polština"
+
+#: ../translation/config.php:45
+msgid "Portuguese"
+msgstr "portugalština"
+
+#: ../translation/config.php:44
+msgid "Portuguese-Brazilian"
+msgstr "portugalština (brazilská)"
 
 #: ../features.php:23
 msgid "PostgreSQL 7.3 and above"
@@ -2350,6 +2475,10 @@ msgstr "Vlastnosti role"
 msgid "Roles"
 msgstr "Role"
 
+#: ../translation/config.php:46
+msgid "Romanian"
+msgstr "rumunština"
+
 #: ../features.php:48
 msgid "Routine maintenance"
 msgstr "Běžná údržba"
@@ -2358,9 +2487,9 @@ msgstr "Běžná údržba"
 msgid "Rules"
 msgstr "Pravidla"
 
-#: ../include/page.php:117
+#: ../include/page.php:117 ../translation/config.php:47
 msgid "Russian"
-msgstr "Ruština"
+msgstr "ruština"
 
 #: ../visualtour16.php:253
 msgid "SQL/MED objects"
@@ -2380,7 +2509,7 @@ msgstr "SQL_ASCII"
 
 #: ../include/page.php:116
 msgid "Salvatorian"
-msgstr "Španělština (El Salvador)"
+msgstr "španělština (salvádorská)"
 
 #: ../visualtour.php:339
 msgid ""
@@ -2446,6 +2575,10 @@ msgstr ""
 msgid "Sequences"
 msgstr "Sekvence"
 
+#: ../translation/config.php:50
+msgid "Serbian"
+msgstr "srbština"
+
 #: ../visualtour14.php:111
 msgid "Server"
 msgstr "Server"
@@ -2485,7 +2618,7 @@ msgstr "Servery"
 
 #: ../include/page.php:118
 msgid "Simplified Chinese"
-msgstr "Zjednodušená čínština"
+msgstr "čínština (zjednodušná)"
 
 #: ../features.php:33
 msgid "Slony-I documentation"
@@ -2494,6 +2627,14 @@ msgstr "Dokumentace Slony-I"
 #: ../features.php:88
 msgid "Slony-I objects (such as nodes, clusters etc.)"
 msgstr "Objekty Slony-I (jako uzly, clustery apod.)"
+
+#: ../translation/config.php:48
+msgid "Slovak"
+msgstr "slovenština"
+
+#: ../translation/config.php:49
+msgid "Slovenian"
+msgstr "slovinština"
 
 #: ../features.php:18 ../screenshots/index.php:32
 msgid "Solaris"
@@ -2530,6 +2671,10 @@ msgstr ""
 "Archívy tar se zdrojovým kódem jsou k dispozici pro uživatele, kteří si "
 "chtějí přeložit vlastní kopii pgAdmin nebo používají platformu, pro kterou "
 "nenabízíme sestavené balíčky."
+
+#: ../translation/config.php:24
+msgid "Spanish"
+msgstr "španělština"
 
 #: ../privacypolicy.php:10
 msgid "Standard logging"
@@ -2602,6 +2747,10 @@ msgstr ""
 msgid "Suse 10 XGL"
 msgstr "Suse 10 XGL"
 
+#: ../translation/config.php:51
+msgid "Swedish"
+msgstr "švédština"
+
 #: ../features.php:111
 msgid "TCVN"
 msgstr "TCVN"
@@ -2647,6 +2796,10 @@ msgstr "Tým"
 #: ../visualtour14.php:37
 msgid "Tearable tabsets"
 msgstr "Odpojitelné karty"
+
+#: ../translation/config.php:52
+msgid "Telugu"
+msgstr "telugština"
 
 #: ../visualtour16.php:214
 msgid ""
@@ -3816,6 +3969,10 @@ msgstr ""
 "správnost a jednotnost informací. Některé příklady jsou uvedené na stránce "
 "<a href=\"%s\">informace</a>."
 
+#: ../translation/config.php:54
+msgid "Turkish"
+msgstr "turečtina"
+
 #: ../visualtour14.php:140
 msgid ""
 "Two new piece of information (specific to PostgreSQL 9.1) are shown in the "
@@ -3849,6 +4006,10 @@ msgstr "Typy"
 msgid "UNICODE/UTF-8"
 msgstr "UNICODE/UTF-8"
 
+#: ../translation/config.php:55
+msgid "Ukranian"
+msgstr "ukrajinština"
+
 #: ../advocacy/information.php:31
 msgid "Under 2000 characters"
 msgstr "Méně jak 2000 znaků"
@@ -3876,6 +4037,10 @@ msgid ""
 msgstr ""
 "pgAdmin 1.8 bohužel nemá podporu pro objekty FTS (plně textové vyhledávání). "
 "Jedna z věcí, která byla do 1.10 přidaná je právě tato podpora."
+
+#: ../translation/config.php:56
+msgid "Urdu"
+msgstr "urdština"
 
 #: ../screenshots/menu.php:7 ../screenshots/ui.php:8
 msgid "User interface"
@@ -3905,6 +4070,10 @@ msgstr ""
 #: ../features.php:45
 msgid "Very fast datagrid for display/entry of data"
 msgstr "Velmi rychlá datová mřížka na zobrazování/zadávání dat"
+
+#: ../translation/config.php:57
+msgid "Vietnamese"
+msgstr "vietnamština"
 
 #: ../features.php:94 ../visualtour16.php:195
 msgid "Views"
