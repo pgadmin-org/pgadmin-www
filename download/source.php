@@ -28,7 +28,7 @@ $PAGE_CONTENT = '
 <p>' . _("Build instructions are included in the tarballs, and are available online:") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=b4a9840a6b96a712a0a0256a6c99de7f8750e076;hb=REL-1_20_0_PATCHES", "1.20.x") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=4a96ce64ff695a3942d41b5982540ce61fcb996d;hb=REL-1_20_0_PATCHES", "1.20.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=4a96ce64ff695a3942d41b5982540ce61fcb996d;hb=REL-1_18_0_PATCHES", "1.18.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=b8ec1a51fd877efc1be701f4ed938b92daf219fc;hb=REL-1_16_0_PATCHES", "1.16.x") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=blob;f=INSTALL;h=e81290ef436d3d39b9aaade4df48d98435a755af;hb=REL-1_14_0_PATCHES", "1.14.x") . '<br />&nbsp;</li>
