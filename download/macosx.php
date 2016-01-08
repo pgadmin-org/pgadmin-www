@@ -9,8 +9,9 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Dave Page") . '</h4>
 
-<p>' . _("Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later versions up to 1.16.x are being built on Tiger as Universal binaries for Intel and PPC. 1.18.x supports OSX Snow Leopard (10.6) and above, on Intel only, and 1.20.x is built on Yosemite and supports OSX Mavericks (10.9) and above.") . '</p>
+<p>' . _("Mac OSX packages built on Panther are available up to pgAdmin v1.4.1. Later versions up to 1.16.x are being built on Tiger as Universal binaries for Intel and PPC. 1.18.x supports OSX Snow Leopard (10.6) and above, on Intel only, and 1.20.x and above is built on Yosemite and supports OSX Mavericks (10.9) and above.") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/osx/", "1.22.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.20.0/osx/", "1.20.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/osx/", "1.18.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "http://www.postgresql.org/ftp/pgadmin3/release/v1.16.1/osx/", "1.16.1") . '<br />&nbsp;</li>
