@@ -7,6 +7,10 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
+<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2016-02-11", "1.22.1") . '</h2>
+
+<p>' . _("pgAdmin 1.22.1 has been released, offering a number of bug fixes over the previous version. The list of bug fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products-services-training/pgdownload#windows\">PostgreSQL 9.5.1 Installer</a> which includes pgAdmin.") . '</p>
+
 <h2>' . sprintf(_("%s - pgAdmin v%s available"), "2016-01-08", "1.22.0") . '</h2>
 
 <p>' . _("pgAdmin 1.22 has been released, offering new features, bug fixes and support for PostgreSQL 9.5. The list of new features and fixes is available in the <a href=\"/development/changelog.php\">CHANGELOG</a>. Please visit the <a href=\"download\">download area</a> to get your copy, or alternatively download a <a href=\"http://www.enterprisedb.com/products-services-training/pgdownload\">PostgreSQL 9.5 Installer</a> which includes pgAdmin.") . '</p>
@@ -24,7 +28,7 @@ $PAGE_CONTENT = '
 <p>' . sprintf(_("pgAdmin is developed by a community of PostgreSQL experts around the world and is available in more than a dozen languages. It is Free Software released under the <a href=\"%s\">PostgreSQL License</a>."), "licence.php") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.22.0") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">%s</a>."), "1.22.1") . '
 </div>
 
 '; 
