@@ -67,7 +67,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <td id="pgaSearch">
 
 <!-- SiteSearch Google -->
-<form method="get" action="http://www.google.com/custom" target="_top">
+<form method="get" action="https://www.google.com/custom" target="_top">
 <table border="0" bgcolor="#009ace">
 <tr><td nowrap="nowrap" valign="top" align="left" height="32">
 
@@ -96,7 +96,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <input type="hidden" name="forid" value="1"></input>
 <input type="hidden" name="ie" value="ISO-8859-1"></input>
 <input type="hidden" name="oe" value="ISO-8859-1"></input>
-<input type="hidden" name="cof" value="GALT:#999999;GL:1;DIV:#009ACE;VLC:555555;AH:center;BGC:FFFFFF;LBGC:CDDDEB;ALC:009ACE;LC:009ACE;T:000000;GFNT:000000;GIMP:000000;LH:100;LW:100;L:http://www.pgadmin.org/images/search.jpg;S:http://www.pgadmin.org/;LP:1;FORID:1;"></input>
+<input type="hidden" name="cof" value="GALT:#999999;GL:1;DIV:#009ACE;VLC:555555;AH:center;BGC:FFFFFF;LBGC:CDDDEB;ALC:009ACE;LC:009ACE;T:000000;GFNT:000000;GIMP:000000;LH:100;LW:100;L:https://www.pgadmin.org/images/search.jpg;S:https://www.pgadmin.org/;LP:1;FORID:1;"></input>
 <input type="hidden" name="hl" value="en"></input>
 </td></tr></table>
 </form>
@@ -171,12 +171,12 @@ google_ad_height = 600;
 //-->
 </script>
 <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 
 <!-- Google Analytics -->
 
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
 <script type="text/javascript">_uacct = "UA-1345454-3";urchinTracker();</script>
 
 <!-- End Google Analytics -->

@@ -44,7 +44,7 @@ $PAGE_CONTENT = '
   ' . sprintf(_("In this example, the user will insert random values into some tables. To
   execute this script, you need to click on the PGS button. The complete
   reference to pgscript is available <a href=\"%s\">here</a>."),
-  "http://www.pgadmin.org/docs/dev/pgscript.html") . '
+  "/docs/dev/pgscript.html") . '
 </p>
 
 <h2>' . _("Derivative database support") . '</h2>
