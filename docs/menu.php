@@ -4,6 +4,11 @@ function www_menu()
 {
   $output = '
 <div' . www_current_menu_page("index.php") . '><a href="index.php">&rsaquo; ' . _("Introduction") . '</a></div>
+<br />
+<div' . www_current_menu_page("xxx") . '>&nbsp;' . _("pgAdmin 4 (Beta):") . '</div>
+<div' . www_current_menu_page("../docs4/dev/index.html") . '><a href="../docs4/dev/index.html">&rsaquo; ' . _("Dev") . '</a></div>
+<br />
+<div' . www_current_menu_page("xxx") . '>&nbsp;' . _("pgAdmin 3:") . '</div>
 <div' . www_current_menu_page("dev/index.html") . '><a href="dev/index.html">&rsaquo; ' . _("Dev") . '</a></div>
 <div' . www_current_menu_page("1.22/index.html") . '><a href="1.22/index.html">&rsaquo; ' . sprintf(_("Release %s"), "1.22") . '</a></div>
 <div' . www_current_menu_page("1.20/index.html") . '><a href="1.20/index.html">&rsaquo; ' . sprintf(_("Release %s"), "1.20") . '</a></div>

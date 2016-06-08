@@ -1,10 +1,10 @@
 {
 	"pgadmin3": {
 		"version": "1.22.0",
-		"download_url": "http://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/"
+		"download_url": "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/"
 	},
 	"pgadmin4": {
-		"version": "1.0-dev",
-		"download_url": "http://git.postgresql.org/gitweb/?p=pgadmin4.git;a=summary"
+		"version": "1.0-beta1",
+		"download_url": "https://git.postgresql.org/gitweb/?p=pgadmin4.git;a=summary"
 	}
 }
