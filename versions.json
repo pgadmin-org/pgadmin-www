@@ -4,7 +4,8 @@
 		"download_url": "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/"
 	},
 	"pgadmin4": {
-		"version": "1.0-beta2",
+		"version": "1.0-beta3",
+                "version_int": 10003,
 		"download_url": "https://www.pgadmin.org/download/"
 	}
 }
