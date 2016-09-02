@@ -9,10 +9,11 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Dave Page") . '</h4>
 
-<p><b>' . _("WARNING: This is BETA software that should not be used for production purposes.") . '</b></p>
+<p><b>' . _("WARNING: This is pre-release software that should not be used for production purposes.") . '</b></p>
 
 <p>' . _("A Mac OS X App Bundle containing the pgAdmin 4 Desktop Runtime and Web application is available for Mac OS X 10.10 and above:") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0-rc1/osx/", "1.0-rc1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0-beta4/osx/", "1.0-beta4") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0-beta3/osx/", "1.0-beta3") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0-beta2/osx/", "1.0-beta2") . '<br />&nbsp;</li>
