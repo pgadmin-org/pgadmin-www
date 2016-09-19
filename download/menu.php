@@ -11,6 +11,7 @@ function www_menu()
 <div' . www_current_menu_page("windows.php") . '><a href="windows.php">&rsaquo; ' . _("Windows&trade;") . '</a></div>
 <br />
 <div' . www_current_menu_page("xxx") . '>&nbsp;' . _("pgAdmin 4:") . '</div>
+<div' . www_current_menu_page("linux4.php") . '><a href="linux4.php">&rsaquo; ' . _("Linux") . '</a></div>
 <div' . www_current_menu_page("macosx4.php") . '><a href="macosx4.php">&rsaquo; ' . _("Mac OS X") . '</a></div>
 <div' . www_current_menu_page("pip4.php") . '><a href="pip4.php">&rsaquo; ' . _("Python Wheel (PIP)") . '</a></div>
 <div' . www_current_menu_page("source4.php") . '><a href="source4.php">&rsaquo; ' . _("Source code") . '</a></div>
