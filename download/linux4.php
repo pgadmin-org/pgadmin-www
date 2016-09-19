@@ -11,7 +11,7 @@ $PAGE_CONTENT = '
 
 <p><b>' . _("WARNING: This is pre-release software that should not be used for production purposes.") . '</b></p>
 
-<p>' . sprintf(_("RPMs for various Redhat and derivative distributions are available from <a href=\"%s\">yum.postgresql.org</a>."), "http://yum.enterprisedb.com/") . '</p>
+<p>' . sprintf(_("RPMs for various Redhat and derivative distributions are available from the PostgreSQL <a href=\"%s\">Yum repository</a>."), "http://yum.postgresql.org/") . '</p>
 
 <p>' . sprintf(_("Please see the <a href=\"%s\">Yum HOWTO</a> for details on installing these packages. Note that they are currently only available in the PostgreSQL 9.6 repos."), "http://yum.postgresql.org/howtoyum.php") . '</p>
 '; 
