@@ -7,11 +7,11 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released for testing"), "2016-9-2", "1.0 RC 1") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released for testing"), "2016-09-02", "1.0 RC 1") . '</h2>
 
 <p>' . _("Hot on the heels of the betas, pgAdmin 4 v1.0 Release Candidate 1 is now available for testing! Visit the <a href=\"/download\">download page</a> to get your copy, and check out the changes <a href=\"https://redmine.postgresql.org/versions/36\">here</a>.") . '</p>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released for testing"), "2016-6-7", "1.0 Beta 1") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin v%s released for testing"), "2016-06-07", "1.0 Beta 1") . '</h2>
 
 <p>' . _("After close to 10,000 hours of development work, pgAdmin 4 v1.0 Beta 1 is finally available for testing! Visit the <a href=\"/download\">download page</a> to try it out.") . '</p>
 
