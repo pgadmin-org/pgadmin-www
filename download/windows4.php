@@ -12,7 +12,7 @@ $PAGE_CONTENT = '
 <p>' . _("pgAdmin is available for Windows&trade; 7 (desktop) or 2008R2 (server). The packages below include both the Desktop Runtime and Web Application:") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0/win32/", "1.0") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0/windows/", "1.0") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . _("To install these packages, simply download and run the installer.") . '</p>
