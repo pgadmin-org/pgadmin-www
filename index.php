@@ -7,7 +7,7 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Latest news") . '</h1>
 
-<h2>' . sprintf(_("%s - pgAdmin v%s released"), "2016-09-29", "1.0") . '</h2>
+<h2>' . sprintf(_("%s - pgAdmin 4 v%s released"), "2016-09-29", "1.0") . '</h2>
 
 <p>' . _("After over 10,000 hours of development work, pgAdmin 4 v1.0 is finally available for download! Visit the <a href=\"/download\">download page</a> to get your copy, or download the <a href=\"http://www.enterprisedb.com/products-services-training/pgdownload\">PostgreSQL 9.6 installers</a> from <a href=\"http://www.enterprisedb.com/\">EDB</a>.") . '</p>
 
