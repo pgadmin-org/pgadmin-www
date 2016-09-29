@@ -11,11 +11,11 @@ $PAGE_CONTENT = '
 
 <h2>' . _("Development") . '</h2>
 
-<p>' . sprintf(_("If you think you can contribute new features and/or bug fixes, please visit the <a href=\"%s\">development</a> page."), "development/") . '</p> 
+<p>' . _("If you would like to contribute new features and/or bug fixes, please visit the <a href=\"development/\">development</a> page.") . '</p> 
 
 <h2>' . _("Translation") . '</h2>
 
-<p>' . sprintf(_("We need help to translate pgAdmin and our website to as many languages as possible for the benefit of our worldwide userbase. If you think you can help us, please visit the <a href=\"%s\">translation</a> page."), "translation/") . '</p> 
+<p>' . _("We need help to translate pgAdmin and our website to as many languages as possible for the benefit of our worldwide userbase. If you think you can help us, please visit the <a href=\"translation/\">translation</a> page.") . '</p> 
 
 '; 
 

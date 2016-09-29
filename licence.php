@@ -7,17 +7,17 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Licence") . '</h1>
 
-<p><i>' . sprintf(_("Last update: %s"), "2009-03-26") . '</i></p>
+<p><i>' . sprintf(_("Last update: %s"), "2016-09-27") . '</i></p>
 
-<p>pgAdmin v1.10 and later versions are released under the <a href="#postgresql">PostgreSQL 
-licence</a>. Earlier versions are released under the <a href="#artistic">Artistic 
+<p>pgAdmin 4 and pgAdmin III from v1.10 are released under the <a href="#postgresql">PostgreSQL 
+licence</a>. Earlier versions of pgAdmin III are released under the <a href="#artistic">Artistic 
 licence</a>.</p>
 
 <h2><a name="postgresql">The PostgreSQL Licence</a></h2>
 
 <p>pgAdmin</p>
 
-<p>Copyright (c) 2002 - 2009, The pgAdmin Development Team</p>
+<p>Copyright (c) 2002 - 2016, The pgAdmin Development Team</p>
 
 <p>Permission to use, copy, modify, and distribute this software and its
 documentation for any purpose, without fee, and without a written agreement is

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 include $_SERVER['DOCUMENT_ROOT'] . "/include/page.php"; 
 
@@ -7,20 +7,11 @@ $PAGE_CONTENT = '
 
 <h1>' . _("TODO list") . '</h1>
 
-<p>' . sprintf(_("The TODO list is a record of potential changes to pgAdmin that have been noted by the developers over the years. If an item appears on the list it does not necessarily mean that it is or even will be worked on, just that someone thought it would be a good idea. If you want to work on an item, please email the <a href=\"%s\">pgadmin-hackers</a> list first."), "list.php") . '</p>
+<p>' . _("The TODO list is a list of features that are planned or have been requested for inclusion in a future version of pgAdmin. As pgAdmin is a volunteer project, there is no guarantee that any feature will be implemented in any particular release, but where we expect or aim to do so, the feature will be tagged with a target version.") . '</p>
 
-<p>' . sprintf(_("The list below is automatically extracted from the pgAdmin <a href=\"%s\">GIT repository</a> and is only available in English."), "git.php") . '</p>
-
-'; 
-
-$file = "../svnrepo/pgadmin3/TODO";
-if (file_exists($file))
-  $PAGE_CONTENT .= "<pre>" . iconv("", "UTF-8//TRANSLIT", file_get_contents($file)) . "</pre>";
-
-// Override the last modified date
-$lastmod = filemtime($file);
+<p>' . _("You can view the <a href=\"https://redmine.postgresql.org/projects/pgadmin4/issues?query_id=19\">TODO list</a> on the pgAdmin 4 <a href=\"https://redmine.postgresql.org/projects/pgadmin4\">Redmine project</a>.") . '</p>'; 
 
 // Display the page
-www_page($PAGE_TITLE, $PAGE_CONTENT, true, $lastmod);
+www_page($PAGE_TITLE, $PAGE_CONTENT);
 
 ?>

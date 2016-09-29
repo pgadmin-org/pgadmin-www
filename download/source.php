@@ -9,6 +9,8 @@ $PAGE_CONTENT = '
 
 <h4>' . sprintf(_("Maintainer: %s"), "Dave Page") . '</h4>
 
+<p><b>' . _("WARNING:") . '</b> ' . _("pgAdmin III is no longer supported. It is recommended that you download <a href=\"source4.php\">pgAdmin 4</a> instead.") . '</p>
+
 <p>' . _("Source tarballs are available for users wishing to compile their own copy of pgAdmin, or those using platforms for which we do not supply prebuilt packages.") . '</p>
 
 <ul>

@@ -7,20 +7,11 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Change log") . '</h1>
 
-<p>' . sprintf(_("The change log is a record of the notable changes made to pgAdmin by the various developers. It is a manually maintained list, and as such may not include details of every minor change that has ever been made. If you need that level of detail, please check the commit messages in the <a href=\"%s\">GIT repository</a>."), "git.php") . '</p>
+<p>' . _("The change log is a record of the notable changes made to pgAdmin by the various developers. It is a manually maintained list, and as such may not include details of every minor change that has ever been made. If you need that level of detail, please check the commit messages in the <a href=\"git.php\">GIT repository</a>.") . '</p>
 
-<p>' . _("The log below is still automatically extracted from the GIT repository and is only available in English.") . '</p>
-
-'; 
-
-$file = "../svnrepo/pgadmin3/CHANGELOG";
-if (file_exists($file))
-  $PAGE_CONTENT .= "<pre>" .  iconv("", "UTF-8//IGNORE", file_get_contents($file)) . "</pre>";
-
-// Override the last modified date
-$lastmod = filemtime($file);
+<p>' . _("You can view the <a href=\"https://redmine.postgresql.org/projects/pgadmin4/roadmap?utf8=%E2%9C%93&tracker_ids%5B%5D=1&tracker_ids%5B%5D=2&completed=1\">change log</a> on the pgAdmin 4 <a href=\"https://redmine.postgresql.org/projects/pgadmin4\">Redmine project</a>.") . '</p>'; 
 
 // Display the page
-www_page($PAGE_TITLE, $PAGE_CONTENT, true, $lastmod);
+www_page($PAGE_TITLE, $PAGE_CONTENT);
 
 ?>

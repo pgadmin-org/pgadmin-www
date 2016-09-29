@@ -4,28 +4,42 @@ www.pgadmin.org
 This is the code for the pgAdmin website, www.pgadmin.org. In order to setup
 an instance of the site, you will need a dedicated virtual host with the
 site installed in the docroot. The following virtual host configuration is
-taken from ferengi.postgresql.org which is (at the time of writing) serving
-the primary site:
+taken from paxsor.postgresql.org which is (at the time of writing) serving
+the primary site under lighttpd:
 
-<VirtualHost *>
-    ServerName www.pgadmin.org
-    DocumentRoot /usr/local/apache/www.pgadmin.org
-    ServerAlias pgadmin.postgresql.org
-    ServerAlias www2.pgadmin.org
-    ServerAlias pgadmin.org
-    AddType application/x-httpd-php .php
-    DirectoryIndex index.html index.php
-    ErrorLog logs/www.pgadmin.org.error_log
-    CustomLog /dev/null common
+$HTTP["host"] =~ "^(www\.pgadmin\.org|pgadmin\.org)" {
+	server.errorlog = "/var/log/lighttpd/www_error.log"
+	accesslog.filename = "/var/log/lighttpd/www_access.log"
 
-    <Directory "/usr/local/apache/www.pgadmin.org">
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        <IfModule mod_php4.c>
-            php_admin_value safe_mode Off
-        </IfModule>
-    </Directory>
-</VirtualHost>
+	server.document-root = "/usr/local/www.pgadmin.org"
+
+	$HTTP["scheme"] != "https" {
+		url.redirect = (".*" => "https://www.pgadmin.org$0")
+	}
+
+	fastcgi.server = (".php" =>
+		("php-main" =>
+			("socket" => "/tmp/www-fastcgi.sock",
+			"bin-path" => "/usr/bin/php-cgi"
+			)
+		)
+	)
+
+	# Doc rewrites
+	url.rewrite-once = (
+                # New Sphinx docs
+                "^/docs/(dev|1.16|1.18|1.20|1.22)/(.*).(jpg|png|gif|css|html|js|ttf|txt|woff)$" => "/gitrepo/pgadmin3-$1/docs/en_US/_build/html/$2.$3",
+                "^/docs/(dev|1.16|1.18|1.20|1.22)/(.*).(jpg|png|gif|css|html|js|ttf|txt|woff)(\?.*)$" => "/gitrepo/pgadmin3-$1/docs/en_US/_build/html/$2.$3$4",
+
+                # pgAdmin 4 docs
+                "^/docs4/(dev|1.x)/(.*).(jpg|png|gif|css|html|js|ttf|txt|woff)$" => "/gitrepo/pgadmin4-$1/docs/en_US/_build/html/$2.$3",
+                "^/docs4/(dev|1.x)/(.*).(jpg|png|gif|css|html|js|ttf|txt|woff)(\?.*)$" => "/gitrepo/pgadmin4-$1/docs/en_US/_build/html/$2.$3$4",
+
+                # Old-style HTML docs
+                "^/docs/(1.4|1.6|1.8|1.10|1.12|1.14)/(.*).(jpg|png|gif)$" => "/gitrepo/pgadmin3-$1/docs/en_US/$2.$3",
+                "^/docs/(1.4|1.6|1.8|1.10|1.12|1.14)/(.*)$" => "/include/doc.php?docset=$1&docpage=$2"
+	)
+}
 
 Note that PHP's safe mode is currently turned off to allow the framework to 
 tweak $LANG. This needs some work!
@@ -59,33 +73,28 @@ copies of the pgAdmin source tree(s) for integration of the documentation,
 translation status, changelog and bug lists etc, the snapshot builds and
 the mailing list archives.
 
-/svnrepo
+/gitrepo
 --------
 
-/svnrepo
+/gitrepo
    /pgadmin3
    /pgadmin3-1.4
 ...
 ...
 
-The svnrepo directory holds the source trees for trunk and any stable branches
-whose docs are integrated into the site (currently 1.10). These tree are
+The gitrepo directory holds the source trees for trunk and any stable branches
+whose docs are integrated into the site. These trees are
 git pull'ed hourly. Files under here are integrated into the website in a
 variety of ways - basic text/html files may be included as raw content in
 other PHP pages and the translation statuses are read using the code in
 include/po_status.php. The documentation is accessed by it's 'real' filename,
 relocated to /docs/xxx/, where xxx is 'dev' or the branch version number. A 
-rewrite rule in /.htaccess intercepts these URLs, extracts the document set 
+rewrite rule in the lighty config intercepts these URLs, extracts the document set 
 and page requested, and passes them to include/doc.php which constructs the 
 page content and passes it to the standard page rendered.
 
-
-/snapshots
-----------
-
-The snapshots directory is rsync'ed from developer.pgadmin.org. It simply
-contains the directory tree of snapshot source and binary builds of pgAdmin.
-The snapshot rsync source is not publically accessible.
+Modern versions of the docs are served directly using the rewrite rules in the
+lighty config.
 
 Synchronisation
 ---------------
@@ -93,21 +102,22 @@ Synchronisation
 In order to keep the live website up to date, a number of cron jobs are 
 scheduled.
 
-# Update the SVN repositories:
+# Update the website itself
+22 * * * *      root cd /usr/local/www.pgadmin.org && git pull --rebase > /dev/null 2>&1
 
-02 * * * * cd /usr/local/apache/www.pgadmin.org/svnrepo/pgadmin3; /usr/bin/svn update 
-12 * * * * cd /usr/local/apache/www.pgadmin.org/svnrepo/pgadmin3-1.4; /usr/bin/svn update 
+# Update the documentation from it's git repositories
+02 * * * *	root cd /usr/local/www.pgadmin.org/gitrepo/pgadmin3.git && (git fetch origin && for v in dev 1.22 1.20 1.18 1.16 1.14 1.12 1.10 1.8 1.6 1.4 ; do cd ../pgadmin3-$v && git pull --rebase ; done ) > /dev/null 
+2>&1
 
-# Update the website content/source code:
+# Rebuild the Sphinx docs
+11 * * * *	root cd /usr/local/www.pgadmin.org/gitrepo && (for v in dev 1.22 1.20 1.18 1.16 ; do cd pgadmin3-$v && sh bootstrap && cd docs/en_US && PATH=$PATH:/usr/local/bin make -f Makefile.sphinx html && cd ../../..
+/ ; done ) > /dev/null 2>&1
 
-22 * * * * cd /usr/local/apache/www.pgadmin.org; /usr/bin/svn update
+# pgAdmin 4 Stuff
 
-# Run the translation cache update script:
+# Update the documentation from it's git repositories
+29 * * * *      root cd /usr/local/www.pgadmin.org/gitrepo/pgadmin4.git && (git fetch origin && for v in dev 1.x ; do cd ../pgadmin4-$v && git pull --rebase ; done ) > /dev/null 2>&1
 
-32 * * * * /usr/bin/wget -q -O /tmp/update.txt http://www.pgadmin.org/translation/update.php
-
-# Update the snapshots tree:
-
-42 * * * * /usr/bin/rsync -avz --delete developer.pgadmin.org::pgadmin-snapshots /usr/local/apache/www.pgadmin.org/snapshots/
-
+# Rebuild the Sphinx docs
+34 * * * *      root cd /usr/local/www.pgadmin.org/gitrepo && (for v in dev 1.x ; do cd pgadmin4-$v/docs/en_US && PATH=$PATH:/usr/local/bin make -f Makefile.sphinx html && cd ../../../ ; done ) > /dev/null 2>&1
 

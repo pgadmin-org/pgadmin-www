@@ -7,36 +7,21 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Introduction") . '</h1>
 
-<p>' . sprintf(_("pgAdmin is a comprehensive design and management interface for PostgreSQL database, designed to run on most operating systems. The software is written in C++ and uses the excellent <a href=\"%s\">wxWidgets</a> cross platform toolkit. In every environment, pgAdmin is a native application. The application is executed in binary code, not in a virtual machine, therefore offering excellent performance."), "http://www.wxwidgets.org") . '</p>
+<p>' . _("pgAdmin is a comprehensive design and management interface for PostgreSQL databases, designed to run on most operating systems.") . '</p>
 
-<p>' . sprintf(_("To view a full size version of any screenshot, simply click on it. In addition to the those found in this section additional images can also be found in the <a href=\"%s\">online documentation</a>."), "/docs/") . '</p>
+<p>' . _("To view a full size version of any screenshot, simply click on it. In addition to the those found in this section additional images can also be found in the <a href=\"../docs/\">online documentation</a>.") . '</p>
 
-<p>' . _("We provide source and binary packages for FreeBSD, Linux, Mac OSX and Microsoft Windows &trade;. Solaris binaries may also be compiled from the source code.") . '</p>
-
-<div class="pgaScreenShotBox">
-<h2>' . _("FreeBSD") . '</h2>
-<a href="/images/screenshots/pgadmin3_freebsd.png" target="_Shot"><img src="/images/screenshots/pgadmin3_freebsd.png" alt="' . _("pgAdmin running on FreeBSD") . '" width="254" height="170" /></a>
-</div>
-
-<div class="pgaScreenShotBox">
-<h2>' . _("Linux") . '</h2>
-<a href="/images/screenshots/pgadmin3_linux.png" target="_Shot"><img src="/images/screenshots/pgadmin3_linux.png" alt="' . _("pgAdmin running on Linux") . '" width="200" height="213" /></a>
-</div>
-
-<div class="pgaScreenShotBox">
-<h2>' . _("Mac OSX") . '</h2>
-<a href="/images/screenshots/pgadmin3_macosx.png" target="_Shot"><img src="/images/screenshots/pgadmin3_macosx.png" alt="' . _("pgAdmin running on Mac OSX") . '" width="256" height="192" /></a>
-</div>
-
-<div class="pgaScreenShotBox">
-<h2>' . _("Solaris") . '</h2>
-<a href="/images/screenshots/pgadmin3_solaris.png" target="_Shot"><img src="/images/screenshots/pgadmin3_solaris.png" alt="' . _("pgAdmin running on Solaris") . '" width="200" height="150" /></a>
-</div>
-
-<div class="pgaScreenShotBox">
-<h2>' . _("Windows &trade;") . '</h2>
-<a href="/images/screenshots/pgadmin3_win32.png" target="_Shot"><img src="/images/screenshots/pgadmin3_win32.png" alt="' . _("pgAdmin running on Windows") . '" width="253" height="208" /></a>
-</div>
+<center>
+  <a href="../images/pgadmin4-welcome.png"><img width="150" src="../images/pgadmin4-welcome.png" alt="pgAdmin 4 welcome screen" /></a>
+  <a href="../images/pgadmin4-dashboard.png"><img width="150" src="../images/pgadmin4-dashboard.png" alt="pgAdmin 4 server dashboard" /></a>
+  <a href="../images/pgadmin4-properties.png"><img width="150" src="../images/pgadmin4-properties.png" alt="pgAdmin 4 object properties" /></a>
+  <a href="../images/pgadmin4-help.png"><img width="150" src="../images/pgadmin4-help.png" alt="pgAdmin 4 embedded help links" /></a>
+  <br />
+  <a href="../images/pgadmin4-viewdata.png"><img width="150" src="../images/pgadmin4-viewdata.png" alt="pgAdmin 4 query tool and data editor" /></a>
+  <a href="../images/pgadmin4-explain.png"><img width="150" src="../images/pgadmin4-explain.png" alt="pgAdmin 4 graphical explain" /></a>
+  <a href="../images/pgadmin4-debugger.png"><img width="150" src="../images/pgadmin4-debugger.png" alt="pgAdmin 4 procedural language debugger" /></a>
+  <a href="../images/pgadmin4-runtime.png"><img width="150" src="../images/pgadmin4-runtime.png" alt="pgAdmin 4 desktop runtime and dockable UI" /></a>
+</center>
 
 '; 
 

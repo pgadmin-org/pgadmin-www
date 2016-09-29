@@ -45,11 +45,11 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
   $output = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="' . $lang . '" xml:lang="' . $lang . '">
 <head>
-<meta name="Description" content="pgAdmin is the leading graphical Open Source management, development and administration tool for PostgreSQL, running on Windows, Linux, Solaris, FreeBSD and Mac OSX" />
-<meta name="Keywords" content="postgresql,postgres,pgsql,psql,postgre,pginstaller,pervasive postgres,enterprisedb,mammoth,powergres,pgadmin,pgadmin iii, pgadmin ii,pgadmin3,pgadmin2,windows,linux,solaris,mac osx,freebsd,administration,managment,tools" />
+<meta name="Description" content="pgAdmin is the leading graphical Open Source management, development and administration tool for PostgreSQL" />
+<meta name="Keywords" content="postgresql,postgres,pgsql,psql,postgre,pginstaller,enterprisedb,ppas,epas,postgres plus,pgadmin,pgadmin 4,pgadmin iii,pgadmin ii,pgadmin4,pgadmin3,pgadmin2,administration,managment,tools" />
 <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
-<link rel="stylesheet" type="text/css" href="/css/pgadmin-base.css" title="pgAdmin.org" />
-<link rel="stylesheet" type="text/css" href="/css/' . $css . '" title="pgAdmin.org" />
+<link rel="stylesheet" type="text/css" href="/css/pgadmin-base.css" />
+<link rel="stylesheet" type="text/css" href="/css/' . $css . '" />
 <title>' . $PAGE_TITLE . '</title>
 </head>
 
@@ -61,7 +61,7 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 
 <tr>
 <td id="pgaLogo" rowspan="2">
-<a href="/"><img src="/images/' . $logo . '" alt="' . _("pgAdmin III: PostgreSQL Tools") . '" /></a>
+<a href="/"><img src="/images/' . $logo . '" alt="' . _("pgAdmin: PostgreSQL Tools") . '" /></a>
 </td>
 
 <td id="pgaSearch">
@@ -74,24 +74,13 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 </td>
 <td nowrap="nowrap">
 <input type="hidden" name="domains" value="pgadmin.org"></input>
-<input type="text" name="q" size="12" maxlength="255" value=""></input>
+<input type="text" name="q" size="20" placeholder="Search" maxlength="255" value=""></input>
 <input type="submit" name="sa" value="' . _("Google Search") . '"></input>
 </td></tr>
 <tr>
 <td>&nbsp;</td>
 <td nowrap="nowrap">
-<table>
-<tr>
-<td>
-<input type="radio" name="sitesearch" value=""></input>
-<font size="-1" color="#ffffff">Web</font>
-</td>
-<td>
-<input type="radio" name="sitesearch" value="pgadmin.org" checked="checked"></input>
-<font size="-1" color="#ffffff">pgadmin.org</font>
-</td>
-</tr>
-</table>
+<input type="hidden" name="sitesearch" value="pgadmin.org"></input>
 <input type="hidden" name="client" value="pub-7509009547019933"></input>
 <input type="hidden" name="forid" value="1"></input>
 <input type="hidden" name="ie" value="ISO-8859-1"></input>
@@ -105,6 +94,8 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 </td>
 </tr><tr>
 <td id="pgaLanguages">
+
+<!-- Hidden, until we get the translations updated...
 
 <form method="GET" name="langform">
 <select name="lang" onchange="javascript:document.langform.submit();">
@@ -120,17 +111,17 @@ function www_page($PAGE_TITLE, $PAGE_CONTENT, $HAS_MENU = true, $lastmod = 0)
 <input type="submit" value="' . _("Go") . '">
 </form>
 
+-->
+
 </td>
 </tr><tr>
 <td colspan="2" id="pgaMainMenu">' .
 '<a' . www_current_menu_section("/") . ' href="/index.php">' . _("Home") . '</a>' .
-'<a' . www_current_menu_section("/advocacy/") . ' href="/advocacy/" >' . _("Advocacy") . '</a>' .
 '<a' . www_current_menu_section("/development/") . ' href="/development/">' . _("Development") . '</a>' .
 '<a' . www_current_menu_section("/docs/") . ' href="/docs/">' . _("Documentation") . '</a>' .
 '<a' . www_current_menu_section("/download/") . ' href="/download/">' . _("Download") . '</a>' .
 '<a' . www_current_menu_section("/screenshots/") . ' href="/screenshots/">' . _("Screenshots") . '</a>' .
 '<a' . www_current_menu_section("/support/") . ' href="/support/">' . _("Support") . '</a>' .
-'<a' . www_current_menu_section("/translation/") . ' href="/translation/">' . _("Translation") . '</a>' .
 '</td>
 </tr>
 </table>

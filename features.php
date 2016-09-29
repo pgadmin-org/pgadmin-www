@@ -7,91 +7,82 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Features") . '</h1>
 
-<p>' . sprintf(_("pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief list to give you an idea of it's capabilities:"), "download/") . '</p>
+<p>' . sprintf(_("pgAdmin has a huge array of features and by far the best way to see them all is to <a href=\"%s\">download</a> a copy and give it a try. Here's a brief list to give you an idea of its capabilities:"), "download/") . '</p>
 
 <h2>' . _("Multiplatform") . '</h2>
 <ul>
-  <li>' . _("Microsoft Windows &trade; 2000 and above") . '</li>
+  <li>' . _("Microsoft Windows &trade;") . '</li>
   <li>' . _("Linux") . '</li>
-  <li>' . _("FreeBSD") . '</li>
-  <li>' . _("Mac OSX") . '</li>
-  <li>' . _("Solaris") . '</li>
+  <li>' . _("macOS") . '</li>
 </ul>
 
 <h2>' . _("Designed for multiple PostgreSQL versions and derivatives") . '</h2>
 <ul>
-  <li>' . _("PostgreSQL 7.3 and above") . '</li>
-  <li>' . _("Postgres Plus Advanced Server") . '</li>
-  <li>' . _("Greenplum Database") . '</li>
+  <li>' . _("PostgreSQL 9.2 and above") . '</li>
+  <li>' . _("EDB Postgres Advanced Server 9.2 and above") . '</li>
 </ul>
 
 <h2>' . _("Extensive documentation") . '</h2>
 <ul>
-  <li>' . _("pgAdmin Documentation") . '</li>
-  <li>' . _("Guru Hints to help less experienced users") . '</li>
-  <li>' . _("PostgreSQL documentation (on-line and off-line)") . '</li>
-  <li>' . _("Slony-I documentation") . '</li>
+  <li>' . _("pgAdmin application documentation") . '</li>
+  <li>' . _("PostgreSQL documentation links") . '</li>
 </ul>
 
-<h2>' . _("Multilingual interface") . '</h2>
+<h2>' . _("Multiple deployment models") . '</h2>
 <ul>
-  <li>' . sprintf(_("Over 12 supported translations. A detailed list of supported languages is available on the <a href=\"%s\">translation status</a> page."), "translation/status.php") . '</li>
+  <li>' . _("Desktop mode, using a purpose built runtime") . '</li>
+  <li>' . _("Server mode, supporting multiple users over the web") . '</li>
 </ul>
 
-<h2>' . _("Data access") . '</h2>
+<h2>' . _("Tools") . '</h2>
 <ul>
-  <li>' . _("Native PostgreSQL acccess (no ODBC layer needed)") . '</li>
   <li>' . _("Powerful query tool with colour syntax highlighting") . '</li>
-  <li>' . _("Very fast datagrid for display/entry of data") . '</li>
+  <li>' . _("Fast datagrid for display/entry of data") . '</li>
+  <li>' . _("Graphical query plan display") . '</li>
+  <li>' . _("Grant Wizard for rapid updates to ACLs") . '</li>
+  <li>' . _("Procedural language debugger (supporting pl/pgsql and edb-spl)") . '</li>
 </ul>
 
 <h2>' . _("Routine maintenance") . '</h2>
 <ul>
-  <li>' . _("Configuration file editing") . '</li>
-  <li>' . _("Auto-vacuum management (PostgreSQL 8.1 and above)") . '</li>
-  <li>' . _("Logfile browser") . '</li>
-  <li>' . _("Lock viewer") . '</li>
-  <li>' . _("Server status/process viewer") . '</li>
+  <li>' . _("Auto-vacuum management") . '</li>
+  <li>' . _("Monitoring dashboard") . '</li>
+  <li>' . _("Backup, restore, vacuum and analyze on demand") . '</li>
   <li>' . _("SQL/shell/batch job scheduling agent") . '</li>
 </ul>
 
-<h2>' . _("Access to all PostgreSQL objects") . '</h2>
+<h2>' . _("Create, view and edit all common PostgreSQL objects") . '</h2>
 <p>' . _("Objects are displayed with their SQL definition, and a user friendly list of properties. Dependent, and dependency objects may also be browsed, and object statistics viewed where appropriate.") . '</p>
 <ul>
   <li>' . _("Aggregates") . '</li>
   <li>' . _("Casts") . '</li>
   <li>' . _("Columns") . '</li>
   <li>' . _("Constraints") . '</li>
-  <li>' . _("Conversions") . '</li>
   <li>' . _("Databases") . '</li>
   <li>' . _("Domains") . '</li>
+  <li>' . _("Foreign tables") . '</li>
+  <li>' . _("Foreign servers") . '</li>
+  <li>' . _("Foreign data wrappers") . '</li>
   <li>' . _("FTS configurations") . '</li>
   <li>' . _("FTS dictionaries") . '</li>
   <li>' . _("FTS parsers") . '</li>
   <li>' . _("FTS templates") . '</li>
   <li>' . _("Functions") . '</li>
-  <li>' . _("Greenplum objects (such as external tables, ressource queues)") . '</li>
-  <li>' . _("Groups") . '</li>
   <li>' . _("Indexes") . '</li>
   <li>' . _("Languages") . '</li>
-  <li>' . _("Operator classes") . '</li>
-  <li>' . _("Operator families") . '</li>
-  <li>' . _("Operators") . '</li>
-  <li>' . _("pgAgent objects (such as jobs, schedules)") . '</li>
-  <li>' . _("PostgreSQL servers") . '</li>
-  <li>' . _("Postgres Plus Advanced Server objects (such as packages, procedures, synonyms)") . '</li>
+  <li>' . _("Materialized views") . '</li>
   <li>' . _("Roles") . '</li>
   <li>' . _("Rules") . '</li>
+  <li>' . _("Procedural languages") . '</li>
   <li>' . _("Schemas") . '</li>
   <li>' . _("Sequences") . '</li>
-  <li>' . _("Server-side languages (such as pl/pgsql, pl/perl, pl/python, etc.)") . '</li>
-  <li>' . _("Slony-I objects (such as nodes, clusters etc.)") . '</li>
   <li>' . _("Tables") . '</li>
   <li>' . _("Tablespaces") . '</li>
   <li>' . _("Trigger functions") . '</li>
   <li>' . _("Types") . '</li>
-  <li>' . _("Users") . '</li>
   <li>' . _("Views") . '</li>
+  <li>' . _("EDB Postgres Advanced Server objects (such as packages, procedures and synonyms)") . '</li>
+  <li>' . _("pgAgent objects (such as jobs, schedules)") . '</li>
 </ul>
 
 <h2>' . _("Multibyte support") . '</h2>

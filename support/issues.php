@@ -7,15 +7,10 @@ $PAGE_CONTENT = '
 
 <h1>' . _("Known issues") . '</h1>
 
-<p>' . _("Bugs and other issues in pgAdmin are almost always fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve, often more effort than the issue warrants.") . '</p>
+<p>' . _("Bugs and other issues in pgAdmin are usually fixed within a very short time once they have been reported to us. There are some issues that may be out of our control, or may take significant effort to resolve - possibly more effort than the issue warrants, in which case they may not be resolved.") . '</p>
 
-<p>' . _("The list below is automatically extracted from the GIT repository and is only available in English. The issues listed affect to the current development code and all previous versions of pgAdmin where applicable.") . '</p>
-
-'; 
-
-$file = "../svnrepo/pgadmin3/BUGS";
-if (file_exists($file))
-  $PAGE_CONTENT .= "<pre>" . file_get_contents($file) . "</pre>";
+<p>' . _("You can view the <a href=\"https://redmine.postgresql.org/projects/pgadmin4/issues\">issue list</a> on the pgAdmin 4 <a href=\"https://redmine.postgresql.org/projects/pgadmin4\">Redmine project</a>.")
+ . '</p>'; 
 
 // Display the page
 www_page($PAGE_TITLE, $PAGE_CONTENT);

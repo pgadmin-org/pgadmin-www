@@ -10,63 +10,39 @@ if (isset($_GET['docset']))
 
   switch ($_GET['docset']) {
     case "1.4":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.4/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.4/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.4/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.4/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.4");
       break;
 
     case "1.6":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.6/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.6/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.6/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.6/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.6");
       break;
 
     case "1.8":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.8/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.8/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.8/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.8/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.8");
       break;
 
     case "1.10":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.10/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.10/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.10/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.10/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.10");
       break;
 
     case "1.12":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.12/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.12/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.12/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.12/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.12");
       break;
 
     case "1.14":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.14/docs/".$_SESSION['xPGA']['lang'];
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.14/docs/en_US";
+      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.14/docs/".$_SESSION['xPGA']['lang'];
+      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/gitrepo/pgadmin3-1.14/docs/en_US";
       $docheader = sprintf(_("pgAdmin %s online documentation"), "1.14");
-      break;
-
-    case "1.16":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.16/docs/".$_SESSION['xPGA']['lang']."/_build/html";
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.16/docs/en_US/_build/html";
-      $docheader = sprintf(_("pgAdmin %s online documentation"), _("1.16"));
-      break;
-
-    case "1.18":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.18/docs/".$_SESSION['xPGA']['lang']."/_build/html";
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.18/docs/en_US/_build/html";
-      $docheader = sprintf(_("pgAdmin %s online documentation"), _("1.18"));
-      break;
-
-    case "1.20":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.20/docs/".$_SESSION['xPGA']['lang']."/_build/html";
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3-1.20/docs/en_US/_build/html";
-      $docheader = sprintf(_("pgAdmin %s online documentation"), _("1.20"));
-      break;
-
-    case "dev":
-      $docroot_lang = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/".$_SESSION['xPGA']['lang']."/_build/html";
-      $docroot = $_SERVER['DOCUMENT_ROOT'] . "/svnrepo/pgadmin3/docs/en_US/_build/html";
-      $docheader = sprintf(_("pgAdmin %s online documentation"), _("Development"));
       break;
 
     default:
