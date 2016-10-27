@@ -42,7 +42,7 @@ $PAGE_CONTENT = '
 <p>' . _("pgAdmin is developed by a community of PostgreSQL experts around the world. It is Free Software released under the <a href=\"licence.php\">PostgreSQL License</a>.") . '</p>
 
 <div class="pgaBanner">
-' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">pgAdmin 4 v%s</a>."), "1.0") . '
+' . sprintf(_("The current version of pgAdmin is <a href=\"/download/\">pgAdmin 4 v%s</a>."), "1.1") . '
 </div>
 
 '; 
