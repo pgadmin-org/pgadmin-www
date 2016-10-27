@@ -1,11 +1,7 @@
 {
-	"pgadmin3": {
-		"version": "1.22.0",
-		"download_url": "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/"
-	},
 	"pgadmin4": {
-		"version": "1.0",
-                "version_int": 10006,
+		"version": "1.1",
+                "version_int": 11001,
 		"download_url": "https://www.pgadmin.org/download/"
 	}
 }

@@ -12,13 +12,15 @@ $PAGE_CONTENT = '
 <p>' . _("Source tarballs are available for users wishing to compile their own copy of pgAdmin 4, or those using platforms for which we do not supply prebuilt packages.") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.1/source/", "1.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0/source/", "1.0") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . _("Build instructions are included in the tarballs, and are available online:") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "https://git.postgresql.org/gitweb/?p=pgadmin4.git;a=blob;f=README", "1.0") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "https://git.postgresql.org/gitweb/?p=pgadmin4.git;a=blob_plain;f=README;hb=6c45eea1a04dc911a9a5bc3f2d6de04caadba6b6", "1.1") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">v%s instructions</a>"), "https://git.postgresql.org/gitweb/?p=pgadmin4.git;a=blob_plain;f=README;hb=30397476da45e419a409710e7447bf0f10fcbcd9", "1.0") . '<br />&nbsp;</li>
 </ul>
 '; 
 

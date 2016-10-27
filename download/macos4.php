@@ -11,6 +11,7 @@ $PAGE_CONTENT = '
 
 <p>' . _("A macOS App Bundle containing the pgAdmin 4 Desktop Runtime and Web application is available for macOS 10.10 and above:") . '</p>
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.1/macos/", "1.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin 4 v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/pgadmin4/v1.0/macos/", "1.0") . '<br />&nbsp;</li>
 </ul>
 
