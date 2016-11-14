@@ -16,13 +16,13 @@ $PAGE_CONTENT = '
 
 <h2 id="1">' . _('What is pgAdmin 4?') . '</h2>
 
-<p>' . _('pgAdmin is a management tool for <a href="https://www.postgresql.org/">PostgreSQL</a> and derivative relational databases such as <a href="http://www.enterprisedb.com">EnterpriseDB\'s</a> EDB Advanced Server. It may be run either as a web or desktop application. For more information on the features offered, please see the <a href="features.php">Features</a> and <a href="screenshots/">screenshots</a>.') . '</p>
+<p>' . _('pgAdmin is a management tool for <a href="https://www.postgresql.org/">PostgreSQL</a> and derivative relational databases such as <a href="http://www.enterprisedb.com">EnterpriseDB\'s</a> EDB Advanced Server. It may be run either as a web or desktop application. For more information on the features offered, please see the <a href="features.php">Features</a> and <a href="screenshots/">Screenshots</a> pages.') . '</p>
 
 <h2 id="2">' . _('What are Server Mode and Desktop Mode?') . '</h2>
 
-<p>' . _('When deploying pgAdmin on a web server for multiple users, it is run in server mode (SERVER_MODE=True). This mode requires each user to have an account in pgAdmin, with their own password. Users are required to login to pgAdmin in order to use it. One or more users may be configured as an administrator, and will be able to add or remove other users. For more information, please see the <a href="docs4/dev/server_deployment.html">Server Deployment</a> and <a href="docs4/dev/pgadmin_user.html">User Management</a> documentation.') . '</p>
+<p>' . _('When deploying pgAdmin on a web server for multiple users, it is run in server mode (<li>SERVER_MODE = True</li>). This mode requires each user to have an account in pgAdmin, with their own password. Users are required to login to pgAdmin in order to use it. One or more users may be configured as an administrator and will be able to add or remove other users. For more information, please see the <a href="docs4/dev/server_deployment.html">Server Deployment</a> and <a href="docs4/dev/pgadmin_user.html">User Management</a> documentation.') . '</p>
 
-<p>' . _('To allow running in desktop mode (SERVER_MODE=False), a runtime application is provided to host and display the pgAdmin code (sometimes referred to as the application server). In this mode, each user runs their own instance of pgAdmin, thus no authentication or user management is required. For more information, please see the <a href="docs4/dev/desktop_deployment.html">Desktop Deployment</a> documentation.') . '</p>
+<p>' . _('To allow running in desktop mode (<li>SERVER_MODE = False</li>), a runtime application is provided to host and display the pgAdmin code (sometimes referred to as the application server). In this mode, each user runs their own instance of pgAdmin, thus no authentication or user management is required. For more information, please see the <a href="docs4/dev/desktop_deployment.html">Desktop Deployment</a> documentation.') . '</p>
 
 <h2 id="3">' . _('What should I set the Binary Path configuration option to so I can make and restore backups?') . '</h2>
 
@@ -32,10 +32,10 @@ $PAGE_CONTENT = '
 
 <h2 id="4">' . _('Why doesn\'t pgAdmin use the native File management dialogues?') . '</h2>
 
-<p>' . _('This is largely for a couple of reasons:') . '/<p>
+<p>' . _('This is largely for a couple of reasons:') . '</p>
 
 <ul>
-  <li>' . _('As pgAdmin is a web application, it can only interact with the local filesystem in ways that are allowed by modern web browsers. This limits what is possible for security; essentially files can only be "downloaded" or "uploaded" (through a form). There is no way to simply save an update to a file by hitting a Save button, nor is it possible to save the working directory.') . '</li>
+  <li>' . _('As pgAdmin is a web application, it can only interact with the local filesystem in ways that are allowed by modern web browsers. This limits what is possible for security; essentially files can only be "downloaded" or "uploaded" (through a form). There is no way to simply save an update to a file by hitting a Save button, nor is it possible to save the working directory for example.') . '</li>
   <li>' . _('When running in server mode, files are read from and stored on the server to enable users to work with the same data whatever machine they happen to be using. There are no "native dialogues" for working with files stored on a web server in this way, so we have to implement our own.') . '</li>
 </ul>
 
