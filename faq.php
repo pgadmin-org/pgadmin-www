@@ -12,6 +12,7 @@ $PAGE_CONTENT = '
   <li><a href="#2">' . _('What are Server Mode and Desktop Mode?') . '</a></li>
   <li><a href="#3">' . _('What should I set the Binary Path configuration option to so I can make and restore backups?') . '</a></li>
   <li><a href="#4">' . _('Why doesn\'t pgAdmin use the native File management dialogues?') . '</a></li>
+  <li><a href="#5">' . _('Why does pgAdmin seem to use a lot of CPU cycles?') . '</a></li>
 </ol>
 
 <h2 id="1">' . _('What is pgAdmin 4?') . '</h2>
@@ -40,6 +41,10 @@ $PAGE_CONTENT = '
 </ul>
 
 <p>' . _('We have done extensive evaluation and testing of various ways of managing files in pgAdmin 4, and have consistently found that using our own dialogues provides the best experience (one that we continue to refine and improve with user feedback).') . '</p>
+
+<h2 id="5">' . _('Why does pgAdmin seem to use a lot of CPU cycles?') . '</h2>
+
+<p>' . _('pgAdmin 4\'s architecture will naturally require more CPU and memory than a traditional native desktop application, however, pgAdmin 4 also includes continually updating dashboards that weren\'t present in pgAdmin III. The dashboards update each graph every second by default, even if they are not visible (to avoid gaps in the data). CPU usage may be noticably reduced by adjusting the refresh speed of the graphs to a longer period, such as ten seconds. This can be done under <i>File -&gt; Preferences -&gt; Paths -&gt; Dashboards -&gt; Graphs</i>. After changes have been made, you may need to navigate to a different dashboard instance for the changes to take effect.') . '</p>
 
 '; 
 
