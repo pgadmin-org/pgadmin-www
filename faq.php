@@ -21,9 +21,9 @@ $PAGE_CONTENT = '
 
 <h2 id="2">' . _('What are Server Mode and Desktop Mode?') . '</h2>
 
-<p>' . _('When deploying pgAdmin on a web server for multiple users, it is run in server mode (<li>SERVER_MODE = True</li>). This mode requires each user to have an account in pgAdmin, with their own password. Users are required to login to pgAdmin in order to use it. One or more users may be configured as an administrator and will be able to add or remove other users. For more information, please see the <a href="docs4/dev/server_deployment.html">Server Deployment</a> and <a href="docs4/dev/pgadmin_user.html">User Management</a> documentation.') . '</p>
+<p>' . _('When deploying pgAdmin on a web server for multiple users, it is run in server mode (<i>SERVER_MODE = True</i>). This mode requires each user to have an account in pgAdmin, with their own password. Users are required to login to pgAdmin in order to use it. One or more users may be configured as an administrator and will be able to add or remove other users. For more information, please see the <a href="docs4/dev/server_deployment.html">Server Deployment</a> and <a href="docs4/dev/pgadmin_user.html">User Management</a> documentation.') . '</p>
 
-<p>' . _('To allow running in desktop mode (<li>SERVER_MODE = False</li>), a runtime application is provided to host and display the pgAdmin code (sometimes referred to as the application server). In this mode, each user runs their own instance of pgAdmin, thus no authentication or user management is required. For more information, please see the <a href="docs4/dev/desktop_deployment.html">Desktop Deployment</a> documentation.') . '</p>
+<p>' . _('To allow running in desktop mode (<i>SERVER_MODE = False</i>), a runtime application is provided to host and display the pgAdmin code (sometimes referred to as the application server). In this mode, each user runs their own instance of pgAdmin, thus no authentication or user management is required. For more information, please see the <a href="docs4/dev/desktop_deployment.html">Desktop Deployment</a> documentation.') . '</p>
 
 <h2 id="3">' . _('What should I set the Binary Path configuration option to so I can make and restore backups?') . '</h2>
 
