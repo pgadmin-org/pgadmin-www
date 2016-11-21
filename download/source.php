@@ -14,6 +14,7 @@ $PAGE_CONTENT = '
 <p>' . _("Source tarballs are available for users wishing to compile their own copy of pgAdmin, or those using platforms for which we do not supply prebuilt packages.") . '</p>
 
 <ul>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.2/src/", "1.22.2") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.1/src/", "1.22.1") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/src/", "1.22.0") . '<br />&nbsp;</li>
   <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.20.0/src/", "1.20.0") . '<br />&nbsp;</li>
