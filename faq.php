@@ -13,6 +13,7 @@ $PAGE_CONTENT = '
   <li><a href="#3">' . _('What should I set the Binary Path configuration option to so I can make and restore backups?') . '</a></li>
   <li><a href="#4">' . _('Why doesn\'t pgAdmin use the native File management dialogues?') . '</a></li>
   <li><a href="#5">' . _('Why does pgAdmin seem to use a lot of CPU cycles?') . '</a></li>
+  <li><a href="#6">' . _('When pgAdmin runs in desktop mode on my Windows PC, I just see unformatted text on the left of the window. Why?') . '</a></li>
 </ol>
 
 <h2 id="1">' . _('What is pgAdmin 4?') . '</h2>
@@ -45,6 +46,10 @@ $PAGE_CONTENT = '
 <h2 id="5">' . _('Why does pgAdmin seem to use a lot of CPU cycles?') . '</h2>
 
 <p>' . _('pgAdmin 4\'s architecture will naturally require more CPU and memory than a traditional native desktop application, however, pgAdmin 4 also includes continually updating dashboards that weren\'t present in pgAdmin III. The dashboards update each graph every second by default, even if they are not visible (to avoid gaps in the data). CPU usage may be noticably reduced by adjusting the refresh speed of the graphs to a longer period, such as ten seconds. This can be done under <i>File -&gt; Preferences -&gt; Paths -&gt; Dashboards -&gt; Graphs</i>. After changes have been made, you may need to navigate to a different dashboard instance for the changes to take effect.') . '</p>
+
+<h2 id="6">' . _('When pgAdmin runs in desktop mode on my Windows PC, I just see unformatted text on the left of the window. Why?') . '</h2>
+
+<p>' . _('This behaviour has been observed by a number of users on Windows. Essentially what is happening is that the browser is ignoring the stylesheets that properly format the display. In all cases seen, this was because a registry setting on the machine had been set to an incorrect value, possibly by the installation of a particular editor. To resolve the issue, use the Windows Registry Editor to reset the value of "<i>HKEY_CLASSES_ROOT\.css\Content Type</i>" to "<i>text/css</i>" (without the quotes), and then restart pgAdmin.') . '</p>
 
 '; 
 
