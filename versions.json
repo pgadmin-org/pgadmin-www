@@ -1,7 +1,7 @@
 {
 	"pgadmin4": {
-		"version": "1.1",
-                "version_int": 11001,
+		"version": "1.2",
+                "version_int": 12001,
 		"download_url": "https://www.pgadmin.org/download/"
 	}
 }
