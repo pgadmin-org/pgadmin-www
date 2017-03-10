@@ -13,14 +13,6 @@ $PAGE_CONTENT = '
 
 <p>' . _("For more information, checkout the <a href=\"/docs4/dev/index.html\">online documentation</a>, the screenshots below, and of course the <a href=\"/download\">download page</a>.") . '</p>
 
-<h2>' . sprintf(_("%s - pgAdmin 4 v%s released"), "2017-02-10", "1.2") . '</h2>
-
-<p>' . _("The pgAdmin Development Team are pleased to announce the release of pgAdmin 4 v1.2. This is the third release of pgAdmin 4, and includes nearly 90 bug fixes and improvements over the previous version. For details, please see the <a href=\"https://redmine.postgresql.org/versions/45\">issue tracker roadmap</a>.") . '</p>
-
-<p>' . _("For more information, checkout the <a href=\"/docs4/dev/index.html\">online documentation</a>, the screenshots below, and of course the <a href=\"/download\">download page</a>.") . '</p>
-
-<h2>' . sprintf(_("%s - pgAdmin 4 v%s released"), "2016-10-27", "1.1") . '</h2>
-
 <h2>' . sprintf(_("%s - pgAdmin 4 v%s released"), "2016-09-29", "1.0") . '</h2>
 
 <p>' . _("After over 10,000 hours of development work, pgAdmin 4 v1.0 is finally available for download! Visit the <a href=\"/download\">download page</a> to get your copy, or download the <a href=\"http://www.enterprisedb.com/products-services-training/pgdownload\">PostgreSQL 9.6 installers</a> from <a href=\"http://www.enterprisedb.com/\">EDB</a>.") . '</p>
