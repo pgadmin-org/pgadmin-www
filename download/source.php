@@ -14,20 +14,20 @@ $PAGE_CONTENT = '
 <p>' . _("Source tarballs are available for users wishing to compile their own copy of pgAdmin, or those using platforms for which we do not supply prebuilt packages.") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.2/src/", "1.22.2") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.1/src/", "1.22.1") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.22.0/src/", "1.22.0") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.20.0/src/", "1.20.0") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.18.1/src/", "1.18.1") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.16.1/src/", "1.16.1") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.14.3/src/", "1.14.3") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.12.3/src/", "1.12.3") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.10.5/src/", "1.10.5") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.8.4/src/", "1.8.4") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.6.3/src/", "1.6.3") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.4.3/src/", "1.4.3") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.2.2/src/", "1.2.2") . '<br />&nbsp;</li>
-  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/v1.0.2/src/", "1.0.2") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.22.2/src/", "1.22.2") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.22.1/src/", "1.22.1") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.22.0/src/", "1.22.0") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.20.0/src/", "1.20.0") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.18.1/src/", "1.18.1") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.16.1/src/", "1.16.1") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.14.3/src/", "1.14.3") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.12.3/src/", "1.12.3") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.10.5/src/", "1.10.5") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.8.4/src/", "1.8.4") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.6.3/src/", "1.6.3") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.4.3/src/", "1.4.3") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.2.2/src/", "1.2.2") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">pgAdmin v%s</a>"), "https://www.postgresql.org/ftp/pgadmin/pgadmin3/v1.0.2/src/", "1.0.2") . '<br />&nbsp;</li>
 </ul>
 
 <p>' . _("Build instructions are included in the tarballs, and are available online:") . '</p>
