@@ -12,7 +12,7 @@ $PAGE_CONTENT = '
 <p>' . _("pgAgent is available as a StackBuilder add-on package if you use <a href=\"http://www.enterprisedb.com/products-services-training/pgdownload\">EDB's Installers</a> for Windows, Mac and Linux, as a Debian package from <a href=\"https://apt.postgresql.org/\">apt.postgresql.org</a>, or an RPM package from <a href=\"https://yum.postgresql.org/\">yum.postgresql.org</a>. Alternatively, source packages can be download below.") . '</p>
 
 <ul>
-  <li>' . sprintf(_("<a href=\"%s\">Download pgAgent</a>"), "https://www.postgresql.org/ftp/pgadmin3/release/pgagent/") . '<br />&nbsp;</li>
+  <li>' . sprintf(_("<a href=\"%s\">Download pgAgent</a>"), "https://www.postgresql.org/ftp/pgadmin/pgagent/") . '<br />&nbsp;</li>
 </ul>
 
 '; 
